@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## Open Source Hardware in Latin America - Democratising technology?
 
-You can use the [editor on GitHub](https://github.com/jarancio/tesis/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome, stranger! I'm a PhD candidate at [Universidad de Quilmes](https://unq.edu.ar) based in Buenos Aires - Argentina, studying the open source hardware (OSHW) movement in Latin America and its contribution to technology democratisation. My work is supported by a scholarship from the [National Scientific & Technical Research Council (CONICET)](http://www.conicet.gov.ar), and developed at [Centro de Investigaciones para la Transformación (CENIT)](http://www.fund-cenit.org.ar).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I'm currently on my 2nd year (of five). In this website you'll find all the information and latest news on my thesis and related events. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Contents
 
-```markdown
-Syntax highlighted code block
+- [Thesis]()_, work in progress_
+- [Map of OSHW projects in Latin America](http://u.osmfr.org/m/187670/)_, part of a bigger Open Science map made at CENIT_
+- [Get to know some of the most interesting OSHW projects in LatAm]
+- [Events I participated in]
+- [Things I write(-thesis)]
+- [My CV/Resumé]
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### You may also find this interesting
 
-1. Numbered
-2. List
+If you're interested in open source hardware, you'll probably want to take a look at these other communities I'm part of:
 
-**Bold** and _Italic_ and `Code` text
+- [GOSH Community](https://openhardware.science)
+- [GOSH Community Forum](https://forum.openhardware.science/)
+- [R'lyeh HackLab](www.rlab.be)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Contact
 
-### Jekyll Themes
+Easiest way to contact me is via e-mail to [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) or TW, [@cassandreces](www.twitter.com/cassandreces)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jarancio/tesis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Also, if you happen to be in Buenos Aires and want to talk about **open-anything**, don't hesitate, drop me a line!
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Spanish version
+
+Tired of reading in English? [Click here]()

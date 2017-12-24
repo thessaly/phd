@@ -8,7 +8,7 @@ I'm currently in my 2nd year (of five). In this website you'll find all the info
 
 
 
-### Contents
+## Contents
 
 - [Thesis]()_, work in progress_
 
@@ -24,17 +24,19 @@ I'm currently in my 2nd year (of five). In this website you'll find all the info
 
 
 
-### Also...
+## Also...
 
 If you're interested in open source hardware, you'll probably want to take a look at these other communities I'm part of:
 
 - [GOSH Community](https://openhardware.science)
+
 - [GOSH Community Forum](https://forum.openhardware.science/)
+
 - [R'lyeh HackLab](www.rlab.be)
 
 
 
-### Contact
+## Contact
 
 Easiest way to contact me is via e-mail to [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) or TW, [@cassandreces](www.twitter.com/cassandreces)
 
@@ -42,6 +44,6 @@ Also, if you happen to be in Buenos Aires and want to talk about **open-anything
 
 
 
-### Spanish version
+## Spanish version
 
 Tired of reading in English? [Click here]()

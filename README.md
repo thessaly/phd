@@ -5,14 +5,16 @@ Welcome, stranger! I'm a PhD candidate at [Universidad de Quilmes](https://unq.e
 I'm currently on my 2nd year (of five). In this website you'll find all the information and latest news on my thesis and related events. 
 
 
+
 ### Contents
 
 - [Thesis]()_, work in progress_
 - [Map of OSHW projects in Latin America](http://u.osmfr.org/m/187670/)_, part of a bigger Open Science map made at CENIT_
-- [Get to know some of the most interesting OSHW projects in LatAm]
-- [Events I participated in]
-- [Things I write(-thesis)]
-- [My CV/Resumé]
+- [Get to know some of the most interesting OSHW projects in LatAm]()
+- [Events I participated in]()
+- [Things I write(-thesis)]()
+- [My CV/Resumé]()
+
 
 
 ### You may also find this interesting
@@ -24,11 +26,13 @@ If you're interested in open source hardware, you'll probably want to take a loo
 - [R'lyeh HackLab](www.rlab.be)
 
 
+
 ### Contact
 
 Easiest way to contact me is via e-mail to [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) or TW, [@cassandreces](www.twitter.com/cassandreces)
 
 Also, if you happen to be in Buenos Aires and want to talk about **open-anything**, don't hesitate, drop me a line!
+
 
 
 ### Spanish version

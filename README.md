@@ -14,7 +14,7 @@ I'm currently on my 2nd year (of five). In this website you'll find all the info
 
 - [Map of OSHW projects in Latin America](http://u.osmfr.org/m/187670/)_, part of a bigger Open Science map made at CENIT_
 
-- [Get to know some of the most interesting OSHW projects in LatAm]()
+- [Interesting OSHW projects in LatAm]()
 
 - [Events I participated in]()
 
@@ -24,7 +24,7 @@ I'm currently on my 2nd year (of five). In this website you'll find all the info
 
 
 
-### You may also find this interesting
+### Also...
 
 If you're interested in open source hardware, you'll probably want to take a look at these other communities I'm part of:
 

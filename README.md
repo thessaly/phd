@@ -21,7 +21,7 @@ Updated: December 2017
 
 
 
-![](https://s18.postimg.org/skyvleaex/jiji_2.jpg)         [[.about me]](/phD_EN/about.md)
+![](https://s18.postimg.org/skyvleaex/jiji_2.jpg)         [[.about me]](/phd/phD_EN/about.md)
 
 
 

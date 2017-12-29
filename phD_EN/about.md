@@ -10,17 +10,20 @@ I'm currently in my 2nd year (of five). In this website you'll find all the info
 
 - You can take a look at my `resumé` [here](/phD_EN/resume.md)
 
+* * * 
+
 ### Contact
 
 Easiest way to contact me is via e-mail to [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) or TW, [@cassandreces](www.twitter.com/cassandreces)
 
 Also, if you happen to be in Buenos Aires and want to talk about `open-anything`, don't hesitate, drop me a line!
 
+* * * 
 
 ### Also...
 
 If you're interested in open source hardware, you'll probably want to take a look at these `communities` I'm part of:
 
-![GOSH Community](https://s18.postimg.org/tlz4ae1nd/gosh.jpg)   **Global Open Science Hardware movement**
+[![GOSH Community](https://s18.postimg.org/tlz4ae1nd/gosh.jpg)](https://openhardware.science)   **Global Open Science Hardware movement**
 
-![R'lyeh HackLab](https://wiki.rlab.be/lib/exe/fetch.php?media=logo.png)   **R'lyeh Hacklab**
+[![R'lyeh HackLab](https://wiki.rlab.be/lib/exe/fetch.php?media=logo.png)](https://rlab.be)   **R'lyeh Hacklab**

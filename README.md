@@ -2,8 +2,9 @@
 
 *[Versión en español](/phD_ES/README_ES.md)*
 
+Welcome! Here you'll find the latest updates on my phD work about the Open Source Hardware (OSHW) movement in Latin America. *Updated: December 2017*
 
-- [Map of OSHW projects in Latin America](http://u.osmfr.org/m/187670/)_, part of a bigger Open Science map made at CENIT_
+- [Map of OSHW projects in Latin America](http://u.osmfr.org/m/187670/)_, part of a bigger Open Science map made by [CENIT](https://fund-cenit.org.ar)_
 
 - [Interesting OSHW projects in LatAm](/phD_EN/interesting.md)
 

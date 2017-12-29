@@ -6,4 +6,10 @@ My work is supported by the [National Scientific & Technical Research Council (C
 
 I'm currently in my 2nd year (of five). In this website you'll find all the information and latest news on my thesis and related events. 
 
-## Resumé
+You can take a look at my resumé [here](/phD_EN/resume.md)
+
+## Contact
+
+Easiest way to contact me is via e-mail to [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) or TW, [@cassandreces](www.twitter.com/cassandreces)
+
+Also, if you happen to be in Buenos Aires and want to talk about **open-anything**, don't hesitate, drop me a line!

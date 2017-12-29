@@ -14,7 +14,7 @@ Updated: December 2017
 
 - [Interesting projects](/phD_EN/interesting.md)
 
-- [Thesis](/phD_EN/thesis.md)_work in progress_
+- [Thesis](/phD_EN/thesis.md) _work in progress_
 
 
 

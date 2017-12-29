@@ -17,8 +17,8 @@ Updated: December 2017
 - [Thesis](/phD_EN/thesis.md) _work in progress_
 
 ### .
-### 
-[.about me](/phd/phD_EN/about.md)
+### .
+[.about me](/phD_EN/about.md)
 
 
 

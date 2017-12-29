@@ -1,7 +1,7 @@
 # Open Source Hardware in Latin America - Democratising technology?
 
 
-[Versión en español](/phD_ES/README_ES.md)
+[Versión en español](/phd_ES/README_ES.md)
 
 
 Welcome! Here you'll find the latest updates on my phD work about the Open Source Hardware (OSHW) movement in Latin America. 
@@ -21,7 +21,7 @@ Updated: December 2017
 
 
 
-![](https://s18.postimg.org/skyvleaex/jiji_2.jpg)         [[About me]](/phD_EN/about.md)
+![](https://s18.postimg.org/skyvleaex/jiji_2.jpg)         [[.about me]](/phD_EN/about.md)
 
 
 

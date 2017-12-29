@@ -23,7 +23,7 @@ Updated: December 2017
 
 ### About me
 
-[![](https://s18.postimg.org/8cbhziirt/jiji.jpg)](/phD_EN/about.md)
+[![](https://s18.postimg.org/8cbhziirt/jiji.jpg)](phD_EN/about.md)
 
 
 

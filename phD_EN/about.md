@@ -1,4 +1,4 @@
-About me
+#About me
 
 Welcome, stranger! I'm a PhD candidate at [Universidad de Quilmes](https://unq.edu.ar) based in Buenos Aires - Argentina, studying the open source hardware (OSHW) movement in Latin America and its contribution to technology democratisation. 
 

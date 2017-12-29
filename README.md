@@ -20,7 +20,7 @@ I'm currently in my 2nd year (of five). In this website you'll find all the info
 
 - [Things I write(-thesis)]()
 
-- [My CV/Resumé](https://github.com/jarancio/phd/blob/master/phD_EN/resume.md)
+- [My CV/Resumé](http://jarancio.github.io/resume.md)
 
 
 

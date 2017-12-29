@@ -18,7 +18,9 @@ Updated: December 2017
 
 
 
-## *
+### *
+### *
+### *
 
 If you're interested in open source hardware, you'll probably want to take a look at these communities I'm part of:
 
@@ -34,9 +36,7 @@ If you're interested in open source hardware, you'll probably want to take a loo
 ## About me
 
 
-- [Who am I?](/phD_EN/about.md)
-
-### Contact
+[Who am I?](/phD_EN/about.md)
 
 Easiest way to contact me is via e-mail to [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) or TW, [@cassandreces](www.twitter.com/cassandreces)
 

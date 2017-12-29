@@ -21,9 +21,7 @@ Updated: December 2017
 
 * * *
 
-![](https://s18.postimg.org/vf20yqhp5/jiji_1.jpg)
-
-[[About me]](/phD_EN/about.md)
+![](https://s18.postimg.org/vf20yqhp5/jiji_1.jpg)         [[About me]](/phD_EN/about.md)
 
 
 

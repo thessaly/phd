@@ -1,8 +1,8 @@
 # Open Source Hardware in Latin America - Democratising technology?
 
-*[Versión en español](/phD_ES/README_ES.md)*
+`[Versión en español](/phD_ES/README_ES.md)`
 
-Welcome! Here you'll find the latest updates on my phD work about the Open Source Hardware (OSHW) movement in Latin America. *Updated: December 2017*
+Welcome! Here you'll find the latest updates on my phD work about the Open Source Hardware (OSHW) movement in Latin America. `Updated: December 2017` 
 
 - [Map of OSHW projects](http://u.osmfr.org/m/187670/)_, part of a bigger Open Science map made by [CENIT](https://fund-cenit.org.ar)_
 

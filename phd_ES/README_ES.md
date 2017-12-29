@@ -18,4 +18,4 @@ Actualizado: Diciembre 2017
 
 ### .
 ### .
-### [.sobre mí](/phd_ES/yo.md)
+### [.sobre mí](/phd/phd_ES/yo.md)

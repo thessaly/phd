@@ -1,7 +1,7 @@
 # Open Source Hardware en América Latina - Democratizando la tecnología?
 
 
-[English version](/README.md)
+[English version](/phd/README.md)
 
 
 Bienvenida! En esta página podés encontrar información actualizada sobre mi tesis doctoral acerca del movimiento de Hardware Abierto (OSHW, por sus siglas en inglés) en América Latina y su aporte a la democratización de la tecnología. 

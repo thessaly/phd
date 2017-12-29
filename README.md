@@ -19,16 +19,15 @@ Updated: December 2017
 
 If you're interested in open source hardware, you'll probably want to take a look at these communities I'm part of:
 
-![GOSH Community](https://github.com/jarancio/phd/blob/master/gosh(1).jpg)               ![R'lyeh HackLab](https://wiki.rlab.be/lib/exe/fetch.php?media=logo.png)
+![GOSH Community](https://github.com/jarancio/phd/blob/master/gosh.jpg)               ![R'lyeh HackLab](https://wiki.rlab.be/lib/exe/fetch.php?media=logo.png)
 
 
 * * *
 
 ## About me
 
-
+### *
 [Who am I?](/phD_EN/about.md)
-
 ### *
 
 Easiest way to contact me is via e-mail to [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) or TW, [@cassandreces](www.twitter.com/cassandreces)

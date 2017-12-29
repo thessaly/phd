@@ -16,12 +16,11 @@ Updated: December 2017
 
 - [Thesis](/phD_EN/thesis.md) _work in progress_
 
-
-
-
-
-
-![](https://s18.postimg.org/skyvleaex/jiji_2.jpg)         [[.about me]](/phd/phD_EN/about.md)
+### .
+### .
+### .
+* * *
+[.about me](/phd/phD_EN/about.md)
 
 
 

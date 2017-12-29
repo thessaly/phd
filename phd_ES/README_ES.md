@@ -1,4 +1,4 @@
-# Open Source Hardware en Latin America - Democratizando la tecnología?
+# Open Source Hardware en América Latina - Democratizando la tecnología?
 
 
 [English version](/README.md)
@@ -14,7 +14,7 @@ Actualizado: Diciembre 2017
 
 - [Proyectos OSHW interesantes](/phD_EN/proyectos.md)
 
-- [Thsis](/phd_ES/tesis.md) _en desarrollo_
+- [Tesis](/phd_ES/tesis.md) _en desarrollo_
 
 ### .
 ### .

@@ -1,12 +1,16 @@
-##OpenCon 2017 - ¡Que se vengan los chicos de todas partes!
+## OpenCon 2017 - ¡Que se vengan los chicos de todas partes!
 
 Uno de los eventos del año alrededor de lo ‘abierto’ fue sin dudas la conferencia [OpenCon](http://www.opencon2017.org/) global que sucedió en noviembre en Berlín, Alemania. OpenCon es organizada por [SPARC](http://www.sparcopen.org/) y la [Right to Research Coalition](http://www.righttoresearch.org/) junto a un comité de estudiantes e investigadores jóvenes de varios países. 
 
 Con el objetivo de avanzar en pos de la educación, investigación y datos abiertos, esta edición 2017 tuvo como principales destinatarios a investigadores jóvenes, en sus primeras etapas de carrera. Más allá de los 200 asistentes, la mayoría de ellos becados para estar ahí -el comité organizador recibió solicitudes de más de 150 países- se sumaron también personas de todo el mundo a través de instancias online y eventos satélites. 
 
+![OpenCon2017 boards](https://pbs.twimg.com/media/DOgaP8VW4AEvWcp.jpg:large)
+
 Los tres días de conferencia fueron increíblemente activos. Los típicos paneles de oradores tuvieron su lugar entre otras actividades más innovadoras, como los *'story circles'* -pequeños grupos donde las personas tenían que presentarse intentando no enfocar el relato en su trabajo o currículum académico, algo que parece simple pero es muy, muy complicado-, las *'lightning talks'* o charlas de 2 minutos sobre proyectos específicos, y las cada vez más en boga *'unconference sessions'* o períodos de tiempo donde los asistentes son quienes proponen y presentan temas sobre los cuales trabajar. Más allá del contenido presentado formalmente, se notaba un esfuerzo por parte de la organización de facilitar instancias diferentes, que permitieran generar lazos entre las personas de la comunidad. 
 
 Los talleres regionales resultaron ser una buena propuesta para reunir a la gente que se encuentra trabajando localmente en temas de apertura. En el caso de Latinoamérica, alrededor de 15 personas de Chile, Argentina, Brasil, Bolivia, México, Panamá y Colombia trabajamos bajo la propuesta *"¿Cómo concientizar sobre los valores que queremos ver detrás de la apertura en América Latina?"*. Se trataron temas como revalorizar la tradición de apertura que existe en la región desde mucho antes del furor por lo 'open', mencionando iniciativas como [Scielo](www.scielo.org) o [Redalyc](www.redalyc.org) ó el riesgo existente de cooptación por parte de proyectos que utilizan la etiqueta 'abierto' pero no necesariamente respetan sus principios.
+
+![OpenCon2017 grupal](http://openhardware.science/wp-content/uploads/2017/12/10000000000009C400000683AB43122F1AD2986D-1024x683.jpg)
 
 La perspectiva Latinoamericana se hizo sentir también en el panel de modelos regionales de apertura, donde Guillermina Actis comentó la experiencia regional en términos de políticas que favorecen el acceso abierto a la investigación y la educación. Otro de los paneles más aplaudidos fue el de *'Diversidad, Igualdad e Inclusión'*, donde se cubrieron aspectos como el neocolonialismo latente detrás de las prácticas de apertura, las voces que aún no se escuchan dentro de la comunidad y cómo las asimetrías de poder se reproducen dentro de los proyectos 'abiertos'.
 

@@ -9,7 +9,7 @@ Actualmente estoy cursando mi segundo año (de cinco). Mi trabajo es financiado 
 
 ### .
 
-### Contact
+### Contacto
 
 La forma más fácil de contactarme es vía mail a [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) o en [Twitter](https://www.twitter.com/cassandreces)
 

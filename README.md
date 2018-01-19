@@ -7,12 +7,12 @@
 Welcome! Here you'll find the latest updates on my phD work about the Open Source Hardware (OSHW) movement in Latin America. 
 
 ```
-Updated: December 2017
+Updated: January 2018
 ```
 
 - [Map of OSHW projects](http://u.osmfr.org/m/187670/)_, part of a bigger Open Science map by [CENIT](https://fund-cenit.org.ar)_
 
-- [Interesting projects](/phD_EN/interesting.md)
+- [Blog posts, articles, notes](/phD_EN/interesting.md)
 
 - [Thesis](/phD_EN/thesis.md) _work in progress_
 

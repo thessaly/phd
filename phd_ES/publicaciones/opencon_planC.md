@@ -1,3 +1,5 @@
+*[a ser publicado en elplanc.net]*
+
 # OpenCon 2017 - ¡Que se vengan los chicos de todas partes!
 
 Uno de los eventos del año alrededor de lo ‘abierto’ fue sin dudas la conferencia [OpenCon](http://www.opencon2017.org/) global que sucedió en noviembre en Berlín, Alemania. OpenCon es organizada por [SPARC](http://www.sparcopen.org/) y la [Right to Research Coalition](http://www.righttoresearch.org/) junto a un comité de estudiantes e investigadores jóvenes de varios países. 

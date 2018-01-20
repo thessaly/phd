@@ -12,7 +12,7 @@ Actualizado: Diciembre 2017
 
 - [Mapa de proyectos de OSHW](http://u.osmfr.org/m/187670/)_, parte de un mapa de Ciencia Abierta realizado por [CENIT](https://fund-cenit.org.ar)_
 
-- [Proyectos OSHW interesantes](proyectos.md)
+- [Notas, artículos, posteos...](proyectos.md)
 
 - [Tesis](tesis.md) _en desarrollo_
 

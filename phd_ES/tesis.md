@@ -11,11 +11,7 @@
     - Obstáculos
     - Beneficios
     - Los usos del OSH
-        - Ciencia
-        - Educación
-        - Negocios
-        - Personalización del consumo - DIY
-    - Oportunidades - Enablers
+    - Oportunidades
     - Políticas - Regulaciones - Licencias
     - Bibliografía
 

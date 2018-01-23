@@ -20,7 +20,7 @@ Dentro de la **economia evolucionista** reconoce dos corrientes:
 
 ### Propuesta MLP
 
-Propone un modelo **co-evolutivo** de variacion y seleccion. Geels toma el concepto de régimen de Nelson&Winter, que decían que los regimenes son estables debido a que las rutinas se anclan en la comunidad de ingenieros y organizaciones que 'recuerdan a traves del hacer', influyendo y determinando el rumbo de las futuras innovaciones. Pero amplía con el concepto de configuración ST de Rip&Kemp (1998). Entonces incorpora no sólo ingenieros si no usuarios, policy makers, movimientos sociales, proveedores, científicos, etc.
+Propone un modelo **co-evolutivo** de variacion y seleccion. Geels toma el concepto de régimen de Nelson&Winter, que decían que los regimenes son estables debido a que las rutinas se anclan en la comunidad de ingenieros y organizaciones que 'recuerdan a traves del hacer', influyendo y determinando el rumbo de las futuras innovaciones. Pero amplía con el concepto incorporando no sólo ingenieros si no usuarios, policy makers, movimientos sociales, proveedores, científicos, etc (Bijker 1995).
 
 La estabilidad de una configuracion ST resulta de las conexiones entre elementos heterogeneos que la componen. Los elementos y su conexion son el resultado de las actividades de los grupos sociales que los (re)producen.
 

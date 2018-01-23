@@ -14,9 +14,9 @@ Transformar estas configuraciones es complejo porque los elementos ya estan inte
 
 Dentro de la **economia evolucionista** reconoce dos corrientes:
 
-    - La primera (Nelson y Winter, 1982) hace enfasis en los conceptos de *variacion* y *seleccion*. Geels critica el estudio de estos como instancias independientes, y la poca atencion que se la da a la seleccion ('dada' por el mercado, externo). Otras criticas son el rol nulo de los usuarios (de donde sale la corriente de la 'domesticacion'). 
+- La primera (Nelson y Winter, 1982) hace enfasis en los conceptos de *variacion* y *seleccion*. Geels critica el estudio de estos como instancias independientes, y la poca atencion que se la da a la seleccion ('dada' por el mercado, externo). Otras criticas son el rol nulo de los usuarios (de donde sale la corriente de la 'domesticacion'). 
     
-    - La segunda corriente la evolucion es un proceso que se despliega creando nuevas combinaciones que desembocan en vias y trayectorias (Schumpeter 1934)
+- La segunda corriente la evolucion es un proceso que se despliega creando nuevas combinaciones que desembocan en vias y trayectorias (Schumpeter 1934)
 
 ### Propuesta MLP
 
@@ -30,15 +30,15 @@ El **régimen ST** refiere al set de reglas que incorporan los distintos grupos 
 
 El **nicho** es el hogar de la innovación radical (Schot, 1998), por fuera de la trayectoria del régimen, porque en él el ambiente de selección es distinto. Deben ser espacios protegidos de la selección del régimen debido a la naturaleza errante, baja performance y alto costo de las innovaciones al inicio. Semillas del cambio.
 
-    - Procesos que se dan en los nichos: aprendizaje y conformación de redes de contención. 
+- Procesos que se dan en los nichos: aprendizaje y conformación de redes de contención. 
     
-    - Los actores en el nicho no tienen un diseño dominante, por lo cual los esfuerzos se dirigen en todas las direcciones
+- Los actores en el nicho no tienen un diseño dominante, por lo cual los esfuerzos se dirigen en todas las direcciones
     
-    - Más sobre nichos en strategic niche management (Kemp et al., 1998; Kemp et al., 2001; Hoogma, 2000).
+- Más sobre nichos en strategic niche management (Kemp et al., 1998; Kemp et al., 2001; Hoogma, 2000).
     
 Los tres niveles tienen una jerarquia anidada: nicho > regimen > landscape
 
-**Transitions**
+### Transitions
 
 Que un cambio suceda no depende sólo de los desarrollos en el nicho, requiere que sucedan cambios a nivel de regimen (distintos a los incrementales, que puedan generar tension entre elementos) o de paisaje y se generen ventanas de oportunidad.
 

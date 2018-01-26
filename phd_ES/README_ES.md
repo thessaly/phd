@@ -7,7 +7,7 @@
 Bienvenida! En esta página podés encontrar información actualizada sobre mi tesis doctoral acerca del movimiento de Hardware Abierto (OSHW, por sus siglas en inglés) en América Latina y su aporte a la democratización de la tecnología. 
 
 ```
-Actualizado: Diciembre 2017
+Actualizado: Enero 2018
 ```
 
 - [Mapa de proyectos de OSHW](http://u.osmfr.org/m/187670/)_, parte de un mapa de Ciencia Abierta realizado por [CENIT](https://fund-cenit.org.ar)_

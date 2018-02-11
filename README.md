@@ -10,7 +10,7 @@ Welcome! Here you'll find the latest updates on my phD work about the Open Sourc
 Updated: January 2018
 ```
 
-- [Map of OSHW projects](http://u.osmfr.org/m/187670/)_, part of a bigger Open Science map by [CENIT](https://fund-cenit.org.ar)_
+- [Map of OSHW projects](https://github.com/thessaly/OpenHWMap), _a collaborative global open source hardware map_
 
 - [Blog posts, articles, notes](/phD_EN/interesting.md)
 

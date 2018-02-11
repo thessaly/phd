@@ -1,13 +1,13 @@
 ## Blog posts, articles, notes...
 
 
-- Arancio, J. *'GOSH Roadmap: democratising technology, from a Latin American perspective'*, in OSCEdays Blog, 2018
+- Arancio, J. *'GOSH Roadmap: democratising technology, from a Latin American perspective'*, in [OSCEdays Blog](https://oscedays.org/gosh-roadmap-democratizing-technology-from-a-latin-american-perspective/), 2018
 
 - Arancio, J. *'GOSH Roadmap, o el intento de democratizar las herramientas científicas'*, in STEPS América Latina Blog, 2018
 
 - Arancio, J.; Sebastian, S.; Schwertz-Weirich, A.; Actis, G.; Cremaschi, A.; Arancibia, F.; Van Zwanenberg, P.; Fressoli, M. *'Relato de experiencia -  Workshop internacional de desarrollo abierto y colaborativo'* in Liinc Em Revista, 2018
 
-- Arancio, J. *'OpenCon 2017 - ¡Que se vengan los chicos de todas partes!'* in [PlanC blog](../phd_ES/publicaciones/opencon_planC), 2018
+- Arancio, J. *'OpenCon 2017: Des-idealizando lo abierto para una mejor apertura* in [PlanC blog](http://elplanc.net/opencon-2017/), 2018
 
 - Arancio, J. *'OpenCon 2017: Reflections from a GOSHer'* in [GOSH blog](http://openhardware.science/2017/12/11/opencon-2017-reflections-from-a-gosher/), 2017
 

@@ -104,7 +104,7 @@ Development of a collaborative [map](https://github.com/thessaly/OpenHWMap) of o
 
 **Radio**    
 *FM La Tribu*    
-Producer at ['La Mar en Coche'](https://www.facebook.com/marencoche/) 2016
+Producer at ['La Mar en Coche'](https://www.facebook.com/marencoche/) 2016    
 Co-producer and host at ['MUGRE'](https://www.youtube.com/channel/UCQh5pcJ8pbySZT0VHm_bM9g/featured) a weekly programme on Science & Technology 2016-2017
 
 ## Other skills

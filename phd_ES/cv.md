@@ -110,5 +110,6 @@ Co-producer and host at ['MUGRE'](https://www.youtube.com/channel/UCQh5pcJ8pbySZ
 ## Other skills
 
 Languages: Spanish, English, Portuguese (basic)   
+Audio & Music production
 Web development (basic)    
 Python (basic)    

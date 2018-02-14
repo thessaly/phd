@@ -41,9 +41,14 @@ EMS and QMS (ISO 14001 & 9001) for the civil engineering companies of Grupo Rogg
 *National Atomic Energy Comission (CNEA)*    
 As part of my Bachelor's degree thesis, I worked under direction of Dr. Daniel Cicerone at the Chemistry of Water and Soils Department. Topic: Sediment quality assessment for the middle-section of Reconquista River basin, Buenos Aires. Part of project PICT 2007-01216 'Mobilization of pollutants in natural systems' from Science and Technology National Promotion Agency.
 
+**Incidents & Change Coordinator (2008-2010)**
+*IBM Argentina*
+I worked as a problem & change coordinator for Panasonic North America account, where I was the nexus between the customer (Panasonic) and the technicians located at the different IBM sites (Argentina, Brazil, India). In charge of documentation, adapting standards and training technicians in good practices and transition tools (at customer's site in NJ, USA).
+
 **Lab assistant (2007-2010)**    
 *Facultad de Agronomía - Universidad de Buenos Aires*    
 Ad-honorem assistant at Edaphology and Analytical Chemistry labs.
+
 
 ## Conferences - Workshops    
 

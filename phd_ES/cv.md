@@ -62,6 +62,8 @@ Ad-honorem assistant at Edaphology and Analytical Chemistry labs.
 ## Publications
 - Arancio, J.; Molloy, J. *'The Global Open Science Hardware Roadmap: A Collaborative Effort towards Democratising Science Hardware'*, extended abstract, Tech4Dev Conference 2018 - UNESCO/EPFL (Lausanne, Suiza)
 
+- Arancio, J.; Fressoli, M.; Arza, V. *'Datos abiertos y hardware libre: haciauna agroecología siglo XXI'*, Leisa Revista de agroecología (in press)
+
 - Arancio, J. *'GOSH Roadmap: democratising technology, from a Latin American perspective'*, in [STEPS Centre Blog](https://t.co/asEmWIPAKo), 2018
 
 - Arancio, J. *'GOSH Roadmap, o el intento de democratizar las herramientas científicas'*, in STEPS América Latina Blog, 2018

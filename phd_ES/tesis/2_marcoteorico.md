@@ -195,7 +195,7 @@ Las actividades realizadas por los MIB suelen estar basadas en valores, e inclus
 
 **A través del apoyo a formas de participación más democráticas**
 
-Los MIB proveen instancias simbólicas y materiales útiles a la hora de pensar una sociedad civil que participe de la innovación (Wakeford, 2001). En el aspecto material, un ejemplo son las jornadas de prototipado o voluntariado, que abren la participación a personas menos atraídas normalmente a debates pero que tienen algo para decir ([)Ratto&Boler, 2014; Cooley, 1987). También funcionan como foro donde deliberar sobre las ideas y darles forma (Smith, 2014) y discutir los valores y visiones detrás de la tecnología.
+Los MIB proveen instancias simbólicas y materiales útiles a la hora de pensar una sociedad civil que participe de la innovación (Wakeford, 2001). En el aspecto material, un ejemplo son las jornadas de prototipado o voluntariado, que abren la participación a personas menos atraídas normalmente a debates pero que tienen algo para decir (Ratto&Boler, 2014; Cooley, 1987). También funcionan como foro donde deliberar sobre las ideas y darles forma (Smith, 2014) y discutir los valores y visiones detrás de la tecnología.
 
 **A través de la propuesta de configuraciones sociotécnicas alternativas**
 

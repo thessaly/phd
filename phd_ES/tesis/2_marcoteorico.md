@@ -98,7 +98,7 @@ Los movimientos sociales, además, son productores de conocimiento (Eyerman y Ja
 El cruce de movimientos sociales y ciencia o tecnología no resulta de los más explorados aunque sí existen antecedentes valiosos (Smith et al, 2017; Hess, 2007; Smith, 2005; Jamison, 2001). David Hess (2007) señala que los movimientos sociales no sólo actúan respondiendo en contra a medidas de gobierno o en lucha por derechos: también generan cultura material de forma propositiva. Smith et al (2017) destaca cómo por fuera de los marcos institucionales, a nivel de comunidad, han existido históricamente 'Movimientos de Innovación de Base' que se encuentran generando conocimiento, prácticas y tecnologías alternativas a aquellas establecidas y dominantes.
 
 
-## La síntesis: Movimientos de Innovación de base
+## Síntesis: Movimientos de Innovación de base
 
 En las secciones anteriores se describieron los antecedentes teóricos que sirven de base al marco analítico a utilizar en este trabajo. Esta síntesis entre el abordaje MLP y la literatura de movimientos sociales se toma principalmente de Smith et al (2017), que caracteriza a los Movimientos de Innovación de Base de la siguiente forma:
 
@@ -175,7 +175,7 @@ Las corrientes y teorías mencionadas hasta ahora hacen referencia en diferentes
 
 A primera vista la innovación resulta deseable y positiva, como fomentan desde el discurso una variedad de actores globales incluyendo empresas, líderes de estado y organizaciones de la sociedad civil (Scoones et al., 2015). Sin embargo autores como Chapman (2007) señalan cómo el paradigma de la innovación es muchas veces responsable de generar los mismos males que dice resolver: daños ambientales, pérdida de fuentes de trabajo, desigualdad. ¿Qué dirección toma la innovación? ¿Quiénes deciden que una alternativa es mejor que otra? ¿Cuáles son los criterios empleados? La mayor parte de la sociedad civil no participa de estas decisiones -basadas mayoritariamente en indicadores de eficiencia, rentabilidad y ganancias-, aunque sea la principal afectada por su implementación (Ely et al., 2010).
 
-El carácter político de la ciencia, tecnología e innovación fue estudiado en numerosas oportunidades, aunque en la práctica prevalezca una visión tecnocráctica de la cuestión. Feenberg (1999) señala cómo las innovaciones desarrolladas por las compañías, las agencias gubernamentales y los fondos de inversión moldean los estilos de vida de las personas en una proporción mayor que las leyes y los gobiernos. Distintos trabajos analizan cómo los desarrollos tecnológicos son apropiados por los usuarios otorgando a los diseños un significado distinto al previsto (Pinch, Bijker), cómo existen grupos de usuarios negados desde un comienzo (cita feminismos) y cómo las dinámicas de poder se encuentran inscriptos en la cultura material, influenciando la vida diaria de las personas (cita semiólogos)
+El carácter político de la ciencia, tecnología e innovación fue estudiado en numerosas oportunidades, aunque en la práctica prevalezca una visión tecnocráctica de la cuestión. Feenberg (1999) señala cómo las innovaciones desarrolladas por las compañías, las agencias gubernamentales y los fondos de inversión moldean los estilos de vida de las personas en una proporción mayor que las leyes y los gobiernos. Distintos trabajos analizan cómo los desarrollos tecnológicos son apropiados por los usuarios otorgando a los diseños un significado distinto al previsto (Pinch, Bijker), cómo existen grupos de usuarios negados desde un comienzo (**falta cita feminismos**) y cómo las dinámicas de poder se encuentran inscriptos en la cultura material, influenciando la vida diaria de las personas (**falta cita semiótica**)
 
 Feenberg considera que la democratización es una tendencia que viene atravesando diversos fenómenos sociales -como la economía, la educación o la medicina, "arenas" donde la población cada vez aumenta más su participación- como resultado de disputas circunscritas a casos específicos, como el activismo por el VIH-SIDA. Diversos sucesos políticos en los años 60 cuestionaron el rol de los expertos, exigiendo una mayor participación de la población en lo que refiere a decisiones de política de ciencia y tecnología -como ser tecnologías contaminantes, o la relación entre la creciente mecanización y el empleo-. Como resultado, en las últimas décadas se observan cada vez más casos donde sectores de la población exigen discutir las implicancias sociales de los avances científico-tecnológicos (Stirling, 2008;  Chilvers  & Kearnes, 2016).
 
@@ -195,7 +195,7 @@ Las actividades realizadas por los MIB suelen estar basadas en valores, e inclus
 
 **A través del apoyo a formas de participación más democráticas**
 
-Los MIB proveen instancias simbólicas y materiales útiles a la hora de pensar una sociedad civil que participe de la innovación (Wakeford, 2001). En el aspecto material, un ejemplo son las jornadas de prototipado o voluntariado, que abren la participación a personas menos atraídas normalmente a debates pero que tienen algo para decir ([)Ratto&Boler, 2014; Cooley, 1987). También funcionan como foro donde deliberar sobre las ideas y darles forma (Smith, 2014) y discutir los valores y visiones detrás de la tecnología.
+Los MIB proveen instancias simbólicas y materiales útiles a la hora de pensar una sociedad civil que participe de la innovación (Wakeford, 2001). En el aspecto material, un ejemplo son las jornadas de prototipado o voluntariado, que abren la participación a personas menos atraídas normalmente a debates pero que tienen algo para decir (Ratto&Boler, 2014; Cooley, 1987). También funcionan como foro donde deliberar sobre las ideas y darles forma (Smith, 2014) y discutir los valores y visiones detrás de la tecnología.
 
 **A través de la propuesta de configuraciones sociotécnicas alternativas**
 
@@ -212,6 +212,12 @@ La diversidad es uno de los aspectos clave de la innovación democrática. Las p
 - Actores y alianzas: nuevas identidades y relaciones sociales a partir de la actividades
 - Conceptos e ideas: nuevas formas de pensar y abordar la innovacion y sus objetivos
 - Habilidades: desarrollo de distintas capacidades organizativas, materiales y sociales
+
+
+## Bienes comunes, cultura colaborativa y tecnologías libres
+
+Como mencionamos en la introducción, los MIB que son objeto de estudio de este trabajo suelen tomar prácticas e ideas de la filosofía de los bienes comunes, la cultura colaborativa y el software libre. Éstos le imprimen a los MIB ciertas características particulares que contribuyen de diversas maneras a generar formas de innovación más democrática. La visión del conocimiento y la tecnología como bien común desata una cascada de prácticas entre las que se encuentran la ciencia, educación y tecnología abiertos (Benkler, 2002; Kostakis&Bauwens, 2015; Nielsen, 2012), prácticas que han demostrado mejoras en términos tanto de eficiencia como de diversidad y democratización de sus objetos de estudio (**falta cita beneficios ccia abierta, open access, etc**).
+
 
 
 ## Bibliografía

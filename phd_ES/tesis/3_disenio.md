@@ -77,3 +77,16 @@ H= HW abierto permite descentralizar producción desde centros alta tecnología 
 - ¿Qué criterios se utilizan para decidir entre una opción tecnológica u otra?
 - ¿Qué factores los influencian a la hora de elegir una opción y no otra?
 - ¿Cuáles son los valores detrás del proyecto que no son negociables?
+
+## Datos disponibles
+
+- Número de proyectos (repositorios, ej OSF)
+- Ubicación de proyectos
+- Miembros de comunidadad y afiliación institucional
+- Proyectos en papers (PLOS)
+- Grado de documentación y formato
+- Grado de colaboración (GitHub?)
+- Reutilización / descargas
+- Interacciones en redes sociales
+- Menciones en prensa
+- Interacciones entre miembros de la comunidad (foros)

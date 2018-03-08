@@ -1,8 +1,8 @@
-# Diseño*
+# Diseño
 
 ## Objetivo general
 
-Comprender la posible contribución del movimiento de hardware de código abierto a la democratización de la producción tecnológica en Latinoamérica
+Comprender si el movimiento de hardware de código abierto conforma un nicho democratizante en el contexto latinoamericano
 
 ## Dimensiones
 
@@ -14,50 +14,59 @@ Capacitación / Alfabetización digital
 Generación de conocimiento    
 Caminos alternativos    
 
-## **Objetivos específicos**
+## Objetivos específicos
 
-1. Analizar los mecanismos mediante los cuales el movimiento de hardware de código abierto contribuye a descentralizar la producción de tecnología (centro-periferia geográfica y social)
+1. Analizar los framings o visiones presentes dentro del movimiento de HW de código abierto que lo definen como nicho con trayectoria alternativa al régimen de producción de tecnología en América Latina
 
-2. Identificar en qué medida los procesos de construcción de hardware abierto fomentan la incorporación de voces antes excluidas en la producción de tecnología
+2. Determinar cómo los espacios y estrategias puestos en acción por el movimiento de HW de código abierto conforman un espacio protegido de la selección del régimen
 
-3. Detectar cómo la construcción colaborativa de hardware contribuye a aumentar la diversidad de actores involucrados en los procesos de producción de tecnología
+3. Identificar de qué manera los procesos de construcción de HW abierto fomentan la participación de nuevos y más diversos actores en la producción de tecnología
 
-4. Especificar cómo las prácticas de construcción de hardware de código abierto contribuyen a disminuir las barreras de acceso a la producción de tecnología
+4. Analizar cómo las prácticas de construcción de HW abierto contribuyen a disminuir las barreras de acceso y empoderar a los colaboradores
 
-5. Identificar en qué medida la producción de hardware de código abierto contribuye a generar nuevo conocimiento por parte de las comunidades en Latinoamérica
 
-6. Analizar cómo la producción de hardware de código abierto contribuye a la conformación y consolidación de visiones y soluciones alternativas a problemas locales en las comunidades
 
 ## Preguntas posibles
 
-**Objetivo 1: Redistribución**
+**Objetivo 1: Framings**
 
 H= HW abierto permite descentralizar producción desde centros alta tecnología y formación hacia países periféricos y comunidades que pueden necesitarlo, hay un gradiente temporal (y espacial?) de proyectos, desde mas tecnicos encargados del desarrollo hacia otros basados en desarrollo existente pero que amplifican y abren.
 
+* ¿Cuál fue la motivación original para iniciar el proyecto?
+
 * ¿Dónde (geográficamente) y en qué contexto (gubernamental, comunitario, universitario) se inició el proyecto?
 
-* ¿Con qué recursos iniciaron el proyecto?
+* ¿Qué criterios se utilizan para decidir entre una opción tecnológica u otra?
 
-* ¿Se basaron en algún caso existente a modo de antecedente? ¿En cuáles?
+* ¿Qué factores los influencian a la hora de elegir una opción y no otra?
 
-* ¿Qué vínculos con otras instituciones/comunidades posee el proyecto?
+* ¿Cuáles son los valores detrás del proyecto que no son negociables?
+
+* ¿Cuál es el objetivo a alcanzar con el proyecto en esta etapa? ¿Y en próximas?
+
+
+**Objetivo 2: espacios y estrategias**
+
+* ¿Qué vínculos existen con otras instituciones/comunidades?
 
 * ¿A través de qué medios se establecen estos vínculos (presenciales, virtuales, institucionales)?
 
-* ¿Realizaron formaciones a otros grupos a partir de su participación en el proyecto?
+* ¿Se basaron en algún caso existente a modo de antecedente? ¿En cuáles?
 
-* ¿Conoce el impacto de su proyecto? ¿Cómo lo mide?
+* ¿Realizaron formaciones a o con otros grupos a partir de su participación en el proyecto?
 
-* ¿Conoce iniciativas que se hayan basado en su proyecto? ¿Cuáles?
+* ¿Realiza acciones para amplificar el impacto social de su proyecto? ¿Cuáles?
 
-* ¿Cuál es la relación con los usuarios de su desarrollo? Medios que utiliza
+* ¿Con qué recursos iniciaron el proyecto -materiales y no-?
 
-* ¿Realiza acciones para amplificar el impacto social de su desarrollo? ¿Cuáles?
+* ¿Cuáles son las estrategias para sostener el proyecto a lo largo del tiempo?
 
-* ¿Cuáles fueron las ventajas/desventajas de contar con materiales abiertos en el proceso?
+* ¿Cómo comunican sus ideas y avances?
+
+* ¿Cómo organizan los roles y tareas dentro del proyecto?
 
 
-**Objetivo 2: Participación**
+**Objetivo 3: Participación**
 
 * ¿Quiénes participan del proyecto? 
 
@@ -77,9 +86,6 @@ H= HW abierto permite descentralizar producción desde centros alta tecnología 
 
 * ¿Se realizan actividades de comunicación o difusión para facilitar la participación de colaboradores?
 
-
-**Objetivo 3: Diversidad**
-
 * ¿De qué contexto provienen los colaboradores?
 
 * ¿Cuál es el porcentaje de mujeres y grupos minoritarios dentro de los colaboradores?
@@ -89,7 +95,7 @@ H= HW abierto permite descentralizar producción desde centros alta tecnología 
 * ¿Considera que la diversidad de colaboradores redunda en beneficios para el proyecto? ¿Por qué?
 
 
-**Objetivo 4: Barreras de acceso**
+**Objetivo 4: Colaboración**
 
 * ¿Que tipo de conocimientos se necesitan para colaborar?
 
@@ -99,48 +105,79 @@ H= HW abierto permite descentralizar producción desde centros alta tecnología 
 
 * ¿Cuál considerás que es el mayor aprendizaje a partir del proyecto?
 
-* ¿Los materiales producidos se encuentran en formatos abiertos?
-
-
-**Objetivo 5: Comunidades generando conocimiento**
-
-* ¿A partir del proyecto se generaron datos desde la comunidad?
-
-* ¿Cómo se encuentran disponibles estos datos?
+* ¿Los materiales y datos producidos se encuentran en formatos abiertos?
 
 * ¿Cuál es su grado de reutilización?
 
 * ¿Se generaron nuevas acciones o colaboraciones a partir de esos datos?
 
+* ¿Conoce el impacto de su proyecto? ¿Cómo lo mide?
 
-**Objetivo 6: Caminos alternativos**
+* ¿Conoce iniciativas que se hayan basado en su proyecto? ¿Cuáles?
 
-* ¿Qué criterios se utilizan para decidir entre una opción tecnológica u otra?
+* ¿Cuál es la relación con los usuarios de su desarrollo? Medios que utiliza
 
-* ¿Qué factores los influencian a la hora de elegir una opción y no otra?
+* ¿Cuáles fueron las ventajas/desventajas de contar con materiales abiertos en el proceso?
 
-* ¿Cuáles son los valores detrás del proyecto que no son negociables?
 
 
 ## Datos disponibles
 
-* Número de proyectos (repositorios, ej OSF)
+**Open Labware collections (from Docubricks, to be explored)**
 
-* Ubicación de proyectos
+NIH 3D Print Exchange (N/A)
+Wevolver
+Public Lab: Tools
+Farm Hack
+Tekla Labs
 
-* Miembros de comunidad y afiliación institucional
+### [OpenLabTools](http://www.openlabtools.org/)
 
-* Proyectos en papers (PLOS)
+### [GOSH forum](http://forum.openhardware.science/)
 
-* Grado de documentación y formato
+### [CERN Open Hardware Repository](https://www.ohwr.org/)
 
-* Grado de colaboración (GitHub?)
+### [Equipment - OpenWetWare](https://openwetware.org/wiki/Equipment)
 
-* Reutilización / descargas
+### [Appropedia Open source scientific hardware](http://www.appropedia.org/Category:Open_source_scientific_hardware)
+    
+### [PLOS Open Hardware Source Toolkit](https://channels.plos.org/open-source-toolkit)
 
-* Interacciones en redes sociales
+### OSF
+- Ubicación 
+- N° de proyectos
+- N° de colaboradores
+- Fecha de inicio
+- Fecha de registro
+- Nivel de documentación 
+- Forks
+- Links to project
+- Template copies
+- Visits
+- Referrers
+- License
+- Last activity
+- Datasets
 
-* Menciones en prensa
+### Docubricks
 
-* Interacciones entre miembros de la comunidad (foros)
+[How to measure impact](https://docubricks.com/impact-tools.jsp)
+
+
+### PLOS
+- Papers
+- Authors
+- Views 
+- Downloads
+- Categories
+- Cited
+- Saved
+- Discussed
+- Subject areas
+- Comments
+- Publish date
+- Media coverage
+- License
+- Institutions involved
+- Georeference
 

@@ -1,29 +1,17 @@
 # Tesis 
 
-### Contenido al 19-01-2018
+### Contenido al 19-03-2018
 
-1. Resumen
+> Aviso: Todo el trabajo está en progreso y revisión, si querés hacer algún comentario lo agradezco mucho!
 
-2. Introducción: Free/Libre Open Source Hardware (FOSH)
-    - ¿Qué es?
-    - ¿Por qué desarrollar hardware libre?
-    - ¿Cómo se hace FOSH?
-    - Obstáculos
-    - Beneficios
-    - Los usos del OSH
-    - Oportunidades
-    - Políticas - Regulaciones - Licencias
-    - Bibliografía
+1. [Resumen](https://github.com/thessaly/phd/blob/master/phd_ES/tesis/0_resumen.md)
 
-3. Marco teórico
-    - Transiciones socio-técnicas
-    - Democratización de la tecnología
-    - Visiones desde la Filosofía de la Técnica
-    - La corriente constructivista
-    - Más que usuarios: Domesticación, pespectivas de género y consumo
-    - Usuarios-desarrolladores: el mundo maker
-    - ¿Cómo medir la participación?
-    - Bibliografía
+2. [Introducción](https://github.com/thessaly/phd/blob/master/phd_ES/tesis/1_introduccion.md)
+
+3. [Marco teórico](https://github.com/thessaly/phd/blob/master/phd_ES/tesis/2_marcoteorico.md)
+
+4. [Diseño](https://github.com/thessaly/phd/blob/master/phd_ES/tesis/3_disenio.md)
+    
 
 
 

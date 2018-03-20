@@ -154,14 +154,14 @@ En cuanto a las dificultades que se identifican en los procesos de desarrollo, p
 >
 > Global Village Construction Set es el desafío de crear 50 herramientas que cualquier finca necesitaría con el objetivo de ser sostenible y autónoma. Según Wikipedia, es "Una plataforma de alto rendimiento, modular, de bajo costo, do-it-yourself que habilita la fabricación de 50 máquinas industriales diferentes que se precisan para construir una pequeña y sostenible civilización con comodidades modernas".
 >
->![Global village construction set](http://opensourceecology.org/w/images/thumb/9/90/GVCS.jpg/762px-GVCS.jpg)
+>![Global village construction set](http://opensourceecology.org/w/images/thumb/9/90/GVCS.jpg/762px-GVCS.jpg)    
 >_Fig. 6: El kit incluye un tractor, impresora 3D, cortadora láser, soldadora, aserradero, un horno de panadería, un pulverizador de suelo, una sembradora, un aerogenerador, entre otros (Fuente: Open Source Ecology)_
 >
 >La filosofía de Open Source Ecology es que el problema del acceso a las herramientas y maquinarias no está relacionado a la escasez de recursos sino a su distribución desigual. Volviendo accesibles los planos, esquemáticos y manuales, Open Source Ecology busca fabricar herramientas accesibles para todos, especialmente aquellos que habitan pequeñas comunidades.
 >
 >El proyecto ha estado funcionando durante los últimos 5 años, contando ya con alrededor de 20 prototipos. Ofrecen planos y manuales (incluyendo tutoriales en Youtube) sobre cómo fabricar las herramientas, además de talleres específicos en los sitios de interés. Al compartir los diseños online, permitieron que se creara una gran red de personas que colaboran el diseño de las máquinas, las mejoran y modifican para adaptarlas a nuevos usos. Una encuesta en 2014 registró 110 réplicas de los diseños provenientes de Global Village Construction Set en Estados Unidos, Chile, Nicaragua, Guatemala, China, India, Italia y Turquía
 >
->![johndeere](https://image.slidesharecdn.com/openhardwarebusinessmodels-141115072738-conversion-gate01/95/business-models-for-open-source-hardware-23-638.jpg)
+>![johndeere](https://image.slidesharecdn.com/openhardwarebusinessmodels-141115072738-conversion-gate01/95/business-models-for-open-source-hardware-23-638.jpg)    
 >_Fig. 7: Comparación de costos entre maquinaria agrícola abierta y privativa (Fuente: Benjamin Tincq)_
 >
 >Open Source Ecology es una obvia inspiración para otros “makers” y emprendedores, pero además puede brindar lecciones a instituciones de investigación y desarrollo existentes. Existen enormes oportunidades en el acceso abierto a los planos técnicos de maquinaria agrícola, energía renovable y tecnologías de acceso al agua y saneamiento, que ya han sido desarrolladas por dichas instituciones de I+D. Abrir esos diseños podría ayudar a los actores locales a adquirir nuevos conocimientos, desarrollar sus propias herramientas e incluso ayudar a mejorar las que ya están disponibles.
@@ -179,7 +179,7 @@ Además, la información virtual contenida en los archivos de diseño (set Gerbe
 >
 >De forma similar a Linux, RepRap comenzó en 2005 como un proyecto universitario del Dr. Adrian Bowyer de la Universidad de Bath, con el objetivo de construir una impresora auto-replicable. Es decir, una impresora que pudiera imprimir las partes para construir una nueva impresora. A partir de la colaboración online en blogs y wiki, los usuarios fueron construyendo copias del primer prototipo, realizando modificaciones que documentaban y ponían a disposición online.
 >
->![reprap Mendel](https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg)
+>![reprap Mendel](https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg)    
 >_Fig. 8: RepRap 2.0, versión Mendel (Fuente: Wikipedia)_
 >
 >Uno de los disparadores del boom de la impresión 3D ha sido la expiración de las patentes de los equipos originales de impresión (The Economist 2013), creados en la década de los ochenta. Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocidas como FMD por su sigla en inglés) que utiliza filamentos plásticos. La caída de las patentes permitió una explosión de experimentación con nuevas impresoras, de la cual surgió RepRap, que utilizando el modelo open source permite que cualquier usuario realice modificaciones y mejoras en las máquinas. Desde ese momento, la impresoras 3D FDM se convirtieron en un objeto de escritorio y su costo se redujo hasta menos de los mil dólares en los modelos fabricados por los usuarios (Mins 2013).
@@ -229,7 +229,7 @@ Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrol
 >
 >La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
 >
->![syringe-pump open source](http://www.appropedia.org/images/0/08/Double-pump.jpg)
+>![syringe-pump open source](http://www.appropedia.org/images/0/08/Double-pump.jpg)    
 >_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
 >
 >Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
@@ -287,7 +287,7 @@ Más de la mitad de las compañías se financian con sus propios recursos (62%) 
 >
 >Adafruit Industries es una compañía basada en open source hardware ubicada en la ciudad de Nueva York, fundada en 2005 por la hacker e ingeniera Limor Fried mientras estudiaba en el Massachusetts Institute of Technology. La empresa diseña y fabrica una serie de productos electrónicos y vende un amplio rango de componentes, herramientas y accesorios vía su tienda web. Los productos ofrecidos abarcan rangos de principiante -kits que producen sonidos al recibir una señal- a experto -como sofisticados microcontroladores para celulares y desarrolladores de videojuegos-.
 >
->![tapa wired](https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg)
+>![tapa wired](https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg)    
 >_Fig. 13: Limor Fried, premiada como emprendedora del año en 2012, fue tapa de la revista de tecnología WIRED (Fuente: Wired)_
 >
 >Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
@@ -299,69 +299,61 @@ En cuanto a modelos de negocio posibles, la definición más amplia es la plante
 
 Constituyen el modelo más común de negocio actual, donde la compañía se enfoca en el diseño e I+D de un producto, mientras delega su fabricación. Los activos más valiosos en este caso son la marca del producto y la comunidad generada alrededor de él. Existen variaciones según si lo que se comercializa son kits o ensamblados de partes (OpenROV; Open Energy Monitor); productos terminados (Arduino) ó productos basados en diseños compartidos por un ecosistema de fabricantes, gestionado por una fundación OHW -inspirado por un modelo más cercano al software libre- (Wikihouse)
 
-1. **Basados en la producción**
+2. **Basados en la producción**
 
 El principal valor en este caso está asociado a la fabricación y distribución de productos OHW a precios accesibles. Al nombre de marca y la comunidad, se agrega como activo la eficiencia industrial. Simone Cicero (2013) agrega a esto que la ventaja de poseer los medios de producción se ha relativizado ya que el conocimiento, las herramientas y los diseños necesarios se encuentran accesibles a cientos de compañías e individuos; para el autor la capacidad de producción dejó de ser un factor diferencial en sí mismo. Por ello remarca que en este modelo, la ventaja reside en la elasticidad y capacidad de innovación de la compañía para generar nuevos productos.
 
 Dependiendo del rubro, la variedad y velocidad de renovación del catálogo de productos resulta un factor de peso: por ejemplo en el rubro de electrónica (Sparkfun, Adafruit -ver Box 8-).
 
-1. **Basados en el conocimiento y la experiencia**
+3. **Basados en el conocimiento y la experiencia**
 
 Este modelo está inspirado directamente en la industria del software libre, su valor radica en la experiencia y el servicio. En OHW esto se traduce a talleres de DIY (Tripalium, Open Source Ecology), la venta del producto más la "experiencia" de construirlo (Wikispeed) ó venta de servicios de consultoría para empresas que desean utilizar el producto en su cadena de valor (Arduino, Wikispeed).
 
-![image alt text](image_3.png)
+![image alt text](https://i.pinimg.com/originals/85/c9/99/85c999a3b9c1a0541c68c52a217cbb81.png)
 
 _Fig 14. Turbina eólica abierta de Tripalium, una fundación que promueve la energía eólica (Fuente: Tripalium.org)_
 
-1. **Sistemas de Producto-Servicio**
+4. **Sistemas de Producto-Servicio**
 
 Surgieron en 1959 con el modelo de impresión pay-per-copy instalado por Xerox, y están teniendo mayor difusión actualmente de la mano de conceptos como la economía social y la economía circular. Se basan en ofrecer el derecho de uso del producto en lugar de su propiedad. En OHW aún es incipiente, pero el autor aduce que posee potencial. Cicero agrega que las compañías podrían beneficiarse a partir de un ofrecer el software como servicio asociado a un producto OHW, especialmente en el caso de los sistemas embebidos y la Internet de las Cosas (IoT) -aunque alega que el mercado aún no posee la madurez suficiente para llegar a ese lugar-.
 
-1. **Estandarización y ¿apalancamiento?!**
+5. **Estandarización y ¿apalancamiento?!**
 
 Consiste en abrir estratégicamente un producto clave que sea redituable en sí mismo pero que su apertura implique un impulso para que la tecnología asociada a él se convierta en un estándar de la industria. El ejemplo típico en este caso es el sistema operativo Android, de Google, y los motores Tesla, que permitieron a Tesla Motors incursionar en el mercado de las baterías y estaciones cargadoras.
 
-1. **Modelos de plataforma**
+6. **Modelos de plataforma**
 
 Su valor radica en organizar un ecosistema de actores industriales (diseñadores, fabricantes, revendedores, consumidores, prosumidores, marcas, etc.) alrededor de una tecnología clave OHW o plataforma. Casos paradigmáticos: OpenDesk (ver Box 9) y OSVehicle. OSVehicle diseñó el motor y chasis Tabby -OHW, eléctrico y modular-. Construyeron una "cadena de valor participativa" donde el mismo se distribuye de manera justa entre todos los participantes.
 
-<table>
-  <tr>
-    <td>Box 9: Open Desk
-
-Opendesk se autodefine como una plataforma global para la producción local. Consiste en una herramienta de "producción abierta" que puede utilizarse para descargar, fabricar y comprar mobiliario. Cuenta con un catálogo de diseños específicamente realizados para la fabricación digital, por lo cual el objeto puede producirse localmente, de acuerdo a la demanda, en cualquier lugar del mundo.
-
-Cuánto de este proceso es realizado por el usuario depende un poco de sí mismo. Si se cuenta con la capacidad y herramientas para construir el diseño, se puede descargar y hacer el producto desde cero. En caso contrario, se puede contratar un maker desde la página, que fabricará el objeto para el cliente. Mientras mas trabajo se haga personalmente, mas bajo es el costo. Todo depende de donde se encuentre, si hay fabricantes locales disponibles y de si se tiene acceso a la maquinaria necesaria.
-
-
-Fig. 15: modelo de escritorio disponible para descargar en OpenDesk.com
-
-Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
-</td>
-  </tr>
-</table>
-
+> **Box 9: Open Desk**
+>
+>Opendesk se autodefine como una plataforma global para la producción local. Consiste en una herramienta de "producción abierta" que puede utilizarse para descargar, fabricar y comprar mobiliario. Cuenta con un catálogo de diseños específicamente realizados para la fabricación digital, por lo cual el objeto puede producirse localmente, de acuerdo a la demanda, en cualquier lugar del mundo.
+>
+>Cuánto de este proceso es realizado por el usuario depende un poco de sí mismo. Si se cuenta con la capacidad y herramientas para construir el diseño, se puede descargar y hacer el producto desde cero. En caso contrario, se puede contratar un maker desde la página, que fabricará el objeto para el cliente. Mientras mas trabajo se haga personalmente, mas bajo es el costo. Todo depende de donde se encuentre, si hay fabricantes locales disponibles y de si se tiene acceso a la maquinaria necesaria.
+>
+> ![escritorio](https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg)
+> _Fig. 15: modelo de escritorio disponible para descargar (Fuente: OpenDesk.com)_
+>
+>Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
 
 Un caso particular es del del modelo de negocio basado en **licencias duales**. Este sistema, altamente difundido en la industria del software, consiste en distribuir un producto tanto con licencia privativa como con licencia abierta. Es el caso de LEON, un microprocesador basado en tecnología SPARC-V que se distribuye tanto bajo licencia GPL abierta como con licencia privativa a fin de ser integrado en productos cerrados. Otra variante en este sentido consiste en modelos de negocio a partir de un núcleo de producto OHW cuyas extensiones y funcionalidades extra tienen carácter privativo.
 
 Uno de los puntos más interesantes es el análisis de por qué aún el OHW no es masivamente adoptado en el mundo de los negocios, como sí es el OSW. La mayor parte de los autores coinciden en que los cambios no vendrán de las empresas tradicionales sino que una nueva camada de fabricantes irrumpirá en el panorama actual, debido principalmente a la rigidez organizacional de las grandes empresas. Cicero menciona que aunque las empresas líderes en hardware siguen siendo privativas -como Samsung o General Electric- existen industrias emergentes como la de los drones o UAV que están siendo enteramente desarrolladas bajo el concepto de hardware abierto y modular, con proyectos surgiendo día a día.
 
-<table>
-  <tr>
-    <td>Box 10: 3D Robotics - Mediodía y ocaso de los drones
-
-3D Robotics es una empresa pionera en la creación de vehículos aéreos no tripulados (UAV), comúnmente conocidos como drones. Sus creaciones se basan en componentes de OSH.
-Jordi Muñoz -un joven mexicano emigrado a Estados Unidos- y Chris Anderson -editor de la revista WIRED- se conocieron en el foro open source DIY-Drones, comunidad donde comparten sus experiencias algunos aficionados a vehículos aéreos no tripulados. Allí, Jordi compartió con la comunidad su creación de un piloto automático con acelerómetros extraídos de su Nintendo Wii. Después de eso, su popularidad en el foro creció, llamando la atención de Chris Anderson, que le ofreció 500 dólares para seguir experimentando.
-En 2009 fundaron 3D Robotics con el objetivo de liderar el mercado de fabricación de drones y UAVS de calidad profesional a precios accesibles. En 2012, Anderson dejó la revista WIRED para ocupar el puesto de CEO junto con Jordi Muñoz, el mismo año que 3D Robotics anunció que cerraría parte de su código, lo cual fue tomado como una "traición" por parte de la comunidad de DIY Drones que se consideraba parte del proyecto (Cuartielles, 2014).
-
-
-Fig. 16. Solo, el drone estrella de 3D Robotics
-
-La empresa llegó a tener oficinas en la ciudad de San Diego y Berkeley en California, ventas y marketing en Austin, Texas y una planta de producción en Tijuana, Baja California, México, que producían alrededor de 15,000 pilotos automáticos al año, generando ganancias de alrededor de 20 millones de dólares anuales.
-La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.</td>
-  </tr>
-</table>
-
+> **Box 10: 3D Robotics - Mediodía y ocaso de los drones**
+>
+>3D Robotics es una empresa pionera en la creación de vehículos aéreos no tripulados (UAV), comúnmente conocidos como drones. Sus creaciones se basan en componentes de OSH.
+>
+>Jordi Muñoz -un joven mexicano emigrado a Estados Unidos- y Chris Anderson -editor de la revista WIRED- se conocieron en el foro open source DIY-Drones, comunidad donde comparten sus experiencias algunos aficionados a vehículos aéreos no tripulados. Allí, Jordi compartió con la comunidad su creación de un piloto automático con acelerómetros extraídos de su Nintendo Wii. Después de eso, su popularidad en el foro creció, llamando la atención de Chris Anderson, que le ofreció 500 dólares para seguir experimentando.
+>
+>En 2009 fundaron 3D Robotics con el objetivo de liderar el mercado de fabricación de drones y UAVS de calidad profesional a precios accesibles. En 2012, Anderson dejó la revista WIRED para ocupar el puesto de CEO junto con Jordi Muñoz, el mismo año que 3D Robotics anunció que cerraría parte de su código, lo cual fue tomado como una "traición" por parte de la comunidad de DIY Drones que se consideraba parte del proyecto (Cuartielles, 2014).
+>
+>![solo](https://3dr.com/wp-content/uploads/2017/03/Solo_r10c-1024x443.jpg)
+>_Fig. 16. Solo, el drone estrella de 3D Robotics (Fuente: 3Dr)_
+>
+>La empresa llegó a tener oficinas en la ciudad de San Diego y Berkeley en California, ventas y marketing en Austin, Texas y una planta de producción en Tijuana, Baja California, México, que producían alrededor de 15,000 pilotos automáticos al año, generando ganancias de alrededor de 20 millones de dólares anuales.
+>
+>La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.
 
 Para el autor es esperable que aparezcan nuevos jugadores en el mercado de la producción de hardware que más allá de estar basados o no en la filosofía de apertura, aprovecharán la ventaja otorgada por la creciente modularización que el OHW trae a la industria -como hizo Google con el FLOSS-. Este escenario de fabricantes lo suficientemente elásticos en infraestructura sería compatible con un nuevo tipo de demanda, ágil, ultra customizada, orientada por la comunidad y a los prosumidores.
 
@@ -369,19 +361,22 @@ Según Cicero en los próximos años deberíamos poder observar transformaciones
 
 Los principales obstáculos que se pueden identificar en el uso de OHW para modelos de negocio son los relacionados a las patentes -en muchos casos salvados por el dual licensing-, la falta de modularidad en los diseños actuales -que dificulta su intervención- y la necesidad de generar confianza en el consumidor acerca de la calidad de los productos de diseño abierto. Dependiendo del modelo de negocio analizado, si la orientación es hacia desarrollo de productos, el peso de la marca y el tamaño de la comunidad son factores limitantes: si la base es la producción entonces la oferta de un catálogo variado y renovado es un factor diferencial. En el caso de los modelos de licencia dual, algunos autores señalan que un obstáculo puede ser el lock in por parte de los usuarios con filosofía OHW, especialmente en el segmento profesional.
 
-        4. Personalización del consumo - DIY
+***
+# Secciones pendientes
+
+## Usos
+#### Personalización del consumo - DIY
+
+Pendiente
 
 ## Oportunidades - Enablers
 
 (No sé si esta sección tendrá sentido. Es para poner algo sobre por qué pensamos que hay posibilidades para que el OH crezca. Por ejemplo rol de las TICs’ del crecimiento del OSS de las Comunidades de Práctica asociadas al OSS que allanaron el camino?, no sé). Por ahí algo de los textos sociales ayuda con esta parte
 
-Acá se podría hablar de  la relación con el movimiento de software libre,  la creciente cultura DIY: como estas prácticas  impulsan la  experimentación con nuevas  tecnologías. ETC. Un buen ejemplo  a retomar  es  el caso de Rep rap  en fabricación digital  para mostrar  como las  impresoras open hardware  permitieron masificar  el acceso a la  nueva tecnología. Lo  mismo se podría decir con el caso de drones.
+Acá se podría hablar de  la relación con el movimiento de software libre,  la creciente cultura DIY: como estas prácticas  impulsan la experimentación con nuevas  tecnologías. ETC. Un buen ejemplo  a retomar  es  el caso de Rep rap  en fabricación digital  para mostrar como las  impresoras open hardware  permitieron masificar  el acceso a la  nueva tecnología. Lo  mismo se podría decir con el caso de drones.
 
-## Políticas - Regulaciones - Licencias (*sin terminar*)
+## Regulaciones y Licencias
 
-<table>
-  <tr>
-    <td>
 Las licencias disponibles hoy son las siguientes:
 
 a) TAPR
@@ -438,6 +433,8 @@ MobiStation (UNICEF Stories, 2013) es un prototipo abierto desarrollado por UNIC
 
 El computador portátil One Laptop Per Child está basado en software libre y es de consumo energético eficiente, con un coste cercano a unos cien USD, que en ocasio- nes se cubrían además desde contextos con mayor poder adquisitivo
 
+## Políticas
+
 Políticas de HW Libre en Venezuela
 
 En otro documento FLOK, 2015 menciona para Ecuador a fin de fomentar la innovación social en materia de OHW:
@@ -451,11 +448,9 @@ Baden 2015 hace referencia a recomendaciones de políticas, en su texto sobre OH
 a) Incoporar open labware a curricula escolar
 b) aumentar cursos hands on para cientificos y docentes
 c) aumentar infraestructura para que todos tengan impresora 3d a mano (en universidades por ej)
-d) incentivar a empresas a invertir en modelos abiertos de diseño de producto</td>
-  </tr>
-</table>
+d) incentivar a empresas a invertir en modelos abiertos de diseño de producto
 
-
+***
 ## Bibliografía
 
 Baden, T., Chagas, A. M., Gage, G., Marzullo, T., Prieto-Godino, L. L., & Euler, T. (2015). Open Labware: 3-D Printing Your Own Lab Equipment. PLoS Biology, 13(3), 1–12. http://doi.org/10.1371/journal.pbio.1002086

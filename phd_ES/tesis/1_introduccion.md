@@ -26,7 +26,7 @@ Estas heterogeneidades presentes en la comunidad de FOSS pueden también rastrea
 >
 > En su origen, Arduino fue pensado por un equipo de cinco personas en el Ivrea Interaction Design Institute en Turín, Italia, con el objetivo de contar con una herramienta sencilla de utilizar para estudiantes, que les permitiera fabricar objetos sin tener que contar con conocimientos avanzados de electrónica. Actualmente, además de la plataforma, Arduino es una comunidad organizada alrededor de su sitio web, donde más de 300 mil usuarios de distintas partes del mundo comparten sus diseños, recomendaciones y preguntas.
 >
->![reprap](https://upload.wikimedia.org/wikipedia/commons/f/f8/Reprap_Darwin.jpg)    
+><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Reprap_Darwin.jpg" width=50%>  
 >_Fig. 1: Versión 1.0 (Darwin) de RepRap, la impresora 3D autorreplicable basada en Arduino (Fuente: Wikipedia)_
 >
 >Arduino posee algunas ventajas que lo volvieron una de las ‘estrellas’ del hardware libre, viralizando su uso en cientos de proyectos a escala global y motorizando así la nueva ola del movimiento maker. Los atributos que destacan en Arduino son, principalmente: bajos costos -la placa más sencilla cuesta menos de 25 dólares-, compatibilidad en todos los sistemas operativos -Windows, Macintosh, Linux-, utilizar un lenguaje de programación simple para los novatos pero con funcionalidades potentes para los expertos, y la posibilidad de contar con código abierto tanto en software como hardware, posibilitando el intercambio entre usuarios y sumando modificaciones y nuevas funcionalidades en base a experiencias de otros.
@@ -98,7 +98,7 @@ _Fig. 3: Ejemplo de diagrama esquemático de un contador TTL (Fuente: Wikipedia)
 
 En la actualidad, todos los objetos electrónicos se fabrican utilizando plaquetas de circuito impreso, a diferencia del sistema de cableado punto a punto utilizado hasta los años 60. Los circuitos impresos aportaron un nivel mucho mayor de automatización en la fabricación: se eliminó el cableado, ya que las conexiones, constituidas por líneas de cobre, se encuentran integradas en un soporte no conductor -generalmente epoxy- que además sostiene los componentes. Esto permitió no sólo reducir el espacio que ocupa el circuito sino también integrar el uso de microchips, el corazón de las tecnologías como teléfonos móviles, computadoras, tablets y más.
 
-![pcb](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PCB_design_and_realisation_smt_and_through_hole.png/1024px-PCB_design_and_realisation_smt_and_through_hole.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PCB_design_and_realisation_smt_and_through_hole.png/1024px-PCB_design_and_realisation_smt_and_through_hole.png" width=80%>    
 _Fig 4: ejemplo de diseño digital de circuito impreso (izq.) y circuito final (der.) (Fuente: Wikipedia)_
 
 Hasta el advenimiento de las herramientas digitales, el paso del esquemático al circuito impreso requería cierta habilidad "artística" del fabricante: se utilizaba una “máscara” de cinta negra sobre una placa de acetato para indicar la ruta de conexiones más eficiente a fin de transformar el diagrama en una plaqueta. Actualmente este proceso se encuentra automatizado en dos pasos: primero se crea digitalmente a partir del diagrama una “**captura esquemática”**, es decir una representación lógica de los componentes y su interconexión. El producto de este proceso es un archivo conteniendo toda la información sobre el diagrama y un archivo “netlist” con datos sobre conexiones eléctricas entre componentes.
@@ -179,7 +179,7 @@ Además, la información virtual contenida en los archivos de diseño (set Gerbe
 >
 >De forma similar a Linux, RepRap comenzó en 2005 como un proyecto universitario del Dr. Adrian Bowyer de la Universidad de Bath, con el objetivo de construir una impresora auto-replicable. Es decir, una impresora que pudiera imprimir las partes para construir una nueva impresora. A partir de la colaboración online en blogs y wiki, los usuarios fueron construyendo copias del primer prototipo, realizando modificaciones que documentaban y ponían a disposición online.
 >
->![reprap Mendel](https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg)    
+><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg" width=70%>    
 >_Fig. 8: RepRap 2.0, versión Mendel (Fuente: Wikipedia)_
 >
 >Uno de los disparadores del boom de la impresión 3D ha sido la expiración de las patentes de los equipos originales de impresión (The Economist 2013), creados en la década de los ochenta. Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocidas como FMD por su sigla en inglés) que utiliza filamentos plásticos. La caída de las patentes permitió una explosión de experimentación con nuevas impresoras, de la cual surgió RepRap, que utilizando el modelo open source permite que cualquier usuario realice modificaciones y mejoras en las máquinas. Desde ese momento, la impresoras 3D FDM se convirtieron en un objeto de escritorio y su costo se redujo hasta menos de los mil dólares en los modelos fabricados por los usuarios (Mins 2013).
@@ -229,7 +229,7 @@ Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrol
 >
 >La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
 >
->![syringe-pump open source](http://www.appropedia.org/images/0/08/Double-pump.jpg)    
+><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
 >_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
 >
 >Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
@@ -253,14 +253,11 @@ Además de la adquisición de habilidades técnicas y el fomento de la creativid
 > **Box 7: Minipiano - Haciendo música con Arduino**
 >
 >En este experimento, Bordignon e Iglesias enseñan a los estudiantes, a través de la construcción de un piano de tres teclas, a trabajar con luces led, botones y con un buzzer para entender cómo se leen los datos y cómo utilizarlos en los programas que se realizarán en Arduino.
->
->_Fig. 10. Las explicaciones siguen un criterio lógico que permite al estudiante ir probando si su desarrollo es o no exitoso._
->
->**FALTA IMAGEN**    
+>  
 >A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
 >
->**FALTA IMAGEN**    
->_Fig. 11. El funcionamiento del minipiano puede chequearse online vía Youtube._
+><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>   
+>_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
 
 Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
 
@@ -276,8 +273,8 @@ Gran parte de las compañías basadas en OHW trabajaban en 2013 en el rubro de e
 
 Hasta el año 2007 se lanzaba sólo una compañía OHW por año: ejemplos de ello son Parallax (1986), Solarbotics (1994), Lynxmotion (1995, luego comprada por RobotShop), ShopBot (1996), Egnite (1997), WIZnet (1998). Pero a partir de 2007 el número crece rápido -ver figura 12-. En promedio toma a los emprendedores dos años pasar de la idea del proyecto a un producto definido.
 
-**FALTA IMAGEN**    
-_Fig. 12: número de empresas OHW lanzadas por año (Fuente: Berchon. 2013)*_
+![](https://image.slidesharecdn.com/open-hardware-entrepreneurship-130909013556-/95/the-state-of-open-hardware-entrepreneurship-in-2013-9-638.jpg?cb=1380311117)
+_Fig. 12: número de empresas OHW lanzadas por año, a 2013 (Fuente: [Berchon, 2013](https://www.slideshare.net/makingsociety/the-state-of-open-hardware-entrepreneurship-in-2013?ref=http://makingsociety.com/2013/09/the-state-of-open-hardware-entrepreneurship-2013/))*_
 
 En cuanto al perfil de los emprendedores, mayoritariamente poseen una formación en ingeniería (83%), diseño (17%) -incluyendo artistas digitales con conocimientos en aspectos técnicos- y docentes e investigadores (14%) provenientes de áreas técnicas, que dedican su tiempo libre a trabajar en proyectos OHW. El 47% de las compañías es liderado por emprendedores solos, comparado con el 52% que lo hace en equipo, lo que la autora atribuye a la ventaja de contar con una comunidad online fuerte de apoyo. Sólo el 5% de las compañías son lideradas por mujeres -excepciones notables como Adafruit o LittleBits-, y sólo 10% las incluyen en los equipos fundadores, aunque sí participan en gran medida en hackerspaces, proyectos y eventos.
 
@@ -287,7 +284,7 @@ Más de la mitad de las compañías se financian con sus propios recursos (62%) 
 >
 >Adafruit Industries es una compañía basada en open source hardware ubicada en la ciudad de Nueva York, fundada en 2005 por la hacker e ingeniera Limor Fried mientras estudiaba en el Massachusetts Institute of Technology. La empresa diseña y fabrica una serie de productos electrónicos y vende un amplio rango de componentes, herramientas y accesorios vía su tienda web. Los productos ofrecidos abarcan rangos de principiante -kits que producen sonidos al recibir una señal- a experto -como sofisticados microcontroladores para celulares y desarrolladores de videojuegos-.
 >
->![tapa wired](https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg)    
+><img src=https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg width=50%>   
 >_Fig. 13: Limor Fried, premiada como emprendedora del año en 2012, fue tapa de la revista de tecnología WIRED (Fuente: Wired)_
 >
 >Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
@@ -309,8 +306,7 @@ Dependiendo del rubro, la variedad y velocidad de renovación del catálogo de p
 
 Este modelo está inspirado directamente en la industria del software libre, su valor radica en la experiencia y el servicio. En OHW esto se traduce a talleres de DIY (Tripalium, Open Source Ecology), la venta del producto más la "experiencia" de construirlo (Wikispeed) ó venta de servicios de consultoría para empresas que desean utilizar el producto en su cadena de valor (Arduino, Wikispeed).
 
-![image alt text](https://i.pinimg.com/originals/85/c9/99/85c999a3b9c1a0541c68c52a217cbb81.png)
-
+<img src=https://i.pinimg.com/originals/85/c9/99/85c999a3b9c1a0541c68c52a217cbb81.png width=70%>    
 _Fig 14. Turbina eólica abierta de Tripalium, una fundación que promueve la energía eólica (Fuente: Tripalium.org)_
 
 4. **Sistemas de Producto-Servicio**
@@ -331,7 +327,7 @@ Su valor radica en organizar un ecosistema de actores industriales (diseñadores
 >
 >Cuánto de este proceso es realizado por el usuario depende un poco de sí mismo. Si se cuenta con la capacidad y herramientas para construir el diseño, se puede descargar y hacer el producto desde cero. En caso contrario, se puede contratar un maker desde la página, que fabricará el objeto para el cliente. Mientras mas trabajo se haga personalmente, mas bajo es el costo. Todo depende de donde se encuentre, si hay fabricantes locales disponibles y de si se tiene acceso a la maquinaria necesaria.
 >
-> ![escritorio](https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg)
+> <img src=https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg width=70%>    
 > _Fig. 15: modelo de escritorio disponible para descargar (Fuente: OpenDesk.com)_
 >
 >Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
@@ -348,7 +344,7 @@ Uno de los puntos más interesantes es el análisis de por qué aún el OHW no e
 >
 >En 2009 fundaron 3D Robotics con el objetivo de liderar el mercado de fabricación de drones y UAVS de calidad profesional a precios accesibles. En 2012, Anderson dejó la revista WIRED para ocupar el puesto de CEO junto con Jordi Muñoz, el mismo año que 3D Robotics anunció que cerraría parte de su código, lo cual fue tomado como una "traición" por parte de la comunidad de DIY Drones que se consideraba parte del proyecto (Cuartielles, 2014).
 >
->![solo](https://3dr.com/wp-content/uploads/2017/03/Solo_r10c-1024x443.jpg)
+><img src="https://3dr.com/wp-content/uploads/2017/03/Solo_r10c-1024x443.jpg" width=70%>    
 >_Fig. 16. Solo, el drone estrella de 3D Robotics (Fuente: 3Dr)_
 >
 >La empresa llegó a tener oficinas en la ciudad de San Diego y Berkeley en California, ventas y marketing en Austin, Texas y una planta de producción en Tijuana, Baja California, México, que producían alrededor de 15,000 pilotos automáticos al año, generando ganancias de alrededor de 20 millones de dólares anuales.

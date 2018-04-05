@@ -13,10 +13,8 @@ Comprender si el movimiento de hardware de código abierto conforma una alternat
 - redes de intermediarios
 - repertorios de acción
 - recursos
-- participación y diversidad
 
 ### 3) Participación
-
 Siete dimensiones de participación (Kelty, 2014)    
 1) Las ganancias educativas de la participación (aprender algo valioso)
 2) Acceso a la toma de decisiones y definición de objetivos, más allá de realizar tareas
@@ -33,7 +31,6 @@ Roles propuestos por Dickel & Franzen (2016) para ciencia ciudadana, a partir de
 - Research recipients
 
 ### 4) Capacidades
-
 - Agency (Walker and Unterhalter 2007)
 - Capabilities (Sen, 1999)
 - Deliberative democracy (Crocker, 2008)

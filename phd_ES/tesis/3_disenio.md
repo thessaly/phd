@@ -1,22 +1,21 @@
-#Diseño
+# Diseño
 
 ## Objetivo general
 Comprender si el movimiento de hardware de código abierto conforma una alternativa viable, más democratizante, de producción de tecnología en el contexto latinoamericano.
 
 ## Dimensiones y categorías
 
-
-### Constitución como nicho (visiones alternativas)
+### 1) Constitución como nicho (visiones alternativas)
 **marco de acción** entendido como proceso de significación que permite a los movimientos identificar y organizar su experiencia de maneras que los ayuden a conectar con narrativas más poderosas (Snow et al, 1986).
 
-### Factibilidad como nicho (recursos/estrategias)
+### 2) Factibilidad como nicho (recursos/estrategias)
 - espacios físicos, institucionales, cognitivos
 - redes de intermediarios
 - repertorios de acción
 - recursos
 - participación y diversidad
 
-### Participación
+### 3) Participación
 
 Siete dimensiones de participación (Kelty, 2014)    
 1) Las ganancias educativas de la participación (aprender algo valioso)
@@ -33,7 +32,7 @@ Roles propuestos por Dickel & Franzen (2016) para ciencia ciudadana, a partir de
 - Amateur critics
 - Research recipients
 
-### Capacidades
+### 4) Capacidades
 
 - Agency (Walker and Unterhalter 2007)
 - Capabilities (Sen, 1999)

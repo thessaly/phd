@@ -13,7 +13,7 @@ El concepto de software libre o como se denomina formalmente en inglés, Free Op
 
 **Objetivos específicos:**    
 1- Analizar los marcos socio-técnicos y las visiones presentes dentro del movimiento OSH en América Latina    
-2- Determinar si y cómo los recursos y las estrategias puestos en acción por el movimiento OSH pueden conformar un nicho que funcione como alternativa democratizante de la producción de tecnología     
+2- Determinar si y cómo los recursos y las estrategias puestos en acción por el movimiento OSH pueden conformar una alternativa democratizante de la producción de tecnología     
 3- Identificar de qué manera los procesos de construcción de OSH fomentan la participación de nuevos actores, con distintos conocimientos y experiencias,  en la producción de tecnología     
 4- Analizar si y cómo las prácticas de construcción de OSH contribuyen a la construcciòn de capacidades y a disminuir las barreras de acceso de los colaboradores
 

@@ -2,7 +2,7 @@
 Following the massive diffusion of Internet access and the drop in prices of electronic components, ideas from the Free Open Source Software (FOSS) movement have spread over the last decade to different areas, such as hardware or knowledge production. The increasing availability of educational kits, which has lowered  access barriers to neglected users, has also contributed to a boom of highly diverse Open Source Hardware (OSH) projects and communities. OSH is hardware developed in a collaborative way and released under open licences, in contrast to and in opposition to the current closed regime of technology production, based on patents. OSH advocates claim this new way of producing technology increases the efficiency of the innovation process, democratises access to knowledge and tools, and empowers communities to search for their own, locally produced solutions to their problems. However, this translation of the open source philosophy from digital to material technologies is still emerging and faces new challenges in different areas. Combining elements from Socio-technical Transitions framework, concepts from the Grassroot Innovation Movements approach and the Participation and Capabilities literature we expect to understand if and how OSH constitutes a democratising niche of technology production in Latin America. We will build a map of OSH initiatives in the region, complemented with information from semi-structured interviews and five (5) contrasting case studies to see how OSH visions and strategies contribute to greater participation and the development of capabilities in collaborators. We expect to provide a contribution to the analytical frameworks used to assess transitions to democratisation, and relevant information for policy design.
 
 # Research proposal
-**Supervisor**: Dr. Valeria Arza; Co-supervisor: Dr. Mariano Fressoli
+**Supervisor**: Dr. Valeria Arza; Co-supervisor: Dr. Mariano Fressoli    
 **Candidate**: Julieta C. Arancio
 
 ## Project title  
@@ -15,9 +15,9 @@ The Free Open Source Software -’FOSS’- concept is not new for most people in
 **Main objective:** Understand new, democratising technological production alternatives in the Latin America context
 
 **Specific objectives:**     
-1- Analyse the socio-technical frameworks and visions within the OSH movement in Latin America
-2- Determine if and how the OSH movement constitute an alternative niche of technology production
-3- Identify in which way the OSH development process encourages participation of new, usually marginalised actors
+1- Analyse the socio-technical frameworks and visions within the OSH movement in Latin America    
+2- Determine if and how the OSH movement constitute an alternative niche of technology production    
+3- Identify in which way the OSH development process encourages participation of new, usually marginalised actors    
 4- Analyse if and how the OSH development process contributes to capacity building and the empowerment of collaborators
 
 ## Literature review

@@ -13,7 +13,6 @@ Comprender si el movimiento de hardware de código abierto conforma una alternat
 - redes de intermediarios
 - repertorios de acción
 - recursos
-- participación y diversidad
 
 ### 3) Participación
 

@@ -115,6 +115,7 @@ This research is designed from the beginning as an open science project, so all 
 - Marres, N. (2005). No Issue, No Public: Democratic Deficits after the Displacement of Politics. Ph.D. diss., University of Amsterdam.
 - Nielsen, M. (2012) .Reinventing discovery: the new era of networked science.Princeton UP, NJ.226 pp.
 - Nykvist, B., Whitmarsh, L., 2008. A multi-level analysis of sustainable mobility transitions: niche developments in the UK and Sweden. Technological Forecasting and Social Change 75 (9), 1373–1387.
+- Open Source Hardware Association (2013) Open Source Hardware (OSHW) Statement of Principles and Definition 1.0. https://freedomdefined.org/OSHW
 - Oudshoorn, N., & Pinch, T. (2005). How users and non-users matter. How Users Matter: The Co-Construction of Users and, 360. https://doi.org/10.1287/isre.1030.0016
 - Pearce, J. M. (2014). Open-source Lab. How to Build Your Own Hardware and Reduce Research Costs.
 - Rip, Arie and Kemp, René (1998) Technological change. In: Human choice and climate change. Vol. II, Resources and technology. Battelle Press, Columbus, OH, pp. 327-399.

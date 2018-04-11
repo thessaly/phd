@@ -1,5 +1,8 @@
 ## Blog posts, articles, notes...
 
+- Arancio, J. *'ETER: CIENCIA COMUNITARIA PARA ABRIR LA AGENDA DE INVESTIGACIÓN'*, Poster accepted ESOCITE, Chile, 2018
+
+- De Freitas, M. y Arancio, J. *'EL MOVIMIENTO POR UN HARDWARE CIENTÍFICO GLOBAL Y ABIERTO: UNA HOJA DE RUTA HACIA LA DEMOCRATIZACIÓN DE LAS HERRAMIENTAS CIENTÍFICAS'*, oral presentation accepted ESOCITE, Chile, 2018
 
 - Arancio, J. *'GOSH Roadmap: democratising technology, from a Latin American perspective'*, in [OSCEdays Blog](https://oscedays.org/gosh-roadmap-democratizing-technology-from-a-latin-american-perspective/), 2018
 

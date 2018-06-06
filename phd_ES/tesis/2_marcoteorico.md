@@ -238,9 +238,13 @@ The capability approach is a broad normative framework for the evaluation and  a
 
 #### Agentes
 
+**[VER COMMUNITIES OF PRACTICE - WENGER]**
+
 Focus on the people. Each person is a dignified and responsible human being who shapes her/his own life in the light of goals that matter to her/him, rather than simply being instructed how to think (Walker and Unterhalter 2007). As Alkire (2002) and Walker and Unterhalter (2007) mention when referring to the process of education, agency is a process of both being and becoming. It can further expand and advance our well-being, but it is a process and needs to be embraced over several areas of action. If well-being is supplemented with commitments (i.e. an action that is not beneficial to the  agent  herself),  then  we  are  focusing  on  overall  agency  (Sen,  1987). Moreover,  all  of  these  concepts  can  be  further  specified  as  being  either achieved   outcomes,   or   the   freedom   people   have   to   achieve   these outcomes, independent of whether they opt to achieve them or not. This concept is useful when thinking of how the access to building tools and produce innovation change the way participants face activities and challenges in everyday life.
 
 #### Capacidades
+
+**[learning capabilities de la literatura de innovación (lundvall, cohen y levintahl 1982)]**
 
 Innovation is a process that should expand the capabilities people have to reach the goals they value, at an individual or collective level (Sen, 1999). According to the capability approach, the ends of well-being, justice and   development   should   be   conceptualized   in   terms   of   people’s capabilities to function; that is, their effective opportunities to undertake the actions and activities that they want to engage in, and be whom they want  to  be.  These  beings  and  doings,  which  Sen  calls  functionings, together  constitute  what  makes  a  life  valuable.  **Functionings  include working, resting, being literate, being healthy, being part of a community, being   respected,   and   so   forth.**   The   distinction   between   achieved functionings  and  capabilities  is  between  the  realized  and  the  effectively possible;  in  other  words,  between  achievements  on  the  one  hand,  and freedoms or valuable options from which one can choose on the other.What is ultimately important is that people have the freedoms or valuable opportunities (capabilities) to lead the kind of lives they want to lead, to do what they want to do and be the person they want to be.
 
@@ -251,6 +255,8 @@ b) Internal capabilities: are states of a person that enable him/her to exercise
 c) Combined capabilities: are the internal capabilities together with the external provisions that effectively enable the person to exercise the capability  (Nussbaum,  1998). **yo creo que es esta categoría**
 
 #### Factores de conversión (Robeyns, 2005)
+
+ACA METER LO DE LEVEL UP Y LA ASIMETRIA DE LOS NIVELES INICIALES EN LOS PROYECTOS - EQUIDAD
 
 The personal traits (e.g. physical condition, gender, ethnicity or intelligence), social arrangements (e.g. public policies, norms, values and power relations) and environmental conditions (e.g. pollution, state of the roads and communication) which determine the ability of a person to convert a specific vector of commodities into capabilities or valuable outcomes.
 

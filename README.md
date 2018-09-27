@@ -7,7 +7,7 @@
 Welcome! Here you'll find the latest updates on my phD work about the Open Source Hardware (OSHW) movement in Latin America. 
 
 ```
-Updated: January 2018
+Updated: September 2018
 ```
 
 - [Map of OSHW projects](https://github.com/thessaly/OpenHWMap), _a collaborative global open source hardware map_

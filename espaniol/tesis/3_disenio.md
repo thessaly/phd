@@ -4,7 +4,7 @@
 
 Comprender si el movimiento de hardware de código abierto conforma una alternativa viable, más democratizante, de producción de tecnología en el contexto latinoamericano.
 
-**Objetivos específicos**
+## Objetivos específicos
 
 1. Analizar el contexto y las visiones presentes dentro del movimiento de HW de código abierto que lo definen como una forma alternativa de producir tecnología en América Latina
 
@@ -73,5 +73,6 @@ Siete dimensiones de participación (Kelty, 2014)
 
         iv. Conversion factors **(Robeyns, 2005)**
 
-
+***
+## [Cuestionario previo a entrevista](anexos/
 ## [Datos disponibles](anexos/fuentes.md)

@@ -73,15 +73,6 @@ Siete dimensiones de participación (Kelty, 2014)
 
         iv. Conversion factors **(Robeyns, 2005)**
 
-
-
-
-
-
-
-## Links 
-- [Fuentes de datos](anexos/fuentes.md)
-- [Cuestionario online](anexos/cuestionario_online.md)
-- [Entrevista semiestructurada](anexos/semiestructurada.md)
-
-
+***
+## [Cuestionario previo a entrevista](anexos/
+## [Datos disponibles](anexos/fuentes.md)

@@ -1,10 +1,4 @@
-# Fuentes de datos
-
-## Cuestionario vía LimeSurvey
-
-## Entrevista semi-estructurada 
-
-## Datos disponibles online
+# Fuentes de datos online
 
 **Open Labware collections (from Docubricks, to be explored)**
 

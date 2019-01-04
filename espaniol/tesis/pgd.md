@@ -48,23 +48,23 @@ Los datos se almacenarán en tres ubicaciones, con copia de seguridad automátic
 
 1. Computadora portátil local
 
-2. Disco duro de [CENIT] (http://www.fund-cenit.org.ar/) (copia de seguridad)
+2. Disco duro de [CENIT](http://www.fund-cenit.org.ar/) (copia de seguridad)
 
 3. Disco duro externo (copia de seguridad)
 
-Todas las carpetas que contienen datos se cifrarán utilizando [VeraCrypt] (https://www.veracrypt.fr/en/Downloads.html).
+Todas las carpetas que contienen datos se cifrarán utilizando [VeraCrypt](https://www.veracrypt.fr/en/Downloads.html).
 
 ### Selección y Conservación
 
 Los datos se pueden usar en el futuro para monitorear la evolución de la comunidad de Open Science Hardware, crear métricas de la comunidad, usar los proyectos para solicitar financiamiento, difundir el trabajo de GOSH, informar a los responsables de políticas y más.
 
-El plan de conservación a largo plazo es publicar la tesis y sus datos relacionados en el [repositorio] oficial de la Universidad Nacional de Quilmes (https://ridaa.unq.edu.ar/)
+El plan de conservación a largo plazo es publicar la tesis y sus datos relacionados en el [repositorio](https://ridaa.unq.edu.ar/) oficial de la Universidad Nacional de Quilmes 
 
 ### Compartir datos
 
-Los datos se compartirán después de la publicación de la tesis a través de la Universidad Nacional de Quilmes [repositorio institucional] (https://ridaa.unq.edu.ar/).
+Los datos se compartirán después de la publicación de la tesis a través de la Universidad Nacional de Quilmes [repositorio institucional](https://ridaa.unq.edu.ar/).
 
-Además, se compartirá en [Zenodo] (https://zenodo.org/), que proporciona un identificador persistente para los datos.
+Además, se compartirá en [Zenodo](https://zenodo.org/), que proporciona un identificador persistente para los datos.
 
 La publicación se anunciará en los sitios web y foros de la comunidad para que las personas interesadas puedan encontrarla.
 
@@ -74,4 +74,4 @@ Responsable de la gestión de datos: Julieta Arancio (jarancio@fund-cenit.org.ar
 
 ***
 
-*Plan de Gestión de Datos realizado a través de [DMP Online](https://dmponline.dcc.ac.uk/plans)*
+*Plan de Gestión de Datos realizado utilizando [DMP Online](https://dmponline.dcc.ac.uk/plans)*

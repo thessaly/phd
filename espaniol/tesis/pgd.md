@@ -1,4 +1,4 @@
-# El movimiento del hardware Científico de Código Abierto (GOSH) en América Latina: ¿Una alternativa democrática de producción tecnológica?
+# El movimiento de hardware Científico de Código Abierto (GOSH) en América Latina: ¿Una alternativa democrática de producción tecnológica?
 
 ## Plan de gestión de datos 
 

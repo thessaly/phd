@@ -40,7 +40,7 @@ Los datos se acompañarán de un resumen del proyecto y una referencia a los mat
 
 La recolección de datos a través de encuestas en línea y entrevistas semiestructuradas se realizará con previo consentimiento de los participantes. La identidad de los participantes estará protegida mediante la anonimización de los datos. El almacenamiento y las copias de seguridad de los datos se cifran mediante VeraCrypt.
 
-Los datos se licenciarán bajo Open Data Commons Attribution License (ODC-By).
+Los datos se licenciarán bajo [Open Data Commons Attribution License (ODC-By)](https://opendatacommons.org/licenses/by/summary/index.html).
 
 ### Almacenamiento y copia de seguridad
 

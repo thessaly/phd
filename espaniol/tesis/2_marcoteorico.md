@@ -264,6 +264,62 @@ The relation between a good and the functionings to achieve certain beings  and 
 
 Moreover,  goods  and  services  are  not  the  only  means  to  people’s capabilities. There are other means that function as ‘inputs’  in  the  creation  or  expansion  of  capabilities,  such  as  social institutions. The material and non-material circumstances that shape people’s opportunity sets, and the circumstances that influence the  choices  that  people  make  from  the  capability  set are also key for capability evaluations. The conversion factors can be useful to explain why when all the conditions are apparently available, people don't fully participate in projects - A very common scenario in the OSH community.
 
+### d. Poder
+
+- En los Grandes Sistemas Tecnológicos, el poder se encuentra en la capacidad de los constructores de sistemas de crear componentes o convertir elementos del entorno en componentes del sistema. Asimismo, es posible ver la competencia entre sistemas tecnológicos en la “batalla de los sistemas”, entre el sistema de corriente alterna vs. el sistema de corriente continua.
+
+- En la Teoría del Actor Red, el poder se manifiesta en la actividad de los actores (humanos o no humanos) de poner en circulación, alinear y coordinar elementos, así como en la capacidad de algunos actores (humanos o no humanos) de traducir los intereses de otros. Como vimos además en la clase pasada, el poder (y la capacidad de dominación) también se manifiesta a nivel de los actantes, en los guiones que se inscriben en la tecnología y prefiguran las actividades de programación (limitando los posibles cursos
+de acción a través de lo material). Oponerse a estas limitaciones, resistirse
+a este poder, tiene lugar en actividades de anti-programación y des-
+inscripción (Latour, 1991 [1998]; Akrich, 1992; Akrich y Latour, 1992).
+
+- En el enfoque de Construcción Social de la Tecnología, el poder se pone
+de manifiesto, en un primer nivel, en los procesos de estabilización y
+clausura, la disminución de la flexibilidad interpretativa de un artefacto y la
+fijación de su sentido (poder semiótico). Esto es resultado de interacciones
+micropolíticas orientadas a construir/reconstruir consensos al interior y
+entre los grupos sociales relevantes.
+
+- En un segundo nivel, en los marcos tecnológicos el ejercicio del poder se
+expresa en la regulación de las acciones de los miembros de los grupos
+sociales relevantes, estableciendo restricciones sobre tipos de conocimientos,
+forma de plantear problemas y soluciones, qué funciona y qué no,
+condicionando el diseño de nuevas tecnologías.
+
+En estos tres enfoques que trabajamos a lo largo del curso (Grandes Sistemas
+Tecnológicos, Teoría del Actor Red, Construcción Social de la Tecnología), la
+relación entre poder e ideología también suele quedar por fuera del análisis:
+en el análisis GST la dimensión del poder se coloca en la figura del sujeto
+(constructor de sistemas) y no la menciona; la TAR focaliza en la materialidad
+de actores e intermediarios, no incluyéndola en su análisis; y en el marco
+CST la podríamos ubicar dentro del proceso de asignación de sentido a la
+tecnología por parte de los grupos sociales relevantes.
+Frente a estas limitaciones, el Análisis Socio-Técnico, parte de las nociones
+de marco tecnológico y ensamble ST (conocimiento tácito, ética, estética,
+etc.) de la CST, y del proceso de alineación y coordinación de la TAR, para
+maximizar las dimensiones de poder e ideología en el análisis. Desde la
+perspectiva del AST, todas las tecnologías tienen funcionamiento
+situado en términos sociales, políticos y económicos. Todas las
+tecnologías están vinculadas no sólo en los procesos tecnológicos
+homogéneos –artefactos relacionados con artefactos- sino en procesos
+heterogéneos: artefactos y decisiones, conocimientos y valores, productos y
+acumulación, prácticas y controles, sistemas y poder. Por lo tanto, el tipo de
+tecnología o sistema tecnológico que se despliega en un territorio
+determinado puede activar, inhibir, potenciar o debilitar los sujetos
+que se encuentran temporal y espacialmente localizados en relación
+con esas tecnologías. Pero, ¿cómo analizar esto?
+
+>  la ideología es un “...aspecto de la condición humana bajo el cual los seres humanos viven sus vidas como actores conscientes en un mundo que cada uno de ellos comprende en diverso grado. La ideología es el medio a través del cual operan esa conciencia y esa significatividad. La conciencia
+de cada nuevo ser humano se forma a través de procesos
+psicodinámicos en su mayor parte inconscientes y funciona mediante un
+orden simbólico de códigos de lenguaje. La ideología, en cambio, no es
+reducible a una u otra cosa (Therborn, 2005:2).
+
+> “...Cada ideología funciona en el marco de una matriz de
+afirmaciones y sanciones, entonces la competencia, la
+coexistencia o el conflicto de las diferentes ideologías depende
+de matrices no discursivas.” (Therborn, 2005: 29)
+
 ## Bibliografía
 
 Kelty, C., Currie, M., Crooks, R., Erickson, S., Garcia, P., Wartenbe, M., & Wood, S. (2014). Seven Dimensions of Contemporary Participation Disentangled, 1–15.

@@ -16,6 +16,4 @@ Actualizado: Marzo 2019
 
 - [Tesis](tesis.md) _en desarrollo_
 
-### .
-### .
-### [.sobre mí](../me/yo.md)
+- [.sobre mí](../me/yo.md)

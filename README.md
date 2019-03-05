@@ -16,9 +16,7 @@ Updated: March 2019
 
 - [Thesis](/espaniol/tesis.md) _work in progress, only Spanish version for now_
 
-### .
-### .
-### [.about me](/english/about.md)
+- [.about me](/english/about.md)
 
 
 

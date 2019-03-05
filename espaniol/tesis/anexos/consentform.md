@@ -1,4 +1,34 @@
-## Consentimiento de participación en investigación doctoral
+<details><summary><b> Formulario de consentimiento: Cuestionario Online</b></summary>
+<p>
+<p>
+  
+### Participación
+Su participación en esta encuesta es voluntaria. Puede negarse a participar en la investigación o salir de la encuesta en cualquier momento sin penalización. Usted es libre de negarse a responder cualquier pregunta en particular que no desee responder por cualquier motivo.
+
+### Beneficios
+No recibirá beneficios directos por participar en este estudio de investigación. Sin embargo, sus respuestas pueden ayudarnos a aprender más acerca de la comunidad de Hardware Científico Abierto en Latinoamérica.
+
+### Riesgos
+No hay riesgos previsibles involucrados en participar en este estudio.
+
+### Confidencialidad
+Las respuestas de su encuesta se enviarán a un enlace en limequery.net donde los datos se almacenarán en un formato electrónico protegido por contraseña. LimeSurvey no recopila información de identificación, como su nombre, dirección de correo electrónico o dirección IP. Adicionalmente, sus respuestas serán anonimizadas. Nadie podrá identificarlo a usted ni a sus respuestas, y nadie sabrá si participó o no en el estudio.
+
+### Contacto
+Si tiene preguntas en cualquier momento sobre el estudio o los procedimientos, puede comunicarse conmigo por correo electrónico a: jarancio@protonmail.com o con mi supervisora, Dra. Valeria Arza a: varza@fund-cenit.org.ar.
+
+### Consentimiento electrónico
+Marcar la casilla indica que
+
+- Ha leído la información anterior
+- Usted voluntariamente acepta participar
+- Usted es mayor de 18 años de edad
+
+</p>
+</details>
+
+<details><summary><b>Formulario de consentimiento: Entrevista semiestructurada</b></summary>
+<p>
 
 **Título:** El movimiento de Hardware Libre/Abierto en América Latina: ¿Una alternativa democratizante de producción tecnológica?
 
@@ -46,3 +76,8 @@ Confirmo  que  he  explicado  la  naturaleza  y  el  propósito  de  la  investi
 Nombre coordinador:      
 Firma: _____________________      
 Ciudad y fecha:   
+
+
+
+</p>
+</details>

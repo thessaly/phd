@@ -1,18 +1,34 @@
 # Tesis 
 
-> Aviso: work in progress
+> En desarrollo
 
 0. [Proyecto CONICET](tesis/proyecto_ES.md)    
-    0.b [Resumen e Índice](tesis/0_resumen.md)
-
-1. [Introducción](tesis/1_introduccion.md)
+    Anteproyecto presentado a CONICET por beca doctoral     
+        0.b [Resumen e Índice](tesis/0_resumen.md)
+    
+1. [Introducción](tesis/1_introduccion.md)     
+   Qué es el HW científico abierto, quiénes lo hacen, por qué, cómo lo desarrollan, en qué rubros, oportunidades y desafíos.
 
 2. [Marco teórico](tesis/2_marcoteorico.md)    
-    2b. [AST UNQ](tesis/2b_AST.md)
+    Transiciones socio-técnicas, Movimientos de Innovación de Base, Construcción de Capacidades, Participación    
+        2b. [AST UNQ](tesis/2b_AST.md)    
+        Análisis socio-técnico presentado para la materia de Estudios Sociales de la Tecnología (UNQ)
 
-3. [Diseño](tesis/3_disenio.md)
+3. [Diseño](tesis/3_disenio.md)    
+    Categorías analíticas a utilizar, metodología de recolección y análisis de datos
+    
+4. [Historia GOSH](tesis/5_historiagosh.md)    
+    Caracterización del movimiento por el Hardware Científico Abierto Global desde sus orígenes a la actualidad
 
-4. [Historia GOSH](tesis/5_historiagosh.md)
+5. Casos - Tipo A (Am. Latina + 1 Europeo)
+
+6. Casos - Tipo B (Am. Latina + 1 Europeo)
+
+7. Casos - Tipo C (Am. Latina + 1 Europeo)
+
+8. Análisis y Discusión
+
+9. Conclusiones 
 
 **Anexos**    
 A. [Plan de Gestión de Datos](tesis/anexos/pgd.md)    

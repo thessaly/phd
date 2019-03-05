@@ -4,11 +4,10 @@ Se utilizará la perspectiva multi-nivel para analizar en qué medida las  tecno
 
 # Índice
 
-1. Introducción
-2. Estado de la cuestión
-3. Marco teórico
-4. Metodología
-5. Contexto: Historia de GOSH
+1. Introducción - Estado de la cuestión
+2. Marco teórico
+3. Metodología
+4. Contexto: Historia de GOSH
 6. Casos - Tipo A (Am. Latina + 1 Europeo)
 7. Casos - Tipo B (Am. Latina + 1 Europeo)
 8. Casos - Tipo C (Am. Latina + 1 Europeo)

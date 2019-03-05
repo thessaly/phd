@@ -14,7 +14,7 @@ Updated: March 2019
 
 - [Blog posts, articles, notes](/phD_EN/interesting.md)
 
-- [Thesis](/phD_EN/thesis.md) _work in progress_
+- [Thesis](/espaniol/tesis.md) _work in progress, only Spanish version for now_
 
 ### .
 ### .

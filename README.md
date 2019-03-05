@@ -4,7 +4,7 @@
 [Versión en español](/espaniol/README_ES.md)
 
 
-Welcome! Here you'll find the latest updates on my phD work about the Open Source Hardware (OSHW) movement in Latin America. 
+Welcome! Here you'll find the latest updates on my phD work about the Open Science Hardware (GOSH) movement in Latin America. 
 
 ```
 Updated: March 2019 

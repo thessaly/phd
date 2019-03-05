@@ -1,4 +1,4 @@
-<details><summary><b> Formulario de consentimiento: Cuestionario Online</b></summary>
+<details><summary><b> Formulario de consentimiento: Cuestionario Online<p><br></b></summary>
 <p>
 <p>
   

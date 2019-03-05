@@ -1,3 +1,6 @@
+*Plan de Gestión de Datos realizado utilizando [DMP Online - Digital Curation Centre (DCC) y University of California Curation Center (UC3)](https://dmponline.dcc.ac.uk/plans)*
+
+***
 # El movimiento de hardware Científico de Código Abierto (GOSH) en América Latina: ¿Una alternativa democrática de producción tecnológica?
 
 ## Plan de gestión de datos 
@@ -72,6 +75,3 @@ La publicación se anunciará en los sitios web y foros de la comunidad para que
 
 Responsable de la gestión de datos: Julieta Arancio (jarancio@fund-cenit.org.ar), que está llevando a cabo este trabajo de doctorado.
 
-***
-
-*Plan de Gestión de Datos realizado utilizando [DMP Online](https://dmponline.dcc.ac.uk/plans)*

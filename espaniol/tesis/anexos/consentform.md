@@ -38,13 +38,13 @@ Adaptado de:
 - [Universidad de Buenos Aires](http://psi.uba.ar/investigaciones.php?var=investigaciones/instituto/index.php)
 - [Universidad de Chile](http://www2.facso.uchile.cl/postgrado/mad/docs/2011/consentimiento_informado_2011.pdf)
 
-## 1.Información sobre la investigación de tesis. 
+## 1. Información sobre la investigación de tesis. 
 
-Usted ha sido invitado/a  a  participar  de  una  investigación  que  busca comprender si las iniciativas latinoamericanas de producción de hardware científico abierto constituyen nuevas alternativas democratizantes de la producción científico-tecnológica en la región.
+Usted ha sido invitado/a a participar  de  una  investigación  que  busca comprender si las iniciativas latinoamericanas de producción de hardware científico abierto constituyen nuevas alternativas democratizantes de la producción científico-tecnológica en la región.
 
-La  información  que  usted  proporcione  en  la  entrevista  semi-estructurada quedará  registrada  en  una  grabación  de  audio y  será  sometida  a  análisis,  en  total  confidencialidad.  No  será  conocida  por  nadie  fuera  del  investigador/a  responsable  y  su  directora.  La  entrevista  semi-estructurada es un método de investigación utilizado con frecuencia en las ciencias sociales, donde preguntas de estructura más rígida conviven con preguntas abiertas que permiten que surjan nuevas ideas a partir de las respuestas del entrevistado.
+La información  que  usted  proporcione  en  la  entrevista  semi-estructurada quedará  registrada  en  una  grabación  de  audio y  será  sometida  a  análisis,  en  total  confidencialidad.  No  será  conocida  por  nadie  fuera  del  investigador/a  responsable  y  su  directora.  La  entrevista  semi-estructurada es un método de investigación utilizado con frecuencia en las ciencias sociales, donde preguntas de estructura más rígida conviven con preguntas abiertas que permiten que surjan nuevas ideas a partir de las respuestas del entrevistado.
 
-La    información    producida    en    esta    investigación    será    mantenida    en    estricta    confidencialidad. Una vez firmado el consentimiento de participación se anonimizará la información. Sólo si el propio entrevistado/a lo solicita, se mantendrá los datos sin modificar. Al analizar la información se producirá un informe final o tesis, donde se mantendrá igualmente el anonimato de los/as entrevistados/as.
+La información    producida    en    esta    investigación    será    mantenida    en    estricta    confidencialidad. Una vez firmado el consentimiento de participación se anonimizará la información. Sólo si el propio entrevistado/a lo solicita, se mantendrá los datos sin modificar. Al analizar la información se producirá un informe final o tesis, donde se mantendrá igualmente el anonimato de los/as entrevistados/as.
 
 Le invito a participar de esta investigación de forma voluntaria, teniendo derecho a  retirarse  en  cualquier  momento  sin  que  ello  le  afecte  de  ninguna  forma.  Si usted lo desea y solicita podrá contar con una copia de la entrevista escrita o en audio. Usted no tiene que aceptar participar de esta investigación y tiene  el  pleno  derecho  a  preguntar  ahora  o  durante  el  transcurso  de  su  participación  cualquier duda que le surja, y a ponerse en contacto con la Directora del proyecto (datos más abajo), en caso que lo considere necesario. No  se  anticipan  riesgos ni beneficios directamente relacionados con esta investigación.
 
@@ -65,7 +65,7 @@ Muchas gracias por su aporte.
 **Teléfono:**      
 **Correo electrónico:** varza@fund-cenit.org.ar     
 
-## 2.Documento del Consentimiento 
+## 2. Documento del Consentimiento 
 
 **Participante:**
 

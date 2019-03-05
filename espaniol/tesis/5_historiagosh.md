@@ -1,22 +1,16 @@
 # Historia
 
-## Orígenes
+## Fuentes
 
-Cómo era el mundo en el 2013 en US, Europa y Asia respecto al open hw?
-- Ver WIRED
-- Ver la lista de mails de oshwa
+Entrevistas segun criterio:
 
-
-
-Los factores de contexto que jugaron. 
-- asociaciones de hardware y sus reuniones 
-- hw el tema 'caliente'
-- equidad e inclusión como temas calientes en otras arenas
-- march for science?
-
-Las reuniones de otras asociaciones de hardware. 
-
-## Crecimiento
+- Involved in 2016, 2017 or 2018 organizing committee
+- One organizer of AfricaOSH
+- One organizer of TecnoX
+- One GOSHer that attended the 3 Global Gatherings
+- One GOSHer that was part of the roadmap collaborative writing process
 
 
-## Consolidación?
+## Status 
+
+Transcribiendo entrevistas

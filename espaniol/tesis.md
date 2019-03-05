@@ -17,7 +17,7 @@
 **Anexos**    
 A. [Plan de Gestión de Datos](tesis/anexos/pgd.md)    
 B. [Formulario de consentimiento](tesis/anexos/consentform.md)    
-C. [Cuestionario online](tesis/anexos/limesurvey.html)    
+C. [Cuestionario online](tesis/anexos/cuestionario_online.md)    
 D. [Entrevista personal](tesis/anexos/semiestructurada.md)    
 
     

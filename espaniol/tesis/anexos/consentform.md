@@ -1,6 +1,10 @@
 <details><summary><b> Formulario de consentimiento: Cuestionario Online<p><br></b></summary>
 <p>
 <p>
+Adaptado de:
+  
+- [University of Saint Andrews](https://www.st-andrews.ac.uk/utrec/guidelinespolicies/onlinesurveysandquestionnaires/)    
+- [Agnes Scott College](https://www.agnesscott.edu/irb/files/documents/Sample-Consent-Form-for-Online-Surveys.doc)
   
 ### Participación
 Su participación en esta encuesta es voluntaria. Puede negarse a participar en la investigación o salir de la encuesta en cualquier momento sin penalización. Usted es libre de negarse a responder cualquier pregunta en particular que no desee responder por cualquier motivo.
@@ -29,8 +33,10 @@ Marcar la casilla indica que
 
 <details><summary><b>Formulario de consentimiento: Entrevista semiestructurada</b></summary>
 <p>
+Adaptado de:
 
-**Título:** El movimiento de Hardware Libre/Abierto en América Latina: ¿Una alternativa democratizante de producción tecnológica?
+- [Universidad de Buenos Aires](http://psi.uba.ar/investigaciones.php?var=investigaciones/instituto/index.php)
+- [Universidad de Chile](http://www2.facso.uchile.cl/postgrado/mad/docs/2011/consentimiento_informado_2011.pdf)
 
 ## 1.Información sobre la investigación de tesis. 
 

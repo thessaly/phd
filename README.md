@@ -1,7 +1,7 @@
-# Open Source Hardware in Latin America - Democratising technology?
+# Open Science Hardware in Latin America - Democratising science&technology in the region?
 
 
-[Versión en español](/phd_ES/README_ES.md)
+[Versión en español](/espaniol/README_ES.md)
 
 
 Welcome! Here you'll find the latest updates on my phD work about the Open Source Hardware (OSHW) movement in Latin America. 
@@ -10,15 +10,15 @@ Welcome! Here you'll find the latest updates on my phD work about the Open Sourc
 Updated: March 2019 
 ```
 
-- [Map of OSHW projects](https://github.com/thessaly/OpenHWMap), _a collaborative global open source hardware map_
+- [Map of OSHW projects](https://github.com/thessaly/goshMap), _a collaborative global open source hardware map_
 
-- [Blog posts, articles, notes](/phD_EN/interesting.md)
+- [Blog posts, articles, notes](/espaniol/publicaciones)
 
 - [Thesis](/espaniol/tesis.md) _work in progress, only Spanish version for now_
 
 ### .
 ### .
-### [.about me](/phD_EN/about.md)
+### [.about me](/english/about.md)
 
 
 

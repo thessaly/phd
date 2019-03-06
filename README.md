@@ -10,7 +10,7 @@ Welcome! Here you'll find the latest updates on my phD work about the Open Scien
 Updated: March 2019 
 ```
 
-- [Map of OSHW projects](https://github.com/thessaly/goshMap), _a collaborative global open source hardware map_
+- [Map of OSHW projects](https://github.com/thessaly/goshMap), _a collaborative GOSH map_
 
 - [Blog posts, articles, notes](/espaniol/publicaciones)
 

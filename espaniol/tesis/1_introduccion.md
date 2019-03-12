@@ -25,13 +25,13 @@ La obra debe estar cubierta por una licencia cultural libre, o su situación leg
 
 Especifican además criterios adicionales para que una obra sea considerada libre:
 
->- Disponibilidad de los datos fuente: Si un trabajo final ha sido obtenido mediante la compilación o procesamiento de uno o varios archivos fuente, todos los datos fuente subyacentes deben estar disponibles junto con el propio trabajo bajo las mismas condiciones.
->
->- Uso de un formato libre: Para los archivos digitales, el formato en que se haga disponible el trabajo no debe estar protegido por patentes, salvo que se conceda un permiso libre de regalías, ilimitado, irrevocable y de ámbito mundial para hacer uso de la tecnología patentada.
->
->- Sin restricciones técnicas: La obra debe estar disponible de una forma en la que no se usen medidas técnicas para limitar las libertadas enumeradas anteriormente.
->
->- Sin otras restricciones o limitaciones: La propia obra no debe estar cubierta por restricciones legales (patentes, contratos, etc.) o limitaciones (como derechos de privacidad) que impidan las libertades enumeradas anteriormente.
+- Disponibilidad de los datos fuente: Si un trabajo final ha sido obtenido mediante la compilación o procesamiento de uno o varios archivos fuente, todos los datos fuente subyacentes deben estar disponibles junto con el propio trabajo bajo las mismas condiciones.
+
+- Uso de un formato libre: Para los archivos digitales, el formato en que se haga disponible el trabajo no debe estar protegido por patentes, salvo que se conceda un permiso libre de regalías, ilimitado, irrevocable y de ámbito mundial para hacer uso de la tecnología patentada.
+
+- Sin restricciones técnicas: La obra debe estar disponible de una forma en la que no se usen medidas técnicas para limitar las libertadas enumeradas anteriormente.
+
+- Sin otras restricciones o limitaciones: La propia obra no debe estar cubierta por restricciones legales (patentes, contratos, etc.) o limitaciones (como derechos de privacidad) que impidan las libertades enumeradas anteriormente.
 
 En la práctica, estas dos comunidades y las definiciones que aportan no son sustancialmente distintas. Sin embargo resulta complicado garantizar algunos de los criterios 'libres' cuando se hace referencia al hardware. ¿Es libre un desarrollo que tiene entre sus componentes un microprocesador que sólo puede ser fabricado en un lugar del mundo, con tecnología inaccesible para la mayoría de las personas?  Extrapolar las definiciones de libertad de usuario desde lo digital a lo material genera distintos inconvenientes. En este sentido la literatura sobre el tema coincide en que éste es el punto más difícil de conciliar (González y Gómez-Arribas, 2003; Rubow, 2008; McManara, 2007; FLOK, 2015). Las comunidades intentan resolver este problema a través de referirse al diseño de los objetos como lo que debe ser abierto, de donde surgen los requerimientos de esquemáticos, listas de materiales, instrucciones de uso y armado, etc.
 

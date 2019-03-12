@@ -16,7 +16,7 @@ Según la [Open Hardware Association (OSHWA)](https://www.oshwa.org/), comunidad
 
 Por otro lado, desde las [Obras Culturales Libres](https://freedomdefined.org), comunidad más amplia de personas y organizaciones alrededor de la cultura libre (ref), se enfatiza que para que una obra sea considerada libre debe cumplir con las siguientes cuatro libertades:
 
->- la libertad de usar el trabajo y disfrutar de los beneficios de su uso
+- la libertad de usar el trabajo y disfrutar de los beneficios de su uso
 - la libertad de estudiar el trabajo y aplicar el conocimiento adquirido de él
 - la libertad de hacer y redistribuir copias, totales o parciales, de la información o expresión
 - la libertad de hacer cambios y mejoras, y distribuir los trabajos derivados

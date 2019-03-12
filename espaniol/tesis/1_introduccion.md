@@ -47,8 +47,9 @@ Este capítulo tiene la intención de introducir el concepto de hardware abierto
 >
 > En su origen, Arduino fue pensado por un equipo de cinco personas en el Ivrea Interaction Design Institute en Turín, Italia, con el objetivo de contar con una herramienta sencilla de utilizar para estudiantes, que les permitiera fabricar objetos sin tener que contar con conocimientos avanzados de electrónica. Actualmente, además de la plataforma, Arduino es una comunidad organizada alrededor de su sitio web, donde más de 300 mil usuarios de distintas partes del mundo comparten sus diseños, recomendaciones y preguntas.
 >
-><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Reprap_Darwin.jpg" width=50%>  
+><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Reprap_Darwin.jpg" width=50%>       
 >_Fig. 1: Versión 1.0 (Darwin) de RepRap, la impresora 3D autorreplicable basada en Arduino (Fuente: Wikipedia)_
+>
 >
 >Arduino posee algunas ventajas que lo volvieron una de las ‘estrellas’ del hardware libre, viralizando su uso en cientos de proyectos a escala global y motorizando así la nueva ola del movimiento maker. Los atributos que destacan en Arduino son, principalmente: bajos costos -la placa más sencilla cuesta menos de 25 dólares-, compatibilidad en todos los sistemas operativos -Windows, Macintosh, Linux-, utilizar un lenguaje de programación simple para los novatos pero con funcionalidades potentes para los expertos, y la posibilidad de contar con código abierto tanto en software como hardware, posibilitando el intercambio entre usuarios y sumando modificaciones y nuevas funcionalidades en base a experiencias de otros.
 >
@@ -89,11 +90,9 @@ En 1983 Stallman inicia el proyecto GNU ("GNU's Not UNIX") con el fin de produci
 Compartir de forma pública las innovaciones o mejoras realizadas de forma individual no constituye una novedad a través de la historia, ya que pueden rastrearse antecedentes en áreas tan diversas como la industria del hierro en el siglo XVIII (Allen, 1983) o el equipamiento médico (Von Hippel and Finkelstein,1979). Sin embargo el aporte del movimiento FOSS a través del concepto de copyleft, sus licencias y la promoción del modelo de producción de pares sistematizó una forma de trabajar -e innovar- colaborativa, de libre circulación de la información. Esto inspiró otros movimientos en diversas áreas (open Source drugs, Open Design, Free Culture, Open Source Ecology para nombrar algunos), incluyendo el desarrollo de hardware.
 
 ## Enablers
-
+***
 Hablar de explosión proyectos ohw (Berchon, 2013):
 - disminución en los costos de los componentes  (shenzhen)
-
-
 - acceso a componentes
 - acceso a servicio de fabricación post prototipado
 - impresión 3d
@@ -101,8 +100,7 @@ Hablar de explosión proyectos ohw (Berchon, 2013):
 - kits pre armado
 - acceso a conocimiento por masificación de internet
 
-***
-WORK ON THIS BY VON Hippel:
+VON Hippel:
 
 Users’ abilities to develop high-quality new products and services for them-
 selves are improving radically and rapidly. Steady improvements in com-
@@ -147,6 +145,7 @@ rapidly coming down in price. As a consequence, innovation by users will continu
 to grow even if the degree of heterogeneity of need and willingness to invest in
 obtaining a precisely right product remains constant.(Von Hippel, 2005)
 
+***
 
 ## ¿Cómo se hace hardware abierto?
 
@@ -157,12 +156,12 @@ Los pasos necesarios para construir hardware electrónico han ido mutando hacia 
 Un primer paso consiste en obtener un **diagrama esquemático**, es decir un gráfico donde se especifican los componentes electrónicos (resistencias, capacitores, circuitos integrados)  a utilizar y sus conexiones, a través de un sistema de símbolos. En caso de ser necesario también se indica información sobre valores de cada componente (por ejemplo una resistencia de 10-kilohm). Sin embargo el esquemático no posee toda la información necesaria para fabricar una plaqueta de circuito impreso.
 
 ![esquemático](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/4_bit_counter.svg/1280px-4_bit_counter.svg.png)
-_Fig. 3: Ejemplo de diagrama esquemático de un contador TTL (Fuente: Wikipedia)_
+*Fig. 3: Ejemplo de diagrama esquemático de un contador TTL (Fuente: Wikipedia)*
 
 En la actualidad, todos los objetos electrónicos se fabrican utilizando plaquetas de circuito impreso, a diferencia del sistema de cableado punto a punto utilizado hasta los años 60. Los circuitos impresos aportaron un nivel mucho mayor de automatización en la fabricación: se eliminó el cableado, ya que las conexiones, constituidas por líneas de cobre, se encuentran integradas en un soporte no conductor -generalmente epoxy- que además sostiene los componentes. Esto permitió no sólo reducir el espacio que ocupa el circuito sino también integrar el uso de microchips, el corazón de las tecnologías como teléfonos móviles, computadoras, tablets y más.
-
+<br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PCB_design_and_realisation_smt_and_through_hole.png/1024px-PCB_design_and_realisation_smt_and_through_hole.png" width=80%>    
-_Fig 4: ejemplo de diseño digital de circuito impreso (izq.) y circuito final (der.) (Fuente: Wikipedia)_
+*Fig 4: ejemplo de diseño digital de circuito impreso (izq.) y circuito final (der.) (Fuente: Wikipedia)*
 
 Hasta el advenimiento de las herramientas digitales, el paso del esquemático al circuito impreso requería cierta habilidad "artística" del fabricante: se utilizaba una “máscara” de cinta negra sobre una placa de acetato para indicar la ruta de conexiones más eficiente a fin de transformar el diagrama en una plaqueta. Actualmente este proceso se encuentra automatizado en dos pasos: primero se crea digitalmente a partir del diagrama una “**captura esquemática”**, es decir una representación lógica de los componentes y su interconexión. El producto de este proceso es un archivo conteniendo toda la información sobre el diagrama y un archivo “netlist” con datos sobre conexiones eléctricas entre componentes.
 
@@ -212,12 +211,12 @@ Aunque los costos de las plataformas electrónicas como Arduino realmente dismin
 
 En cuanto a las dificultades que se identifican en los procesos de desarrollo, principalmente son aquellas relacionadas a la dificultad de conseguir componentes -que no se encuentran disponibles en todos los países-, la necesidad de estandarización en el uso tanto de plataformas electrónicas como de software de diseño, que permita a los grupos interactuar de forma sencilla -en este sentido todos los autores remarcan la importancia de Arduino-, y en menor medida la dificultad para documentar y trackear los cambios entre versiones -para lo cual existen iniciativas de documentación por parte de distintas organizaciones-.
 
-> **Box3: Open Source Ecology - Global Village Construction Set**
+> **Box3: Open Source Ecology - Global Village Construction Set**     
 > Open Source Ecology es una iniciativa de Marcin Jakubowski, un estudiante polaco de física nuclear en Estados Unidos, quien después de obtener su doctorado comenzó a trabajar en su propia finca en Missouri. Allí se dio cuenta que era incapaz de reparar por sí mismo el tractor con el que trabajaba debido al elevado costo de los repuestos, por lo que decidió crear ‘Global Village Construction Set’, siguiendo la filosofía del software libre.
 >
 > Global Village Construction Set es el desafío de crear 50 herramientas que cualquier finca necesitaría con el objetivo de ser sostenible y autónoma. Según Wikipedia, es "Una plataforma de alto rendimiento, modular, de bajo costo, do-it-yourself que habilita la fabricación de 50 máquinas industriales diferentes que se precisan para construir una pequeña y sostenible civilización con comodidades modernas".
 >
->![Global village construction set](http://opensourceecology.org/w/images/thumb/9/90/GVCS.jpg/762px-GVCS.jpg)    
+>![Global village construction set](https://www.opensourceecology.org/wp-content/uploads/2014/02/gvcs-all-50.jpg)    
 >_Fig. 6: El kit incluye un tractor, impresora 3D, cortadora láser, soldadora, aserradero, un horno de panadería, un pulverizador de suelo, una sembradora, un aerogenerador, entre otros (Fuente: Open Source Ecology)_
 >
 >La filosofía de Open Source Ecology es que el problema del acceso a las herramientas y maquinarias no está relacionado a la escasez de recursos sino a su distribución desigual. Volviendo accesibles los planos, esquemáticos y manuales, Open Source Ecology busca fabricar herramientas accesibles para todos, especialmente aquellos que habitan pequeñas comunidades.
@@ -228,6 +227,7 @@ En cuanto a las dificultades que se identifican en los procesos de desarrollo, p
 >_Fig. 7: Comparación de costos entre maquinaria agrícola abierta y privativa (Fuente: Benjamin Tincq)_
 >
 >Open Source Ecology es una obvia inspiración para otros “makers” y emprendedores, pero además puede brindar lecciones a instituciones de investigación y desarrollo existentes. Existen enormes oportunidades en el acceso abierto a los planos técnicos de maquinaria agrícola, energía renovable y tecnologías de acceso al agua y saneamiento, que ya han sido desarrolladas por dichas instituciones de I+D. Abrir esos diseños podría ayudar a los actores locales a adquirir nuevos conocimientos, desarrollar sus propias herramientas e incluso ayudar a mejorar las que ya están disponibles.
+
 
 ## ¿En qué áreas se desarrolla hardware abierto?
 
@@ -270,7 +270,7 @@ Además de la adquisición de habilidades técnicas y el fomento de la creativid
 >  
 >A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
 >
-><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>   
+><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>    
 >_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
 
 Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
@@ -287,7 +287,7 @@ Gran parte de las compañías basadas en OHW trabajaban en 2013 en el rubro de e
 
 Hasta el año 2007 se lanzaba sólo una compañía OHW por año: ejemplos de ello son Parallax (1986), Solarbotics (1994), Lynxmotion (1995, luego comprada por RobotShop), ShopBot (1996), Egnite (1997), WIZnet (1998). Pero a partir de 2007 el número crece rápido -ver figura 12-. En promedio toma a los emprendedores dos años pasar de la idea del proyecto a un producto definido.
 
-![](https://image.slidesharecdn.com/open-hardware-entrepreneurship-130909013556-/95/the-state-of-open-hardware-entrepreneurship-in-2013-9-638.jpg?cb=1380311117)
+![](https://image.slidesharecdn.com/open-hardware-entrepreneurship-130909013556-/95/the-state-of-open-hardware-entrepreneurship-in-2013-9-638.jpg?cb=1380311117)    
 _Fig. 12: número de empresas OHW lanzadas por año, a 2013 (Fuente: [Berchon, 2013](https://www.slideshare.net/makingsociety/the-state-of-open-hardware-entrepreneurship-in-2013?ref=http://makingsociety.com/2013/09/the-state-of-open-hardware-entrepreneurship-2013/))*_
 
 En cuanto al perfil de los emprendedores, mayoritariamente poseen una formación en ingeniería (83%), diseño (17%) -incluyendo artistas digitales con conocimientos en aspectos técnicos- y docentes e investigadores (14%) provenientes de áreas técnicas, que dedican su tiempo libre a trabajar en proyectos OHW. El 47% de las compañías es liderado por emprendedores solos, comparado con el 52% que lo hace en equipo, lo que la autora atribuye a la ventaja de contar con una comunidad online fuerte de apoyo. Sólo el 5% de las compañías son lideradas por mujeres -excepciones notables como Adafruit o LittleBits-, y sólo 10% las incluyen en los equipos fundadores, aunque sí participan en gran medida en hackerspaces, proyectos y eventos.
@@ -298,7 +298,7 @@ Más de la mitad de las compañías se financian con sus propios recursos (62%) 
 >
 >Adafruit Industries es una compañía basada en open source hardware ubicada en la ciudad de Nueva York, fundada en 2005 por la hacker e ingeniera Limor Fried mientras estudiaba en el Massachusetts Institute of Technology. La empresa diseña y fabrica una serie de productos electrónicos y vende un amplio rango de componentes, herramientas y accesorios vía su tienda web. Los productos ofrecidos abarcan rangos de principiante -kits que producen sonidos al recibir una señal- a experto -como sofisticados microcontroladores para celulares y desarrolladores de videojuegos-.
 >
-><img src=https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg width=50%>   
+><img src=https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg width=50%>    
 >_Fig. 13: Limor Fried, premiada como emprendedora del año en 2012, fue tapa de la revista de tecnología WIRED (Fuente: Wired)_
 >
 >Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
@@ -321,8 +321,8 @@ Dependiendo del rubro, la variedad y velocidad de renovación del catálogo de p
 Este modelo está inspirado directamente en la industria del software libre, su valor radica en la experiencia y el servicio. En OHW esto se traduce a talleres de DIY (Tripalium, Open Source Ecology), la venta del producto más la "experiencia" de construirlo (Wikispeed) ó venta de servicios de consultoría para empresas que desean utilizar el producto en su cadena de valor (Arduino, Wikispeed).
 
 <img src=https://i.pinimg.com/originals/85/c9/99/85c999a3b9c1a0541c68c52a217cbb81.png width=70%>    
-_Fig 14. Turbina eólica abierta de Tripalium, una fundación que promueve la energía eólica (Fuente: Tripalium.org)_
-
+_Fig 14. Turbina eólica abierta de Tripalium, una fundación que promueve la energía eólica (Fuente: Tripalium.org)_    
+    
 4. **Sistemas de Producto-Servicio**
 
 Surgieron en 1959 con el modelo de impresión pay-per-copy instalado por Xerox, y están teniendo mayor difusión actualmente de la mano de conceptos como la economía social y la economía circular. Se basan en ofrecer el derecho de uso del producto en lugar de su propiedad. En OHW aún es incipiente, pero el autor aduce que posee potencial. Cicero agrega que las compañías podrían beneficiarse a partir de un ofrecer el software como servicio asociado a un producto OHW, especialmente en el caso de los sistemas embebidos y la Internet de las Cosas (IoT) -aunque alega que el mercado aún no posee la madurez suficiente para llegar a ese lugar-.
@@ -334,6 +334,7 @@ Consiste en abrir estratégicamente un producto clave que sea redituable en sí 
 6. **Modelos de plataforma**
 
 Su valor radica en organizar un ecosistema de actores industriales (diseñadores, fabricantes, revendedores, consumidores, prosumidores, marcas, etc.) alrededor de una tecnología clave OHW o plataforma. Casos paradigmáticos: OpenDesk (ver Box 9) y OSVehicle. OSVehicle diseñó el motor y chasis Tabby -OHW, eléctrico y modular-. Construyeron una "cadena de valor participativa" donde el mismo se distribuye de manera justa entre todos los participantes.
+<br>
 
 > **Box 9: Open Desk**
 >
@@ -341,7 +342,7 @@ Su valor radica en organizar un ecosistema de actores industriales (diseñadores
 >
 >Cuánto de este proceso es realizado por el usuario depende un poco de sí mismo. Si se cuenta con la capacidad y herramientas para construir el diseño, se puede descargar y hacer el producto desde cero. En caso contrario, se puede contratar un maker desde la página, que fabricará el objeto para el cliente. Mientras mas trabajo se haga personalmente, mas bajo es el costo. Todo depende de donde se encuentre, si hay fabricantes locales disponibles y de si se tiene acceso a la maquinaria necesaria.
 >
-> <img src=https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg width=70%>    
+> <img src=https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg width=70%>       
 > _Fig. 15: modelo de escritorio disponible para descargar (Fuente: OpenDesk.com)_
 >
 >Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
@@ -358,7 +359,7 @@ Uno de los puntos más interesantes es el análisis de por qué aún el OHW no e
 >
 >En 2009 fundaron 3D Robotics con el objetivo de liderar el mercado de fabricación de drones y UAVS de calidad profesional a precios accesibles. En 2012, Anderson dejó la revista WIRED para ocupar el puesto de CEO junto con Jordi Muñoz, el mismo año que 3D Robotics anunció que cerraría parte de su código, lo cual fue tomado como una "traición" por parte de la comunidad de DIY Drones que se consideraba parte del proyecto (Cuartielles, 2014).
 >
-><img src="https://3dr.com/wp-content/uploads/2017/03/Solo_r10c-1024x443.jpg" width=70%>    
+><img src="https://3dr.com/wp-content/uploads/2017/03/Solo_r10c-1024x443.jpg" width=70%>         
 >_Fig. 16. Solo, el drone estrella de 3D Robotics (Fuente: 3Dr)_
 >
 >La empresa llegó a tener oficinas en la ciudad de San Diego y Berkeley en California, ventas y marketing en Austin, Texas y una planta de producción en Tijuana, Baja California, México, que producían alrededor de 15,000 pilotos automáticos al año, generando ganancias de alrededor de 20 millones de dólares anuales.
@@ -366,8 +367,8 @@ Uno de los puntos más interesantes es el análisis de por qué aún el OHW no e
 >La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.
 
 #### Personalización del consumo - DIY
-**A completar**
 ***
+**A completar**
 Para el autor es esperable que aparezcan nuevos jugadores en el mercado de la producción de hardware que más allá de estar basados o no en la filosofía de apertura, aprovecharán la ventaja otorgada por la creciente modularización que el OHW trae a la industria -como hizo Google con el FLOSS-. Este escenario de fabricantes lo suficientemente elásticos en infraestructura sería compatible con un nuevo tipo de demanda, ágil, ultra customizada, orientada por la comunidad y a los prosumidores.
 
 Según Cicero en los próximos años deberíamos poder observar transformaciones radicales en el concepto de "fábrica": la producción será descentralizada y potencialmente desvinculada de las marcas y fabricantes, acercándose al concepto defendido por FLOK sobre desarrollo endógeno y soberanía tecnológica. En este sentido Powell coincide con Cicero aunque resulta más escéptico respecto al beneficio social en otros aspectos -por ejemplo democratización en el acceso a la tecnología-. Ambos plantean que la inserción del modelo OHW en la industria traería ventajas relacionadas a la sustentabilidad al favorecer la desaparición de la obsolescencia programada en los productos de consumo .
@@ -429,7 +430,7 @@ Algunos autores mencionan como beneficio social la capacidad de los desarrollos 
 >
 >Luego de dos años de trabajo junto a su equipo salió a la luz la versión 2.0 del proyecto. La idea central es que cualquier persona pueda fabricar las máquinas del set fácilmente con materiales accesibles en cualquier lugar del mundo. El diseño es modular para facilitar su construcción; también difunden videos tutoriales y la documentación necesaria a través de su página web, bajo licencia abierta.
 >
->![preciousplastic](https://scontent.faep11-1.fna.fbcdn.net/v/t1.0-9/13166073_934169426680288_9203599104270471372_n.jpg?oh=7fb980b2495f858b97aefe43811804de&oe=5B4485DF)
+>![preciousplastic](https://preciousplastic.com/images/hero-machines.png)    
 >_Fig. 9: Set de máquinas que integran el proyecto: trituradora, extrusora, una máquina de inyección y una compresora (Fuente: comunidad Precious Plastic en Facebook)._
 >
 >El proyecto se difundió principalmente a través de un video en Facebook, en el cual Hekkens explica los conceptos detrás del mismo y solicita difusión. La comunidad se aglutina alrededor de un foro web (www.preciousplastic.com) donde se intercambian consejos y preguntas. Actualmente existen réplicas en 34 países alrededor del mundo.
@@ -470,10 +471,10 @@ Las licencias disponibles hoy son las siguientes:
 a) TAPR
 La [Tucson Amateur Packet Radio](https://en.wikipedia.org/wiki/Tucson_Amateur_Packet_Radio) -TAPR, una organización internacional de radios amateur- definió el concepto de "hardware libre" en lo que constituyó el primer mecanismo de regulación de propiedad intelectual para este tipo de desarrollos. En esta licencia se lo define como “**una cosa -artefacto físico, ya sea eléctrico o mecánico- cuya información de diseño se encuentra disponible y utilizable por parte del público, de forma tal que permite a cualquier persona fabricarla, modificarla, distribuirla o utilizarla**” (TAPR, 2007).
 
-b) Balloon
-c) HW Design Public
-d) Solderpad
-e) CERN
+b) Balloon     
+c) HW Design Public      
+d) Solderpad     
+e) CERN OHL
 
 
 ## Políticas

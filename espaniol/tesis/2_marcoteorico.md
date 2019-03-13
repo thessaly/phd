@@ -1,5 +1,7 @@
 # Marco teórico
 
+[Diagrama de marco teórico](https://docs.google.com/drawings/d/1hCUp3uIgbGgu9CnA-7CCFo7fYiUk8OCh55d-oFYO4UU/edit?usp=sharing)
+
 Con el fin de comprender cómo esta nueva forma de construir tecnología (abierta, colaborativa, democratizante) interactúa con la manera existente, dominante de producirla (centralizada, de diseño cerrado y asociada al uso de patentes) se utilizará la perspectiva multi-nivel (Kemp et al., 1998; Rip y Kemp, 1998). Para este trabajo consideramos a la producción de tecnología como un sistema socio-técnico, compuesto por redes de actores, instituciones, objetos materiales y conocimiento que interactúan con el fin de desarrollar tecnologías. La perspectiva multi-nivel explica las transiciones socio-técnicas -procesos de largo plazo, multi-dimensionales, que transforman las variables fundamentales en las que se basa el sistema- a partir de la interacción y dinámica de tres niveles: nicho, régimen y entorno. Provee una forma bastante concreta de ordenar y simplificar el análisis de transformaciones estructurales complejas y de gran escala, y cuenta con numerosos estudios históricos, que dieron lugar a tipologías de transición de gran utilidad (Smith et al., 2005; Geels and Schot, 2007): transporte terrestre (Geels, 2005), Transporte marino (Geels, 2002), Gestión de cargas (Van Driel and Schot, 2005), Sistemas eléctricos (Verbong and Geels, 2007), Movilidad (Nykvist and Whitmarsh, 2008), Producción orgánica (Smith, 2007).
 
 ## 1. Perspectiva Multi-Nivel

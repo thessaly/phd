@@ -2,11 +2,53 @@
 
 [Diagrama de marco teórico](https://docs.google.com/drawings/d/1hCUp3uIgbGgu9CnA-7CCFo7fYiUk8OCh55d-oFYO4UU/edit?usp=sharing)
 
-El movimiento global por el hardware científico abierto (GOSH) plantea una nueva forma de construir herramientas científicas que pretende ser abierta, colaborativa y más democrática que la dominante: centralizada, de diseño cerrado y asociada al uso de patentes. Se trata de una propuesta de cambio socio-técnico, una transición desde la configuración actual hacia un nuevo esquema de actores, prácticas, regulaciones, artefactos y relaciones. Para analizar este tipo de situaciones resulta útil recurrir a la literatura de transiciones socio-técnicas (Kemp et al., 1998; Rip y Kemp, 1998). Este enfoque provee una forma concreta de ordenar y simplificar el análisis de transformaciones estructurales complejas y de gran escala, con numerosos estudios históricos que dieron lugar a diversas tipologías de transición (Smith et al., 2005; Geels and Schot, 2007). Considera el cambio socio-técnico como un proces de largo plazo, multi-dimensional, transformador de las variables fundamentales en las que se basa el sistema, resultante de la interacción y dinámica de tres niveles de análisis: nicho, régimen y entorno. 
+## Transiciones socio-técnicas
+El movimiento global por el hardware científico abierto (GOSH) plantea una nueva forma de construir herramientas científicas que pretende ser abierta, colaborativa y más democrática que la dominante: centralizada, de diseño cerrado y asociada al uso de patentes y propiedad intelectual. 
+Se trata de una propuesta de cambio socio-técnico, una transición desde la configuración actual hacia un esquema de actores, prácticas, regulaciones, artefactos y relaciones diferente. 
+Para analizar este tipo de situaciones resulta útil recurrir a la literatura de transiciones socio-técnicas (Kemp et al., 1998; Rip y Kemp, 1998). 
+Este enfoque provee una forma concreta de ordenar y simplificar el análisis de transformaciones estructurales complejas y de gran escala, con numerosos antecedentes de estudios históricos que dieron origen a diversas tipologías de transición (Smith et al., 2005; Geels and Schot, 2007). 
+Esta perspectiva considera el cambio socio-técnico como un proceso de largo plazo, multi-dimensional, transformador de las variables fundamentales en las que se basa el sistema, resultante de la interacción y dinámica de tres niveles de análisis: nicho, régimen y entorno. 
 
-La literatura de transiciones tiene su origen en la confluencia de la economía evolucionista y la sociología de la tecnología. Se utiliza frecuentemente para analizar por qué una tecnología es adoptada mayoritariamente en lugar de otra, y cómo esos procesos actúan a través del tiempo. Sin embargo presenta limitaciones importantes a la hora de estudiar innovaciones por fuera del ámbito de la firma u otras instituciones típicas del ecosistema de la innovación. No proporciona las herramientas para entender las innovaciones que surgen de organizaciones de la sociedad civil, o categorías para analizar lsa estrategias que éstas utilizan para garantizar resultados. Estas comunidades constituyen un tipo particular de nicho de innovación donde conviven la producción de nuevos conocimientos y/o tecnología con elementos ligados a la figura de los movimientos sociales. Es por ello que resulta necesario conectar el primer enfoque con la literatura de movimientos sociales, para entender qué visiones, estrategias, recursos y oportunidades están operando en el proceso de cambio. Esta síntesis entre la literatura de transiciones socio-técnicas y de movimientos sociales cuenta con antecedentes en estudios sobre los denominados 'Movimientos de innovación de base'.
+La literatura de transiciones se nutre tanto de la economía evolucionista como de la sociología de la tecnología. 
+Es frecuentemente utilizada en trabajos que buscan entender por qué una tecnología es adoptada mayoritariamente en lugar de otra, y cómo esos procesos evolucionan a través del tiempo. 
 
-Como se mencionaba al comienzo, el movimiento GOSH busca una transición hacia una forma de producir herramientas científicas más democrática. 
+## Movimientos Sociales
+Sin embargo la literatura de transiciones presenta limitaciones importantes a la hora de estudiar innovaciones que ocurren por fuera del ámbito de la firma u otras instituciones típicas del ecosistema de la innovación. 
+En estos lugares 'atípicos', actores interactuando bajo distintas formas de asociación de la sociedad civil ponen en juego discusos, recursos y estrategias para alcanzar sus fines, que exceden las categorías que propone éste enfoque. 
+Es por ello que resulta conveniente conectar este marco con la literatura de movimientos sociales, para entender bajo qué formas diferentes los actores ponen en circulación visiones y motivaciones, estrategias, recursos y oportunidades en el proceso de cambio. 
+Esta síntesis entre la literatura de transiciones socio-técnicas y de movimientos sociales cuenta con antecedentes en el estudio de los denominados 'Movimientos de innovación de base', específicamente dirigidos al análisis de las comunidades productoras de conocimiento y tecnología.
+
+
+## Transiciones socio-técnicas hacia la democratización
+La transición hacia una configuración más democrática implica definir qué se entiende por democratización de la ciencia y tecnología. 
+El tema es amplio y su discusión cada vez más frecuente dada la mediación total de la tecnología en nuestra vida cotidiana. 
+El enfoque que utiliza este estudio es el de la teoría crítica de la tecnología desarrollada por Andrew Feenberg, basándose en los trabajos de Marcuse y Foucalt.
+La teoría crítica econoce tanto el carácter no autónomo de la tecnología como la inscripción de valores e intereses en la misma. 
+Contempla que está embebida de los valores y fines hegemónicos, pero también puede estar inscripta con intereses, historias, contextos y valores diferentes. 
+Plantea además que es necesario estudiar los significados y los valores que los usuarios inscriben en la tecnología a través de la experiencia, porque si sólo se estudian los actores dominantes se corre el riesgo de asumir que su posición es la única existente.
+La democratización de la tecnología no implica volver a un mundo de valores religiosos y morales, si no decidir democráticamente qué tipo de valores son deseables de ser embebidos en la tecnología. En palabras de Feenberg el proceso se iniciará '[...] no cuando nos alejemos de la tecnología en pos del sentido, sino cuando reconozcamos la naturaleza de nuestra posición subordinada en los sistemas socio-técnicos de los cuales formamos parte, e intervengamos en el proceso de diseño y la defensa de las condiciones de una vida digna y un ambiente saludable'.
+
+Para volver operativo este análisis se recurre a categorías que estudian el rol de los usuarios desde distintas perspectivas: estudios de innovación, abordaje SCOT, estudios del movimiento open source, estudios feministas y abordajes semióticos, entre otros. 
+Se presentan a continuación organizados bajo tres preguntas principales:
+
+- ¿Quiénes inscriben estos nuevos valores y qué poder ejercen?
+
+
+- ¿Cómo lo llevan adelante?
+
+
+- ¿Cuánto participan de este proceso de inscripción?
+
+
+
+
+
+
+
+
+
+
+
 
 ## 1. Perspectiva Multi-Nivel
 
@@ -102,6 +144,16 @@ El carácter político de la ciencia, tecnología e innovación fue estudiado en
 Feenberg considera que la democratización es una tendencia que viene atravesando diversos fenómenos sociales -como la economía, la educación o la medicina, "arenas" donde la población cada vez aumenta más su participación- como resultado de disputas circunscritas a casos específicos, como el activismo por el VIH-SIDA. Diversos sucesos políticos en los años 60 cuestionaron el rol de los expertos, exigiendo una mayor participación de la población en lo que refiere a decisiones de política de ciencia y tecnología -como ser tecnologías contaminantes, o la relación entre la creciente mecanización y el empleo-. Como resultado, en las últimas décadas se observan cada vez más casos donde sectores de la población exigen discutir las implicancias sociales de los avances científico-tecnológicos (Stirling, 2008;  Chilvers  & Kearnes, 2016).
 
 Específicamente en el campo de ciencia y tecnología, la cuestión de la democratización se asocia a la visibilización de la dimensión política del desarrollo tecnológico. Si la tecnología no es neutral ni autónoma, entonces todo desarrollo tecnológico posee una dimensión política se vuelve posible pensar en cómo se puede democratizar dicho proceso de construcción (Feenberg, 2012). Esta es la visión desarrollada por la teoría crítica de la tecnología, que cuestiona la autonomía de los desarrollos -en el sentido de que son controlados por las acciones humanas, no una fuerza externa a ellas- y también su neutralidad -no pueden ser neutrales porque están embebidos socialmente, ya que la forma en que hacemos las cosas determina quiénes somos y nuestros valores-.
+
+A mediados del siglo XIX Marx es uno de los primeros autores en proponer un abordaje social de la tecnología, incorporando su desarrollo como elemento constitutivo de la explicación histórica. 
+A partir de entonces, dos visiones dominaron los discursos sobre tecnología y sociedad: una determinista para la cual la tecnología es un medio autónomo hacia fines universales a toda la humanidad (y por lo tanto el avance tecnológico es el avance de toda la especie humana); y una sustantivista para la cual la tecnología no es neutral, está inscripta con los valores e intereses de la hegemonía y como medio afecta los fines y transforma lo que definimos como humano (Heidegger, 1977; Ellul, ).
+Ambas perspectivas comparten una visión automática y lineal del avance tecnológico: la primera lo nombra como 'progreso' y la segunda como 'dominación', ambos inevitables y sin lugar para el control humano.
+El filósofo de la tecnología Andrew Feenberg denomina a estas dos posturas 'esencialistas': existe sólo una 'esencia' de la tecnología, que es la responsable de los problemas de la civilización moderna. 
+Las consecuencias de la primera son evidentes en los desafíos de nuestro contexto actual (ya sea en términos de daños ambientales, a la salud, monopolio de la información y datos personales, privacidad de las personas); la consecuencia de la segunda es la inacción frente a la distopía.
+Feenberg propone una vía superadora de estos determinismos con su teoría crítica de la tecnología, basándose en los trabajos de Marcuse y Foucalt.
+En ella reconoce tanto el carácter no autónomo de la tecnología como la inscripción de valores e intereses en los medios tecnológicos. Toma del constructivismo el desarrollo contingente y la conexión entre los medios y los fines tecnológicos, pero los asume conectados en sistemas sujetos al control humano.
+Feenberg desarrolla una teoría crítica de la tecnología dirigida a exponer cómo el diseño tecnológico es permeado por valores e intereses, pero también puede ser embebido con intereses y valores democráticos.
+Mientras que los análisis sociológicos post-Kuhnianos se enfocan en demostrar la forma en que la ciencia y tecnología llevan inscriptos valores hegemónicos, la teoría crítica intenta exponer tanto ésto como la posibilidad de inscribir nuevos valores en el diseño tecnológico. 
 
 Un concepto que resulta interesante es el de "ambivalencia" tecnológica (Feenberg, 1999), que podemos relacionar a la las configuraciones o caminos alternativos previamente mencionados. Para el autor no existe una única correlación entre avance tecnológico y distribución de poder. Las configuraciones tecnológicas, al ser situadas, son diversas y responden a distintos intereses. Distintas configuraciones favorecen a distintos actores. La ambivalencia tecnológica abre la puerta a que la esfera pública pueda permear en zonas antes reservadas al saber estrictamente técnico-experto, inclinando las decisiones hacia configuraciones sociotécnicas más convenientes para la mayoría de la población, sin caer necesariamente en visiones de “vuelta a la naturaleza” o anti-tecnología.
 

@@ -80,7 +80,7 @@ En el contexto o entorno los cambios son lentos (culturales, demograficos, polit
 
 Los tres niveles tienen una jerarquia anidada: nicho > regimen > entorno
 
-### Transiciones socio-técnicas
+### Tipologías de transición
 
 La MLP permite establecer relaciones entre los diversos componentes de un sistema en un tiempo y lugar dados, para así poder analizar momentos de estabilidad y de cambio.
 Se asume que los procesos de cambio de un sistema socio-técnico a otro no son el resultado de procesos lineales, sino de la interacción de múltiples elementos a tres escalas de observación: Nichos -el hogar protegido de las innovaciones radicales-, los regímenes socio-técnicos -las prácticas y normas establecidas, el status quo- y el factor exógeno o ‘entorno’ socio-técnico. 

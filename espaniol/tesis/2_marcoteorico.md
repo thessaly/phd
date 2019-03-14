@@ -76,7 +76,7 @@ En los estudios feministas sobre la tecnología los usuarios y su diversidad son
 Sugieren que la distribución del poder entre múltiples actores involucrados en redes socio-técnicas debe ser abordada como una pregunta empírica (Lie & Sørensen, 1996: 4, 5; Clarke, 1998: 267; Oudshoorn et al., 2005).
 
 Oudshoorn et al (2005) combina el concepto de script con el de **agencia distribuida** a fin de analizar cómo se distribuyen el poder, la responsabilidad y el control entre los actores humanos alrededor de una tecnología en particular (dispositivos de video-comunicación en hospitales). 
-uestran cómo las asímetrias de poder entre actores humanos se originan en decisiones deliberadas humanas.
+Muestran cómo las asímetrias de poder entre actores humanos se originan en decisiones deliberadas humanas.
 Esta combinación de conceptos resulta útil para el análisis empírico.
 Por un lado describe las formas en las que el script de una tecnología organiza y estructura la red en términos de agencia y control distribuidos, con énfasis en asimetrías entre actores humanos. 
 Por otro lado analiza en qué medida esa agencia se traduce en influencia sobre el proceso de diseño de las tecnologías.
@@ -84,3 +84,17 @@ Por otro lado analiza en qué medida esa agencia se traduce en influencia sobre 
 ### Cómo participan: innovación en las bases
 
 ### Cuánto participan: espontaneidad e intensidad
+
+Bucchi y Naresini (2007) proponen un marco para analizar las iniciativas híbridas donde conviven expertos y no expertos alrededor de temas de ciencia y tecnología.
+La distinción entre expertos y no expertos es borrosa especialmente en el tipo de comunidades analizada, pero es posible detectar un gradiente de expertise en los procesos de producción de tecnología.
+Callon (1999) menciona en este sentido que en los 'foros híbridos' no sólo existe intercambio de información entre actores sino también negociación y producción de nuevas identidades.
+
+El primer eje que toma de Callon et al (2001) es la dimensión de **intensidad de cooperación** entre actores en los procesos de producción del conocimiento (Callon et al., 2001:175). 
+Entiende la intensidad de cooperación como un continuo en el cual se pueden identificar puntos de acceso claves de intervención de los no-expertos, que son cruciales en la estabilización del conocimiento o tecnología finales.
+
+Por otro lado identifica como eje en qué medida la iniciativa es impulsada por un sponsor, o en otras palabras el grado de **espontaneidad de la participación**. 
+Esto permite visibilizar iniciativas que surgen de forma más o menos espontánea, auto-organizadas desde las bases.
+Nuevamente la variable es un continuo, en el cual las iniciativas pueden navegar con el paso del tiempo o a partir de hechos particulares. 
+En este tono resulta interesante el abordaje ya que permite preguntar no por el modelo de participación correcto, sino qué modelos de participación emergen bajo ciertas condiciones.
+
+![diagrama bucchi](https://raw.githubusercontent.com/thessaly/phd/master/espaniol/notas_bibliografia/bucchi.png)

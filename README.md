@@ -1,4 +1,4 @@
-# Open Science Hardware in Latin America: Democratising science&technology in the region?
+# Open Science Hardware in Latin America: Democratising technology?
 
 
 [Versión en español](/espaniol/README_ES.md)

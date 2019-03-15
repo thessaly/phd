@@ -10,9 +10,7 @@
    Qué es el HW científico abierto, quiénes lo hacen, por qué, cómo lo desarrollan, en qué rubros, oportunidades y desafíos.
 
 2. [Marco teórico](tesis/2_marcoteorico.md)    
-    Transiciones socio-técnicas, Movimientos de Innovación de Base, Construcción de Capacidades, Participación    
-        2b. [AST UNQ](tesis/2b_AST.md)    
-        Análisis socio-técnico presentado para la materia de Estudios Sociales de la Tecnología (UNQ)
+    Teoría crítica de la tecnología, Transiciones socio-técnicas, Movimientos de Innovación de Base    
 
 3. [Diseño](tesis/3_disenio.md)    
     Categorías analíticas a utilizar, metodología de recolección y análisis de datos

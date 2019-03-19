@@ -2,13 +2,41 @@
 
 ## ¿Qué es el hardware científico abierto?
 
-Cuando se quiere definir el término 'hardware' en español aparecen varios inconvenientes. El primero es la falta de una traducción. ¿Cómo se traduce 'hardware'? ¿Son herramientas, tecnologías, artefactos, dispositivos? ¿Es necesario traducirlo? En segundo lugar aparece la asociación directa del término al ámbito de la informática. Coloquialmente en español entendemos al hardware como el soporte físico (ref RAE) o los componentes materiales de una computadora, equiparándolo al concepto de 'computer hardware' en inglés. Esto trae algunos problemas porque se pierden en la traducción algunos usos importantes. El concepto 'hardware' originalmente incluye al conjunto de equipamiento o componentes utilizados para un fin en particular (ref Merriam-webster). Una definición amplia, que abarca tanto herramientas para crear música como equipamiento militar o ferretería industrial, por nombrar algunos rubros.
+Cuando se quiere definir el término 'hardware' en español aparecen varios inconvenientes. 
+El primero es la falta de una traducción. ¿Cómo se traduce 'hardware'? ¿Se trata de materiales, herramientas, tecnologías, dispositivos? 
+¿Incluye materiales biológicos, reactivos, herramientas analógicas, mecánicas?
+¿Es necesario traducirlo? 
 
-El caso particular del hardware científico refiere a las herramientas y equipos utilizados para llevar adelante una investigación que genera conocimiento científico. Esto incluye equipamiento tradicional de laboratorio tanto como materiales auxiliares como pueden ser sensores, reactivos biológicos, componentes electrónicos analógicos o digitales (GOSH, 2018).  
 
-En cuanto al término 'abierto', gran parte de la discusión orbita alrededor del uso del concepto 'abierto' o 'libre'. Esta discusión es por un lado heredada de la historia del desarrollo de software (ver 'Orígenes y antecedentes') pero por otro lado derivada de las características inherentes a la materialidad del hardware.
+En segundo lugar aparece la asociación directa del término al ámbito de la informática. 
+Coloquialmente en español entendemos el concepto 'hardware' como el soporte físico (ref RAE) o los componentes materiales de una computadora, equiparándolo al concepto de 'computer hardware' en inglés. 
+Esto genera algunos problemas dado que se pierden en la traducción acepciones importantes. 
+'Hardware' originalmente incluye al conjunto de equipamiento o componentes utilizados para un fin en particular (ref Merriam-webster). 
+Se trata de una definición amplia, que abarca tanto herramientas para crear música como equipamiento militar o ferretería industrial, por nombrar algunos usos.
 
-Según la [Open Hardware Association (OSHWA)](https://www.oshwa.org/), comunidad que agrupa a interesados y activistas por el hardware abierto:
+Este trabajo de tesis trata sobre el caso particular del hardware científico abierto. 
+Tomamos la definición de 'hardware científico' de la comunidad Global por el Hardware Científico Abierto ó GOSH (2018):
+
+> "El Hardware Científico Abierto (HwCA) refiere a cualquier tipo de hardware utilizado en investigaciones científicas que pueda ser obtenido, ensamblado, utilizado, estudiado, modificado, compartido y vendido por cualquier persona.
+> Incluye equipamiento tradicional de laboratorio tanto como materiales auxiliares como pueden ser sensores, reactivos biológicos, componentes electrónicos analógicos o digitales."
+
+
+El término 'abierto' que utilizamos también se toma de la convención de esta comunidad (GOSH, 2018):
+
+> "La definición de Hardware científico abierto está en parte inspirada por las comunidades de Hardware Abierto y de Obras culturales Libres, pero los términos 'libre' (free) y 'abierto' (open) pueden prestarse a confusión.
+> La palabra 'libre' (free) en inglés en el contexto de la tecnología se suele malinterpretar como 'gratis' (free of charge).
+>
+> Nosotros la entendemos, sin embargo, como la libertad de restricciones a comprar, hacer, utilizar, estudiar, modificar, compartir y vender.
+> Estas libertades no implican que una tecnología deba ser gratis o no comercial.
+>
+> Utilizamos el término 'abierto' para el hardware científico en contraste al hardware cerrado propietario, pero se deben tener en cuenta los valores mencionados anteriormente."
+
+Esta distinción entre 'abierto' y 'libre' deriva de la barrera idiomática y se puede observar en la mayoría de las comunidades que trabajan con materiales no propietarios. En español esa ambigüedad no existe, por lo cual es común encontrar los términos 'hardware libre', 'tecnologías libres', 'tecnologías abiertas' y otros en proyectos de Latinoamérica. 
+Conociendo esta multiplicidad de denominaciones en la región, en este trabajo se utilizará la denominación 'hardware científico abierto' ya que figura oficialmente en la traducción al español del manifiesto GOSH.
+
+Más allá de la terminología empleada, la definición hace referencia a dos comunidades: de Hardware Abierto (OSHWA) y de Obras Culturales Libres. 
+
+La comunidad de [Open Hardware (OSHWA)](https://www.oshwa.org/) toma la siguiente definición de apertura:
 
 >"Hardware abierto es aquel hardware cuyo diseño se hace disponible públicamente para que cualquier persona lo pueda estudiar, modificar, distribuir, materializar y vender, tanto el original como otros objetos basados en ese diseño.
 >
@@ -16,31 +44,33 @@ Según la [Open Hardware Association (OSHWA)](https://www.oshwa.org/), comunidad
 
 Por otro lado, desde las [Obras Culturales Libres](https://freedomdefined.org), comunidad más amplia de personas y organizaciones alrededor de la cultura libre (ref), se enfatiza que para que una obra sea considerada libre debe cumplir con las siguientes cuatro libertades:
 
+>
 - la libertad de usar el trabajo y disfrutar de los beneficios de su uso
 - la libertad de estudiar el trabajo y aplicar el conocimiento adquirido de él
 - la libertad de hacer y redistribuir copias, totales o parciales, de la información o expresión
 - la libertad de hacer cambios y mejoras, y distribuir los trabajos derivados
+>
 
 La obra debe estar cubierta por una licencia cultural libre, o su situación legal debe proporcionar las mismas libertades esenciales enumeradas anteriormente. Esto sin embargo no es condición suficiente, ya que una obra específica puede ser no-libre de otras maneras que restrinjan las libertades esenciales.
 
 Especifican además criterios adicionales para que una obra sea considerada libre:
 
+>
 - Disponibilidad de los datos fuente: Si un trabajo final ha sido obtenido mediante la compilación o procesamiento de uno o varios archivos fuente, todos los datos fuente subyacentes deben estar disponibles junto con el propio trabajo bajo las mismas condiciones.
-
 - Uso de un formato libre: Para los archivos digitales, el formato en que se haga disponible el trabajo no debe estar protegido por patentes, salvo que se conceda un permiso libre de regalías, ilimitado, irrevocable y de ámbito mundial para hacer uso de la tecnología patentada.
-
 - Sin restricciones técnicas: La obra debe estar disponible de una forma en la que no se usen medidas técnicas para limitar las libertadas enumeradas anteriormente.
-
 - Sin otras restricciones o limitaciones: La propia obra no debe estar cubierta por restricciones legales (patentes, contratos, etc.) o limitaciones (como derechos de privacidad) que impidan las libertades enumeradas anteriormente.
+>
 
-En la práctica, estas dos comunidades y las definiciones que aportan no son sustancialmente distintas. Sin embargo resulta complicado garantizar algunos de los criterios 'libres' cuando se hace referencia al hardware. ¿Es libre un desarrollo que tiene entre sus componentes un microprocesador que sólo puede ser fabricado en un lugar del mundo, con tecnología inaccesible para la mayoría de las personas?  Extrapolar las definiciones de libertad de usuario desde lo digital a lo material genera distintos inconvenientes. En este sentido la literatura sobre el tema coincide en que éste es el punto más difícil de conciliar (González y Gómez-Arribas, 2003; Rubow, 2008; McManara, 2007; FLOK, 2015). Las comunidades intentan resolver este problema a través de referirse al diseño de los objetos como lo que debe ser abierto, de donde surgen los requerimientos de esquemáticos, listas de materiales, instrucciones de uso y armado, etc.
+Las definiciones de las dos comunidades no son sustancialmente distintas, pero la primera ilustra el mecanismo utilizado para resolver el problema del traspaso desde código a objetos abiertos, una de las dificultades más importantes identificadas en la literatura (González y Gómez-Arribas, 2003; Rubow, 2008; McManara, 2007; FLOK, 2015). 
+Para que el hardware sea abierto, se considera que lo que debe abrirse son los archivos correspondientes a su diseño (esquemáticos, listas de materiales, instrucciones de uso y armado, software, etc). 
 
-A esta complejidad se suma nuevamente la barrera idiomática: Tal como sucede en la arena del software, la ambigüedad en la definición de 'free' (libre) en inglés -que hace referencia a libertad y no a gratuidad- vuelve a muchos reacios a adoptar el término en ese idioma. En español esa ambigüedad no existe, por lo cual es común encontrar el término 'hardware libre' en proyectos de Latinoamérica.
+Esta dificultad plantea preguntas interesantes alrededor de los conceptos de apertura y accesibilidad.
+¿Es abierto un desarrollo que tiene entre sus componentes un microprocesador que sólo puede ser fabricado en un lugar del mundo? ¿O un desarrollo que requiere de un expertise para ser utilizado, que no está disponible en ciertas comunidades?
 
-La definición que se va a utilizar en este trabajo proviene de la comunidad Global por el Hardware Científico Abierto (GOSH por sus siglas en inglés), inspirada tanto en los trabajos de OSHWA como de la Cultura Libre. Esta comunidad define al Hardware Científico Abierto como **cualquier tipo de hardware utilizado para realizar investigaciones científicas, que puede ser obtenido, ensamblado, utilizado, estudiado, modificado, compartido y comercializado por cualquiera. Incluye equipos de laboratorio convencionales tanto como materiales auxiliares, como ser sensores, reactivos biológicos, componentes electrónicos analógicos o digitales.**
+Este capítulo tiene la intención de introducir el concepto de hardware científico abierto a través de un hilo imaginario que conecta las distintas etapas de desarrollo de un proyecto de hardware científico abierto. Comienza con los orígenes y antecedentes, siguiendo con los factores macro que favorecieron el crecimiento exponencial de estas prácticas en los últimos años, para luego pensar qué razones movilizan a las personas a diseñar estos proyectos, cómo lo hacen, cuáles son los contextos más favorables para hacerlo, cuáles son los campos de aplicación donde surgen mayoritariamente y finalmente qué beneficios y qué obstáculos se presentan en el camino, tanto en términos individuales como colectivos.
 
-Este capítulo tiene la intención de introducir el concepto de hardware abierto a través de un hilo imaginario que conecta las distintas etapas de desarrollo de un proyecto de estas características. Comienza con los orígenes y antecedentes, siguiendo con los factores macro que favorecieron el crecimiento exponencial de estas prácticas en los últimos años, para luego pensar qué razones movilizan a las personas a diseñar estos proyectos, cómo lo hacen, cuáles son los contextos más favorables para hacerlo, cuáles son los campos de aplicación donde surgen mayoritariamente y finalmente qué beneficios y qué obstáculos se presentan en el camino, tanto en términos individuales como colectivos.
-
+***
 >**Box 1: Arduino**  
 >  
 >Arduino es una plataforma de prototipado libre compuesta por una placa electrónica de entradas y salidas simple y un entorno de desarrollo que utiliza un lenguaje de programación fácil de usar. Los diseños del hardware y el software se encuentran liberados bajo licencia Creative Commons CompartirIgual 2.5 (Share-A-Like), lo que habilita a compartir, adaptar e incluso distribuir comercialmente los objetos creados en base a Arduino, siempre y cuando se indiquen las modificaciones realizadas y se mantenga el mismo tipo de licencia. Arduino funciona además como "marca", ya que se comercializan placas oficiales que pagan por llevar el nombre Arduino y otras que no y se definen como “Arduino-compatibles”.
@@ -55,6 +85,7 @@ Este capítulo tiene la intención de introducir el concepto de hardware abierto
 >
 >Arduino es empleado, entre otros usos, para crear instrumental de laboratorio económico y adaptado a las necesidades de los científicos
 >(Baden et al, 2015; Pearce, 2012), por docentes para enseñar programación y robótica a estudiantes (Bordignon, 2015; Valera et al, 2014), por músicos y artistas para experimentar y realizar nuevas instalaciones (Juan Cortés; Zach Gage), por ingenieros y diseñadores para prototipar nuevos artefactos (Gautam et al, 2016; Karvinen y Karvinen, 2011) y por ejemplo, construir dispositivos de accesibilidad -como anteojos o calzado para no videntes-.
+***
 
 ## Orígenes y antecedentes
 

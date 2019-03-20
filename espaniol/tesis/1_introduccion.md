@@ -189,7 +189,7 @@ Otro ejemplo más reciente es Hackney Crack House en Londres, que hasta 2012 pro
 
 Los hacklabs son espacios declaradamente políticos que aparecen en cada vez menor número, focalizados a desarrollar infraestructura de comunicaciones para las comunidades que los habitan, privilegiando la creatividad y el acceso a quienes generalmente se ven inhabilitados para ello.
 
-#### Hackerspaces y cultura do-it-yourself
+#### Hackerspaces y expansión
 El caso de los hacklabs describido anteriormente es un extremo del espectro político.
 Existe un gradiente de variantes como ser fablabs, makerlabs, medialabs, innovation labs y espacios de co-working.
 Los últimos dos (y también los fablabs), de surgimiento más reciente, se distinguen por estar inmersos en un contexto institucional (universitario, gubernamental, organización o empresa); su fin es la innovación en investigación o productos comerciales.

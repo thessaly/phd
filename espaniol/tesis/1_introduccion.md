@@ -87,14 +87,52 @@ Este capítulo tiene la intención de introducir el concepto de hardware cientí
 >(Baden et al, 2015; Pearce, 2012), por docentes para enseñar programación y robótica a estudiantes (Bordignon, 2015; Valera et al, 2014), por músicos y artistas para experimentar y realizar nuevas instalaciones (Juan Cortés; Zach Gage), por ingenieros y diseñadores para prototipar nuevos artefactos (Gautam et al, 2016; Karvinen y Karvinen, 2011) y por ejemplo, construir dispositivos de accesibilidad -como anteojos o calzado para no videntes-.
 ***
 
-## Orígenes y antecedentes
+## Orígenes
 
-Una de las formas de entender qué es el hardware abierto es rastreando sus orígenes. Al igual que otras ramas de la producción abierta y colaborativa (ref), uno de sus pilares se puede encontrar en el movimiento del software libre (ref). Aunque el dominio específico de este movimiento sea el desarrollo de código en el ámbito de la computación, su contribución fundamental radica en su filosofía. Su principal referente es Richard Stallman, quien en 1985 creó la Fundación por el Software Libre (FSF por sus siglas en inglés). Después de graduarse en Harvard, en 1971 Stallman comenzó a trabajar en el laboratorio de Inteligencia Artificial del MIT como programador, en un ambiente signado por la cultura hacker y la colaboración entre pares:
+El movimiento por el software libre es uno de los pilares de las diversas ramas de la producción abierta y colaborativa.
+Aunque el dominio específico de este movimiento sea el ámbito de la computación, su contribución fundamental radica en su filosofía y el uso de copyleft. 
+Su principal referente es Richard Stallman, quien en 1985 creó la Fundación por el Software Libre (FSF por sus siglas en inglés). 
+Después de graduarse en Harvard en 1971 Stallman comenzó a trabajar en el laboratorio de Inteligencia Artificial del MIT como programador, en un ambiente signado por la cultura hacker y la colaboración entre pares:
 
-> Whenever people from another university or a company wanted to port and use a program, we gladly let them. If you saw someone using an unfamiliar and interesting program, you could always ask to see the source code, so that you could read it, change it, or cannibalize parts of it to make a new program (Stallman, 1999)  
+> Whenever people from another university or a company wanted to port and use a program, we gladly let them. If you saw someone using an unfamiliar and interesting program, you could always ask to see the source code, so that you could read it, change it, or cannibalize parts of it to make a new program (Stallman, 1999)
 
-La situación cambió hacia el inicio de la década de los '80. Por un lado, la comunidad hacker(1) se vio desintegrada por el éxodo de los integrantes del laboratorio hacia empresas privadas. Por otro lado, los fabricantes comenzaron a imponer restricciones a la copia y redistribución de código alegando razones de competencia y amparados por la recientemente publicada Ley de Copyright de Estados Unidos, en 1976 (ref). Este carácter privativo de la producción de código continuaría en auge hasta el día de hoy, aunque con matices en los últimos años.
+Este panorama de libre intercambio de código mutó hacia el inicio de la década de los '80. 
+Por un lado la comunidad hacker(1) se vio desintegrada por el éxodo de los integrantes del laboratorio hacia empresas privadas. 
+Por otro lado, los fabricantes comenzaron a imponer restricciones a la copia y redistribución de código alegando razones de competencia y amparados por la recientemente publicada Ley de Copyright de Estados Unidos, en 1976 (ref). 
+Este carácter privativo de la producción de código continuaría en auge hasta el día de hoy, aunque con matices en los últimos años.
 
+A partir de este cambio en 1983 Stallman inicia el proyecto GNU ("GNU's Not UNIX") con el fin de producir un sistema operativo completamente libre. 
+UNIX en ese entonces era uno de los sistemas operativos más ampliamente utilizados, privativo, creado por Ken Thompson y Dennis Ritchie tras abandonar un proyecto con MIT y sumarse a AT&T Bell Laboratories. 
+Contar con un sistema operativo libre constituía la base que habilitaría cualquier desarrollo de código posterior.
+
+Con el propósito de garantizar que la distribución de GNU no se volviera propietaria, Stallman crea el método 'copyleft': utiliza la ley de copyright para garantizar que el producto siga siendo libre, de forma contraria a su propósito original. 
+El instrumento específico que utiliza es la "Licencia Pública General de GNU" (o GNU GPL por sus siglas en inglés), una licencia que garantiza al usuario libertades de uso, modificación, distribución y estudio al mismo tiempo que le impide agregar futuras restricciones a estas mismas libertades.
+A principios de los años 90 existía suficiente desarrollo como para crear un sistema operativo funcional, sin embargo el núcleo o kernel (Hurd) no estaba lo suficientemente desarrollado. 
+Esto es lo que comenzó a desarrollar en 1991 Linus Torvalds, y que publicaría luego como Linux kernel bajo la licencia GPLv2, habilitando el uso de GNU-Linux a escala global.
+
+Compartir de forma pública las innovaciones o mejoras realizadas de forma individual no constituye una novedad a través de la historia, ya que pueden rastrearse antecedentes en áreas tan diversas como la industria del hierro en el siglo XVIII (Allen, 1983) o el equipamiento médico (Von Hippel and Finkelstein,1979). 
+Sin embargo el aporte del movimiento por el Software Libre a través del concepto de copyleft, sus licencias y la promoción del modelo de producción de pares sistematizó una forma de trabajar -e innovar- colaborativa, de libre circulación de la información. 
+Según Mansell y Berdou (2008), GPL establece un proceso de governanza auto-propagador por fuera del control de autoridades nacionales, internacionales u organismos de regulación que usualmente controlan el diseño, producción y circulación del conocimiento y la información.
+Esto inspiró otros movimientos en diversas áreas (open Source drugs, Open Design, Free Culture, Open Source Ecology para nombrar algunos), incluyendo el desarrollo de hardware.
+
+Uno de los más importantes derivados del desarrollo del proyecto GNU y el trabajo de la Fundación por el Software Libre es el concepto de "Código abierto" (open source). 
+Surge como respuesta de un grupo de programadores al término "software libre", dentro del mismo movimiento. 
+El contenido político y la ambiguedad en inglés -que lo asocia a gratuidad- volvían difícil su adopción en el ámbito de los negocios. 
+Es por esto que deciden generar un nuevo concepto, orientado a resaltar los beneficios en términos de colaboración y eficiencia, más cercano a la terminología empresarial.
+
+En 1998 Eric Raymond -programador, autor de 'La Catedral y el Bazar', referencia en el ámbito open source-, hace un llamado público a la comunidad de software libre a adoptar el nuevo término y funda la asociación "Open Source Initiative". 
+Contó con el apoyo de muchos personajes importantes de la comunidad en el primer "Open Source Summit" organizado por el editor especializado en tecnología Tim O'Reilly. 
+Dentro de quienes apoyaron la iniciativa se encontraba Linus Torvalds. 
+Richard Stallman se opone al concepto de código abierto ya que "resalta la posibilidad de crear software potente y de alta calidad, pero evita las ideas de libertad, comunidad y principios".
+
+A modo de ejemplo de las controversias en la comunidad, en 2007 luego de años de discusiones en la comunidad de software libre se lanzó la GPLv3.
+La mayor diferencia entre licencias es que la última prohíbe la 'tivoización', concepto acuñado por Stallman para referirse a dispositivos que utilizan software con licencia GPLv2 pero limitan las libertades del usuario mediante modificaciones de hardware. 
+Torvalds se alejó de la discusión y no adoptó la GPLv3, por lo cual Linux sigue siendo GPLv2.
+
+La visión del grupo disidente creció tanto en número como influencia convirtiéndose en hegemónica en la actualidad, con licencias específicas open source (ref) y un cada vez mayor número de compañías utilizando software de código abierto (ref), entre las cuales se encuentran grandes nombres como Google, Facebook o Microsoft. 
+En los últimos años la definición de Código Abierto (ref) incluyó requerimientos adicionales a la libre disponibilidad del código, incorporando cláusulas de no discriminación a las personas, colectivos o grupos de trabajo.
+
+***
 >**Box2: Computadora Industrial Abierta Argentina**
 >
 >El Proyecto CIAA surgió en 2013 como una iniciativa conjunta entre el sector académico y la industria nacionales, con el objetivo de desarrollar un sistema electrónico abierto de uso general, donde absolutamente toda su documentación y el material para su fabricación estuviera libremente disponible en internet-(diagramas esquemáticos, diseño del circuito impreso, códigos fuentes de los programas, etc.-, que estuviera diseñado en base a criterios adecuados para su utilización en aplicaciones industriales, que no dependiera de una línea específica de procesadores, y que pudiera ser fabricado por la mayoría de las empresas PyMEs nacionales, lo que implicaba por ejemplo utilizar en el diseño circuitos impresos de no más de cuatro capas.
@@ -107,21 +145,128 @@ La situación cambió hacia el inicio de la década de los '80. Por un lado, la 
 >_Fig. 2: EDU-CIAA-NXP, una versión de bajo costo de la CIAA-NXP pensada para la enseñanza universitaria, terciaria y secundaria (Fuente: CIAA)_
 >
 >Entre algunos de los proyectos que utilizan CIAA, se encuentran aplicaciones de automatización industrial, equipamiento médico, industria ferroviaria, maquinaria agrícola. Además, se diseñó una versión educativa de la plataforma, la EDU-CIAA, más simple y de menor costo, para lograr un impacto en la enseñanza primaria, secundaria y universitaria.
+***
 
-En 1983 Stallman inicia el proyecto GNU ("GNU's Not UNIX") con el fin de producir un sistema operativo completamente libre. UNIX en ese entonces era uno de los sistemas operativos más ampliamente utilizados, privativo, creado por científicos del MIT tras abandonar el instituto. Contar con un sistema operativo libre constituía la base que habilitaría cualquier desarrollo de código posterior. A fin de garantizar que la distribución de GNU no se volviera propietaria, Stallman crea el método 'copyleft': utiliza la ley de copyright para garantizar que el producto siga siendo libre, de forma contraria a su propósito original. El instrumento específico que utiliza es la "Licencia Pública General de GNU" (o GNU GPL por sus siglas en inglés), una licencia que garantiza al usuario libertades de uso, modificación, distribución y estudio al mismo tiempo que le impide agregar futuras restricciones a estas mismas libertades.
+## ¿Quiénes desarrollan hardware abierto y por qué?
 
-> #### ¿Libre o abierto?
->
-> Uno de los más importantes derivados del desarrollo del proyecto GNU y el trabajo de la Fundación por el Software Libre es el concepto de "Código abierto" (open source). Surge a partir de un grupo de programadores incómodos con el término "software libre" dentro del mismo movimiento. El contenido político y la ambiguedad en inglés -que lo asocia a gratuidad- volvían difícil su adopción en el ámbito de los negocios. Es por esto que deciden generar un nuevo nombre, orientado a resaltar los beneficios en términos de colaboración y eficiencia, más cercanos a la terminología empresarial.
->
-> En 1998 Eric Raymond -programador, autor de 'La Catedral y el Bazar', referencia en el ámbito open source-, hace un llamado público a la comunidad de software libre a adoptar el nuevo término y funda la "Open Source Initiative". Contó con el apoyo de muchos personajes importantes de la comunidad en el primer "Open Source Summit" organizado por el editor especializado en tecnología Tim O'Reilly. Dentro de quienes apoyaron la iniciativa se encontraba Linus Torvalds, creador del kernel Linux que habilitó el uso del proyecto GNU a escala global. Richard Stallman se opone al concepto, ya que "resalta la posibilidad de crear software potente y de alta calidad, pero evita las ideas de libertad, comunidad y principios".
->
-> La visión del grupo disidente se ve confirmada en la actualidad, con licencias específicas open source (ref) y un cada vez mayor número de compañías utilizando software de código abierto (ref), entre las cuales se encuentran grandes nombres como Google, Facebook o Microsoft. Actualmente la definición de Código Abierto (ref) incluye más requerimientos que la libre disponibilidad del código, incorporando cláusulas de no discriminación a personas, colectivos o grupos de trabajo.
+Una de las discusiones centrales en la literatura open source es la de entender por qué las comunidades desarrollan tecnologías abiertas, qué motivaciones encuentran para invertir tiempo y energía en proyectos que pueden -o no- monetizarse, o qué otro tipo de retribuciones reciben los colaboradores. 
+Al mirar el panorama de las comunidades que se encuentran desarrollando hardware abierto para ciencia el primer rasgo que surge es la heterogeneidad. 
 
-Compartir de forma pública las innovaciones o mejoras realizadas de forma individual no constituye una novedad a través de la historia, ya que pueden rastrearse antecedentes en áreas tan diversas como la industria del hierro en el siglo XVIII (Allen, 1983) o el equipamiento médico (Von Hippel and Finkelstein,1979). Sin embargo el aporte del movimiento FOSS a través del concepto de copyleft, sus licencias y la promoción del modelo de producción de pares sistematizó una forma de trabajar -e innovar- colaborativa, de libre circulación de la información. Esto inspiró otros movimientos en diversas áreas (open Source drugs, Open Design, Free Culture, Open Source Ecology para nombrar algunos), incluyendo el desarrollo de hardware.
+Las motivaciones detrás de estos "hacedores" son diversas, abarcando un amplio espectro que incluye la figura del inventor hobbista y la tradición del “hágalo usted mismo”, las comunidades con una orientación política claramente definida, ancladas tanto en el autonomismo como el mediactivismo o la ética hacker, hasta nuevos “emprendedores” y organizaciones que comienzan a experimentar con modelos de negocio basados en la apertura.
+
+Esta sección intenta reconstruir los contextos y motivaciones de los grupos que consideramos más relevantes al análisis de la comunidad de hardware científico abierto.
+
+### Cultura hacker
+Como se mencionaba anteriormente, la filosofía del software libre es uno de los pilares del movimiento de hardware abierto y en particular de hardware abierto científico. 
+En los años de surgimiento alrededor de 1980 el MIT fue uno de los lugares donde la cultura hacker comenzó y floreció; la visión de este grupo se ve expresada en uno de los textos claves de la época: *'Hackers: Heroes of the Computer Revolution'* (Levy, 1984).
+
+El libro de Levy hace explícita una 'ética hacker' que incluye compromiso con la libre circulación de la información, la meritocracia y la creencia de que puede construirse un mundo mejor y más bello utilizando computadoras.
+Numerosas aproximaciones a la cultura hacker invocan este hito aplicándolo a toda la comunidad y obviando las múltiples y diversas motivaciones que coexisten dentro de ella (Coleman, 2009).
+
+El concepto de libertad, ya sea en términos de libertad de expresión, privacidad, meritocracia o poder de los individuos, es constituyente principal del discurso hacker (Coleman, 2004; Kelty, 2005, 2008). 
+Sin embargo la articulación de estos conceptos liberales toma diferentes formas en la interacción con sistemas socio-técnicos diversos, creando un set de expresiones relacionadas pero diferentes en torno a la propiedad, el trabajo y la creatividad (Coleman y Golub, 2008).
+
+Maxigas (2012) propone reconstruir estas identidades diversas a partir de una genealogía de dos de los espacios predominantemente habitados por la comunidad hacker: los hackerspaces y los hacklabs. 
+La reconstrucción histórica de estas dos posiciones que realiza el autor resulta útil porque muestra dos aspectos del gradiente que dan origen a múltiples ensamblados que encontramos en la actualidad.
+Además permite entender cómo sobre la figura de los hackerspaces, por ejemplo, se suman en los últimos años nuevas comunidades como la de Biohacking.
+
+#### Hacklabs, autonomistas y mediactivistas 
+El primero de los casos se centra alrededor del espacio de los ‘hacklabs’. Yuill (2008) los define como "*[...] espacios voluntarios que proveen acceso público y gratuito a computadoras y a Internet. Usualmente hacen uso de máquinas recuperadas y recicladas que corren GNU/Linux y a la vez que proveen acceso a computadoras, la mayoría de los hacklabs tienen talleres funcionando en un rango de temas que van desde el uso básico de la computadora e instalación de software GNU/Linux, hasta programación, electrónica y radiodifusión independiente (o pirata). Los primeros hacklabs se desarrollaron en Europa, usualmente surgiendo de tradiciones de centros sociales ocupados y media labs comunitarios. En Italia se les relaciona con los centros sociales autonomistas y en España, Alemania y en los Países Bajos con movimientos de ocupación anarquistas"*. 
+
+Por un lado los movimientos autonomistas, tomando conceptos marxistas y anarquistas, tuvieron relevancia en los años '70 en Italia, Alemania y Francia con la premisa de proveer alternativas a las instituciones administradas por el Estado. 
+Una de sus estrategias era el squatting u ocupación de inmuebles, donde una de las funciones de los espacios ocupados era la de 'centro social' donde se reproducían alternativas a las instituciones oficiales.
+
+Otra de las prácticas era el medioactivismo, sobre una tradición de publicación independiente con hitos en la radiodifusión pirata y comunitaria desde los años '60. 
+Las comunidades de medioactivistas apropiaron tecnologías de consumo masivo como grabadoras y otros productos electrónicos accesibles en los años '80, y luego computadoras personales. 
+Su objetivo entre otros era bajar las barreras para la participación de la producción cultural y tecnológica, y establecer una infraestructura de comunicación distribuida para organizaciones anticapitalistas. 
+Como tales, tuvieron un rol importante en el surgimiento del movimiento alternativo a la globalización: la iniciativa de mayor resonancia en este sentido fue la red Indymedia de comunicación independiente.
+
+Estas dos tendencias se combinan en el origen de los hacklabs. Los centros sociales ocupados, en el corazón de la vida urbana, requerían de infraestructuras de comunicación como acceso público a internet y computadoras.
+Los mediactivistas, por el otro lado, requerían estrategias para convocar, producir, enseñar y aprender.
+
+Algunos ejemplos de hacklabs son Ultralab en Forte Prenestino, Italia, surgido a fines de los '90, que se autodefine como un 'patrón emergente' de la conjunción de necesidades tecnológicas de las comunidades que lo integran. 
+Otro ejemplo más reciente es Hackney Crack House en Londres, que hasta 2012 proveía una red de área local y servidor al espacio ocupado donde se alojaba, y funcionaba como lugar de reunión para experimentar con distintas tecnologías.
+
+Los hacklabs son espacios declaradamente políticos que aparecen en cada vez menor número, focalizados a desarrollar infraestructura de comunicaciones para las comunidades que los habitan, privilegiando la creatividad y el acceso a quienes generalmente se ven inhabilitados para ello.
+
+#### Hackerspaces y cultura do-it-yourself
+El caso de los hacklabs describido anteriormente es un extremo del espectro político.
+Existe un gradiente de variantes como ser fablabs, makerlabs, medialabs, innovation labs y espacios de co-working.
+Los últimos dos (y también los fablabs), de surgimiento más reciente, se distinguen por estar inmersos en un contexto institucional (universitario, gubernamental, organización o empresa); su fin es la innovación en investigación o productos comerciales.
+Lo que diferencia a los hackerspaces del resto de estos espacios es que están administrados por y para integrantes de la comunidad hacker.
+
+La primer ola de hackerspaces se relaciona a la cultura universitaria ya mencionada del MIT y otros institutos en los Estados Unidos, donde se desarrollaban las primeras computadoras y sistemas operativos.
+Por otro lado la escena se completaba con grupos que hacían ingeniería reversa de las nuevas tecnologías, en ese momento mayoritariamente redes telefónicas.
+En Europa la historia está menos documentada pero uno de los hitos es la fundación del Chaos Computer Club en 1981, con fuerte foco en la investigación sobre seguridad informática y privacidad.
+
+Una nueva ola de hackerspaces parece haber sido iniciada a partir de una serie de conferencias en 2007 y 2008, orientadas a los problemas prácticos de cómo se administra y organiza un espacio de estas características.
+Resulta relevante ya que pone el concepto de hackerspace al frente y la creación de nuevos espacios en agenda. 
+
+Estos nuevos espacios fomentan un modelo de membresía abierto con funciones de aprendizaje, producción y socialización.
+Las actividades varían entre iniciativas, pero el autor detecta una progresión desde las tareas de desarrollo de software libre hacia las de hardware, primero con desarrollo de infraestructura de redes, luego microelectrónica y en algunos casos impresión 3D - fabricación digital.
+El surgimiento de Arduino provocó una explosión de proyectos e interacción en este tipo de espacios, con medios como la revista MAKE y otros para difundirlos.
+
+El desarrollo y expansión de los hackerspaces se alinea con la trayectoria del movimiento hacker, que gana cada vez mayor anclaje institucional.
+El autor reconoce que la apertura a la interfaz física (mayoritariamente a partir de trabajo con microcontroladores) permitió el crecimiento masivo del modelo, ya que la colaboración en este tipo de proyectos se ve facilitada por la disponibilidad de espacios comunes. 
+El contenido político es más difuso, más orientado a valores liberales, lo que le permite una flexibilidad y expansión hacia un espectro mayor: desde el público general a las empresas.
+
+### Cultura Do-it-yourself (DIY)
+
+Esta ampliación del espectro de los hackerspaces permite que confluyan con la cultura del **Hágalo Usted Mismo** (“Do it yourself” o DIY), mencionada antes con el desarrollo de Arduino, la revista MAKE y la MakerFaire organizadas en New York, San
+Francisco y Nairobi.
+Algunos antecedentes culturales de estas actividades incluyen las prácticas DIY de mitad de siglo XX en Estados Unidos (la figura del inventor o hobbysta), donde actividades previamente utilitarias se transformaron en ocio (Haring, 2006), y las actividades de radio aficionados (Douglas, 1987).
+
+En la actualidad resulta útil la distinción que Hertz (2011) realiza sobre DIY utilitario y DIY hedonista. 
+El primero responde a la necesidad de construir objetos con los materiales disponibles, muchas veces escasos o inapropiados, para resolver problemas de la vida cotidiana. 
+Por ejemplo, el productor que cuando se enfrenta a una falla en una maquinaria intenta reemplazar la funcionalidad perdida con otros implementos, o el científico que en un laboratorio sin recursos desarrolla métodos alternativos para llegar a sus resultados. 
+
+Sin embargo, esta motivación -la necesidad- no es la predominante dentro del movimiento “maker”, al menos en la escena de los países desarrollados. 
+En estos espacios la comunidad maker se asocia a un DIY hedonista, ligado a la creciente disponibilidad y bajos costos de componentes electrónicos -como Arduino (ver Box 1)- que permiten construir artefactos de consumo personalizados. 
+En este último caso predomina el elemento lúdico, la exploración personal y el aprendizaje de nuevos métodos.
+
+Según Mark Frauenfelder -editor jefe de la revista MAKE, de referencia para el sector- las motivaciones de la comunidad maker responden a una insatisfacción con la cultura del consumo y del descarte, y a una revalorización del concepto japonés de *wabi-sabi* o la "*apreciación de la imperfección de los objetos*" (Suzuki, D.1959). 
+Hertz suma a esto la motivación generada por reacción a la cultura de la caja negra (“black box”) típica de la fabricación en la era digital: la velocidad de las innovaciones en materia de tecnología implica que los objetos de consumo estén producidos basándose en componentes y procesos complejos. 
+
+El concepto de caja negra implica que no es posible para el usuario comprender su lógica interna sino sólo el resultado de su funcionamiento, incluso siendo experto. 
+Si un objeto se rompe o queda obsoleto, se vuelve inutilizable y genera dependencia de los fabricantes, lo cual es altamente frecuente dados los paradigmas de obsolescencia programada dominantes en la industria. 
+Reemplazar partes es casi imposible para los consumidores, dada la alta especialización de la ingeniería y fabricación que el objeto conlleva. 
+Este rol pasivo de los consumidores genera una reacción por parte de la comunidad DIY, que construye objetos de consumo con componentes simples y compartiendo información, algo que Frauenfelder engloba en el concepto de “vivir auténticamente”.
+
+A nivel de comunidad, los "makers" cuentan con reuniones y exposiciones anuales -Maker Faire-, el desarrollo de un mercado cada vez más importante de componentes y kits electrónicos de fácil utilización (Powell, 2012) y la existencia de la revista MAKE, una especie de continuo de la revista Popular Mechanics de mediados del siglo XX, orientada a la clase media y las actividades hobbistas de tiempo libre. 
+El papel de MAKE no es menor: varios autores le asignan el rol de moldear y normativizar el rumbo que toma la comunidad en base a las prácticas que se difunden a través de ella.
+
+### Biohacking o DIY biology
+Garage biology, biohacking y biología ciudadana son expresiones que describen un movimiento de amateurs realizando experimentos biológicos fuera de los ámbitos tradicionales como universidades o corporaciones.
+Delfanti () analiza DIYbio, la iniciativa más reconocida, una red creada en 2008 compuesta de varios grupos en ciudades de Europa y Estados Unidos.
+Tiene como objetivo proveer a los no expertos con un espacio de colaboración y protocolos y herramientas de código abierto para la investigación biológica.
+Como tales, son parte del fenómeno de la producción abierta y colaborativa a través de plataformas online (Benkler, 2006).
+
+Los miembros de la comunidad tienen relación con el movimiento hacker: desarrollan sus espacios bajo el modelo de hackerspaces o directamente instalan una sección 'bio' en hackerspaces existentes.
+Están además inmersos en una red de emprendedores y start-ups que enfrentan al gran mercado de las compañías Bio.
+En 2008 el movimiento comenzó con Mackenzie Cowell, un desarrollador web, y Jason Bobe, parte del proyecto Genoma en la escuela de Medicina de Harvard.
+En 2010, cerca de 2,000 personas eran parte de la lista de correos y existían docenas de grupos comunitarios desde Massachusetts a Bangalore.
+
+Las actividades incluyen proyectos de ciencia ciudadana simples como aislamiento de bacterias o extracción de ADN, pero también construcción de hardware científico abierto (Ward, 2010).
+DIYbio dialoga con instituciones como universidades, compañías, medios y agencias gubernamentales preocupadas por cuestiones de ética y seguridad (Schmidt, 2008).
+Los miembros son jóvenes biólogos, profesionales de la computación que desean experimentar en biología y artistas interesados en un abordaje crítico DIY a la biología.
+
+En cuanto a cómo se definen, la comunidad nombra referencias como la cultura hacker, el DIY y el movimiento del Software libre, el espíritu lúdico y 'biopunk'.
+Establecen comparaciones con el Homebrew Computer Club, el centro de operaciones hacker de los '70 en la Bahía de San Francisco, donde se encontraban Steve Wozniak, Bill Gates, Steve
+Jobs y otros (Bloom, 2009; Economist, 2009; Golob, 2007; Johnson, 2008). 
+Otros se definen como makers, artesanos, entusiastas, hobbistas o amateurs pero coinciden en la visión de la innovación norteamericana y la cultura de garage.
+
+Como colectivo resaltan la importancia del rol educativo sobre las biotecnologías, especialmente frente a dudas sobre seguridad o ética en las prácticas (DIYbio 2010). 
+La apertura es un requisito de la iniciativa a fin de volver el campo *'accesible para quien desee involucrarse'*.
+El acceso a equipamiento científico es uno de los obstáculos de estas iniciativas, lo que las vuelve uno de los ámbitos más productivos del hardware científico abierto con ejemplos como OpenPCR (http://openpcr.org). 
+
+### Innovaciones de usuario en ámbitos académicos
+Von Hippel 1976
+
+### Latinoamérica: el movimiento de tecnología apropiada
+Fressoli 2017
+
 
 ## Enablers
-***
 Hablar de explosión proyectos ohw (Berchon, 2013):
 - disminución en los costos de los componentes  (shenzhen)
 - acceso a componentes
@@ -407,45 +552,6 @@ Según Cicero en los próximos años deberíamos poder observar transformaciones
 Los principales obstáculos que se pueden identificar en el uso de OHW para modelos de negocio son los relacionados a las patentes -en muchos casos salvados por el dual licensing-, la falta de modularidad en los diseños actuales -que dificulta su intervención- y la necesidad de generar confianza en el consumidor acerca de la calidad de los productos de diseño abierto. Dependiendo del modelo de negocio analizado, si la orientación es hacia desarrollo de productos, el peso de la marca y el tamaño de la comunidad son factores limitantes: si la base es la producción entonces la oferta de un catálogo variado y renovado es un factor diferencial. En el caso de los modelos de licencia dual, algunos autores señalan que un obstáculo puede ser el lock in por parte de los usuarios con filosofía OHW, especialmente en el segmento profesional.
 
 
-## ¿Quiénes desarrollan hardware abierto y por qué?
-
-Una de las discusiones centrales en la literatura es la de entender por qué las comunidades desarrollan hardware libre, qué motivaciones encuentran para invertir tiempo y energía en proyectos que pueden -o no- monetizarse, o qué otro tipo de retribuciones reciben los colaboradores. En este sentido es imprescindible considerar que la heterogeneidad de comunidades de práctica hace que estas motivaciones sean muy variadas.
-
-Dentro del ámbito de las tecnologías Libres/Abiertas, Powell (2008), Hertz (2011), Maxigas (2012) y Cuartielles (2013) identifican principalmente tres:
-
-1. La ética hacker y los movimientos autonomistas/mediactivistas, condensados en el espacio de los hacklabs -explícitamente políticos-
-
-2. Otra corriente sin una política abiertamente definida, relacionada a la cultura de acceso abierto y la defensa de los valores liberales más cercanos al Chaos Computer Club alemán, representados en los hackspaces;
-
-3. Y por último la cultura del Do-it-yourself, más identificada con el movimiento maker/hobbysta
-
-El primero de los casos se centra alrededor del espacio de los ‘hacklabs’. Yuill (2008) los define como "*[...] mayoritariamente, espacios voluntarios que proveen acceso público y gratuito a computadoras y a Internet. Usualmente hacen uso de máquinas recuperadas y recicladas que corren GNU/Linux y a la vez que proveen acceso a computadoras, la mayoría de los hacklabs tienen talleres funcionando en un rango de temas que van desde el uso básico de la computadora e instalación de software GNU/Linux, hasta programación, electrónica y radiodifusión independiente (o pirata). Los primeros hacklabs se desarrollaron en Europa, usualmente surgiendo de tradiciones de centros sociales okupados y media labs comunitarios. En Italia se les relaciona con los centros sociales autonomistas y en España, Alemania y en los Países Bajos con movimientos de okupación anarquistas"*. Los movimientos autonomistas tomaron un rol de relevancia en los años 70 en Italia, Alemania y Francia, bajo la premisa de que la clase trabajadora podía ser un actor histórico independiente ante el Estado y el Capital, construyendo sus propias estructuras de poder a través de la auto-valorización y apropiación, entre otras cosas, de los espacios.
-
-La mayoría de los hacklabs funcionan en espacios ocupados, una de las prácticas características autonomistas que atravesó fuertes resistencias en Europa durante los años ‘90 y consiguió algunas conquistas en los años posteriores (Usher, 2010). En la génesis de los hacklabs, Maxigas (2012) identifica también al mediactivismo, tendencia que puede rastrearse en las prácticas de las radios piratas de los ’60 hasta los conflictos de copyright contemporáneos protagonizados por Pirate Bay. Las comunidades de radios piratas fueron evolucionando con el surgimiento de tecnologías emergentes y el acceso masivo a internet, con el propósito de generar comunicación alternativa, apuntando a bajar las barreras para la participación de la producción cultural y tecnológica conjuntamente con establecer una infraestructura de comunicación distribuida para organizaciones anticapitalistas. Como tales, tuvieron un rol importante en el surgimiento del movimiento de globalización alternativa: algunas iniciativas populares en este sentido fueron Indymedia, OrfeoTV y en menor medida Telestreet -donde participaba el filósofo italiano Franco Bifo Berardi-.
-
-Los hacklabs, espacios ocupados de confluencia entre mediactivistas y okupas (Ultralab en Roma, Hackney Crack House en Londres) contienen
-
-Esta historia arrastra una serie de consecuencias. Primeramente, que los hacklabs encajaban orgánicamente en el ethos anti-institucional cultivado por la gente en los espacios autónomos. En segundo lugar, estaban incrustados en el régimen político de los espacios y eran sometidos a las mismas formas de frágil soberanía política que dichos proyectos desarrollaron. Tanto Forte Prenestino y Mare Street han escrito y desescrito formas de comportarse que se esperaba que las usuarias siguieran. Esta última okupación había promocionado "políticas de lugares más seguros", declarando por ejemplo que la gente que exhibía comportamientos sexistas, racistas o autoritarios debiera esperar ser confrontada y si fuese necesario, excluida. En tercer lugar, la lógica politizada de las okupaciones y mas específicamente la ideología detrás del anarquismo apropiativo, tuvo también sus consecuencias.Por último, el estado de okupación fomenta un ambiente de complicidad. Consecuentemente, ciertas formas de ilegalidad son vistas como al menos necesarias, o algunas veces hasta deseables
-
-primer lugar, existen comunidades que desarrollan tecnologías libres motivadas por lo que varios autores denominan "**ética hacker**" (Powell, 2008; Coleman, 2008; Himanen, 2001). Surgida en el ámbito del MIT en los años 60-70, fue descrita por Steven Levy en 1984 en lo que se considera un clásico de la era dorada del hacking, “*Hackers: Heroes of the computer revolution*”. Levy menciona los siguientes principios como pilares de la ética hacker: libertad de la información, meritocracia, desconfianza de la autoridad y la creencia de que puede construirse un mundo mejor y más bello utilizando computadoras. La discusión acerca de qué es la libertad o qué es ser libre se encuentra en la base de la filosofía hacker, razón por la cual Coleman y Golub (2008) remarcan su cercanía a las ideas del liberalismo. Los conceptos liberales de libre albedrío, libertad de expresión, el individuo, la privacidad y la meritocracia son frecuentemente invocados por la comunidad: “*Creemos en la libertad de expresión, en el derecho a explorar y aprender haciendo, y en el tremendo poder del individuo*” declara una editorial hacker ([Revista 2600](https://www.2600.com/)).
-
-Sin embargo, esta tendencia liberal convive con prácticas heterogéneas y conceptos que aparentemente son contradictorios. Esto es particularmente notorio en el caso del movimiento de software libre, que plantea la noción del conocimiento como un bien común del cual la comunidad se beneficia, considerando que privatizar el acceso a la información constituye un acto antiético, ya que permite a los individuos beneficiarse a expensas de la comunidad. Sus principios sobre garantizar el libre acceso a la información, la reciprocidad, el compartir y la apertura científica, fueron expresados por Stallman al formar el Free Software Movement en 1984 a partir de su trabajo en el MIT. Es por ello que Stallman desarrolla GPL, la licencia pública GNU a fin de crear una "zona segura" para evitar que las corporaciones privaticen el desarrollo de software a través de licencias de propiedad intelectual. Esta preocupación por el libre acceso a la información en el caso del software puede rastrearse hasta el hardware libre, particularmente en las discusiones abiertas acerca de si es posible garantizar el libre acceso a la información contenida en todos los componentes de un objeto, o sólo en algunos. Dentro de este grupo de motivaciones podemos mencionar al **Proyecto RepRap**, **Precious Plastic** o el **Global Village Construction Set**.
-
-Por otro lado, existe un grupo de iniciativas cuyas motivaciones se basan en las ventajas relacionadas a la eficiencia y los posibles modelos de negocio que se habilitan a partir de la aparición del hardware libre. El origen de estas motivaciones puede remontarse a 1998, cuando fue acuñado el término "open source software" -software de código abierto-. Esta variante surge del Movimiento de Software Libre, como mencionamos en la introducción, pero  haciendo hincapié en en la eficiencia del modelo de desarrollo colaborativo del código abierto para crear las mejores soluciones a un problema determinado. Eric Raymond, uno de sus máximos exponentes, argumenta que “*el disfrute obtenido por programar y la reputación ganada por hacerlo bien son mejores incentivos para producir software que un salario*”. El libre acceso a la información sigue siendo una preocupación en este caso, pero el énfasis no está puesto en formar una comunidad con valores y normas comunes, sino en que la mejor manera de obtener el mejor desarrollo es a través de un mercado eficiente donde el incentivo para concretarlo sean la motivación y reputación individuales de los programadores -que sólo pueden ser garantizadas con el acceso abierto al código-. En este sentido se ubican varios de los desarrollos más importantes dentro del Hardware Libre, un punto de inflexión que Cuartielles (2013) señala como “estar cometiendo los mismos errores que se cometieron en el ámbito del Software Libre a principios de los ‘80”. Empresas como **Makerbot **-pionera en el desarrollo de impresoras 3D que aprovechó innovaciones realizadas por la comunidad RepRap- o **3D Robotics** -que provee drones a bajos precios- comenzaron siendo desarrollos de hardware libre que actualmente cierran parte de su proceso para evitar “ser copiados por terceros”. El mismo Cuartielles, parte del equipo creador de Arduino, argumenta que la apertura total en hardware no es posible, pero que un giro hacia el acceso abierto en lugar del hardware libre no beneficiaría a la comunidad, si no a las corporaciones. Las motivaciones que motorizan a este grupo son aquellas relacionadas a la capacidad de volver rentable la apertura: difundir un objeto de diseño abierto implica menores costos, mayor uso por parte de la comunidad y por lo tanto mayor publicidad, mayor tasa de innovación, capitalización de las mejoras públicas en términos privados y posibilidad de contar con una comunidad que da soporte ante posibles fallas o problemas en el diseño. A nivel comunidad cuentan con asociaciones como la **Open Source Hardware Association**,  que organiza anualmente el Open Hardware Summit y otras asociaciones enfocadas principalmente en cuestiones de licencias.
-
-Finalmente, se puede identificar dentro del campo del HW Libre a una comunidad claramente definida como "movimiento maker" con una fuerte influencia de la cultura del **Hágalo Usted Mismo** (“Do it yourself” o DIY). Resulta útil en este punto la distinción que Hertz (2011) realiza sobre DIY utilitario y DIY hedonista. El primero responde a la necesidad de construir objetos con los materiales disponibles, muchas veces escasos o inapropiados, para resolver problemas de la vida cotidiana. Por ejemplo, el productor agropecuario que cuando ve que se rompe una maquinaria intenta reemplazar la funcionalidad perdida con otros implementos, o el científico que en un laboratorio sin recursos desarrolla métodos alternativos para llegar a sus resultados. Sin embargo, esta motivación -la necesidad- no es la que caracteriza al “maker”, o al menos no al que predomina en los países desarrollados y las comunidades establecidas. La comunidad maker estaría más motivada por un tipo de DIY hedonista, ligado a la creciente disponibilidad y bajos costos de componentes electrónicos -como Arduino (ver Box 1)- que permiten construir artefactos de consumo personalizados. En este último caso, la utilidad o la significancia del producto se ve opacada por la satisfacción que genera hacerlo.
-
-Según Mark Frauenfelder -editor jefe de la revista MAKE, de referencia para el sector- las motivaciones de la comunidad maker responden a una insatisfacción con la cultura del consumo y del descarte, y a una revalorización del concepto japonés de *wabi-sabi* o la "*apreciación de la imperfección de los objetos*" (Suzuki, D.1959). Hertz suma a esto la motivación generada por reacción a la cultura de la caja negra (“black box”) típica de la fabricación en la era digital: la velocidad de las innovaciones en materia de tecnología implica que los objetos de consumo estén producidos basándose en componentes y procesos complejos. No es posible para el usuario comprender su lógica interna sino sólo el resultado de su funcionamiento, incluso siendo experto. Cuando un objeto se rompe o queda obsoleto, se vuelve inutilizable y genera dependencia de los fabricantes, lo cual es altamente frecuente dados los paradigmas de obsolescencia programada dominantes en la industria. Reemplazar partes es casi imposible para los consumidores, dada la alta especialización de la ingeniería y fabricación que el objeto conlleva. Este rol pasivo de los consumidores genera una reacción por parte de la comunidad DIY, que construye objetos de consumo con componentes simples y compartiendo información, algo que Frauenfelder engloba en el concepto de “vivir auténticamente”.
-
-A nivel de comunidad, los "makers" cuentan con reuniones y exposiciones anuales -Maker Faire-, el desarrollo de un mercado cada vez más importante de componentes y kits electrónicos de fácil utilización (Powell, 2012) y la existencia de la revista MAKE, una especie de continuo de la revista Popular Mechanics de mediados del siglo XX, orientada a la clase media y las actividades hobbistas de tiempo libre. El papel de MAKE no es menor: varios autores le asignan el rol de moldear y normativizar el rumbo que toma la comunidad en base a las prácticas que se difunden a través de la misma.
-
-***
-Al mirar el panorama de las comunidades que se encuentran desarrollando herramientas bajo los estándares libres o abiertos, el primer rasgo que salta a la vista es la heterogeneidad. Las motivaciones detrás de estos "hacedores" son diversas, abarcando un amplio espectro que va desde la figura del inventor hobbista y la tradición del “hágalo usted mismo” hasta comunidades con una orientación política claramente definida, anclada en el autonomismo, el mediactivismo y la ética hacker surgida en los 60-70 en el ámbito del MIT y la prehistoria de internet (Maxigas, 2012; Powell, 2012), pasando por nuevos “emprendedores” y corporaciones que comienzan a asimilar el modelo de apertura en los objetos físicos.
-
-Estas heterogeneidades presentes en la comunidad de FOSS pueden también rastrearse en el FOSH, tanto en términos de  su concepción filosófica como de las comunidades de prácticas que participan y el tipo de actividades de conocimiento, productivas y de uso involucradas. Como se mencionaba en la introducción, dentro del mismo ámbito co-existen proyectos con un origen motivado por la ética hacker -más relacionada a la corriente del software libre- junto a desarrollos claramente orientados a nuevos modelos híbridos de negocio que aprovechan las ventajas de eficiencia que brinda el hardware libre -relacionados al concepto de acceso abierto-.
-
-
-Varios autores consideran a la producción libre/abierta como un movimiento que puede llegar a cambiar las reglas del mercado de objetos de consumo como lo conocemos hoy: una visión de la producción distribuida, sin necesidad de depender de los grandes fabricantes tradicionales, creando cadenas de comercialización más cortas con insumos disponibles localmente (Powell, 2012; Cicero, 2013; Ivonov, 2014). Otros autores en cambio predicen un rumbo menos disruptivo, más similar al que tomó el software libre a partir de la llegada del código abierto y su inserción en las grandes corporaciones. ¿Cuáles son las implicancias de este nuevo modelo de producción en áreas tan diversas como ser educación, salud, ciencia, modelos de negocio? ¿Cómo regular estas nuevas formas de fabricación? ¿Deberían ser reguladas? 
 
 ## Beneficios
 

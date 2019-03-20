@@ -1,4 +1,38 @@
+## Quienes y por que hacen open hw
 
+**Powell 2012:**
+Some cultural antecedents of these activities include the DIY and crafting cultures of mid-century America, where previously utilitarian practices
+became codified as leisure activities (see Haring, 2006) and the early techno-cultures of radio operation (see Douglas, 1987). Contemporary DIY
+can be divided into two broad types: utilitarian DIY, which is done out of scarcity of resources, and hedonized DIY, which is done for fun, often
+using commercially available electronic parts (Hertz, 2011). Hedonized DIY is part of a broader ‘Maker’ movement that allows for personalexpression as well as exploration of how electronic media work. The availability of micro-controllers such as the Arduino and the ease with which they can be used has been part of an expansion of this hedonized production, which in turn has helped to create a growing DIY electronics
+market, anchored by the O’Reilly company’s Make magazine and the annual MakerFaire festivals which O’Reilly organizes in New York, San
+Francisco and Nairobi. 
+
+Within this broad set of cultural practices, modifications of electronic devices and other physical artifacts related to digital media range from
+primarily artistic endeavours like steampunk (Onion, 2008), where elements of digital hardware are replaced in order to generate a nostalgic, yet
+high-tech DIY aesthetic, to projects that evoke a role for citizenship (Ratto, 2011), as well as re-engineering projects. This range of activities
+includes a variety of different relationships with the market: steampunk redesigns take place pri- marily outside of the market, civic projects might
+well be agnostic to the market, and some forms of re-engineering, for example the dismantling and reconstruction of hightech devices in the
+global South, create their own markets (see Wallis et al., 2009). 
+
+**Coleman 2008**
+Elaborating a sense of what freedom is and what it means to be free constitutes moral discourse for hackers (cf. Coleman, 2004; Kelty, 2005,
+2008). However, while this definition of the hacker ethic may accurately reference a general set of moral commitments still in existence today, the
+actual articulation of this ethos has taken on multiple, though coherent forms. The themes raised again and again by hackers – free speech,
+meritocracy, privacy, the power of the individual – suggest that we can read the hacker material as a cultural case in which long-standing liberal
+ideals are reworked in the context of interaction with technical systems to create a diverse but related set of expressions concerning selfhood,
+property, privacy, labor, and creativity. 
+
+Charles Taylor has argued that western society in the past 200 years has witnessed the emergence of what he calls the ‘expressive self ’. Taylor
+claims that this notion of subjectivity rests on three main points. First, that humans are capable of exteriorizing their inner selves through creative
+action; second, that this action is a deeply moral act; and third, that it is not enough simply for the subject to act, but that its acts must be
+recognized by others for them to be truly expressive of itself (Taylor, 1989). The ways in which hackers address the liberal claims at the same time
+reveal points of tension with liberalism (surveillance, intellectual property). 
+
+Through regular and shared routine practices of their ordinary, technical life, which are not fully or always available to conscious reflection,
+hackers come to collectively embody evaluative moral and aesthetic dispositions in which knowledge is sacred territory; access to and personal
+control over the means of information creation and circulation is valued as essential; and technical activity is often experienced as the vehicle for
+self-fashioning and creative self-expression. 
 
 
 ## 2. Innovación democrática

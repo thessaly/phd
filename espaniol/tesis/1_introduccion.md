@@ -34,15 +34,15 @@ El término 'abierto' que utilizamos también se toma de la convención de esta 
 Esta distinción entre 'abierto' y 'libre' deriva de la barrera idiomática y se puede observar en la mayoría de las comunidades que trabajan con materiales no propietarios. En español esa ambigüedad no existe, por lo cual es común encontrar los términos 'hardware libre', 'tecnologías libres', 'tecnologías abiertas' y otros en proyectos de Latinoamérica. 
 Conociendo esta multiplicidad de denominaciones en la región, en este trabajo se utilizará la denominación 'hardware científico abierto' ya que figura oficialmente en la traducción al español del manifiesto GOSH.
 
-Más allá de la terminología empleada, la definición hace referencia a dos comunidades: de Hardware Abierto (OSHWA) y de Obras Culturales Libres. 
+La definición de GOSH hace referencia a dos comunidades: de Hardware Abierto (OSHWA) y de Obras Culturales Libres que son ligeramente diferentes. 
 
-La comunidad de [Open Hardware (OSHWA)](https://www.oshwa.org/) toma la siguiente definición de apertura:
+Por un lado la comunidad [Open Hardware Association (OSHWA)](https://www.oshwa.org/) toma la siguiente definición de apertura:
 
 >"Hardware abierto es aquel hardware cuyo diseño se hace disponible públicamente para que cualquier persona lo pueda estudiar, modificar, distribuir, materializar y vender, tanto el original como otros objetos basados en ese diseño.
 >
 >Las fuentes del hardware (entendidas como los ficheros fuente) habrán de estar disponibles en un formato apropiado para poder realizar modificaciones sobre ellas. Idealmente, el hardware de fuentes abiertas utiliza componentes y materiales de alta disponibilidad, procesos estandarizados, infraestructuras abiertas, contenidos sin restricciones, y herramientas de fuentes abiertas de cara a maximizar la habilidad de los individuos para materializar y usar el hardware. El hardware de fuentes abiertas da libertad de controlar la tecnología y al mismo tiempo compartir conocimientos y estimular la comercialización por medio del intercambio abierto de diseños".
 
-Por otro lado, desde las [Obras Culturales Libres](https://freedomdefined.org), comunidad más amplia de personas y organizaciones alrededor de la cultura libre (ref), se enfatiza que para que una obra sea considerada libre debe cumplir con las siguientes cuatro libertades:
+Por otro lado, desde las [Obras Culturales Libres](https://freedomdefined.org) la apertura se basa en las cuatro libertades:
 
 >
 - la libertad de usar el trabajo y disfrutar de los beneficios de su uso
@@ -51,9 +51,9 @@ Por otro lado, desde las [Obras Culturales Libres](https://freedomdefined.org), 
 - la libertad de hacer cambios y mejoras, y distribuir los trabajos derivados
 >
 
-La obra debe estar cubierta por una licencia cultural libre, o su situación legal debe proporcionar las mismas libertades esenciales enumeradas anteriormente. Esto sin embargo no es condición suficiente, ya que una obra específica puede ser no-libre de otras maneras que restrinjan las libertades esenciales.
+Adicionalmente la obra debe estar cubierta por una licencia cultural libre, o su situación legal debe proporcionar las mismas libertades esenciales enumeradas anteriormente. Esto sin embargo no es condición suficiente, ya que una obra específica puede ser no-libre de otras maneras que restrinjan las libertades esenciales.
 
-Especifican además criterios adicionales para que una obra sea considerada libre:
+Otros criterios adicionales para que una obra sea considerada libre dentro de esta comunidad son:
 
 >
 - Disponibilidad de los datos fuente: Si un trabajo final ha sido obtenido mediante la compilación o procesamiento de uno o varios archivos fuente, todos los datos fuente subyacentes deben estar disponibles junto con el propio trabajo bajo las mismas condiciones.
@@ -89,7 +89,7 @@ Este capítulo tiene la intención de introducir el concepto de hardware cientí
 
 ## Orígenes
 
-El movimiento por el software libre es uno de los pilares de las diversas ramas de la producción abierta y colaborativa.
+La contribución del movimiento de Software Libre es clave para las diversas ramas de la producción abierta y colaborativa que surgieron potenciadas por el uso de plataformas online (Benkler, 2006).
 Aunque el dominio específico de este movimiento sea el ámbito de la computación, su contribución fundamental radica en su filosofía y el uso de copyleft. 
 Su principal referente es Richard Stallman, quien en 1985 creó la Fundación por el Software Libre (FSF por sus siglas en inglés). 
 Después de graduarse en Harvard en 1971 Stallman comenzó a trabajar en el laboratorio de Inteligencia Artificial del MIT como programador, en un ambiente signado por la cultura hacker y la colaboración entre pares:
@@ -107,7 +107,7 @@ Contar con un sistema operativo libre constituía la base que habilitaría cualq
 
 Con el propósito de garantizar que la distribución de GNU no se volviera propietaria, Stallman crea el método 'copyleft': utiliza la ley de copyright para garantizar que el producto siga siendo libre, de forma contraria a su propósito original. 
 El instrumento específico que utiliza es la "Licencia Pública General de GNU" (o GNU GPL por sus siglas en inglés), una licencia que garantiza al usuario libertades de uso, modificación, distribución y estudio al mismo tiempo que le impide agregar futuras restricciones a estas mismas libertades.
-A principios de los años 90 existía suficiente desarrollo como para crear un sistema operativo funcional, sin embargo el núcleo o kernel (Hurd) no estaba lo suficientemente desarrollado. 
+A principios de los años '90 existía suficiente desarrollo en la comunidad GNU como para crear un sistema operativo funcional, sin embargo el núcleo o kernel (Hurd) no estaba lo suficientemente desarrollado. 
 Esto es lo que comenzó a desarrollar en 1991 Linus Torvalds, y que publicaría luego como Linux kernel bajo la licencia GPLv2, habilitando el uso de GNU-Linux a escala global.
 
 Compartir de forma pública las innovaciones o mejoras realizadas de forma individual no constituye una novedad a través de la historia, ya que pueden rastrearse antecedentes en áreas tan diversas como la industria del hierro en el siglo XVIII (Allen, 1983) o el equipamiento médico (Von Hippel and Finkelstein,1979). 
@@ -117,16 +117,16 @@ Esto inspiró otros movimientos en diversas áreas (open Source drugs, Open Desi
 
 Uno de los más importantes derivados del desarrollo del proyecto GNU y el trabajo de la Fundación por el Software Libre es el concepto de "Código abierto" (open source). 
 Surge como respuesta de un grupo de programadores al término "software libre", dentro del mismo movimiento. 
-El contenido político y la ambiguedad en inglés -que lo asocia a gratuidad- volvían difícil su adopción en el ámbito de los negocios. 
+El contenido político y la ambiguedad en inglés del término 'free software' -que lo asocia a gratuidad- volvían difícil su adopción en el ámbito de los negocios. 
 Es por esto que deciden generar un nuevo concepto, orientado a resaltar los beneficios en términos de colaboración y eficiencia, más cercano a la terminología empresarial.
 
-En 1998 Eric Raymond -programador, autor de 'La Catedral y el Bazar', referencia en el ámbito open source-, hace un llamado público a la comunidad de software libre a adoptar el nuevo término y funda la asociación "Open Source Initiative". 
+En 1998 Eric Raymond -programador, autor de *'La Catedral y el Bazar'*, referencia en el ámbito open source-, hace un llamado público a la comunidad de software libre a adoptar el nuevo término y funda la asociación "Open Source Initiative". 
 Contó con el apoyo de muchos personajes importantes de la comunidad en el primer "Open Source Summit" organizado por el editor especializado en tecnología Tim O'Reilly. 
 Dentro de quienes apoyaron la iniciativa se encontraba Linus Torvalds. 
 Richard Stallman se opone al concepto de código abierto ya que "resalta la posibilidad de crear software potente y de alta calidad, pero evita las ideas de libertad, comunidad y principios".
 
-A modo de ejemplo de las controversias en la comunidad, en 2007 luego de años de discusiones en la comunidad de software libre se lanzó la GPLv3.
-La mayor diferencia entre licencias es que la última prohíbe la 'tivoización', concepto acuñado por Stallman para referirse a dispositivos que utilizan software con licencia GPLv2 pero limitan las libertades del usuario mediante modificaciones de hardware. 
+A modo de ejemplo de las controversias en la comunidad, en 2007 luego de años de discusiones en la comunidad de software libre se lanzó la licencia GPLv3.
+La mayor diferencia entre las versiones v2 y v3 es que la última prohíbe la 'tivoización', concepto acuñado por Stallman para referirse a dispositivos que utilizan software con licencia GPLv2 pero limitan las libertades del usuario mediante modificaciones de hardware. 
 Torvalds se alejó de la discusión y no adoptó la GPLv3, por lo cual Linux sigue siendo GPLv2.
 
 La visión del grupo disidente creció tanto en número como influencia convirtiéndose en hegemónica en la actualidad, con licencias específicas open source (ref) y un cada vez mayor número de compañías utilizando software de código abierto (ref), entre las cuales se encuentran grandes nombres como Google, Facebook o Microsoft. 
@@ -166,37 +166,37 @@ Numerosas aproximaciones a la cultura hacker invocan este hito aplicándolo a to
 El concepto de libertad, ya sea en términos de libertad de expresión, privacidad, meritocracia o poder de los individuos, es constituyente principal del discurso hacker (Coleman, 2004; Kelty, 2005, 2008). 
 Sin embargo la articulación de estos conceptos liberales toma diferentes formas en la interacción con sistemas socio-técnicos diversos, creando un set de expresiones relacionadas pero diferentes en torno a la propiedad, el trabajo y la creatividad (Coleman y Golub, 2008).
 
-Maxigas (2012) propone reconstruir estas identidades diversas a partir de una genealogía de dos de los espacios predominantemente habitados por la comunidad hacker: los hackerspaces y los hacklabs. 
-La reconstrucción histórica de estas dos posiciones que realiza el autor resulta útil porque muestra dos aspectos del gradiente que dan origen a múltiples ensamblados que encontramos en la actualidad.
+Maxigas (2012) propone reconstruir estas identidades diversas a partir de una genealogía de dos de los espacios predominantemente habitados por la comunidad hacker a partir de los años '90: los hackerspaces y los hacklabs. 
+Esta aproximación resulta útil porque muestra dos polos dentro del gradiente de actividades que dan origen a los múltiples ensamblados que encontramos en la actualidad.
 Además permite entender cómo sobre la figura de los hackerspaces, por ejemplo, se suman en los últimos años nuevas comunidades como la de Biohacking.
 
 #### Hacklabs, autonomistas y mediactivistas 
 El primero de los casos se centra alrededor del espacio de los ‘hacklabs’. Yuill (2008) los define como "*[...] espacios voluntarios que proveen acceso público y gratuito a computadoras y a Internet. Usualmente hacen uso de máquinas recuperadas y recicladas que corren GNU/Linux y a la vez que proveen acceso a computadoras, la mayoría de los hacklabs tienen talleres funcionando en un rango de temas que van desde el uso básico de la computadora e instalación de software GNU/Linux, hasta programación, electrónica y radiodifusión independiente (o pirata). Los primeros hacklabs se desarrollaron en Europa, usualmente surgiendo de tradiciones de centros sociales ocupados y media labs comunitarios. En Italia se les relaciona con los centros sociales autonomistas y en España, Alemania y en los Países Bajos con movimientos de ocupación anarquistas"*. 
 
-Por un lado los movimientos autonomistas, tomando conceptos marxistas y anarquistas, tuvieron relevancia en los años '70 en Italia, Alemania y Francia con la premisa de proveer alternativas a las instituciones administradas por el Estado. 
+Los movimientos autonomistas, basados en conceptos marxistas y anarquistas, tuvieron relevancia en los años '70 en Italia, Alemania y Francia con la premisa de proveer alternativas a las instituciones administradas por el Estado. 
 Una de sus estrategias era el squatting u ocupación de inmuebles, donde una de las funciones de los espacios ocupados era la de 'centro social' donde se reproducían alternativas a las instituciones oficiales.
 
-Otra de las prácticas era el medioactivismo, sobre una tradición de publicación independiente con hitos en la radiodifusión pirata y comunitaria desde los años '60. 
+El medioactivismo era otra práctica difundida, sobre una tradición de publicación independiente con hitos en la radiodifusión pirata y comunitaria desde los años '60. 
 Las comunidades de medioactivistas apropiaron tecnologías de consumo masivo como grabadoras y otros productos electrónicos accesibles en los años '80, y luego computadoras personales. 
 Su objetivo entre otros era bajar las barreras para la participación de la producción cultural y tecnológica, y establecer una infraestructura de comunicación distribuida para organizaciones anticapitalistas. 
 Como tales, tuvieron un rol importante en el surgimiento del movimiento alternativo a la globalización: la iniciativa de mayor resonancia en este sentido fue la red Indymedia de comunicación independiente.
 
 Estas dos tendencias se combinan en el origen de los hacklabs. Los centros sociales ocupados, en el corazón de la vida urbana, requerían de infraestructuras de comunicación como acceso público a internet y computadoras.
-Los mediactivistas, por el otro lado, requerían estrategias para convocar, producir, enseñar y aprender.
+Los mediactivistas, por el otro lado, requerían estrategias para convocar, producir, enseñar y aprender sobre sus prácticas.
 
 Algunos ejemplos de hacklabs son Ultralab en Forte Prenestino, Italia, surgido a fines de los '90, que se autodefine como un 'patrón emergente' de la conjunción de necesidades tecnológicas de las comunidades que lo integran. 
 Otro ejemplo más reciente es Hackney Crack House en Londres, que hasta 2012 proveía una red de área local y servidor al espacio ocupado donde se alojaba, y funcionaba como lugar de reunión para experimentar con distintas tecnologías.
 
-Los hacklabs son espacios declaradamente políticos que aparecen en cada vez menor número, focalizados a desarrollar infraestructura de comunicaciones para las comunidades que los habitan, privilegiando la creatividad y el acceso a quienes generalmente se ven inhabilitados para ello.
+Los hacklabs son espacios declaradamente políticos que aparecen en cada vez menor número, enfocados en desarrollar infraestructura de comunicaciones para las comunidades que los habitan, privilegiando la creatividad y el acceso a quienes generalmente se ven inhabilitados para ello.
 
 #### Hackerspaces y expansión
 El caso de los hacklabs describido anteriormente es un extremo del espectro político.
-Existe un gradiente de variantes como ser fablabs, makerlabs, medialabs, innovation labs y espacios de co-working.
+Existe un gradiente de variantes que incluye fablabs, makerlabs, medialabs, innovation labs y espacios de co-working.
 Los últimos dos (y también los fablabs), de surgimiento más reciente, se distinguen por estar inmersos en un contexto institucional (universitario, gubernamental, organización o empresa); su fin es la innovación en investigación o productos comerciales.
 Lo que diferencia a los hackerspaces del resto de estos espacios es que están administrados por y para integrantes de la comunidad hacker.
 
 La primer ola de hackerspaces se relaciona a la cultura universitaria ya mencionada del MIT y otros institutos en los Estados Unidos, donde se desarrollaban las primeras computadoras y sistemas operativos.
-Por otro lado la escena se completaba con grupos que hacían ingeniería reversa de las nuevas tecnologías, en ese momento mayoritariamente redes telefónicas.
+Por otro lado la escena se completaba con grupos que hacían ingeniería reversa de las nuevas tecnologías (phreakers), en ese momento mayoritariamente redes telefónicas.
 En Europa la historia está menos documentada pero uno de los hitos es la fundación del Chaos Computer Club en 1981, con fuerte foco en la investigación sobre seguridad informática y privacidad.
 
 Una nueva ola de hackerspaces parece haber sido iniciada a partir de una serie de conferencias en 2007 y 2008, orientadas a los problemas prácticos de cómo se administra y organiza un espacio de estas características.
@@ -204,25 +204,26 @@ Resulta relevante ya que pone el concepto de hackerspace al frente y la creació
 
 Estos nuevos espacios fomentan un modelo de membresía abierto con funciones de aprendizaje, producción y socialización.
 Las actividades varían entre iniciativas, pero el autor detecta una progresión desde las tareas de desarrollo de software libre hacia las de hardware, primero con desarrollo de infraestructura de redes, luego microelectrónica y en algunos casos impresión 3D - fabricación digital.
-El surgimiento de Arduino provocó una explosión de proyectos e interacción en este tipo de espacios, con medios como la revista MAKE y otros para difundirlos.
+El surgimiento de Arduino provocó una explosión de proyectos e interacción en este tipo de espacios, muchos de ellos con fines educativos, facilitando el diálogo con las instituciones formales como universidades o escuelas. 
 
 El desarrollo y expansión de los hackerspaces se alinea con la trayectoria del movimiento hacker, que gana cada vez mayor anclaje institucional.
-El autor reconoce que la apertura a la interfaz física (mayoritariamente a partir de trabajo con microcontroladores) permitió el crecimiento masivo del modelo, ya que la colaboración en este tipo de proyectos se ve facilitada por la disponibilidad de espacios comunes. 
-El contenido político es más difuso, más orientado a valores liberales, lo que le permite una flexibilidad y expansión hacia un espectro mayor: desde el público general a las empresas.
+El autor identifica que la apertura al trabajo con interfaces físicas (mayoritariamente microcontroladores) permitió el crecimiento masivo del modelo, ya que la colaboración en este tipo de proyectos se ve facilitada por la disponibilidad de espacios comunes. 
+El contenido político de estos espacios es más difuso, más orientado a valores liberales, lo que le permite una flexibilidad de discurso y expansión hacia un espectro mayor de actores: desde el público general a las empresas.
 
 ### Cultura Do-it-yourself (DIY)
+Las actividades en los hackerspaces confluyen en numerosas oportunidades con la cultura del **Hágalo Usted Mismo** (“Do it yourself” o DIY, también autodenominados 'makers'), mencionada anteriormente aldededor del desarrollo de Arduino, RaspberryPi y otros microcontroladores accesibles al gran público.
+Algunos antecedentes culturales de estas actividades incluyen las actividades de radio aficionados (Douglas, 1987) y las prácticas DIY de mitad de siglo XX en Estados Unidos (la figura del inventor o hobbista), donde actividades previamente conceptualizadas como utilitarias se transformaron en recreativas (Haring, 2006).
 
-Esta ampliación del espectro de los hackerspaces permite que confluyan con la cultura del **Hágalo Usted Mismo** (“Do it yourself” o DIY), mencionada antes con el desarrollo de Arduino, la revista MAKE y la MakerFaire organizadas en New York, San
-Francisco y Nairobi.
-Algunos antecedentes culturales de estas actividades incluyen las prácticas DIY de mitad de siglo XX en Estados Unidos (la figura del inventor o hobbysta), donde actividades previamente utilitarias se transformaron en ocio (Haring, 2006), y las actividades de radio aficionados (Douglas, 1987).
-
-En la actualidad resulta útil la distinción que Hertz (2011) realiza sobre DIY utilitario y DIY hedonista. 
+En la actualidad resulta útil la distinción que Hertz (2011) realiza sobre DIY utilitario y DIY hedonista.
 El primero responde a la necesidad de construir objetos con los materiales disponibles, muchas veces escasos o inapropiados, para resolver problemas de la vida cotidiana. 
-Por ejemplo, el productor que cuando se enfrenta a una falla en una maquinaria intenta reemplazar la funcionalidad perdida con otros implementos, o el científico que en un laboratorio sin recursos desarrolla métodos alternativos para llegar a sus resultados. 
+Por ejemplo, el científico que en un laboratorio sin recursos desarrolla hardware de bajo costo para obtener más muestras, o el que se encuentra estudiando un proceso y construye hardware que le permita ponerlo a prueba.
+Ambas situaciones están documentados para el caso del instrumental científico (von Hippel, 1976).
 
-Sin embargo, esta motivación -la necesidad- no es la predominante dentro del movimiento “maker”, al menos en la escena de los países desarrollados. 
-En estos espacios la comunidad maker se asocia a un DIY hedonista, ligado a la creciente disponibilidad y bajos costos de componentes electrónicos -como Arduino (ver Box 1)- que permiten construir artefactos de consumo personalizados. 
-En este último caso predomina el elemento lúdico, la exploración personal y el aprendizaje de nuevos métodos.
+En la mayoría de los espacios de la comunidad maker, originados en países desarrollados, predomina el discurso alrededor del DIY hedonista.
+Está ligado a la creciente disponibilidad y bajos costos de componentes electrónicos -como Arduino (ver Box 1)- que permiten construir artefactos de consumo personalizados. 
+En este último caso domina el elemento lúdico, la exploración personal y el aprendizaje de nuevos métodos en el espectro de motivaciones.
+
+Más allá de ser útil al análisis y la comprensión de las motivaciones, en la realidad ambas suelen superponerse, predominando más una sobre la otra pero en conjunto.
 
 Según Mark Frauenfelder -editor jefe de la revista MAKE, de referencia para el sector- las motivaciones de la comunidad maker responden a una insatisfacción con la cultura del consumo y del descarte, y a una revalorización del concepto japonés de *wabi-sabi* o la "*apreciación de la imperfección de los objetos*" (Suzuki, D.1959). 
 Hertz suma a esto la motivación generada por reacción a la cultura de la caja negra (“black box”) típica de la fabricación en la era digital: la velocidad de las innovaciones en materia de tecnología implica que los objetos de consumo estén producidos basándose en componentes y procesos complejos. 
@@ -232,38 +233,62 @@ Si un objeto se rompe o queda obsoleto, se vuelve inutilizable y genera dependen
 Reemplazar partes es casi imposible para los consumidores, dada la alta especialización de la ingeniería y fabricación que el objeto conlleva. 
 Este rol pasivo de los consumidores genera una reacción por parte de la comunidad DIY, que construye objetos de consumo con componentes simples y compartiendo información, algo que Frauenfelder engloba en el concepto de “vivir auténticamente”.
 
-A nivel de comunidad, los "makers" cuentan con reuniones y exposiciones anuales -Maker Faire-, el desarrollo de un mercado cada vez más importante de componentes y kits electrónicos de fácil utilización (Powell, 2012) y la existencia de la revista MAKE, una especie de continuo de la revista Popular Mechanics de mediados del siglo XX, orientada a la clase media y las actividades hobbistas de tiempo libre. 
+A nivel de comunidad, los "makers" cuentan con reuniones y exposiciones anuales -Maker Faire en Nueva York, San Francisco y Nairobi, por ejemplo-, el desarrollo de un mercado cada vez más importante de componentes y kits electrónicos de fácil utilización (Powell, 2012) y la existencia de la revista *MAKE*, una especie de continuo de la revista *Popular Mechanics* de mediados del siglo XX, orientada a la clase media y las actividades hobbistas de tiempo libre. 
 El papel de MAKE no es menor: varios autores le asignan el rol de moldear y normativizar el rumbo que toma la comunidad en base a las prácticas que se difunden a través de ella.
 
 ### Biohacking o DIY biology
-Garage biology, biohacking y biología ciudadana son expresiones que describen un movimiento de amateurs realizando experimentos biológicos fuera de los ámbitos tradicionales como universidades o corporaciones.
-Delfanti () analiza DIYbio, la iniciativa más reconocida, una red creada en 2008 compuesta de varios grupos en ciudades de Europa y Estados Unidos.
+Garage biology, biohacking o biología ciudadana/comunitaria son expresiones que describen un movimiento de amateurs realizando experimentos biológicos fuera de los ámbitos tradicionales como universidades o corporaciones.
+Delfanti () analiza *DIYbio*, la iniciativa más reconocida del ambiente, una red creada en 2008 compuesta de varios grupos en ciudades de Europa y Estados Unidos.
 Tiene como objetivo proveer a los no expertos con un espacio de colaboración y protocolos y herramientas de código abierto para la investigación biológica.
 Como tales, son parte del fenómeno de la producción abierta y colaborativa a través de plataformas online (Benkler, 2006).
 
 Los miembros de la comunidad tienen relación con el movimiento hacker: desarrollan sus espacios bajo el modelo de hackerspaces o directamente instalan una sección 'bio' en hackerspaces existentes.
 Están además inmersos en una red de emprendedores y start-ups que enfrentan al gran mercado de las compañías Bio.
 En 2008 el movimiento comenzó con Mackenzie Cowell, un desarrollador web, y Jason Bobe, parte del proyecto Genoma en la escuela de Medicina de Harvard.
-En 2010, cerca de 2,000 personas eran parte de la lista de correos y existían docenas de grupos comunitarios desde Massachusetts a Bangalore.
+En 2010, cerca de 2,000 personas eran parte de la lista de correos y existían docenas de grupos comunitarios de Boston a Bangalore.
 
 Las actividades incluyen proyectos de ciencia ciudadana simples como aislamiento de bacterias o extracción de ADN, pero también construcción de hardware científico abierto (Ward, 2010).
 DIYbio dialoga con instituciones como universidades, compañías, medios y agencias gubernamentales preocupadas por cuestiones de ética y seguridad (Schmidt, 2008).
-Los miembros son jóvenes biólogos, profesionales de la computación que desean experimentar en biología y artistas interesados en un abordaje crítico DIY a la biología.
+Sus miembros son jóvenes biólogos, profesionales de la computación que desean experimentar en biología y artistas interesados en un abordaje crítico DIY a la biología.
 
 En cuanto a cómo se definen, la comunidad nombra referencias como la cultura hacker, el DIY y el movimiento del Software libre, el espíritu lúdico y 'biopunk'.
-Establecen comparaciones con el Homebrew Computer Club, el centro de operaciones hacker de los '70 en la Bahía de San Francisco, donde se encontraban Steve Wozniak, Bill Gates, Steve
+Establecen comparaciones con el *Homebrew Computer Club*, el centro de operaciones hacker de los '70 en la Bahía de San Francisco donde se encontraban Steve Wozniak, Bill Gates, Steve
 Jobs y otros (Bloom, 2009; Economist, 2009; Golob, 2007; Johnson, 2008). 
 Otros se definen como makers, artesanos, entusiastas, hobbistas o amateurs pero coinciden en la visión de la innovación norteamericana y la cultura de garage.
 
 Como colectivo resaltan la importancia del rol educativo sobre las biotecnologías, especialmente frente a dudas sobre seguridad o ética en las prácticas (DIYbio 2010). 
 La apertura es un requisito de la iniciativa a fin de volver el campo *'accesible para quien desee involucrarse'*.
-El acceso a equipamiento científico es uno de los obstáculos de estas iniciativas, lo que las vuelve uno de los ámbitos más productivos del hardware científico abierto con ejemplos como OpenPCR (http://openpcr.org). 
+El acceso a equipamiento científico es uno de los obstáculos principales en estos proyectos, siendo uno de los ámbitos más productivos del hardware científico abierto con ejemplos como OpenPCR (http://openpcr.org). 
 
-### Innovaciones de usuario en ámbitos académicos
-Von Hippel 1976
+### Latinoamérica: el movimiento de tecnología apropiada y las pedagogías críticas
+Las ideas de la Tecnología Apropiada (TA) se originaron en los debates sobre desarrollo y asistencialismo de los años '60, bajo el concepto de tecnologías para el desarrollo. 
+La búsqueda se orientaba a principios de diseño de tecnologías situadas, ambiental y socialmente justas involucrando comunidades locales (Kaplinksy, 1990; Willoughby, 1990).
+El término 'tecnología apropiada' implicaba un set de características comunes: tecnologías de bajo costo, fabricadas con materiales locales, generadoras de empleo, empleando mano de obra local, pequeña escala, sin requerir expertise o educación de tipo hegemónico 'occidental', de uso colaborativo o colectivo, sin uso de patentes o propiedad intelectual. 
 
-### Latinoamérica: el movimiento de tecnología apropiada
-Fressoli 2017
+Los actores e instituciones alrededor de la TA eran diversos, incluyendo activistas, extensionistas, educadores, ingenieros, algunos científicos, organismos de financiación y hacedores de políticas.
+El movimiento llegó a Latinoamérica a principios de los años '80 en tiempos de represión política, ajuste económico y crisis de deuda internacional. 
+A nivel internacional ya se encontraba perdiendo fuerza frente al neoliberalismo (Kaplinksy, 1990), sin embargo a nivel regional ganó momento basándose en las ideas de la teoría de la dependencia estructural y la ‘Escuela Latinoamericana de Pensamiento en Ciencia, Tecnología y Desarrollo’.
+
+Casi todos los países de Sudamérica tuvieron algún tipo de actividad de TA en este período en forma de centros y programas de investigación autónomos.
+Estos centros reunían ingenieros, economistas, sociólogos y trabajadores sociales, algunos estudiantes y voluntarios y escasos vínculos a instituciones académicas.
+Las ideas globales de la TA no se ajustaban a la realidad latinoamericana de los '80, por lo que la primer tarea de los centros fue desarrollar nuevos marcos en torno a los actores, situaciones y problemas locales.
+
+Lo que caracterizó al movimiento en latinoamérica fue su esfuerzo por construir un abordaje distinto, participativo que utilizara la tecnología como una herramienta para la autonomía y el empoderamiento.
+Sus impulsores experimentaban con metodologías que permitieran a las comunidades definir sus propios problemas y testear sus alternativas. 
+Las ideas de la TA en la región fueron inevitablemente influenciadas por los debates e ideas de la educación popular, investigación acción participativa, agroecología y revalorización del conocimiento indígena. 
+Autores como Paulo Freire y Orlando Fals Borda eran muy influyentes, lo que contribuyó a delinear nuevas aproximaciones a la participación (Kaimowitz, 1993). 
+A través del desarrollo de artefactos, técnicas y prácticas materiales se pretendía desarrollar autonomía y crear nuevas formas de activismo y conciencia política para generar empoderamiento. 
+Se trataba de una aproximación práctica, que surgía del trabajo a campo y por ende flexible a incorporar distintos enfoques; las metodologías incluían por ejemplo procesos de co-diseño de tecnologías, auto-organización y construcción desde los usuarios.
+
+A medida que las políticas neoliberales comenzaron a predominar en la región, las agencias de desarrollo se vieron somentidas a ideas de "ajuste estructural" (Rist, 2011). 
+Algunas iniciativas de TA lograron sobrevivir a partir de fondos que buscaban reconstruir procesos de democratización luego de las dictaduras latinoamericanas, aunque con enfoques diferentes. 
+
+Las ideas del movimiento de TA impulsaron nociones sobre la tecnología que pueden rastrearse en distintas iniciativas, como la Red de Tecnologías Sociales en Brazil a comienzos del siglo XXI.
+Los procesos de participación pública e inclusión de conocimientos locales son una práctica común en los proyectos actuales de desarrollo (Chambers, 1997; Pieterse, 1998), con sus críticas (Cooke & Kothari, 2001; Hickey & Mohan, 2004).
+
+Muchas de las concepciones del movimiento de TA en Latinoamérica se alinean con los de la comunidad Global por el hardware científico abierto, con grupos en la región trabajando en temáticas agroecológicas, de desarrollo y educación que por ejemplo hacen referencia a la influencia de los trabajos de Paulo Freire.
+
+
 
 
 ## Enablers
@@ -325,6 +350,7 @@ obtaining a precisely right product remains constant.(Von Hippel, 2005)
 
 ## ¿Cómo se hace hardware abierto?
 
+### Desarrollo del prototipo
 Una de las principales cuestiones que la literatura analiza es la diferencia entre el proceso de desarrollo del software y el de hardware. Mientras la virtualidad del software facilita la colaboración sin mediar distancias en un proceso bastante directo entre usuarios, la materialidad inherente al desarrollo de hardware implica que éste requiera de instancias discretas y potencialmente independientes de trabajo. Como se ve en algunos estudios de caso, esto determina cuellos de botella particulares, asociados principalmente al multi-expertise requerido para modificar un objeto y a la existencia de patentes en los objetos físicos. Al respecto, algunas organizaciones han comenzado a documentar protocolos de desarrollo de OSH, a manera de guías de buenas prácticas (Cenditel) o describiendo procesos exitosos (Ackermann, 2009).
 
 Los pasos necesarios para construir hardware electrónico han ido mutando hacia formas automatizadas en los últimos años. Sin embargo aún se precisa contar con ciertos conocimientos y herramientas específicos.
@@ -404,58 +430,19 @@ En cuanto a las dificultades que se identifican en los procesos de desarrollo, p
 >
 >Open Source Ecology es una obvia inspiración para otros “makers” y emprendedores, pero además puede brindar lecciones a instituciones de investigación y desarrollo existentes. Existen enormes oportunidades en el acceso abierto a los planos técnicos de maquinaria agrícola, energía renovable y tecnologías de acceso al agua y saneamiento, que ya han sido desarrolladas por dichas instituciones de I+D. Abrir esos diseños podría ayudar a los actores locales a adquirir nuevos conocimientos, desarrollar sus propias herramientas e incluso ayudar a mejorar las que ya están disponibles.
 
+### Licencias para hardware
 
-## ¿En qué áreas se desarrolla hardware abierto?
+Las licencias disponibles hoy son las siguientes:
 
-#### Ciencia
+a) TAPR
+La [Tucson Amateur Packet Radio](https://en.wikipedia.org/wiki/Tucson_Amateur_Packet_Radio) -TAPR, una organización internacional de radios amateur- definió el concepto de "hardware libre" en lo que constituyó el primer mecanismo de regulación de propiedad intelectual para este tipo de desarrollos. En esta licencia se lo define como “**una cosa -artefacto físico, ya sea eléctrico o mecánico- cuya información de diseño se encuentra disponible y utilizable por parte del público, de forma tal que permite a cualquier persona fabricarla, modificarla, distribuirla o utilizarla**” (TAPR, 2007).
 
-Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrollo de instrumental para laboratorios científicos. Combinando el uso de Arduino e Impresión 3D, investigadores de diversos puntos del planeta comienzan a generar instrumental específico, que permite automatizar la toma de datos a menores tiempos y costos de investigación. Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
+b) Balloon     
+c) HW Design Public      
+d) Solderpad     
+e) CERN OHL
 
->**Box 6: Bomba de jeringa open source (OSSP)**
->
->Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
->
->El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
->
->La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
->
-><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
->_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
->
->Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
-
-Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
-
-En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
-
-Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
-
-#### Educación
-
-Dentro del ámbito de la educación, el principal impacto se ve en la enseñanza de contenidos técnicos a través de los talleres de robótica. La robótica presenta una doble ventaja como herramienta en la educación técnica: por un lado combina un componente de interés y fascinación por parte de los estudiantes -materializado en múltiples concursos a escala global- y a la vez requiere el desarrollo de múltiples habilidades: mecánica, electrónica, gestión energía, ciencias de la computación, entre otras. Para orientar estos cursos en ciertos colegios o universidades se utilizan herramientas de programación de bajo nivel como lenguaje ensamblador, o nivel medio como lenguaje C. Sin embargo la sintaxis o estructura de estos lenguajes se convierte en algún momento en barreras que desmotivan a los estudiantes:, si le sumamos la parte electrónica, el montaje y el diseño, muchas veces se vuelve un motivo de frustración.
-
-La principal ventaja del OH en este campo es el aumento de la velocidad de iteración, es decir la posibilidad de experimentar a un bajo costo, y la creatividad que se puede desarrollar a partir de la utilización de sistemas flexibles, como Arduino. Un punto no menor consiste en que al contar con el diseño completamente abierto, los estudiantes acceden a experimentar con los desarrollos en todos los niveles y los docentes encuentran más fácil la tarea de dar soporte y mantenimiento.
-
-Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. Existen múltiples experiencias de estudiantes y talleres en escuelas donde se evidencia la sencillez y mayor velocidad en los procesos de aprendizaje cuando se utilizan diseños basados en OSHW.
-
-Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
-
-> **Box 7: Minipiano - Haciendo música con Arduino**
->
->En este experimento, Bordignon e Iglesias enseñan a los estudiantes, a través de la construcción de un piano de tres teclas, a trabajar con luces led, botones y con un buzzer para entender cómo se leen los datos y cómo utilizarlos en los programas que se realizarán en Arduino.
->  
->A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
->
-><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>    
->_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
-
-Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
-
-En este ámbito se puede observar una motivación cercana al movimiento *maker*, relacionada a la corriente del aprendizaje construccionista y su leitmotiv de "aprender haciendo", basada en las ideas de John Dewey, Maria Montessori, y Jean Piaget. Los educadores que adhieren a esta orientación plantean que enseñar en la práctica el uso del hardware y su intervención permite tener una perspectiva más amplia sobre el funcionamiento de las tecnologías digitales y deja de lado la visión de los objetos cotidianos como cajas negras cerradas y mágicas para pasar a percibirlos como resultado de un diseño premeditado. Además, hacen hincapié en la valoración del error como método de aprendizaje, generando un espacio seguro donde los estudiantes pueden tomar información a partir de experimentos fallidos.
-
-En el ámbito local es importante mencionar el trabajo de Bordignon e Iglesias, donde proponen una serie de experimentos basados en Arduino para aplicar en clase. Trabajando con sistemas embebidos, detallan la información necesaria para que en distintos niveles del ciclo educativo los estudiantes puedan desarrollar desde un semáforo o un termómetro hasta juegos con electrónica de mayor complejidad (ver Box 7).
-
-#### Negocios
+### Modelos de negocio basados en la apertura
 
 La explosión del OSHW abrió la puerta a múltiples modelos de negocio que utilizan parcial o totalmente la apertura como estrategia de monetización. Según un informe sobre el estado de situación de los emprendimientos OHW (Berchon. 2013), la mayoría se encuentran en los Estados Unidos (68%) -concentradas en los núcleos de desarrollo de hardware alrededor de las universidades y hackerspaces activos- seguido por Europa (19%) y Asia (7%). Sin embargo el rasgo más llamativo es que la mayoría de las iniciativas funcionan completamente online, siendo la colaboración, distribución y comunicación virtuales, por lo que la ubicación no sería un factor determinante para este tipo de emprendimientos.
 
@@ -542,6 +529,56 @@ Uno de los puntos más interesantes es el análisis de por qué aún el OHW no e
 >
 >La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.
 
+## ¿En qué áreas se desarrolla hardware abierto científico?
+
+#### Ciencia
+
+Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrollo de instrumental para laboratorios científicos. Combinando el uso de Arduino e Impresión 3D, investigadores de diversos puntos del planeta comienzan a generar instrumental específico, que permite automatizar la toma de datos a menores tiempos y costos de investigación. Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
+
+>**Box 6: Bomba de jeringa open source (OSSP)**
+>
+>Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
+>
+>El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
+>
+>La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
+>
+><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
+>_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
+>
+>Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
+
+Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
+
+En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
+
+Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
+
+#### Educación
+
+Dentro del ámbito de la educación, el principal impacto se ve en la enseñanza de contenidos técnicos a través de los talleres de robótica. La robótica presenta una doble ventaja como herramienta en la educación técnica: por un lado combina un componente de interés y fascinación por parte de los estudiantes -materializado en múltiples concursos a escala global- y a la vez requiere el desarrollo de múltiples habilidades: mecánica, electrónica, gestión energía, ciencias de la computación, entre otras. Para orientar estos cursos en ciertos colegios o universidades se utilizan herramientas de programación de bajo nivel como lenguaje ensamblador, o nivel medio como lenguaje C. Sin embargo la sintaxis o estructura de estos lenguajes se convierte en algún momento en barreras que desmotivan a los estudiantes:, si le sumamos la parte electrónica, el montaje y el diseño, muchas veces se vuelve un motivo de frustración.
+
+La principal ventaja del OH en este campo es el aumento de la velocidad de iteración, es decir la posibilidad de experimentar a un bajo costo, y la creatividad que se puede desarrollar a partir de la utilización de sistemas flexibles, como Arduino. Un punto no menor consiste en que al contar con el diseño completamente abierto, los estudiantes acceden a experimentar con los desarrollos en todos los niveles y los docentes encuentran más fácil la tarea de dar soporte y mantenimiento.
+
+Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. Existen múltiples experiencias de estudiantes y talleres en escuelas donde se evidencia la sencillez y mayor velocidad en los procesos de aprendizaje cuando se utilizan diseños basados en OSHW.
+
+Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
+
+> **Box 7: Minipiano - Haciendo música con Arduino**
+>
+>En este experimento, Bordignon e Iglesias enseñan a los estudiantes, a través de la construcción de un piano de tres teclas, a trabajar con luces led, botones y con un buzzer para entender cómo se leen los datos y cómo utilizarlos en los programas que se realizarán en Arduino.
+>  
+>A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
+>
+><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>    
+>_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
+
+Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
+
+En este ámbito se puede observar una motivación cercana al movimiento *maker*, relacionada a la corriente del aprendizaje construccionista y su leitmotiv de "aprender haciendo", basada en las ideas de John Dewey, Maria Montessori, y Jean Piaget. Los educadores que adhieren a esta orientación plantean que enseñar en la práctica el uso del hardware y su intervención permite tener una perspectiva más amplia sobre el funcionamiento de las tecnologías digitales y deja de lado la visión de los objetos cotidianos como cajas negras cerradas y mágicas para pasar a percibirlos como resultado de un diseño premeditado. Además, hacen hincapié en la valoración del error como método de aprendizaje, generando un espacio seguro donde los estudiantes pueden tomar información a partir de experimentos fallidos.
+
+En el ámbito local es importante mencionar el trabajo de Bordignon e Iglesias, donde proponen una serie de experimentos basados en Arduino para aplicar en clase. Trabajando con sistemas embebidos, detallan la información necesaria para que en distintos niveles del ciclo educativo los estudiantes puedan desarrollar desde un semáforo o un termómetro hasta juegos con electrónica de mayor complejidad (ver Box 7).
+
 #### Personalización del consumo - DIY
 ***
 **A completar**
@@ -600,19 +637,6 @@ Además, la información virtual contenida en los archivos de diseño (set Gerbe
 Existen obstáculos a nivel empresarial y de tipo político: al día de hoy aún es necesario depender de un gran fabricante que pueda proveer los circuitos impresos. Algunos grandes fabricantes ven en el OHW una amenaza a su negocio -empresas que por ejemplo no quieren perder su capacidad para hacer obsolescencia programada de objetos-. En este sentido para el hardware se vuelve mucho más intrincado el problema de licencias y patentes, comparado con la industria del software.
 
 En casos específicos como la ciencia y la educación, los principales obstáculos tienen que ver con la rigidez institucional: el tiempo que los científicos dedican a estos desarrollos aún no es visualizado como tiempo productivo por los sistemas de evaluación profesional, aunque comienzan a observarse iniciativas de revistas especializadas que podrían constituir un camino hacia la formalización y valoración de esos esfuerzos.
-
-## Licencias
-
-Las licencias disponibles hoy son las siguientes:
-
-a) TAPR
-La [Tucson Amateur Packet Radio](https://en.wikipedia.org/wiki/Tucson_Amateur_Packet_Radio) -TAPR, una organización internacional de radios amateur- definió el concepto de "hardware libre" en lo que constituyó el primer mecanismo de regulación de propiedad intelectual para este tipo de desarrollos. En esta licencia se lo define como “**una cosa -artefacto físico, ya sea eléctrico o mecánico- cuya información de diseño se encuentra disponible y utilizable por parte del público, de forma tal que permite a cualquier persona fabricarla, modificarla, distribuirla o utilizarla**” (TAPR, 2007).
-
-b) Balloon     
-c) HW Design Public      
-d) Solderpad     
-e) CERN OHL
-
 
 ## Políticas
 

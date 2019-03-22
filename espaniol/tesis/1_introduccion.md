@@ -421,15 +421,18 @@ En cuanto a las dificultades que se identifican en los procesos de desarrollo, p
 
 ### Licencias para hardware
 
-Las licencias disponibles hoy son las siguientes:
+Las licencias disponibles hoy y recomendadas por la comunidad GOSH son:
 
-a) TAPR
+1. [TAPR](https://www.tapr.org/ohl.html)    
 La [Tucson Amateur Packet Radio](https://en.wikipedia.org/wiki/Tucson_Amateur_Packet_Radio) -TAPR, una organización internacional de radios amateur- definió el concepto de "hardware libre" en lo que constituyó el primer mecanismo de regulación de propiedad intelectual para este tipo de desarrollos. En esta licencia se lo define como “**una cosa -artefacto físico, ya sea eléctrico o mecánico- cuya información de diseño se encuentra disponible y utilizable por parte del público, de forma tal que permite a cualquier persona fabricarla, modificarla, distribuirla o utilizarla**” (TAPR, 2007).
 
-b) Balloon     
-c) HW Design Public      
-d) Solderpad     
-e) CERN OHL
+
+2. Source: https://www.ohwr.org/projects/cernohl
+3. Source: http://solderpad.org/licenses/
+4. Source: https://biobricks.org/openmta
+
+
+
 
 ### Modelos de negocio basados en la apertura
 

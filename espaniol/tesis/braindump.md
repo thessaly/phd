@@ -1,50 +1,98 @@
-## Quienes y por que hacen open hw
-**Coleman 2009**
-One of the canonical books on hackers is Steven Levy's superb journalistic account Hackers: Heroes of the Computer Revolution published in 1984. The book is famous for defining the "hacker ethic," a set of aesthetic and ethical imperatives that include a commitment to access, meritocracy, and a belief that computers can the be the basis for beauty, even a better world. While in a general sense, the hacker ethic can be said to exist -- in part because many hackers have adopted this terminology -- this benchmark at times acts as the Achilles heel of journalistic and academic studies of hackers; it is often invoked in simplified terms, applied wholesale to hackers whitewashing the most fascinating ethical dimensions that flow out of computer hacking, which are precisely the ethical eddies, cracks, and tides that render hacker action more ambivalent and ambiguous than a crystal clear standard. 
+***
+>**Box2: Computadora Industrial Abierta Argentina**
+>
+>El Proyecto CIAA surgió en 2013 como una iniciativa conjunta entre el sector académico y la industria nacionales, con el objetivo de desarrollar un sistema electrónico abierto de uso general, donde absolutamente toda su documentación y el material para su fabricación estuviera libremente disponible en internet-(diagramas esquemáticos, diseño del circuito impreso, códigos fuentes de los programas, etc.-, que estuviera diseñado en base a criterios adecuados para su utilización en aplicaciones industriales, que no dependiera de una línea específica de procesadores, y que pudiera ser fabricado por la mayoría de las empresas PyMEs nacionales, lo que implicaba por ejemplo utilizar en el diseño circuitos impresos de no más de cuatro capas.
+>
+>El hardware, el firmware y el software de la CIAA, así como los documentos y archivos generados como parte de su desarrollo, son liberados bajo las condiciones de la Licencia BSD modificada, que permite la redistribución ilimitada del producto, con o sin modificaciones y para cualquier propósito, siempre que se mantenga la autoría del proyecto y la renuncia a garantías.
+>
+> La primera versión, CIAA-NXP, fue diseñada utilizando un microprocesador provisto por la empresa NXP Semiconductors. Más adelante se realizaron versiones para microprocesadores de otras compañías. Lo interesante del proyecto es que se trata de una computadora industrial y abierta, ya que su diseño está preparado para las exigencias de confiabilidad, temperatura, vibraciones, ruido electromagnético, tensiones, cortocircuitos, etc., que demandan los productos y procesos industriales. Actualmente la CIAA es fabricada y comercializada por distintas empresas argentinas.
+>
+>![EDU-CIAA-NXP](http://www.proyecto-ciaa.com.ar/devwiki/lib/exe/fetch.php?media=desarrollo:edu-ciaa:edu-ciaa-nxp.png)    
+>_Fig. 2: EDU-CIAA-NXP, una versión de bajo costo de la CIAA-NXP pensada para la enseñanza universitaria, terciaria y secundaria (Fuente: CIAA)_
+>
+>Entre algunos de los proyectos que utilizan CIAA, se encuentran aplicaciones de automatización industrial, equipamiento médico, industria ferroviaria, maquinaria agrícola. Además, se diseñó una versión educativa de la plataforma, la EDU-CIAA, más simple y de menor costo, para lograr un impacto en la enseñanza primaria, secundaria y universitaria.
+***
 
-Hacking may be contemporary but the logic of its labor goes back centuries for it is a prime example of a "craft" as defined by the sociologist Richard Sennett in The Craftsman.  But in reading the pages of Levy, one also gets a whiff of an ideological scent among hackers, for example, in their hyper-elevation of meritocracy and individualism, both of which have a long and complicated life in the liberal tradition.
+> **Box3: Open Source Ecology - Global Village Construction Set**     
+> Open Source Ecology es una iniciativa de Marcin Jakubowski, un estudiante polaco de física nuclear en Estados Unidos, quien después de obtener su doctorado comenzó a trabajar en su propia finca en Missouri. Allí se dio cuenta que era incapaz de reparar por sí mismo el tractor con el que trabajaba debido al elevado costo de los repuestos, por lo que decidió crear ‘Global Village Construction Set’, siguiendo la filosofía del software libre.
+>
+> Global Village Construction Set es el desafío de crear 50 herramientas que cualquier finca necesitaría con el objetivo de ser sostenible y autónoma. Según Wikipedia, es "Una plataforma de alto rendimiento, modular, de bajo costo, do-it-yourself que habilita la fabricación de 50 máquinas industriales diferentes que se precisan para construir una pequeña y sostenible civilización con comodidades modernas".
+>
+>![Global village construction set](https://www.opensourceecology.org/wp-content/uploads/2014/02/gvcs-all-50.jpg)    
+>_Fig. 6: El kit incluye un tractor, impresora 3D, cortadora láser, soldadora, aserradero, un horno de panadería, un pulverizador de suelo, una sembradora, un aerogenerador, entre otros (Fuente: Open Source Ecology)_
+>
+>La filosofía de Open Source Ecology es que el problema del acceso a las herramientas y maquinarias no está relacionado a la escasez de recursos sino a su distribución desigual. Volviendo accesibles los planos, esquemáticos y manuales, Open Source Ecology busca fabricar herramientas accesibles para todos, especialmente aquellos que habitan pequeñas comunidades.
+>
+>El proyecto ha estado funcionando durante los últimos 5 años, contando ya con alrededor de 20 prototipos. Ofrecen planos y manuales (incluyendo tutoriales en Youtube) sobre cómo fabricar las herramientas, además de talleres específicos en los sitios de interés. Al compartir los diseños online, permitieron que se creara una gran red de personas que colaboran el diseño de las máquinas, las mejoran y modifican para adaptarlas a nuevos usos. Una encuesta en 2014 registró 110 réplicas de los diseños provenientes de Global Village Construction Set en Estados Unidos, Chile, Nicaragua, Guatemala, China, India, Italia y Turquía
+>
+>![johndeere](https://image.slidesharecdn.com/openhardwarebusinessmodels-141115072738-conversion-gate01/95/business-models-for-open-source-hardware-23-638.jpg)    
+>_Fig. 7: Comparación de costos entre maquinaria agrícola abierta y privativa (Fuente: Benjamin Tincq)_
+>
+>Open Source Ecology es una obvia inspiración para otros “makers” y emprendedores, pero además puede brindar lecciones a instituciones de investigación y desarrollo existentes. Existen enormes oportunidades en el acceso abierto a los planos técnicos de maquinaria agrícola, energía renovable y tecnologías de acceso al agua y saneamiento, que ya han sido desarrolladas por dichas instituciones de I+D. Abrir esos diseños podría ayudar a los actores locales a adquirir nuevos conocimientos, desarrollar sus propias herramientas e incluso ayudar a mejorar las que ya están disponibles.
 
-The canonical (and I think misleading) story about hacking is that was born at MIT and evolved outward from there.  Although MIT was certainly one place where hacking got its start, there were other genealogies in formation at the same time. We thus reappraise this version of history when we pay visit to another class of technologist, the phone phreakers -- the direct ancestors to the hacker underground. In the late 1950s, they started to study, explore, and enter the phone system by recreating the audio frequencies that the system used to route calls. To learn about these technological spelunkers of the phone system, we rely on a few of the early chapters in Bruce Sterling's The Hacker Crackdown and on Ron Rosenbaum's riveting Esquire article "Secrets of the Little Blue Box". The institutional independence of phreakers, in combination with some early political influences, such as the the Yippies (Youth International Party), made for a class of technologist whose aesthetic sensibilities and linguistic practices proved to be more daring, vivacious, audacious, and more transgressive than university-based hackers at MIT, Carnegie Mellon, and Stanford. 
-
-
-**Powell 2012:**
-Some cultural antecedents of these activities include the DIY and crafting cultures of mid-century America, where previously utilitarian practices
-became codified as leisure activities (see Haring, 2006) and the early techno-cultures of radio operation (see Douglas, 1987). Contemporary DIY
-can be divided into two broad types: utilitarian DIY, which is done out of scarcity of resources, and hedonized DIY, which is done for fun, often
-using commercially available electronic parts (Hertz, 2011). Hedonized DIY is part of a broader ‘Maker’ movement that allows for personalexpression as well as exploration of how electronic media work. The availability of micro-controllers such as the Arduino and the ease with which they can be used has been part of an expansion of this hedonized production, which in turn has helped to create a growing DIY electronics
-market, anchored by the O’Reilly company’s Make magazine and the annual MakerFaire festivals which O’Reilly organizes in New York, San
-Francisco and Nairobi. 
-
-Within this broad set of cultural practices, modifications of electronic devices and other physical artifacts related to digital media range from
-primarily artistic endeavours like steampunk (Onion, 2008), where elements of digital hardware are replaced in order to generate a nostalgic, yet
-high-tech DIY aesthetic, to projects that evoke a role for citizenship (Ratto, 2011), as well as re-engineering projects. This range of activities
-includes a variety of different relationships with the market: steampunk redesigns take place pri- marily outside of the market, civic projects might
-well be agnostic to the market, and some forms of re-engineering, for example the dismantling and reconstruction of hightech devices in the
-global South, create their own markets (see Wallis et al., 2009). 
-
-**Coleman 2008**
-Elaborating a sense of what freedom is and what it means to be free constitutes moral discourse for hackers (cf. Coleman, 2004; Kelty, 2005,
-2008). However, while this definition of the hacker ethic may accurately reference a general set of moral commitments still in existence today, the
-actual articulation of this ethos has taken on multiple, though coherent forms. The themes raised again and again by hackers – free speech,
-meritocracy, privacy, the power of the individual – suggest that we can read the hacker material as a cultural case in which long-standing liberal
-ideals are reworked in the context of interaction with technical systems to create a diverse but related set of expressions concerning selfhood,
-property, privacy, labor, and creativity. 
-
-Charles Taylor has argued that western society in the past 200 years has witnessed the emergence of what he calls the ‘expressive self ’. Taylor
-claims that this notion of subjectivity rests on three main points. First, that humans are capable of exteriorizing their inner selves through creative
-action; second, that this action is a deeply moral act; and third, that it is not enough simply for the subject to act, but that its acts must be
-recognized by others for them to be truly expressive of itself (Taylor, 1989). The ways in which hackers address the liberal claims at the same time
-reveal points of tension with liberalism (surveillance, intellectual property). 
-
-Through regular and shared routine practices of their ordinary, technical life, which are not fully or always available to conscious reflection,
-hackers come to collectively embody evaluative moral and aesthetic dispositions in which knowledge is sacred territory; access to and personal
-control over the means of information creation and circulation is valued as essential; and technical activity is often experienced as the vehicle for
-self-fashioning and creative self-expression. 
+## ventajas
+**De pearce 2017**
 
 
-Por otro lado, existe un grupo de iniciativas cuyas motivaciones se basan en las ventajas relacionadas a la eficiencia y los posibles modelos de negocio que se habilitan a partir de la aparición del hardware libre. El origen de estas motivaciones puede remontarse a 1998, cuando fue acuñado el término "open source software" -software de código abierto-. Esta variante surge del Movimiento de Software Libre, como mencionamos en la introducción, pero  haciendo hincapié en en la eficiencia del modelo de desarrollo colaborativo del código abierto para crear las mejores soluciones a un problema determinado. Eric Raymond, uno de sus máximos exponentes, argumenta que “*el disfrute obtenido por programar y la reputación ganada por hacerlo bien son mejores incentivos para producir software que un salario*”. El libre acceso a la información sigue siendo una preocupación en este caso, pero el énfasis no está puesto en formar una comunidad con valores y normas comunes, sino en que la mejor manera de obtener el mejor desarrollo es a través de un mercado eficiente donde el incentivo para concretarlo sean la motivación y reputación individuales de los programadores -que sólo pueden ser garantizadas con el acceso abierto al código-. En este sentido se ubican varios de los desarrollos más importantes dentro del Hardware Libre, un punto de inflexión que Cuartielles (2013) señala como “estar cometiendo los mismos errores que se cometieron en el ámbito del Software Libre a principios de los ‘80”. Empresas como **Makerbot **-pionera en el desarrollo de impresoras 3D que aprovechó innovaciones realizadas por la comunidad RepRap- o **3D Robotics** -que provee drones a bajos precios- comenzaron siendo desarrollos de hardware libre que actualmente cierran parte de su proceso para evitar “ser copiados por terceros”. El mismo Cuartielles, parte del equipo creador de Arduino, argumenta que la apertura total en hardware no es posible, pero que un giro hacia el acceso abierto en lugar del hardware libre no beneficiaría a la comunidad, si no a las corporaciones. Las motivaciones que motorizan a este grupo son aquellas relacionadas a la capacidad de volver rentable la apertura: difundir un objeto de diseño abierto implica menores costos, mayor uso por parte de la comunidad y por lo tanto mayor publicidad, mayor tasa de innovación, capitalización de las mejoras públicas en términos privados y posibilidad de contar con una comunidad que da soporte ante posibles fallas o problemas en el diseño. A nivel comunidad cuentan con asociaciones como la **Open Source Hardware Association**,  que organiza anualmente el Open Hardware Summit y otras asociaciones enfocadas principalmente en cuestiones de licencias.
 
+## ¿En qué áreas se desarrolla hardware científico abierto?
 
+### Ciencia
+
+Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrollo de instrumental para laboratorios científicos. Combinando el uso de Arduino e Impresión 3D, investigadores de diversos puntos del planeta comienzan a generar instrumental específico, que permite automatizar la toma de datos a menores tiempos y costos de investigación. Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
+
+>**Box 6: Bomba de jeringa open source (OSSP)**
+>
+>Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
+>
+>El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
+>
+>La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
+>
+><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
+>_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
+>
+>Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
+
+Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
+
+En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
+
+Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
+
+#### Educación
+
+Dentro del ámbito de la educación, el principal impacto se ve en la enseñanza de contenidos técnicos a través de los talleres de robótica. La robótica presenta una doble ventaja como herramienta en la educación técnica: por un lado combina un componente de interés y fascinación por parte de los estudiantes -materializado en múltiples concursos a escala global- y a la vez requiere el desarrollo de múltiples habilidades: mecánica, electrónica, gestión energía, ciencias de la computación, entre otras. Para orientar estos cursos en ciertos colegios o universidades se utilizan herramientas de programación de bajo nivel como lenguaje ensamblador, o nivel medio como lenguaje C. Sin embargo la sintaxis o estructura de estos lenguajes se convierte en algún momento en barreras que desmotivan a los estudiantes:, si le sumamos la parte electrónica, el montaje y el diseño, muchas veces se vuelve un motivo de frustración.
+
+La principal ventaja del OH en este campo es el aumento de la velocidad de iteración, es decir la posibilidad de experimentar a un bajo costo, y la creatividad que se puede desarrollar a partir de la utilización de sistemas flexibles, como Arduino. Un punto no menor consiste en que al contar con el diseño completamente abierto, los estudiantes acceden a experimentar con los desarrollos en todos los niveles y los docentes encuentran más fácil la tarea de dar soporte y mantenimiento.
+
+Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. Existen múltiples experiencias de estudiantes y talleres en escuelas donde se evidencia la sencillez y mayor velocidad en los procesos de aprendizaje cuando se utilizan diseños basados en OSHW.
+
+Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
+
+> **Box 7: Minipiano - Haciendo música con Arduino**
+>
+>En este experimento, Bordignon e Iglesias enseñan a los estudiantes, a través de la construcción de un piano de tres teclas, a trabajar con luces led, botones y con un buzzer para entender cómo se leen los datos y cómo utilizarlos en los programas que se realizarán en Arduino.
+>  
+>A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
+>
+><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>    
+>_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
+
+Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
+
+En este ámbito se puede observar una motivación cercana al movimiento *maker*, relacionada a la corriente del aprendizaje construccionista y su leitmotiv de "aprender haciendo", basada en las ideas de John Dewey, Maria Montessori, y Jean Piaget. Los educadores que adhieren a esta orientación plantean que enseñar en la práctica el uso del hardware y su intervención permite tener una perspectiva más amplia sobre el funcionamiento de las tecnologías digitales y deja de lado la visión de los objetos cotidianos como cajas negras cerradas y mágicas para pasar a percibirlos como resultado de un diseño premeditado. Además, hacen hincapié en la valoración del error como método de aprendizaje, generando un espacio seguro donde los estudiantes pueden tomar información a partir de experimentos fallidos.
+
+En el ámbito local es importante mencionar el trabajo de Bordignon e Iglesias, donde proponen una serie de experimentos basados en Arduino para aplicar en clase. Trabajando con sistemas embebidos, detallan la información necesaria para que en distintos niveles del ciclo educativo los estudiantes puedan desarrollar desde un semáforo o un termómetro hasta juegos con electrónica de mayor complejidad (ver Box 7).
+
+#### Personalización del consumo - DIY
+***
+**A completar**
+Para el autor es esperable que aparezcan nuevos jugadores en el mercado de la producción de hardware que más allá de estar basados o no en la filosofía de apertura, aprovecharán la ventaja otorgada por la creciente modularización que el OHW trae a la industria -como hizo Google con el FLOSS-. Este escenario de fabricantes lo suficientemente elásticos en infraestructura sería compatible con un nuevo tipo de demanda, ágil, ultra customizada, orientada por la comunidad y a los prosumidores.
+
+Según Cicero en los próximos años deberíamos poder observar transformaciones radicales en el concepto de "fábrica": la producción será descentralizada y potencialmente desvinculada de las marcas y fabricantes, acercándose al concepto defendido por FLOK sobre desarrollo endógeno y soberanía tecnológica. En este sentido Powell coincide con Cicero aunque resulta más escéptico respecto al beneficio social en otros aspectos -por ejemplo democratización en el acceso a la tecnología-. Ambos plantean que la inserción del modelo OHW en la industria traería ventajas relacionadas a la sustentabilidad al favorecer la desaparición de la obsolescencia programada en los productos de consumo .
+
+Los principales obstáculos que se pueden identificar en el uso de OHW para modelos de negocio son los relacionados a las patentes -en muchos casos salvados por el dual licensing-, la falta de modularidad en los diseños actuales -que dificulta su intervención- y la necesidad de generar confianza en el consumidor acerca de la calidad de los productos de diseño abierto. Dependiendo del modelo de negocio analizado, si la orientación es hacia desarrollo de productos, el peso de la marca y el tamaño de la comunidad son factores limitantes: si la base es la producción entonces la oferta de un catálogo variado y renovado es un factor diferencial. En el caso de los modelos de licencia dual, algunos autores señalan que un obstáculo puede ser el lock in por parte de los usuarios con filosofía OHW, especialmente en el segmento profesional.
 ## 2. Innovación democrática
 
 Las corrientes y teorías mencionadas hasta ahora hacen referencia en diferentes oportunidades al concepto de 'innovación'. Freeman (1991) definió la innovación como *'la capacidad de las personas de aprovechar una nueva idea o método y a través de ella generar impacto material y social'*. Puede incluir el desarrollo de nuevas tecnologías, procesos, organizaciones y servicios que generen cambios incrementales, radicales o transformadores en la vida social, y principalmente, la desarrollan personas trabajando en distintas organizaciones en red (Sterling & Smith, 2018).

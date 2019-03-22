@@ -87,7 +87,16 @@ Este capítulo tiene la intención de introducir el concepto de hardware cientí
 >(Baden et al, 2015; Pearce, 2012), por docentes para enseñar programación y robótica a estudiantes (Bordignon, 2015; Valera et al, 2014), por músicos y artistas para experimentar y realizar nuevas instalaciones (Juan Cortés; Zach Gage), por ingenieros y diseñadores para prototipar nuevos artefactos (Gautam et al, 2016; Karvinen y Karvinen, 2011) y por ejemplo, construir dispositivos de accesibilidad -como anteojos o calzado para no videntes-.
 ***
 
-## Orígenes
+## ¿Por qué desarrollar hardware científico abierto?
+
+Una de las discusiones centrales en la literatura open source es la de entender por qué las comunidades desarrollan tecnologías abiertas, qué motivaciones encuentran para invertir tiempo y energía en proyectos que pueden -o no- monetizarse, o qué otro tipo de retribuciones reciben los colaboradores. 
+Al mirar el panorama de las comunidades que se encuentran desarrollando hardware abierto para ciencia el primer rasgo que surge es la heterogeneidad. 
+
+Las motivaciones detrás de estos "hacedores" son diversas, abarcando un amplio espectro que incluye la figura del inventor hobbista y la tradición del “hágalo usted mismo”, las comunidades con una orientación política claramente definida, ancladas tanto en el autonomismo como el mediactivismo o la ética hacker, hasta nuevos “emprendedores” y organizaciones que comienzan a experimentar con modelos de negocio basados en la apertura.
+
+Esta sección intenta reconstruir los contextos y motivaciones que consideramos más relevantes al análisis de la comunidad de hardware científico abierto.
+
+### Filosofía del Software Libre
 
 La contribución del movimiento de Software Libre es clave para las diversas ramas de la producción abierta y colaborativa que surgieron potenciadas por el uso de plataformas online (Benkler, 2006).
 Aunque el dominio específico de este movimiento sea el ámbito de la computación, su contribución fundamental radica en su filosofía y el uso de copyleft. 
@@ -133,28 +142,10 @@ La visión del grupo disidente creció tanto en número como influencia convirti
 En los últimos años la definición de Código Abierto (ref) incluyó requerimientos adicionales a la libre disponibilidad del código, incorporando cláusulas de no discriminación a las personas, colectivos o grupos de trabajo.
 
 ***
->**Box2: Computadora Industrial Abierta Argentina**
+>**Box2: Hardware científico abierto en CERN**
 >
->El Proyecto CIAA surgió en 2013 como una iniciativa conjunta entre el sector académico y la industria nacionales, con el objetivo de desarrollar un sistema electrónico abierto de uso general, donde absolutamente toda su documentación y el material para su fabricación estuviera libremente disponible en internet-(diagramas esquemáticos, diseño del circuito impreso, códigos fuentes de los programas, etc.-, que estuviera diseñado en base a criterios adecuados para su utilización en aplicaciones industriales, que no dependiera de una línea específica de procesadores, y que pudiera ser fabricado por la mayoría de las empresas PyMEs nacionales, lo que implicaba por ejemplo utilizar en el diseño circuitos impresos de no más de cuatro capas.
 >
->El hardware, el firmware y el software de la CIAA, así como los documentos y archivos generados como parte de su desarrollo, son liberados bajo las condiciones de la Licencia BSD modificada, que permite la redistribución ilimitada del producto, con o sin modificaciones y para cualquier propósito, siempre que se mantenga la autoría del proyecto y la renuncia a garantías.
->
-> La primera versión, CIAA-NXP, fue diseñada utilizando un microprocesador provisto por la empresa NXP Semiconductors. Más adelante se realizaron versiones para microprocesadores de otras compañías. Lo interesante del proyecto es que se trata de una computadora industrial y abierta, ya que su diseño está preparado para las exigencias de confiabilidad, temperatura, vibraciones, ruido electromagnético, tensiones, cortocircuitos, etc., que demandan los productos y procesos industriales. Actualmente la CIAA es fabricada y comercializada por distintas empresas argentinas.
->
->![EDU-CIAA-NXP](http://www.proyecto-ciaa.com.ar/devwiki/lib/exe/fetch.php?media=desarrollo:edu-ciaa:edu-ciaa-nxp.png)    
->_Fig. 2: EDU-CIAA-NXP, una versión de bajo costo de la CIAA-NXP pensada para la enseñanza universitaria, terciaria y secundaria (Fuente: CIAA)_
->
->Entre algunos de los proyectos que utilizan CIAA, se encuentran aplicaciones de automatización industrial, equipamiento médico, industria ferroviaria, maquinaria agrícola. Además, se diseñó una versión educativa de la plataforma, la EDU-CIAA, más simple y de menor costo, para lograr un impacto en la enseñanza primaria, secundaria y universitaria.
 ***
-
-## ¿Quiénes desarrollan hardware abierto y por qué?
-
-Una de las discusiones centrales en la literatura open source es la de entender por qué las comunidades desarrollan tecnologías abiertas, qué motivaciones encuentran para invertir tiempo y energía en proyectos que pueden -o no- monetizarse, o qué otro tipo de retribuciones reciben los colaboradores. 
-Al mirar el panorama de las comunidades que se encuentran desarrollando hardware abierto para ciencia el primer rasgo que surge es la heterogeneidad. 
-
-Las motivaciones detrás de estos "hacedores" son diversas, abarcando un amplio espectro que incluye la figura del inventor hobbista y la tradición del “hágalo usted mismo”, las comunidades con una orientación política claramente definida, ancladas tanto en el autonomismo como el mediactivismo o la ética hacker, hasta nuevos “emprendedores” y organizaciones que comienzan a experimentar con modelos de negocio basados en la apertura.
-
-Esta sección intenta reconstruir los contextos y motivaciones de los grupos que consideramos más relevantes al análisis de la comunidad de hardware científico abierto.
 
 ### Cultura hacker
 Como se mencionaba anteriormente, la filosofía del software libre es uno de los pilares del movimiento de hardware abierto y en particular de hardware abierto científico. 
@@ -189,6 +180,12 @@ Otro ejemplo más reciente es Hackney Crack House en Londres, que hasta 2012 pro
 
 Los hacklabs son espacios declaradamente políticos que aparecen en cada vez menor número, enfocados en desarrollar infraestructura de comunicaciones para las comunidades que los habitan, privilegiando la creatividad y el acceso a quienes generalmente se ven inhabilitados para ello.
 
+***
+>**Box3: Estrógenos abiertos, gynepunk**
+>
+>
+***
+
 #### Hackerspaces y expansión
 El caso de los hacklabs describido anteriormente es un extremo del espectro político.
 Existe un gradiente de variantes que incluye fablabs, makerlabs, medialabs, innovation labs y espacios de co-working.
@@ -210,6 +207,12 @@ El desarrollo y expansión de los hackerspaces se alinea con la trayectoria del 
 El autor identifica que la apertura al trabajo con interfaces físicas (mayoritariamente microcontroladores) permitió el crecimiento masivo del modelo, ya que la colaboración en este tipo de proyectos se ve facilitada por la disponibilidad de espacios comunes. 
 El contenido político de estos espacios es más difuso, más orientado a valores liberales, lo que le permite una flexibilidad de discurso y expansión hacia un espectro mayor de actores: desde el público general a las empresas.
 
+***
+>**Box4: flypi**
+>
+>
+***
+
 ### Cultura Do-it-yourself (DIY)
 Las actividades en los hackerspaces confluyen en numerosas oportunidades con la cultura del **Hágalo Usted Mismo** (“Do it yourself” o DIY, también autodenominados 'makers'), mencionada anteriormente aldededor del desarrollo de Arduino, RaspberryPi y otros microcontroladores accesibles al gran público.
 Algunos antecedentes culturales de estas actividades incluyen las actividades de radio aficionados (Douglas, 1987) y las prácticas DIY de mitad de siglo XX en Estados Unidos (la figura del inventor o hobbista), donde actividades previamente conceptualizadas como utilitarias se transformaron en recreativas (Haring, 2006).
@@ -219,8 +222,8 @@ El primero responde a la necesidad de construir objetos con los materiales dispo
 Por ejemplo, el científico que en un laboratorio sin recursos desarrolla hardware de bajo costo para obtener más muestras, o el que se encuentra estudiando un proceso y construye hardware que le permita ponerlo a prueba.
 Ambas situaciones están documentados para el caso del instrumental científico (von Hippel, 1976).
 
-En la mayoría de los espacios de la comunidad maker, originados en países desarrollados, predomina el discurso alrededor del DIY hedonista.
-Está ligado a la creciente disponibilidad y bajos costos de componentes electrónicos -como Arduino (ver Box 1)- que permiten construir artefactos de consumo personalizados. 
+En la mayoría de los espacios más visibles de la comunidad maker (revista MAKE, MakerFaire, HackaDay, Instructables) predomina el discurso alrededor del DIY hedonista.
+Este concepto está ligado a la creciente disponibilidad y bajos costos de componentes electrónicos que permiten construir artefactos de consumo altamente personalizados. 
 En este último caso domina el elemento lúdico, la exploración personal y el aprendizaje de nuevos métodos en el espectro de motivaciones.
 
 Más allá de ser útil al análisis y la comprensión de las motivaciones, en la realidad ambas suelen superponerse, predominando más una sobre la otra pero en conjunto.
@@ -235,6 +238,21 @@ Este rol pasivo de los consumidores genera una reacción por parte de la comunid
 
 A nivel de comunidad, los "makers" cuentan con reuniones y exposiciones anuales -Maker Faire en Nueva York, San Francisco y Nairobi, por ejemplo-, el desarrollo de un mercado cada vez más importante de componentes y kits electrónicos de fácil utilización (Powell, 2012) y la existencia de la revista *MAKE*, una especie de continuo de la revista *Popular Mechanics* de mediados del siglo XX, orientada a la clase media y las actividades hobbistas de tiempo libre. 
 El papel de MAKE no es menor: varios autores le asignan el rol de moldear y normativizar el rumbo que toma la comunidad en base a las prácticas que se difunden a través de ella.
+
+Específicamente la cultura DIY en el rubro del instrumental científico creció exponencialmente en los últimos años, tanto dentro como fuera de la academia. 
+Ejemplos de ésto son los desarrollos que se realizaron en diversas áreas, sólo contando los basados en Arduino: UAVs for oceanographic research (Busquets, et al., 2012), behavioral experiments (D’Ausilio, 2012), pressure monitoring (Russell et al., 2012), drop velocity measurements (Fobel, et al., 2013), microscopy (Gualda, et al., 2013), electrophysiology (Newman, et al., 2012), Skinner boxes (Pineño, 2014), and multi-spectral in-vivo optical image acquisition (Sun et al., 2010). 
+
+Cuando la distinción entre DIY hedonista y utilitario se quiere aplicar al hardware abierto científico surgen algunos problemas, ya que la percepción es que las motivaciones son híbridas. 
+Según el análisis de Kera (2018) sobre iniciativas de hardware científico abierto, éstas integran la ciencia a la vida cotidiana y por lo tanto a esferas políticas, artísticas y lo que denomina 'ciencia artesanal' (usos exploratorios).
+Los artesanos científicos combinan la búsqueda del conocimiento y la construcción de instrumentos con las necesidades de sus comunidades (utilitario) pero también con las propias (espíritu lúdico).
+Este aspecto híbrido los vuelve puentes útiles entre dominios del conocimiento generalmente desconectados (ingeniería, humanidades, arte, ciencia) pero también con el dominio cívico como el activismo, la colaboración y los valores comunitarios.
+En particular en Latinoamérica esta visión política está influenciada por movimientos surgidos en los años '80, como se describe más adelante.
+
+***
+>**Box5: kalpana**
+>
+>
+***
 
 ### Biohacking o DIY biology
 Garage biology, biohacking o biología ciudadana/comunitaria son expresiones que describen un movimiento de amateurs realizando experimentos biológicos fuera de los ámbitos tradicionales como universidades o corporaciones.
@@ -260,7 +278,18 @@ Como colectivo resaltan la importancia del rol educativo sobre las biotecnologí
 La apertura es un requisito de la iniciativa a fin de volver el campo *'accesible para quien desee involucrarse'*.
 El acceso a equipamiento científico es uno de los obstáculos principales en estos proyectos, siendo uno de los ámbitos más productivos del hardware científico abierto con ejemplos como OpenPCR (http://openpcr.org). 
 
+***
+>**Box6: hackteria**
+>
+>
+***
+
 ### Latinoamérica: el movimiento de tecnología apropiada y las pedagogías críticas
+El panorama del hardware científico abierto tanto en Latinoamérica como en otras regiones del denominado 'Sur Global' presenta algunas particularidades; en general el discurso se orienta hacia las potencialidades que el mismo puede tener para el desarrollo, conectando con temáticas postcoloniales (Kera, 2018).
+Esta orientación está presente en GOSH desde el manifiesto bajo las ideas de empoderamiento, justicia cognitiva, brecha norte-sur, conocimientos indígenas, desarrollo endógeno.
+En Latinoamérica existen grupos que son parte de GOSH y trabajan en temáticas cercanas a la agroecología, la educación popular y la revalorización del conocimiento indígena.
+
+Estas concepciones y áreas de trabajo se alinean con las ideas del movimiento de Tecnología Apropiada, predominante en los años '80 en la región. 
 Las ideas de la Tecnología Apropiada (TA) se originaron en los debates sobre desarrollo y asistencialismo de los años '60, bajo el concepto de tecnologías para el desarrollo. 
 La búsqueda se orientaba a principios de diseño de tecnologías situadas, ambiental y socialmente justas involucrando comunidades locales (Kaplinksy, 1990; Willoughby, 1990).
 El término 'tecnología apropiada' implicaba un set de características comunes: tecnologías de bajo costo, fabricadas con materiales locales, generadoras de empleo, empleando mano de obra local, pequeña escala, sin requerir expertise o educación de tipo hegemónico 'occidental', de uso colaborativo o colectivo, sin uso de patentes o propiedad intelectual. 
@@ -273,80 +302,56 @@ Casi todos los países de Sudamérica tuvieron algún tipo de actividad de TA en
 Estos centros reunían ingenieros, economistas, sociólogos y trabajadores sociales, algunos estudiantes y voluntarios y escasos vínculos a instituciones académicas.
 Las ideas globales de la TA no se ajustaban a la realidad latinoamericana de los '80, por lo que la primer tarea de los centros fue desarrollar nuevos marcos en torno a los actores, situaciones y problemas locales.
 
-Lo que caracterizó al movimiento en latinoamérica fue su esfuerzo por construir un abordaje distinto, participativo que utilizara la tecnología como una herramienta para la autonomía y el empoderamiento.
+Lo que caracterizó al movimiento en Latinoamérica fue su esfuerzo por construir un abordaje distinto, participativo que utilizara la tecnología como una herramienta para la autonomía y el empoderamiento.
 Sus impulsores experimentaban con metodologías que permitieran a las comunidades definir sus propios problemas y testear sus alternativas. 
 Las ideas de la TA en la región fueron inevitablemente influenciadas por los debates e ideas de la educación popular, investigación acción participativa, agroecología y revalorización del conocimiento indígena. 
 Autores como Paulo Freire y Orlando Fals Borda eran muy influyentes, lo que contribuyó a delinear nuevas aproximaciones a la participación (Kaimowitz, 1993). 
 A través del desarrollo de artefactos, técnicas y prácticas materiales se pretendía desarrollar autonomía y crear nuevas formas de activismo y conciencia política para generar empoderamiento. 
 Se trataba de una aproximación práctica, que surgía del trabajo a campo y por ende flexible a incorporar distintos enfoques; las metodologías incluían por ejemplo procesos de co-diseño de tecnologías, auto-organización y construcción desde los usuarios.
 
-A medida que las políticas neoliberales comenzaron a predominar en la región, las agencias de desarrollo se vieron somentidas a ideas de "ajuste estructural" (Rist, 2011). 
+A medida que las políticas neoliberales comenzaron a predominar en la región, las agencias de desarrollo se vieron somentidas a "ajustes estructurales" (Rist, 2011). 
 Algunas iniciativas de TA lograron sobrevivir a partir de fondos que buscaban reconstruir procesos de democratización luego de las dictaduras latinoamericanas, aunque con enfoques diferentes. 
 
 Las ideas del movimiento de TA impulsaron nociones sobre la tecnología que pueden rastrearse en distintas iniciativas, como la Red de Tecnologías Sociales en Brazil a comienzos del siglo XXI.
 Los procesos de participación pública e inclusión de conocimientos locales son una práctica común en los proyectos actuales de desarrollo (Chambers, 1997; Pieterse, 1998), con sus críticas (Cooke & Kothari, 2001; Hickey & Mohan, 2004).
-
-Muchas de las concepciones del movimiento de TA en Latinoamérica se alinean con los de la comunidad Global por el hardware científico abierto, con grupos en la región trabajando en temáticas agroecológicas, de desarrollo y educación que por ejemplo hacen referencia a la influencia de los trabajos de Paulo Freire.
-
-
-
-
-## Enablers
-Hablar de explosión proyectos ohw (Berchon, 2013):
-- disminución en los costos de los componentes  (shenzhen)
-- acceso a componentes
-- acceso a servicio de fabricación post prototipado
-- impresión 3d
-- arduino
-- kits pre armado
-- acceso a conocimiento por masificación de internet
-
-VON Hippel:
-
-Users’ abilities to develop high-quality new products and services for them-
-selves are improving radically and rapidly. Steady improvements in com-
-puter software and hardware are making it possible to develop increasingly
-capable and steadily cheaper tools for innovation that require less and less
-skill and training to use. In addition, improving tools for communication
-are making it easier for user innovators to gain access to the rich libraries of
-modifiable innovations and innovation components that have been placed
-into the public domain. The net result is that rates of user innovation will
-increase even if users’ heterogeneity of need and willingness to pay for
-“exactly right” products remain constant.
-
-Today, in sharp contrast, user firms and increasingly even individual hob-
-byists have access to sophisticated design tools for fields ranging from soft-
-ware to electronics to musical composition. All these information-based
-tools can be run on a personal computer and are rapidly coming down in
-price. With relatively little training and practice, they enable users to design
-new products and services—and music and art—at a satisfyingly sophisti-
-cated level.
-
-If one is designing a physical product, it is possible to create a design and
-even conduct some performance testing by computer simulation. After
-that, constructing a real physical prototype is still not easy. However, today
-users do have ready access to kits that offer basic electronic and mechani-
-cal building blocks at an affordable price, and physical product proto-
-typing is becoming steadily easier as computer-driven 3-D parts printers
-continue to go up in sophistication while dropping in price. Very excit-
-ingly, even today home-built prototypes need not be poorly fashioned
-items that will fall apart with a touch in the wrong place—the solution
-components now available to users are often as good as those available to
-professional designers.
-
-
-I summarize this overview article by again saying that users’ ability to innovate
-is improving radically and rapidly as a result of the steadily improving quality of
-computer software and hardware, improved access to easy-to-use tools and com-
-ponents for innovation, and access to a steadily richer innovation commons. Today,
-user firms and even individual hobbyists have access to sophisticated programming
-tools for software and sophisticated CAD design tools for hardware and electron-
-ics. These information-based tools can be run on a personal computer, and they are
-rapidly coming down in price. As a consequence, innovation by users will continue
-to grow even if the degree of heterogeneity of need and willingness to invest in
-obtaining a precisely right product remains constant.(Von Hippel, 2005)
+En la actualidad, esta concepción del hardware científico abierto 'para el desarrollo' se puede observar en el trabajo de grupos con comunidades locales alrededor de temáticas principalmente de daño ambiental (monitoreo comunitario) y agroecología, pero también con iniciativas como Trend4Africa, donde el hardware científico abierto permite equipar laboratorios de bajos recursos en varios países africanos.
 
 ***
+>**Box7: public lab**
+>
+>
+***
+
+## ¿Por qué ahora?
+Como se menciona en las secciones anteriores, la filosofía del software libre surgió en los años '80, la cultura del do-it-yourself tiene raíces aún anteriores y los científicos modifican sus equipos y herramientas desde hace al menos 30 años (von Hippel, 1976).
+Sin embargo en los últimos años se puede observar un crecimiento explosivo de los proyectos de hardware abierto para ciencia: colorímetros (Anzalone et al., 2013a), sistemas fotométricos para cuantificar nitratos enzimáticos (Wittbrodt, et al., 2015), nephelometers (Wijnen et al. 2014a), turbidímetros (Kelly et al., 2014), liquid auto-samplers (Carvalho and Eyre, 2013), operadores de microfluidos (Da Costa, et al., 2014), equipos para biotecnología (Lucking et al., 2014; Gross et al., 2014; Su et al., 2014), espectroscopía de masa (Malonado-Torres et al., 2014; Chiu and Urban, 2015), automated sensing arrays (Wittbrodt, et al. 2014), phasor measurement units (Laverty et al., 2013), syringe pumps (Wijnen et al., 2014b), optics and optical system components (Zhang et al., 2013), nanotecnología para trabajar con ADN (Damase et al., 2015), monitoreo ambiental (Pearce, et al., 2012; Chemin et al., 2014) and compatible components for plasma physics labs (Zwicker et al., 2015) and medical apparatuses like magnetic resonance imaging systems (Hermann et al., 2014).
+
+Históricamente las grandes compañías dominaron la producción de hardware por dos razones: la fabricación es costosa y requiere de expertise.
+La literatura coincide en que la aparición de plataformas de prototipado de bajo costo y accesibilidad en términos de expertise, como Arduino, jugaron un rol fundamental en este salto (Pearce, 2017; Söderberg, 2013; Powell, 2012). 
+Otro factor de relevancia es la difusión de la fabricación digital con herramientas como impresoras 3D (ver Box XXX), clave para el desarrollo de proyectos de hardware abierto, pero también cortadoras láser, CNC y otros (Söderberg, 2013).
+
+La práctica colaborativa de compartir los diseños, facilitada por la masificación de internet como medio de comunicación de bajo costo, permitió que se formen comunidades alrededor de los dispositivos donde la información circula libremente.
+Adicionalmente la infraestructura necesaria para la colaboración alrededor del hardware encontró lugar en la creación de innumerables espacios físicos de innovación de distinto tipo, ya sean hacklabs, makerspaces, fablabs, centros comunitarios de innovación u otros (Maxigas, 2012; Kera, 2012).
+
+Powell (2012) resalta como los costos también bajan a partir de que muchas formas de hardware antes electrónicas pueden hoy ser reemplazadas con software, y componentes simples pueden ser impresos en diversos materiales a bajo costo. 
+Von Hippel, también en este sentido, menciona cómo la habilidad de innovar de los usuarios es mayor en los últimos años gracias a la disponibilidad de software y hardware de alta calidad y facilidad de uso sumado al acceso a información compartida.
+
+Actualmente es posible diseñar un prototipo virtualmente, probarlo y obtener una primera versión física sin demasiado esfuerzo, que posteriormente puede fabricarse a escala previa adaptación del diseño, por ejemplo en China.
+En el mundo del hardware abierto para productos de consumo esto es una práctica difundida, que lentamente comienza a ser explorada en el ámbito del hardware abierto para ciencia.
+Pearce aduce que se habrían reducido los costos de producir hardware científico en un 90–99% respecto de equipos propietarios de misma funcionalidad (Pearce, 2014a; Pearce,  2014b). 
+
+> **Box 8: RepRap**
+>
+>La construcción de una impresora RepRap constituye muchas veces uno de los primeros momentos de aprendizaje de los entusiastas de la fabricación digital.  
+>
+>De forma similar a Linux, RepRap comenzó en 2005 como un proyecto universitario del Dr. Adrian Bowyer de la Universidad de Bath, con el objetivo de construir una impresora auto-replicable. Es decir, una impresora que pudiera imprimir las partes para construir una nueva impresora. A partir de la colaboración online en blogs y wiki, los usuarios fueron construyendo copias del primer prototipo, realizando modificaciones que documentaban y ponían a disposición online.
+>
+><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg" width=70%>    
+>_Fig. 8: RepRap 2.0, versión Mendel (Fuente: Wikipedia)_
+>
+>Uno de los disparadores del boom de la impresión 3D ha sido la expiración de las patentes de los equipos originales de impresión (The Economist 2013), creados en la década de los ochenta. Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocidas como FMD por su sigla en inglés) que utiliza filamentos plásticos. La caída de las patentes permitió una explosión de experimentación con nuevas impresoras, de la cual surgió RepRap, que utilizando el modelo open source permite que cualquier usuario realice modificaciones y mejoras en las máquinas. Desde ese momento, la impresoras 3D FDM se convirtieron en un objeto de escritorio y su costo se redujo hasta menos de los mil dólares en los modelos fabricados por los usuarios (Mins 2013).
+>
+>En 2011 nació el grupo conocido como "Clone Wars" dentro de la comunidad RepRap, con el fin de documentar en español todo lo necesario para que cualquier persona pueda construir su propia impresora 3D.
 
 ## ¿Cómo se hace hardware abierto?
 
@@ -413,22 +418,6 @@ Aunque los costos de las plataformas electrónicas como Arduino realmente dismin
 
 En cuanto a las dificultades que se identifican en los procesos de desarrollo, principalmente son aquellas relacionadas a la dificultad de conseguir componentes -que no se encuentran disponibles en todos los países-, la necesidad de estandarización en el uso tanto de plataformas electrónicas como de software de diseño, que permita a los grupos interactuar de forma sencilla -en este sentido todos los autores remarcan la importancia de Arduino-, y en menor medida la dificultad para documentar y trackear los cambios entre versiones -para lo cual existen iniciativas de documentación por parte de distintas organizaciones-.
 
-> **Box3: Open Source Ecology - Global Village Construction Set**     
-> Open Source Ecology es una iniciativa de Marcin Jakubowski, un estudiante polaco de física nuclear en Estados Unidos, quien después de obtener su doctorado comenzó a trabajar en su propia finca en Missouri. Allí se dio cuenta que era incapaz de reparar por sí mismo el tractor con el que trabajaba debido al elevado costo de los repuestos, por lo que decidió crear ‘Global Village Construction Set’, siguiendo la filosofía del software libre.
->
-> Global Village Construction Set es el desafío de crear 50 herramientas que cualquier finca necesitaría con el objetivo de ser sostenible y autónoma. Según Wikipedia, es "Una plataforma de alto rendimiento, modular, de bajo costo, do-it-yourself que habilita la fabricación de 50 máquinas industriales diferentes que se precisan para construir una pequeña y sostenible civilización con comodidades modernas".
->
->![Global village construction set](https://www.opensourceecology.org/wp-content/uploads/2014/02/gvcs-all-50.jpg)    
->_Fig. 6: El kit incluye un tractor, impresora 3D, cortadora láser, soldadora, aserradero, un horno de panadería, un pulverizador de suelo, una sembradora, un aerogenerador, entre otros (Fuente: Open Source Ecology)_
->
->La filosofía de Open Source Ecology es que el problema del acceso a las herramientas y maquinarias no está relacionado a la escasez de recursos sino a su distribución desigual. Volviendo accesibles los planos, esquemáticos y manuales, Open Source Ecology busca fabricar herramientas accesibles para todos, especialmente aquellos que habitan pequeñas comunidades.
->
->El proyecto ha estado funcionando durante los últimos 5 años, contando ya con alrededor de 20 prototipos. Ofrecen planos y manuales (incluyendo tutoriales en Youtube) sobre cómo fabricar las herramientas, además de talleres específicos en los sitios de interés. Al compartir los diseños online, permitieron que se creara una gran red de personas que colaboran el diseño de las máquinas, las mejoran y modifican para adaptarlas a nuevos usos. Una encuesta en 2014 registró 110 réplicas de los diseños provenientes de Global Village Construction Set en Estados Unidos, Chile, Nicaragua, Guatemala, China, India, Italia y Turquía
->
->![johndeere](https://image.slidesharecdn.com/openhardwarebusinessmodels-141115072738-conversion-gate01/95/business-models-for-open-source-hardware-23-638.jpg)    
->_Fig. 7: Comparación de costos entre maquinaria agrícola abierta y privativa (Fuente: Benjamin Tincq)_
->
->Open Source Ecology es una obvia inspiración para otros “makers” y emprendedores, pero además puede brindar lecciones a instituciones de investigación y desarrollo existentes. Existen enormes oportunidades en el acceso abierto a los planos técnicos de maquinaria agrícola, energía renovable y tecnologías de acceso al agua y saneamiento, que ya han sido desarrolladas por dichas instituciones de I+D. Abrir esos diseños podría ayudar a los actores locales a adquirir nuevos conocimientos, desarrollar sus propias herramientas e incluso ayudar a mejorar las que ya están disponibles.
 
 ### Licencias para hardware
 
@@ -443,6 +432,10 @@ d) Solderpad
 e) CERN OHL
 
 ### Modelos de negocio basados en la apertura
+
+Söderberg menciona cómo a la par de las herramientas, los mercados y las compañías acompañaron este salto del software al hardware abierto, poniendo como ejemplo a RepRap.
+La primer start-up basada en el modelo, Bites-from-Bytes, fue creada en 2008. En 2009 contaba con un mercado de consumidores floreciente y nuevas firmas fueron creadas; en 2011 fue comprada por una compañía multinacional, 3D Systems, por una suma no difundida. 
+Existen 
 
 La explosión del OSHW abrió la puerta a múltiples modelos de negocio que utilizan parcial o totalmente la apertura como estrategia de monetización. Según un informe sobre el estado de situación de los emprendimientos OHW (Berchon. 2013), la mayoría se encuentran en los Estados Unidos (68%) -concentradas en los núcleos de desarrollo de hardware alrededor de las universidades y hackerspaces activos- seguido por Europa (19%) y Asia (7%). Sin embargo el rasgo más llamativo es que la mayoría de las iniciativas funcionan completamente online, siendo la colaboración, distribución y comunicación virtuales, por lo que la ubicación no sería un factor determinante para este tipo de emprendimientos.
 
@@ -529,133 +522,100 @@ Uno de los puntos más interesantes es el análisis de por qué aún el OHW no e
 >
 >La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.
 
-## ¿En qué áreas se desarrolla hardware abierto científico?
-
-#### Ciencia
-
-Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrollo de instrumental para laboratorios científicos. Combinando el uso de Arduino e Impresión 3D, investigadores de diversos puntos del planeta comienzan a generar instrumental específico, que permite automatizar la toma de datos a menores tiempos y costos de investigación. Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
-
->**Box 6: Bomba de jeringa open source (OSSP)**
->
->Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
->
->El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
->
->La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
->
-><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
->_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
->
->Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
-
-Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
-
-En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
-
-Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
-
-#### Educación
-
-Dentro del ámbito de la educación, el principal impacto se ve en la enseñanza de contenidos técnicos a través de los talleres de robótica. La robótica presenta una doble ventaja como herramienta en la educación técnica: por un lado combina un componente de interés y fascinación por parte de los estudiantes -materializado en múltiples concursos a escala global- y a la vez requiere el desarrollo de múltiples habilidades: mecánica, electrónica, gestión energía, ciencias de la computación, entre otras. Para orientar estos cursos en ciertos colegios o universidades se utilizan herramientas de programación de bajo nivel como lenguaje ensamblador, o nivel medio como lenguaje C. Sin embargo la sintaxis o estructura de estos lenguajes se convierte en algún momento en barreras que desmotivan a los estudiantes:, si le sumamos la parte electrónica, el montaje y el diseño, muchas veces se vuelve un motivo de frustración.
-
-La principal ventaja del OH en este campo es el aumento de la velocidad de iteración, es decir la posibilidad de experimentar a un bajo costo, y la creatividad que se puede desarrollar a partir de la utilización de sistemas flexibles, como Arduino. Un punto no menor consiste en que al contar con el diseño completamente abierto, los estudiantes acceden a experimentar con los desarrollos en todos los niveles y los docentes encuentran más fácil la tarea de dar soporte y mantenimiento.
-
-Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. Existen múltiples experiencias de estudiantes y talleres en escuelas donde se evidencia la sencillez y mayor velocidad en los procesos de aprendizaje cuando se utilizan diseños basados en OSHW.
-
-Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
-
-> **Box 7: Minipiano - Haciendo música con Arduino**
->
->En este experimento, Bordignon e Iglesias enseñan a los estudiantes, a través de la construcción de un piano de tres teclas, a trabajar con luces led, botones y con un buzzer para entender cómo se leen los datos y cómo utilizarlos en los programas que se realizarán en Arduino.
->  
->A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
->
-><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>    
->_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
-
-Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
-
-En este ámbito se puede observar una motivación cercana al movimiento *maker*, relacionada a la corriente del aprendizaje construccionista y su leitmotiv de "aprender haciendo", basada en las ideas de John Dewey, Maria Montessori, y Jean Piaget. Los educadores que adhieren a esta orientación plantean que enseñar en la práctica el uso del hardware y su intervención permite tener una perspectiva más amplia sobre el funcionamiento de las tecnologías digitales y deja de lado la visión de los objetos cotidianos como cajas negras cerradas y mágicas para pasar a percibirlos como resultado de un diseño premeditado. Además, hacen hincapié en la valoración del error como método de aprendizaje, generando un espacio seguro donde los estudiantes pueden tomar información a partir de experimentos fallidos.
-
-En el ámbito local es importante mencionar el trabajo de Bordignon e Iglesias, donde proponen una serie de experimentos basados en Arduino para aplicar en clase. Trabajando con sistemas embebidos, detallan la información necesaria para que en distintos niveles del ciclo educativo los estudiantes puedan desarrollar desde un semáforo o un termómetro hasta juegos con electrónica de mayor complejidad (ver Box 7).
-
-#### Personalización del consumo - DIY
-***
-**A completar**
-Para el autor es esperable que aparezcan nuevos jugadores en el mercado de la producción de hardware que más allá de estar basados o no en la filosofía de apertura, aprovecharán la ventaja otorgada por la creciente modularización que el OHW trae a la industria -como hizo Google con el FLOSS-. Este escenario de fabricantes lo suficientemente elásticos en infraestructura sería compatible con un nuevo tipo de demanda, ágil, ultra customizada, orientada por la comunidad y a los prosumidores.
-
-Según Cicero en los próximos años deberíamos poder observar transformaciones radicales en el concepto de "fábrica": la producción será descentralizada y potencialmente desvinculada de las marcas y fabricantes, acercándose al concepto defendido por FLOK sobre desarrollo endógeno y soberanía tecnológica. En este sentido Powell coincide con Cicero aunque resulta más escéptico respecto al beneficio social en otros aspectos -por ejemplo democratización en el acceso a la tecnología-. Ambos plantean que la inserción del modelo OHW en la industria traería ventajas relacionadas a la sustentabilidad al favorecer la desaparición de la obsolescencia programada en los productos de consumo .
-
-Los principales obstáculos que se pueden identificar en el uso de OHW para modelos de negocio son los relacionados a las patentes -en muchos casos salvados por el dual licensing-, la falta de modularidad en los diseños actuales -que dificulta su intervención- y la necesidad de generar confianza en el consumidor acerca de la calidad de los productos de diseño abierto. Dependiendo del modelo de negocio analizado, si la orientación es hacia desarrollo de productos, el peso de la marca y el tamaño de la comunidad son factores limitantes: si la base es la producción entonces la oferta de un catálogo variado y renovado es un factor diferencial. En el caso de los modelos de licencia dual, algunos autores señalan que un obstáculo puede ser el lock in por parte de los usuarios con filosofía OHW, especialmente en el segmento profesional.
-
-
-
-## Beneficios
-
-A partir de la automatización de los procesos de desarrollo de los últimos años, y más específicamente a partir de la aparición de software no privativo capaz de generar archivos legibles para la industria de los circuitos impresos (set Gerber) surgió una nueva cadena de suministro basada en muy bajos costos de producción. Al día de hoy algunas compañías permiten que todo el proceso se realice a través de su página web: el usuario puede recibir los circuitos impresos en su casa unos días después de haber subido los archivos Gerber al servidor del fabricante. Todos los autores coinciden en lo revolucionario de contar con herramientas que permiten construir tecnología a los usuarios, aunque esto no necesariamente implique la independencia de los grandes fabricantes.
-
-La disminución en los costos de producción para los *makers* impacta principalmente en la capacidad de experimentar. Es posible aumentar la velocidad de iteración, crear, fallar y volver a crear, sin que esto perjudique demasiado al inventor. La aparición de toolkits bajó la barrera de ingreso al mundo del desarrollo del OHW, posibilitando que no-expertos puedan también desarrollar sus productos, acarreando un boom de ventas para los proveedores de suministros electrónicos. El acceso de estos no-expertos se evidencia en sitios como Instructables, donde se observa una gran cantidad de proyectos del tipo DIY hedonista.
-
-Algunos autores mencionan como beneficio social la capacidad de los desarrollos OHW de empoderar a las comunidades al contribuir a la soberanía tecnológica, aumentar la utilidad social y apropiabilidad en el uso de las tecnologías. Resaltan el valor educativo que deviene del trabajo necesariamente colaborativo y uso de nuevas herramientas, y el desarrollo de tecnologías que puedan responder mejor a las necesidades reales de sus comunidades de referencia. Estos beneficios se observan particularmente en los usos del OHW relacionados a la educación, la ciencia y la salud.
-
-> **Box 5: Precious Plastic**
->
->Precious Plastic es una iniciativa de Dave Hakkens, un diseñador holandés, que surgió como proyecto final de graduación de la Academia de Diseño en 2013. Su objetivo es proveer a las personas de los medios necesarios para reciclar plástico en sus casas, sin depender de los recicladores industriales, considerando que el plástico es un material valioso que actualmente se considera un desperdicio contaminando agua y suelos en todo el mundo. El material reciclado se puede emplear tanto para fabricar objetos acabados como para obtener materia prima para otros procesos, como impresión 3D.
->
->Luego de dos años de trabajo junto a su equipo salió a la luz la versión 2.0 del proyecto. La idea central es que cualquier persona pueda fabricar las máquinas del set fácilmente con materiales accesibles en cualquier lugar del mundo. El diseño es modular para facilitar su construcción; también difunden videos tutoriales y la documentación necesaria a través de su página web, bajo licencia abierta.
->
->![preciousplastic](https://preciousplastic.com/images/hero-machines.png)    
->_Fig. 9: Set de máquinas que integran el proyecto: trituradora, extrusora, una máquina de inyección y una compresora (Fuente: comunidad Precious Plastic en Facebook)._
->
->El proyecto se difundió principalmente a través de un video en Facebook, en el cual Hekkens explica los conceptos detrás del mismo y solicita difusión. La comunidad se aglutina alrededor de un foro web (www.preciousplastic.com) donde se intercambian consejos y preguntas. Actualmente existen réplicas en 34 países alrededor del mundo.
-
-Existe otra serie de beneficios asociados al desarrollo de OHW, relacionados con la sustentabilidad del actual sistema de producción y consumo. Algunos autores consideran la posibilidad de que se genere una disminución en el consumo a partir de una mayor conciencia sobre el desarrollo de los productos y su consecuente customización (Ivonov 2014), en lo que constituye una visión al menos controvertida del panorama.
-
-Por otro lado, sí se observa un potencial real de alterar la obsolescencia programada de los productos provenientes del circuito de comercialización convencional, a partir de la transparencia de los diseños. Otro punto a remarcar es el potencial aumento de las tasas de reparabilidad de los objetos a partir de la intervención en el diseño y el conocimiento de ingeniería reversa -la obtención de información a partir de un producto ya terminado, a fin de determinar de qué está hecho, qué lo hace funcionar y cómo fue fabricado-.
-
-Si a estas variables  -obsolescencia programada y tasa de reparabilidad- sumamos la visión de algunas organizaciones sobre el favorecimiento de la producción descentralizada y las cadenas cortas de comercialización, el desarrollo de OHW podría tener un potencial impacto positivo en el balance de materiales del sistema actual, reduciendo la generación actual de residuos electrónicos.
-
 ## Desafíos
 
-Los principales obstáculos asociados al desarrollo de open hardware son la barrera de ingreso, que aún es alta en usuarios no familiarizados con electrónica -aunque ha mejorado a partir de la llegada de Arduino y la venta de toolkits-. Aunque existe una tendencia creciente a la modularización, proceso que facilita notablemente el acceso al desarrollo, aún no está muy extendida. Otro factor no menos importante que disminuye la tasa de generación de OHW tiene que ver, como se mencionaba anteriormente, con la dificultad de trabajar de forma interdisciplinaria a través de medios virtuales. Los procesos de documentación y tracking de cambios realizados por los usuarios aún no se encuentran totalmente naturalizados, con la consecuente dificultad de garantizar la replicabilidad en la que se basa la colaboración.
+El fenómeno del hardware científico abierto es relativamente reciente, con un crecimiento exponencial de iniciativas a partir de 2012 en áreas muy especializadas.
+Algunos de los desafíos identificados por la comunidad Global por el Hardware Científico Abierto (2018) son: 
 
-Además, la información virtual contenida en los archivos de diseño (set Gerber) hoy por hoy no encuentra una forma de vincularse concretamente a un objeto físico, dificultando la identificación de productos basados en OHW. En este sentido existen organizaciones que realizan esfuerzos para contrarrestarlo, a partir de iniciativas de etiquetado más o menos exitosas.
+Relacionados al aprendizaje y la investigación:
 
-> **Box 4: RepRap**
->
->La construcción de una impresora RepRap constituye muchas veces uno de los primeros momentos de aprendizaje de los entusiastas de la fabricación digital.  
->
->De forma similar a Linux, RepRap comenzó en 2005 como un proyecto universitario del Dr. Adrian Bowyer de la Universidad de Bath, con el objetivo de construir una impresora auto-replicable. Es decir, una impresora que pudiera imprimir las partes para construir una nueva impresora. A partir de la colaboración online en blogs y wiki, los usuarios fueron construyendo copias del primer prototipo, realizando modificaciones que documentaban y ponían a disposición online.
->
-><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg" width=70%>    
->_Fig. 8: RepRap 2.0, versión Mendel (Fuente: Wikipedia)_
->
->Uno de los disparadores del boom de la impresión 3D ha sido la expiración de las patentes de los equipos originales de impresión (The Economist 2013), creados en la década de los ochenta. Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocidas como FMD por su sigla en inglés) que utiliza filamentos plásticos. La caída de las patentes permitió una explosión de experimentación con nuevas impresoras, de la cual surgió RepRap, que utilizando el modelo open source permite que cualquier usuario realice modificaciones y mejoras en las máquinas. Desde ese momento, la impresoras 3D FDM se convirtieron en un objeto de escritorio y su costo se redujo hasta menos de los mil dólares en los modelos fabricados por los usuarios (Mins 2013).
->
->En 2011 nació el grupo conocido como "Clone Wars" dentro de la comunidad RepRap, con el fin de documentar en español todo lo necesario para que cualquier persona pueda construir su propia impresora 3D.
+- Diversidad de la comunidad
+- Métodos de colaboración y coordinación
+- Modelos de negocio
+- Licencias abiertas y políticas de innovación 
+- Métricas situadas para la evaluación de proyectos 
 
-Existen obstáculos a nivel empresarial y de tipo político: al día de hoy aún es necesario depender de un gran fabricante que pueda proveer los circuitos impresos. Algunos grandes fabricantes ven en el OHW una amenaza a su negocio -empresas que por ejemplo no quieren perder su capacidad para hacer obsolescencia programada de objetos-. En este sentido para el hardware se vuelve mucho más intrincado el problema de licencias y patentes, comparado con la industria del software.
+Relacionados a la sostenibilidad de las iniciativas:
 
-En casos específicos como la ciencia y la educación, los principales obstáculos tienen que ver con la rigidez institucional: el tiempo que los científicos dedican a estos desarrollos aún no es visualizado como tiempo productivo por los sistemas de evaluación profesional, aunque comienzan a observarse iniciativas de revistas especializadas que podrían constituir un camino hacia la formalización y valoración de esos esfuerzos.
+- Desarrollo de modelos de gobernanza
+- Colocar el tema en agenda institucional
+- Obtener apoyo en términos de espacios e infraestructura
+- Obtener apoyo en términos de fondos
+- Disminuir las barreras de acceso de los usuarios
+- Controles de calidad y calibraciones
+
+Relacionados al crecimiento de la comunidad:
+
+- Aumentar el número y diversidad de participantes
+- Desarrollar recursos educativos abiertos
+- Desarrollar actividades de difusión
+
+Pearce (2017) identifica tres obstáculos principales en el crecimiento del hardware científico abierto a mayor escala, que coinciden con algunos anteriormente mencionados:
+
+En primer lugar, los recursos económicos para desarrollarlo son limitados, principalmente debido a que las agencias de financiación aún prefieren no correr riesgos y utilizar patentes para asegurar sus inversiones (Demsetz,  1973; McGaughey, 2002; Smith, 2007; May, 2013). 
+El modelo de propiedad intelectual, fuertemente anclado en las agencias públicas y privadas que financian la compra de equipos, desacelera la innovación como se ha documentado por ejemplo en el área de la nanotecnología (Pearce,  2012b).  
+
+En segundo lugar, debido a la naturaleza distribuida de la producción de hardware científico abierto, éste no se encuentra en los catálogos que se ofrecen a los consumidores, dificultando su difusión. 
+
+Finalmente, las instituciones y organismos de investigación favorecen la compra de equipos propietarios debido a mecanismos burocráticos.
+El bajo costo del equipamiento abierto permite una tasa de overhead mucho menor para las Universidades, que paradójicamente no lo ven conveniente (Pearce, 2016).
+
+Desde el punto de vista de los usuarios, no todos los científicos se sienten cómodos con modelos abiertos de equipamiento, prefiriendo soluciones 'llave en mano'.
+Otro factor no menos importante es la falta de información sobre demanda de equipamiento abierto, que algunas iniciativas están intentando cubrir (Chagas, 2019).
+Existen aún obstáculos asociados a la barrera de ingreso relacionada al expertise, que aún es alta en algunos casos, pero también en términos de acceso a materiales, con diferencias entre países del norte y sur global.
+
+## Oportunidades
+
+Las ventajas de desarrollar hardware abierto que primero resaltan son las relacionadas a la eficiencia:
+
+- En general los equipos suelen tener costos menores que sus pares propietarios, bajando los costos de investigación y habilitando estudios más potentes (Pearce, 2012);
+- Es posible personalizar los diseños para responder a una variedad de situaciones, esta mayor flexibilidad acelera la experimentación y evolución de la ciencia experimental (Pearce, 2014);
+- Los científicos no deben limitarse a las opciones de equipo disponibles en el mercado, lo que resulta valioso especialmente en disciplinas novedosas;
+- Un mejor control sobre los laboratorios, cortando dependencias con monopolios de proveedores (Bruns, 2000; Kogut and Metiu, 2001)
+- Equipos siempre actualizados y con menor tasa de decarte dado que el usuario puede repararlos o acceder a asistencia técnica distribuida en comunidades de usuarios
+
+Pero existen aportes en otros términos, relacionados a la democratización de las herramientas científicas:
+
+- Acceso a la producción de conocimiento científico en laboratorios de recursos escasos
+- Soporte para actividades de activismo  y ciencia comunitaria, como monitoreos ambientales comunitarios (Public Lab, )
+- Involucrar nuevas voces y nuevos problemas de investigación en la producción de conocimiento científico (Kera, 2018)
+- Facilitar la enseñanza y creatividad en áreas STEM en zonas de recursos escasos (Tech Academy)
+- Fomentar el surgimiento de nuevas compañías basadas en modelos de negocio abiertos
+
+***
+> **Box: trend4africa**
+***
 
 ## Políticas
 
-Políticas de HW Libre en Venezuela
+Como se menciona anteriormente, el campo de desarrollo de hardware científico es reciente, sin embargo algunos autores comienzan a elaborar recomendaciones de políticas para su crecimiento. 
 
-En otro documento FLOK, 2015 menciona para Ecuador a fin de fomentar la innovación social en materia de OHW:
+Baden 2015 hace referencia a recomendaciones de políticas en la siguiente dirección:
 
-Identificar oportunidades para la realización de las metas estratégicas nacionales y de un alto retorno de la inversión (ROI) en HL de uso científico.
-Realizar una búsqueda activa de fondos para desarrollar HL. Esto se puede lograr con la combinación de recursos propios del Estado y medios tradicionales como subvenciones, concursos públicos, empresa privada, etc., así como los más recientes de crowdfunding y análogos.
-Fomentar la economía popular a través de proyectos de innovación ciudadana basados en HL.
-Proporcionar incentivos fiscales para que los empresarios del Ecuador comiencen a producir estos equipos. El gobierno aprobará políticas de adquisición preferencial para HL"hecho en Ecuador".
+1. Incoporar el hardware científico abierto en la currícula escolar oficial;
+2. Aumentar cursos prácticos con hardware científico abierto para cientificos y docentes dentro de la currícula oficial;
+3. Asegurar infraestructura de fabricación digital en las instituciones de investigación y educación;
+4. Promover la inversión empresarial en modelos abiertos de desarrollo de producto.
 
-Baden 2015 hace referencia a recomendaciones de políticas, en su texto sobre OHWScience:
-a) Incoporar open labware a curricula escolar
-b) aumentar cursos hands on para cientificos y docentes
-c) aumentar infraestructura para que todos tengan impresora 3d a mano (en universidades por ej)
-d) incentivar a empresas a invertir en modelos abiertos de diseño de producto
+Pearce (2017) recomienda cuatro direcciones para futuras políticas de hardware científico abierto en Estados Unidos a fin de aprovechar los retornos de inversión tanto para agencias de financiación como instituciones de investigación.
+Asegura que ésto no sólo sería positivo para laboratorios si no también para empresas de tecnología, start-ups y formación de recursos humanos.
+Se enfoca en cuatro medidas que permitirían un escalamiento horizontal, a través de una inversión inicial seguida de replicación digital de bajo costo:
 
-***
+1. Establecer una agencia ferederal que identifique las oportunidades estratégicas de inversión con alto ROI en términos de hardware científico abierto;
+2. Promover el desarrollo de los equipos identificados, favoreciendo la compra de equipos abiertos validados en todas las dependencias del Estado y asegurando fondos para su desarrollo;
+3. Crear una base de datos abierta de hardware científico abierto validado con toda su documentación asociada;
+4. Proveer incentivos a emprendedores para escalar la producción de componentes de difícil acceso.
+
+En Latinoamérica en general aún no se multiplican las recomendaciones de políticas específicas para hardware científico abierto, con la excepción de Ecuador (FLOK, 2015), donde se identifica la necesidad de fomentar la innovación social a través del mismo. Estas cuatro recomendaciones son similares a las mencionadas por Pearce para el caso norteamericano:
+
+1. Identificar oportunidades para la realización de las metas estratégicas nacionales y de un alto retorno de la inversión (ROI) en HL de uso científico.
+2. Realizar una búsqueda activa de fondos para desarrollar HL. Esto se puede lograr con la combinación de recursos propios del Estado y medios tradicionales como subvenciones, concursos públicos, empresa privada, etc., así como los más recientes de crowdfunding y análogos.
+3. Fomentar la economía popular a través de proyectos de innovación ciudadana basados en HL.
+4. Proporcionar incentivos fiscales para que los empresarios del Ecuador comiencen a producir estos equipos. El gobierno aprobará políticas de adquisición preferencial para HL"hecho en Ecuador".
+
+La comunidad GOSH (2018) identifica la necesidad de recomendar e implementar políticas que fomenten el crecimiento del movimiento, orientadas a la apertura institucional en universidades y organismos de investigación y la disponibilidad de fondos.
+
+
 ## Bibliografía
 
 Baden, T., Chagas, A. M., Gage, G., Marzullo, T., Prieto-Godino, L. L., & Euler, T. (2015). Open Labware: 3-D Printing Your Own Lab Equipment. PLoS Biology, 13(3), 1–12. http://doi.org/10.1371/journal.pbio.1002086

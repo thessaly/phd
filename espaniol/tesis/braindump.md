@@ -1,3 +1,121 @@
+# challenges
+**bauwens 2011**
+The main issues center around the funding mechanism. Free knowledge and free software practices require only a minimal amount of specific project-related capital, since they rest on cooperation of bodyminds, with access to the generally available network infrastructrure, and the materialisation of the code still functions within the polarity of digital code. To put it in a rather simplistic fashion, it is sufficient to hit the execute button. None of this is true for open hardware, which is a much more materially embedded and embodied practice and which requires access to sometimes costly raw material if not machinery. There is a much greater gulf between the shared design and the actual ‘making’ or production of that design. Without an alliance with makers or producers, it is unlikely that the necessary capital for production can be found. There are some ways that this problem can be alleviated, by focusing on low-entry manufacturing for example, such as say the Arduino ‘motherboard’, which has successfully allied itself with an ecology of small businesses, but one can easily see that say “open source cars” may have much more of a burden to find the appropriate funding.
+
+This difficulty is reinforced by the present structure of the political economy, in which the margins on actual physical production are razor-thin, and have migrated massively to low-labor-cost countries, and in which the real money is made through the control of intellectual-property based rents. Open hardware makers need therefore to accept to work with lower margins, but can nevertheless survive and thrive economically based on selling the finished product or associated product-service systems, as has already been proven in the world of free software. However it is possible that because of these constraints, though shared design has emerged within the advanced hacker communities of the West, the actual take up may instead happen in countries who are already forced to accept low-margin manufacturing. In the West itself, it may be necessary to invent new forms of property, funding, and enterpreneurship, such as mission-oriented entities that are specifically created to sustain a particular open design commons.
+
+Ass Dmytri Kleiner has argued elswhere, it is necessary to move from a conception of peer production rooted in the digital world, to one that also embraces common stock, i.e. a commons of the means of production, not on a nation-wide nor based on state-ownership and centralized planning, but commons-specific ecologies that combine common code-design with common stock entities linked to the commoners active in that particular commons. 
+
+# benefits 
+**bauwens 2011**
+The first reason that open hardware is a sustainable practice is that innovation cannot be privatized and taken away from the benefit of collective humanity. This is of crucial importance in for example renewable energy research and production. 
+In an age of climate change, dwindling resources, and the post-oil-peak, this type of enclosures cannot be afford. 
+Shared licenses for hardware designs insure that any innovation produced anywhere in the world, benefits the whole humanity, and all the members of the open ecosystem in particular. Another counter-argument, which is I think a more serious concern, is that expensive research and initial production costs, won’t be undertaken without sufficient IP protection, so that the investment can be recouped. The answer here is to adapt the model of science, i.e. insure collective funding so that many enterprises can benefit from the advances.
+
+The second reason that open hardware contributes to sustainability, and actually is “inherently” sustainable, lies in the motivation behind the research, innovation, and production. For profit companies that develop commodities for the market have a vested interest in creating non-sustainable products, and planned obsolescence is a general characteristic of industrial production under the present economic system. Indeed, such companies must maintain a scarcity in order to continue to operate in the market. (there are some exceptions, think about the government-subsidized aerospace industry). But participants in open design communities do not have any such incentive. Like their free software brethren, they develop shared designs for various reasons, including the famous ‘scratching an itch’, i.e. solving their own problems. Because of this lack of perverse incentive, they can and do strive for optimal designs, which are inherently more sustainable. This means that any business partner in such an open ecology, who used shared designs for producing services or make and sell products, has to use designs that are inherently more sustainable than anything that can be produced. Any commercial improvements that need to be made, will be based on this level playing field of an optimally sustainable design.
+
+The third reason that shared design hardware contributes to sustainability lies in the design philosophy of production itself. Open design communities do not only think differently about the product or service they are working on, but they also think differently about the production process that is needed to produce those designs in the physical world. This is because designers are inherently interested in ‘designing-for-making’, and therefore they are interested in lowering the treshold of participation, minimising the capital requirements and level of centralisation that is required. In other words, open hardware design is linked with its cousin, open and distributed manufacturing. Think of how the Dutch Common car design aims for modular development as well as a biodegradable skin. It is not interested in making a car that is rapidly obsolete and needs to be replaced in full. Or think about the eCars model, which allows any mechanic to download a conversion design, and turn any car into a hybrid. In this new model, there is no need for the centralized manufacturing of millions of cars, but rather the model becomes one of localized distributed production, but linked to global open design communities.
+
+Open hardware is related to the general trend of 3D printing, personal fabricators, and multimachines that generally lower the treshold of participation. Localized production holds the promise of many savings in transportation costs, while losing none of the benefits of scale, as they can count on open and global innovation and research communities. If you like, scale becomes scope. It’s the global scope of cooperation which allows for scaling of a relocalized manufacturing system as a global-local system.
+
+The fourth argument is not related directly to shared designs, but on the use of networked technology in the development of shared infrastructures. We’re thinking here of how such infrastructures, and the radical diminishing of transaction and coordination costs that they entail, has led to the emergence of a very strong sharing economy. Used fractional ownership of cars for example, as in Zipcar carsharing, or real p2p sharing which allows for the optimal more collective use of privately owned cars, has a dramatic effect on the amount of physical production needed to insure a given amount of transportation. These shared infrastructures only become possible because of the availability of networked technologies, the same tech that is also at the basis of the emergence of open and shared design. Once we abandon the central requirement of the necessity of private property of the means of production, and change the focus on ownership for one on access and use, combined with more distributed forms of ownership of the common stock, we can envision the transformation of property-based economics to an economics of provisioning, as envisaged by Marvin Brown in “Civilising the Economy” or as a series of functions, or an “economy of functionalities” based on integrated product-service systems. This transformation, within the bounds of the present political economy, has been described by Rachel Cobcroft in “What’s Mine is Yours”, or Lisa Gansky’s “The Mesh” 
+
+## enablers
+**hsing 2018**
+Historically, big technol-ogy companies dominated the market because only they had the scale and resources to not only produce increas-ingly
+performant products, but also to keep up with them. However, with the slowing of performance increases, there is a widening window for other
+innovators to create new products before a new generation of processors make them obsolete. A profound implication is that there may be less
+demand for new products, concurrent with a ‘rise in repair culture as technology becomes less disposable and more permanent’. Huang contends
+that this will create an open-ing for open hardware and small businesses. 
+
+## business models
+
+**tincq 2014**
+
+
+
+- Model 3: expertise and experience based 
+
+This model is directly inspired from the free software industry, in which the most popular business model consist in monetizing expertise and
+service. 
+In Open Hardware, this can translate into: 
+DIY Workshops to teach students how to make the product by themselves (ex: Tripalium teaches how to build the Piggott wind turbine)
+Selling not only a product, but also the “experience” of building it yourself, together with the project team (ex: Wikispeed)
+Consulting Services for companies to customize or build derivatives of your product (ex: Arduino) or learn your processes (ex: Wikispeed) 
+
+**from cicero, 2013 **
+
+
+Professional Services: a bunch of interesting and very focused small companies are bootstrapping businesses around visionary customers exploring IoT, Machine to Machine and hardware innovation
+
+
+- Model 4: product-service systems (prospective) 
+
+The Product-Service System (PSS) model rose to prominence in 1959 when Xerox introduced the “pay-per-copy” printing model. It is now
+spreading throughout industries in the light of trends such as the sharing economy and the circular economy. 
+This model is still prospective in Open Hardware but has untapped potential: 
+Data-driven Services for connected hardware / internet of things
+Subscription Model with spare parts for repair and upgrade
+Product As A Service to access it rather than owning it 
+
+- Model 5: standardize & leverage 
+
+One key product is opened, which serves to make the associated technology a de facto standard in the industry. Openness enables the firm to
+leverage other capabilities adapted to that standard. 
+e.g.: Android OS, Tesla motors opening its patents 
+
+- Model 6: platform model 
+
+Inspired by the platformization of the digital economy, the core of the value proposition is to organize an ecosystem of industry players
+(designers, manufacturers, resellers, customers, prosumers, brands, ...) around one key open hardware technology or design platform.Key examples in the open hardware movement include OpenDesk and OSVehicle, with an increasing interest from many project holders to adapt
+it to other product
+
+**pearce 2018**
+Originally FOSS community members believed that Libre Hardware was challenging because of the nature of the design that was necessary to
+build physical artifacts (Stallman, 1999), however, with advancements in digital manufacturing technology these views have changed (Stallman,
+2015). 
+
+The trajectories of improvements and innovation are steeper (Foss and Pedersen, 2004) than they are for traditional manufacturing technologies 
+The number of libre designs have been shown to be growing at an exponential rate (Wittbrodt et al., 2013). At the moment, most designs (for
+printed objects) are hard to copyright, and copyright laws can be bypassed through the introduction of small changes in the overall design
+(Bradshaw et al., 2010). Copyright is not the appropriate IP strategy for design files on any product that has utility (e.g. patents). Therefore,
+YouMagine, Stanford 3D Scanning Repository, Github, Repables, Pirate Bay Physibles, Fab Fabbers, Cubehero, Bld3r, Thingiverse, Libre 3D and
+many other repositories are blossoming (RepRap, 2016). 
+
+A business model describes the rationale of how a firm creates, delivers, and captures economic value (­Hedman and Kalling, 2003). 
+Companies developing and distributing FOSS can not depend on their control of the source code for their business model, they rely on non
+traditional models to provide sources of revenue instead (Krishnamurthy, 2005). 
+
+
+OHW advantages:
+
+- By avoiding IP-based licensing models (e.g. involving patents, lawyers, legal fees, law-suits, NDAs and other secrecy agreements) Libre Hardware firms have substantially reduced legal fees compared to more conventional businesses. Today, many firms shockingly spend more on legal fees than engineering. For example, both Apple and Google spend more on legal fees than R&D (Covert, 2012)
+
+- Libre Hardware companies often benefit from a large and vocal user community, which can significantly reduce the costs of product support because questions are handled in on-line forums by other customers (who are often producers themselves).
+
+-  Open Hardware is easier for 3rd parties and other companies to create their own revenue streams by offering support for libre products. This makes
+support faster, better and less expensive for libre products, which further increases overall value of the product. 
+
+-  Libre Hardware companies can also benefit from better employees. There is already a relatively well established benefit for software developers who work for FOSS companies as their individual name can be associated with their work (Lerner and Triole, 2000; Marz, 2010). The same benefit for employees would be expected to occur for Libre Hardware companies
+
+OHW limitations:
+
+- the “prosumer” must be technically sophisticated to fabricate the products from open digital plans. Many laboratories do not have the necessary skills to do this effectively. In particular, labs may not have the equipment to perform validation and calibration, and the Open Source business community is not well matured in this area, resulting in holding back adoption for a wide range of sensitive instruments
+
+-  self-fabricated equipment can be held back for not meeting regulatory, industrial, or consumer-quality standards. 
+
+-  for larger and more sophisticated projects to develop a new Open Hardware-based scientific tool can involve a large investment whereas, as pointed out before,
+funding agencies and for-profit entities are more comfortable funding proprietary development. 
+
+-  there is real pressure for companies to pivot towards a proprietary model (case MakerBot) because the open models outlined in this article offer currently few examples of success
+
+- making a project or product open does not guarantee a large community building upon one another’s designs. 
+
+-  Having a successful project involves recruiting core developers, promoting and advertising a project (Vickery, 2015). 
+
+
+
+
 ***
 >**Box2: Computadora Industrial Abierta Argentina**
 >
@@ -30,8 +148,14 @@
 >
 >Open Source Ecology es una obvia inspiración para otros “makers” y emprendedores, pero además puede brindar lecciones a instituciones de investigación y desarrollo existentes. Existen enormes oportunidades en el acceso abierto a los planos técnicos de maquinaria agrícola, energía renovable y tecnologías de acceso al agua y saneamiento, que ya han sido desarrolladas por dichas instituciones de I+D. Abrir esos diseños podría ayudar a los actores locales a adquirir nuevos conocimientos, desarrollar sus propias herramientas e incluso ayudar a mejorar las que ya están disponibles.
 
-## ventajas
-**De pearce 2017**
+# licences
+The aim of licenses is to balance rights of authors derived from copyright law with principles of open source. They make sure ideas may freely
+circulate and attribution to contributors is given. 
+In OSH projects the aim is to implement an idea in a physical object - schematics and designs are subject to copyright law, but the tangible
+product is not. 
+The control oven manufacturing and distribution can be done through patents (incompatible with OS principles) or through trademark - a logo or
+name identifying OSH and linking it to a company/org in terms of quality, reputation and recognizability (Arduino). 
+The most used licences are TAPR Open Hardware License, CERN OHL 
 
 
 

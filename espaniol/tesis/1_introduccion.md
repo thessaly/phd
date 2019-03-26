@@ -437,22 +437,112 @@ La [Tucson Amateur Packet Radio](https://en.wikipedia.org/wiki/Tucson_Amateur_Pa
 
 ### Modelos de negocio basados en la apertura
 
-Söderberg menciona cómo a la par de las herramientas, los mercados y las compañías acompañaron este salto del software al hardware abierto, poniendo como ejemplo a RepRap.
-La primer start-up basada en el modelo, Bites-from-Bytes, fue creada en 2008. En 2009 contaba con un mercado de consumidores floreciente y nuevas firmas fueron creadas; en 2011 fue comprada por una compañía multinacional, 3D Systems, por una suma no difundida. 
-Existen 
+Autores como Bauwens (2011) y Söderberg (2011) asocian al hardware abierto con la producción distribuida y sus beneficios (fabricación local, menores costos de distribución y transporte, comunidades de innovación, mayor participación).
+La aparición y crecimiento de los proyectos basados en hardware abierto, particularmente el caso de Arduino y otras firmas como Sparkfun y Adafruit, desafían la lógica de los modelos de negocio tradicionales. 
 
-La explosión del OSHW abrió la puerta a múltiples modelos de negocio que utilizan parcial o totalmente la apertura como estrategia de monetización. Según un informe sobre el estado de situación de los emprendimientos OHW (Berchon. 2013), la mayoría se encuentran en los Estados Unidos (68%) -concentradas en los núcleos de desarrollo de hardware alrededor de las universidades y hackerspaces activos- seguido por Europa (19%) y Asia (7%). Sin embargo el rasgo más llamativo es que la mayoría de las iniciativas funcionan completamente online, siendo la colaboración, distribución y comunicación virtuales, por lo que la ubicación no sería un factor determinante para este tipo de emprendimientos.
+La explosión del OSHW abrió la puerta a múltiples modelos de negocio que utilizan parcial o totalmente la apertura como estrategia de monetización. 
+Según un informe sobre el estado de situación del rubro, analizando 100 start-ups de hardware abierto (Berchon, 2013), la mayoría se encuentran en los Estados Unidos (68%) -concentradas en los núcleos de desarrollo de hardware alrededor de las universidades y hackerspaces activos- seguido por Europa (19%) y Asia (7%). 
+El mayor crecimiento se da en el año 2007: hasta ese entonces se lanzaba sólo una compañía OHW por año: ejemplos de ello son Parallax (1986), Solarbotics (1994), Lynxmotion (1995, luego comprada por RobotShop), ShopBot (1996), Egnite (1997), WIZnet (1998). 
 
-Gran parte de las compañías basadas en OHW trabajaban en 2013 en el rubro de electrónica para hobbistas y educación (63%); muchas de ellas inspiradas por el éxito de modelos como Arduino o Raspberry Pi, desarrollando kits y placas compatibles. La segunda posición es para las herramientas de fabricación (15%), más específicamente impresión 3D (11%). El resto del mercado se encuentra fragmentado en nichos específicos: drones (3%), iluminacion (3%), sintetizadores de sonido (2%).
+Gran parte de las compañías basadas en OHW trabajaban en 2013 en el rubro de electrónica para hobbistas y educación (63%); muchas de ellas inspiradas por el éxito de modelos como Arduino o Raspberry Pi, desarrollando kits y placas compatibles. 
+La segunda posición es para las herramientas de fabricación (15%), más específicamente impresión 3D (11%). El resto del mercado se encuentra fragmentado en nichos específicos: drones (3%), iluminacion (3%), sintetizadores de sonido (2%).
 
-Hasta el año 2007 se lanzaba sólo una compañía OHW por año: ejemplos de ello son Parallax (1986), Solarbotics (1994), Lynxmotion (1995, luego comprada por RobotShop), ShopBot (1996), Egnite (1997), WIZnet (1998). Pero a partir de 2007 el número crece rápido -ver figura 12-. En promedio toma a los emprendedores dos años pasar de la idea del proyecto a un producto definido.
+En cuanto al perfil de los emprendedores, mayoritariamente poseen una formación en ingeniería (83%), diseño (17%) -incluyendo artistas digitales con conocimientos en aspectos técnicos- y docentes e investigadores (14%) provenientes de áreas técnicas, que dedican su tiempo libre a trabajar en proyectos OHW. 
+El 47% de las compañías es liderado por emprendedores solos, comparado con el 52% que lo hace en equipo, lo que la autora atribuye a la ventaja de contar con una comunidad online fuerte de apoyo. 
+Sólo el 5% de las compañías son lideradas por mujeres -con excepciones notables como Adafruit o LittleBits-, y sólo 10% las incluyen en los equipos fundadores, aunque sí participan en gran medida en hackerspaces, proyectos y eventos.
 
-![](https://image.slidesharecdn.com/open-hardware-entrepreneurship-130909013556-/95/the-state-of-open-hardware-entrepreneurship-in-2013-9-638.jpg?cb=1380311117)    
-_Fig. 12: número de empresas OHW lanzadas por año, a 2013 (Fuente: [Berchon, 2013](https://www.slideshare.net/makingsociety/the-state-of-open-hardware-entrepreneurship-in-2013?ref=http://makingsociety.com/2013/09/the-state-of-open-hardware-entrepreneurship-2013/))*_
-
-En cuanto al perfil de los emprendedores, mayoritariamente poseen una formación en ingeniería (83%), diseño (17%) -incluyendo artistas digitales con conocimientos en aspectos técnicos- y docentes e investigadores (14%) provenientes de áreas técnicas, que dedican su tiempo libre a trabajar en proyectos OHW. El 47% de las compañías es liderado por emprendedores solos, comparado con el 52% que lo hace en equipo, lo que la autora atribuye a la ventaja de contar con una comunidad online fuerte de apoyo. Sólo el 5% de las compañías son lideradas por mujeres -excepciones notables como Adafruit o LittleBits-, y sólo 10% las incluyen en los equipos fundadores, aunque sí participan en gran medida en hackerspaces, proyectos y eventos.
+![evolución de start-ups de hardware](http://makingsociety.com/wp-content/uploads/2013/09/slide-growth-open-hardware-startups-e1378750427505.png)
 
 Más de la mitad de las compañías se financian con sus propios recursos (62%) aunque cada vez es mayor el número de empresas que se financian parcial o totalmente a partir de crowdfunding (28%).
+Cicero (2013) asocia al segmento de consumidores de éste último modelo (prosumidores creativos) a una evolución del mercado do-it-yourself.
+Identifica adicionalmente algunas características comunes a los proyectos de hardware financiados vía crowdfunding:
+
+- Modulares (utilizan protocolos comunes e interfaces estandarizadas)
+- Orientadas a prosumidores (makers y early adopters)
+- Productos de ultra nicho (prestaciones muy específicas) 
+- Poco intensivos en R&D
+- Enfocados a resolver necesidades existentes
+
+El indudable éxito de las compañías de software de código abierto (FOSS) probaría que los modelos basados en la apertura pueden funcionar.
+Sin embargo la extrapolación al rubro del hardware no es directa, ya que según Ticnq (2013):
+
+- El costo marginal de producir una unidad en FOSS en cero, en hardware no dada la necesidad de materiales y espacios
+- Las cadenas de suministro en hardware involucran múltiples organizaciones y sets de habilidades a comparación de FOSS
+- Los estándares de calidad y seguridad que aplican al hardware no aplican a FOSS
+
+Los sistemas de generación de valor en hardware varían entre iniciativas, en algunos casos aplicando más de un modelo, o modelos mixtos (Moritz, 2013).
+Algunos autores los clasifican en primarios (desarrollo de hardware) y secundarios (actividades de soporte, expertise, talleres).
+
+Tincq (2013) propone una tipología de modelos de negocio para hardware abierto que distingue entre seis tipos:
+
+
+- Modelo 1: Basados en diseño
+
+El modelo más común, enfocado a diseño e investigación y terciarizando la fabricación.
+La organización puede proveer un artefacto ya ensamblado, kits que disminuyen la barrera de acceso a determinados dispositivos (OpenROV), o es parte de un ecosistema de fabricantes que venden productos basados en diseños abiertos (aún no desarrollado, por ejemplo Wikihouse).
+
+Algunas iniciativas utilizan el modelo de licencia dual de FOSS, ofreciendo tanto la licencia abierta como la propietaria en caso de integración a proyectos propietarios.
+Otro modelo de este tipo es el que posee un núcleo de producto abierto y ofrece extensiones o versiones propietarias del mismo (Cicero, 2013).
+
+- Modelo 2: Basados en fabricación
+
+El principal valor en este caso está asociado a la fabricación y distribución o redistribución de productos OHW a precios accesibles. 
+Al nombre de marca y la comunidad se agrega como activo la eficiencia industrial. 
+En este sentido uno de los ejemplos más claros es el de Sparkfun, que suele colaborar con otras compañías de menor tamaño en las últimas novedades.
+
+Cicero (2013) agrega a esto que la ventaja de poseer los medios de producción se ha relativizado ya que el conocimiento, las herramientas y los diseños necesarios se encuentran accesibles a cientos de compañías e individuos; para el autor la capacidad de producción dejó de ser un factor diferencial en sí mismo. 
+Por ello remarca que en este modelo, la ventaja reside en la elasticidad y capacidad de innovación de la compañía para generar nuevos productos.
+
+Uno de los riesgos de la libre circulación de información es que los diseños pueden copiarse. 
+Una de las estrategias utilizadas es la de innovar a mayor velocidad que las copias: Sparkfun, fabricante de electrónica open source, es un buen ejemplo.
+Para cuando los clones de sus placas están en el mercado, Sparkfun ya tiene una nueva versión publicada, ofreciendo una ventaja competitiva a sus clientes.
+
+Labelling: The Open Source labeling already has a strong positive connotation among many technology customers, and some have speculated it
+could be the next organic or fair trade (Gibb, 2014) label. Currently Open Source is becoming increasingly viewed as an ethical bonus as it has
+value to firms as good will. The Open Source labeling has already resulted in misuse and abuse by some companies that do not develop and
+release Open Source technologies however. The Open Source Hardware Association is trying to rectify the abuse by providing a certification
+program. 
+
+
+- Model 3: expertise and experience based 
+
+This model is directly inspired from the free software industry, in which the most popular business model consist in monetizing expertise and
+service. 
+In Open Hardware, this can translate into: 
+DIY Workshops to teach students how to make the product by themselves (ex: Tripalium teaches how to build the Piggott wind turbine)
+Selling not only a product, but also the “experience” of building it yourself, together with the project team (ex: Wikispeed)
+Consulting Services for companies to customize or build derivatives of your product (ex: Arduino) or learn your processes (ex: Wikispeed) 
+
+**from cicero, 2013 **
+
+
+Professional Services: a bunch of interesting and very focused small companies are bootstrapping businesses around visionary customers exploring IoT, Machine to Machine and hardware innovation
+
+
+- Model 4: product-service systems (prospective) 
+
+The Product-Service System (PSS) model rose to prominence in 1959 when Xerox introduced the “pay-per-copy” printing model. It is now
+spreading throughout industries in the light of trends such as the sharing economy and the circular economy. 
+This model is still prospective in Open Hardware but has untapped potential: 
+Data-driven Services for connected hardware / internet of things
+Subscription Model with spare parts for repair and upgrade
+Product As A Service to access it rather than owning it 
+
+- Model 5: standardize & leverage 
+
+One key product is opened, which serves to make the associated technology a de facto standard in the industry. Openness enables the firm to
+leverage other capabilities adapted to that standard. 
+e.g.: Android OS, Tesla motors opening its patents 
+
+- Model 6: platform model 
+
+Inspired by the platformization of the digital economy, the core of the value proposition is to organize an ecosystem of industry players
+(designers, manufacturers, resellers, customers, prosumers, brands, ...) around one key open hardware technology or design platform.Key examples in the open hardware movement include OpenDesk and OSVehicle, with an increasing interest from many project holders to adapt
+it to other product
+
+
+
+
 
 >**Box 8: Adafruit**
 >
@@ -594,7 +684,7 @@ Pero existen aportes en otros términos, relacionados a la democratización de l
 
 Como se menciona anteriormente, el campo de desarrollo de hardware científico es reciente, sin embargo algunos autores comienzan a elaborar recomendaciones de políticas para su crecimiento. 
 
-Baden 2015 hace referencia a recomendaciones de políticas en la siguiente dirección:
+Baden (2015) identifica un esbozo de recomendaciones de políticas para el desarrollo del hardware científico abierto, orientadas principalmente a la educación e investigación:
 
 1. Incoporar el hardware científico abierto en la currícula escolar oficial;
 2. Aumentar cursos prácticos con hardware científico abierto para cientificos y docentes dentro de la currícula oficial;
@@ -610,14 +700,12 @@ Se enfoca en cuatro medidas que permitirían un escalamiento horizontal, a trav�
 3. Crear una base de datos abierta de hardware científico abierto validado con toda su documentación asociada;
 4. Proveer incentivos a emprendedores para escalar la producción de componentes de difícil acceso.
 
-En Latinoamérica en general aún no se multiplican las recomendaciones de políticas específicas para hardware científico abierto, con la excepción de Ecuador (FLOK, 2015), donde se identifica la necesidad de fomentar la innovación social a través del mismo. Estas cuatro recomendaciones son similares a las mencionadas por Pearce para el caso norteamericano:
+La comunidad GOSH (2018) identifica la necesidad de recomendar e implementar políticas que fomenten el crecimiento del movimiento, orientadas a la apertura institucional en universidades y organismos de investigación, y la disponibilidad de fondos.
 
-1. Identificar oportunidades para la realización de las metas estratégicas nacionales y de un alto retorno de la inversión (ROI) en HL de uso científico.
-2. Realizar una búsqueda activa de fondos para desarrollar HL. Esto se puede lograr con la combinación de recursos propios del Estado y medios tradicionales como subvenciones, concursos públicos, empresa privada, etc., así como los más recientes de crowdfunding y análogos.
-3. Fomentar la economía popular a través de proyectos de innovación ciudadana basados en HL.
-4. Proporcionar incentivos fiscales para que los empresarios del Ecuador comiencen a producir estos equipos. El gobierno aprobará políticas de adquisición preferencial para HL"hecho en Ecuador".
-
-La comunidad GOSH (2018) identifica la necesidad de recomendar e implementar políticas que fomenten el crecimiento del movimiento, orientadas a la apertura institucional en universidades y organismos de investigación y la disponibilidad de fondos.
+En Latinoamérica en general aún no se multiplican las recomendaciones de políticas específicas para hardware científico abierto, con la excepción de Ecuador (FLOK, 2015), donde se identifica la necesidad de fomentar la innovación social a través del mismo. 
+Particularmente son cuatro recomendaciones en la misma dirección que la propuesta de Pearce. 
+En Venezuela en el 2004 se realizaron talleres que convocaron miembros del sector público y privado para la "Elaboración  de  Políticas  para  la Administración y Uso del Hardware en la Administración Pública".
+El propósito fundamental de ese taller era el  “fortalecimiento  de  la  infraestructura  tecnológica  en  el  área  de manufactura, producción y comercialización de hardware, también fomentar el conocimiento y la capacidad de invención, comercialización de productos en el mercado interno y externo aprovechando nuestro potencial y ubicación geopolítica en el mundo.” (Córdova, 2004)
 
 
 ## Bibliografía

@@ -3,11 +3,17 @@
 > En desarrollo
 
 0. [Proyecto CONICET](tesis/proyecto_ES.md)    
-    Anteproyecto presentado a CONICET por beca doctoral     
+    Proyecto presentado a CONICET por beca doctoral     
         0.b [Resumen e Índice](tesis/0_resumen.md)
     
 1. [Introducción](tesis/1_introduccion.md)     
-   Qué es el HW científico abierto, quiénes lo hacen, por qué, cómo lo desarrollan, en qué rubros, oportunidades y desafíos.
+   
+   - Qué es el HW científico abierto
+   - Grupos y motivaciones
+   - Contexto favorable
+   - Cómo se desarrolla, licencias y modelos de negocio
+   - Desafíos y oportunidades
+   - Recomendaciones de políticas
 
 2. [Marco teórico](tesis/2_marcoteorico.md)    
     Teoría crítica de la tecnología, Transiciones socio-técnicas, Movimientos de Innovación de Base    

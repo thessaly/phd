@@ -20,48 +20,6 @@ Open hardware is related to the general trend of 3D printing, personal fabricato
 
 The fourth argument is not related directly to shared designs, but on the use of networked technology in the development of shared infrastructures. We’re thinking here of how such infrastructures, and the radical diminishing of transaction and coordination costs that they entail, has led to the emergence of a very strong sharing economy. Used fractional ownership of cars for example, as in Zipcar carsharing, or real p2p sharing which allows for the optimal more collective use of privately owned cars, has a dramatic effect on the amount of physical production needed to insure a given amount of transportation. These shared infrastructures only become possible because of the availability of networked technologies, the same tech that is also at the basis of the emergence of open and shared design. Once we abandon the central requirement of the necessity of private property of the means of production, and change the focus on ownership for one on access and use, combined with more distributed forms of ownership of the common stock, we can envision the transformation of property-based economics to an economics of provisioning, as envisaged by Marvin Brown in “Civilising the Economy” or as a series of functions, or an “economy of functionalities” based on integrated product-service systems. This transformation, within the bounds of the present political economy, has been described by Rachel Cobcroft in “What’s Mine is Yours”, or Lisa Gansky’s “The Mesh” 
 
-## enablers
-**hsing 2018**
-Historically, big technol-ogy companies dominated the market because only they had the scale and resources to not only produce increas-ingly
-performant products, but also to keep up with them. However, with the slowing of performance increases, there is a widening window for other
-innovators to create new products before a new generation of processors make them obsolete. A profound implication is that there may be less
-demand for new products, concurrent with a ‘rise in repair culture as technology becomes less disposable and more permanent’. Huang contends
-that this will create an open-ing for open hardware and small businesses. 
-
-## business models
-
-
-**pearce 2018**
-
-
-OHW advantages:
-
-- By avoiding IP-based licensing models (e.g. involving patents, lawyers, legal fees, law-suits, NDAs and other secrecy agreements) Libre Hardware firms have substantially reduced legal fees compared to more conventional businesses. Today, many firms shockingly spend more on legal fees than engineering. For example, both Apple and Google spend more on legal fees than R&D (Covert, 2012)
-
-- Libre Hardware companies often benefit from a large and vocal user community, which can significantly reduce the costs of product support because questions are handled in on-line forums by other customers (who are often producers themselves).
-
--  Open Hardware is easier for 3rd parties and other companies to create their own revenue streams by offering support for libre products. This makes
-support faster, better and less expensive for libre products, which further increases overall value of the product. 
-
--  Libre Hardware companies can also benefit from better employees. There is already a relatively well established benefit for software developers who work for FOSS companies as their individual name can be associated with their work (Lerner and Triole, 2000; Marz, 2010). The same benefit for employees would be expected to occur for Libre Hardware companies
-
-OHW limitations:
-
-- the “prosumer” must be technically sophisticated to fabricate the products from open digital plans. Many laboratories do not have the necessary skills to do this effectively. In particular, labs may not have the equipment to perform validation and calibration, and the Open Source business community is not well matured in this area, resulting in holding back adoption for a wide range of sensitive instruments
-
--  self-fabricated equipment can be held back for not meeting regulatory, industrial, or consumer-quality standards. 
-
--  for larger and more sophisticated projects to develop a new Open Hardware-based scientific tool can involve a large investment whereas, as pointed out before,
-funding agencies and for-profit entities are more comfortable funding proprietary development. 
-
--  there is real pressure for companies to pivot towards a proprietary model (case MakerBot) because the open models outlined in this article offer currently few examples of success
-
-- making a project or product open does not guarantee a large community building upon one another’s designs. 
-
--  Having a successful project involves recruiting core developers, promoting and advertising a project (Vickery, 2015). 
-
-
-
 
 ***
 >**Box2: Computadora Industrial Abierta Argentina**
@@ -111,6 +69,15 @@ printed objects) are hard to copyright, and copyright laws can be bypassed throu
 (Bradshaw et al., 2010). Copyright is not the appropriate IP strategy for design files on any product that has utility (e.g. patents). Therefore,
 YouMagine, Stanford 3D Scanning Repository, Github, Repables, Pirate Bay Physibles, Fab Fabbers, Cubehero, Bld3r, Thingiverse, Libre 3D and
 many other repositories are blossoming (RepRap, 2016). 
+
+**from oshwa**
+#### TAPR licence
+In 2007, TAPR created the first open hardware license. The Tucson Amateur Packet Radio Corporation (TAPR), founded in 1982, is a non-profit organization of amateur radio operators with the goals of supporting R&D efforts in the area of amateur digital communications, disseminating information on packet and digital communications, providing affordable and useful kits for experimenters and hobbyists, pursuing and helping advance the amateur art of communications, and supporting publications, meetings, and standards in the area of amateur digital communications. As part of its role in supporting groups of amateurs working on digital communications projects, TAPR offers help in turning concepts into reproducible designs and making them available as kits or finished products to others. In 2005, TAPR began working with one such group, which was developing high performance software defined radio products and wanted to contribute their free time and expertise to the ham radio community (Ackermann 2009). The group feared that their efforts might be co-opted by commercial entities and therefore asked for TAPR’s assistance in developing a license to achieve their goals (Ackermann 2009)⁠. The result was the TAPR Open Hardware License, the first hardware-specific open source license.
+
+#### CERN OHL
+In 2008, a team of hardware designers led by Javier Serrano in the Beams Department at CERN (the renowned European Laboratory for Particle Physics) started collaborating with industry in the development of the Open Hardware Repository (3), which went online in January 2009. Later that year, they published their plans for an OSHW collection of hardware modules for controls and data acquisition in particle accelerators, in collaboration with other institutes and commercial companies.
+
+In July 2011, CERN issued a press release declaring that it had created an open source hardware license (CERN OHL). On this announcement, Javier explained the decision thus: “By sharing designs openly, CERN expects to improve the quality of designs through peer review and to guarantee their users – including commercial companies – the freedom to study, modify and manufacture them, leading to better hardware and less duplication of efforts” (CERN 2011). The license was initially drafted to address CERN-specific concerns, such as tracing the impact of the organization’s research, but in its current form it can be used by anyone developing open source hardware (Ayass 2011). From its first version, the drafting of the CERN OHL had as a goal to be compliant with the OSHW Definition 1.0 released earlier that year
 
 
 ## ¿En qué áreas se desarrolla hardware científico abierto?

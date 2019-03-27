@@ -328,6 +328,7 @@ Como se menciona en las secciones anteriores, la filosofía del software libre s
 Sin embargo en los últimos años se puede observar un crecimiento explosivo de los proyectos de hardware abierto para ciencia: colorímetros (Anzalone et al., 2013a), sistemas fotométricos para cuantificar nitratos enzimáticos (Wittbrodt, et al., 2015), nephelometers (Wijnen et al. 2014a), turbidímetros (Kelly et al., 2014), liquid auto-samplers (Carvalho and Eyre, 2013), operadores de microfluidos (Da Costa, et al., 2014), equipos para biotecnología (Lucking et al., 2014; Gross et al., 2014; Su et al., 2014), espectroscopía de masa (Malonado-Torres et al., 2014; Chiu and Urban, 2015), automated sensing arrays (Wittbrodt, et al. 2014), phasor measurement units (Laverty et al., 2013), syringe pumps (Wijnen et al., 2014b), optics and optical system components (Zhang et al., 2013), nanotecnología para trabajar con ADN (Damase et al., 2015), monitoreo ambiental (Pearce, et al., 2012; Chemin et al., 2014) and compatible components for plasma physics labs (Zwicker et al., 2015) and medical apparatuses like magnetic resonance imaging systems (Hermann et al., 2014).
 
 Históricamente las grandes compañías dominan la producción de hardware por dos razones: la fabricación es costosa y requiere de expertise.
+Huang (2017) alega que la desaceleración de la performance en innovación de las grandes compañías habilita una ventana de oportunidad para el hardware abierto, sumado a una ola de la cultura de la reparación a medida que más tecnología se vuelve obsoleta.
 La literatura coincide en que la aparición de plataformas de prototipado de bajo costo y accesibilidad en términos de expertise, como Arduino, jugaron un rol fundamental en este salto (Pearce, 2017; Söderberg, 2013; Powell, 2012). 
 Otro factor de relevancia es la difusión de la fabricación digital con herramientas como impresoras 3D (ver Box XXX), clave para el desarrollo de proyectos de hardware abierto, pero también cortadoras láser, CNC y otros (Söderberg, 2013).
 
@@ -422,17 +423,40 @@ En cuanto a las dificultades que se identifican en los procesos de desarrollo, p
 
 ### Licencias para hardware
 
-Las licencias disponibles hoy y recomendadas por la comunidad GOSH son:
+Las licencias disponibles hoy más utilizadas son:
 
-1. [TAPR](https://www.tapr.org/ohl.html)    
+1. [TAPR license](https://www.tapr.org/ohl.html)    
+
 La [Tucson Amateur Packet Radio](https://en.wikipedia.org/wiki/Tucson_Amateur_Packet_Radio) -TAPR, una organización internacional de radios amateur- definió el concepto de "hardware libre" en lo que constituyó el primer mecanismo de regulación de propiedad intelectual para este tipo de desarrollos. En esta licencia se lo define como “**una cosa -artefacto físico, ya sea eléctrico o mecánico- cuya información de diseño se encuentra disponible y utilizable por parte del público, de forma tal que permite a cualquier persona fabricarla, modificarla, distribuirla o utilizarla**” (TAPR, 2007).
 
 
-2. Source: https://www.ohwr.org/projects/cernohl
-3. Source: http://solderpad.org/licenses/
-4. Source: https://biobricks.org/openmta
+2. [CERN open hardware license](https://www.ohwr.org/projects/cernohl)
+
+In 2008, a team of hardware designers led by Javier Serrano in the Beams Department at CERN (the renowned European Laboratory for Particle Physics) started collaborating with industry in the development of the Open Hardware Repository (3), which went online in January 2009. Later that year, they published their plans for an OSHW collection of hardware modules for controls and data acquisition in particle accelerators, in collaboration with other institutes and commercial companies.
+
+In July 2011, CERN issued a press release declaring that it had created an open source hardware license (CERN OHL). On this announcement, Javier explained the decision thus: “By sharing designs openly, CERN expects to improve the quality of designs through peer review and to guarantee their users – including commercial companies – the freedom to study, modify and manufacture them, leading to better hardware and less duplication of efforts” (CERN 2011). The license was initially drafted to address CERN-specific concerns, such as tracing the impact of the organization’s research, but in its current form it can be used by anyone developing open source hardware (Ayass 2011). From its first version, the drafting of the CERN OHL had as a goal to be compliant with the OSHW Definition 1.0 released earlier that year
 
 
+3. [Solderpad](http://solderpad.org/licenses/)
+
+4. [OpenMTA](https://biobricks.org/openmta)
+
+Como se mencionaba anteriormente, hardware implica mucho más que artefactos electrónicos. 
+Uno de los casos que es útil para ilustrar esto en la licencia OpenMTA orientada a regular la transferencia de materiales biológicos como ser plásmidos, muestras y otros cuyas cantidades no son intrínsecamente limitadas.
+Open MTA fue presentado en 2018 por el colectivo de autores, en una nota en la revista Nature (Kahl et al, 2018).
+
+Los Acuerdos de Transferencia de Materiales (MTAs) establecen los marcos legales para compartir biomateriales, con el objetivo de promover el intercambio, innovación y traducción en tecnologías.
+Sin embargo el MTA más frecuentemente utilizado en la actualidad, el [Acuerdo Uniforme de Transferencia de Materiales Biológicos (UBMTA)](https://www.ott.nih.gov/resources/) fue desarrollado en 1990 antes de la difusión de internet, la secuenciación de genoma y la síntesis, lo que dificulta el trabajo en la actualidad.
+Dos de las restricciones más importantes son la prohibición de redistribución y el no-uso comercial. 
+
+A modo de propuesta OpenMTA se desarrolló colaborativamente impulsado por la fundación BioBricks y el centro de investigación en biología sintética OpenPlant.
+OpenMTA tiene cinco objetivos principales, alineados a la Definición de Apertura: acceso, atribución, reuso, redistribución y no discriminación. 
+
+Como todos los MTAs se trata de un contrato en el cual el proveedor entrega materiales a cambio de la promesa de atribución, reporte y pago de tasas de procesamiento de material.
+A diferencia de los actuales, OpenMTA permite el reuso de materiales dentro de los marcos legales y la redistribución con reporte.
+Las instituciones firmantes no tienen obligación de manejarse 100% con OpenMTA, ni de aplicarlo a derivados. 
+
+OpenMTA se encuentra disponible en el sitio de BioBricks y se planea sumar adhesiones para incorporarlo a otras plataformas de intercambio de materiales biológicos. 
 
 
 ### Modelos de negocio basados en la apertura
@@ -440,7 +464,6 @@ La [Tucson Amateur Packet Radio](https://en.wikipedia.org/wiki/Tucson_Amateur_Pa
 Autores como Bauwens (2011) y Söderberg (2011) asocian al hardware abierto con la producción distribuida y sus beneficios (fabricación local, menores costos de distribución y transporte, comunidades de innovación, mayor participación).
 La aparición y crecimiento de los proyectos basados en hardware abierto, particularmente el caso de Arduino y otras firmas como Sparkfun y Adafruit, desafían la lógica de los modelos de negocio tradicionales. 
 
-La explosión del OSHW abrió la puerta a múltiples modelos de negocio que utilizan parcial o totalmente la apertura como estrategia de monetización. 
 Según un informe sobre el estado de situación del rubro, analizando 100 start-ups de hardware abierto (Berchon, 2013), la mayoría se encuentran en los Estados Unidos (68%) -concentradas en los núcleos de desarrollo de hardware alrededor de las universidades y hackerspaces activos- seguido por Europa (19%) y Asia (7%). 
 El mayor crecimiento se da en el año 2007: hasta ese entonces se lanzaba sólo una compañía OHW por año: ejemplos de ello son Parallax (1986), Solarbotics (1994), Lynxmotion (1995, luego comprada por RobotShop), ShopBot (1996), Egnite (1997), WIZnet (1998). 
 
@@ -473,6 +496,9 @@ Sin embargo la extrapolación al rubro del hardware no es directa, ya que según
 Los sistemas de generación de valor en hardware varían entre iniciativas, en algunos casos aplicando más de un modelo, o modelos mixtos (Moritz, 2013).
 Algunos autores los clasifican en primarios (desarrollo de hardware) y secundarios (actividades de soporte, expertise, talleres).
 
+![tipología de modelos de negocio Moritz](../notas_bibliografia/moritz_bm.png)
+*Clasificación de modelos de negocio para hardware abierto (Moritz, 2013)*
+
 Tincq (2013) propone una tipología de modelos de negocio para hardware abierto que distingue entre seis tipos:
 
 - Modelo 1: Basados en diseño
@@ -483,20 +509,23 @@ La organización puede proveer un artefacto ya ensamblado, kits que disminuyen l
 Algunas iniciativas utilizan el modelo de licencia dual de FOSS, ofreciendo tanto la licencia abierta como la propietaria en caso de integración a proyectos propietarios.
 Otro modelo de este tipo es el que posee un núcleo de producto abierto y ofrece extensiones o versiones propietarias del mismo (Cicero, 2013).
 
+![business canvas Arduino segun Tincq](../notas_bibliografia/tincq_arduinobm.png)
+*Modelo de negocio de Arduino (Tincq, 2013)*
+
 - Modelo 2: Basados en fabricación
 
 El principal valor en este caso está asociado a la fabricación y distribución o redistribución de productos OHW a precios accesibles. 
 Al nombre de marca y la comunidad se agrega como activo la eficiencia industrial. 
-En este sentido uno de los ejemplos más claros es el de Sparkfun, que suele colaborar con otras compañías de menor tamaño en las últimas novedades.
 
-Cicero (2013) agrega a esto que la ventaja de poseer los medios de producción se ha relativizado ya que el conocimiento, las herramientas y los diseños necesarios se encuentran accesibles a cientos de compañías e individuos; para el autor la capacidad de producción dejó de ser un factor diferencial en sí mismo. 
+Cicero (2013) agrega a esto que la ventaja de los grandes fabricantes por poseer los medios de producción se ha relativizado ya que el conocimiento, las herramientas y los diseños necesarios se encuentran accesibles a cientos de compañías e individuos; para el autor la capacidad de producción dejó de ser un factor diferencial en sí mismo. 
 Por ello remarca que en este modelo, la ventaja reside en la elasticidad y capacidad de innovación de la compañía para generar nuevos productos.
 
 Uno de los riesgos de la libre circulación de información es que los diseños pueden copiarse. 
-Una de las estrategias utilizadas es la de innovar a mayor velocidad que las copias: Sparkfun, fabricante de electrónica open source, es un buen ejemplo.
+Una de las estrategias utilizadas para contrarrestarlo es la de innovar a mayor velocidad que las copias: Sparkfun, fabricante de electrónica open source, es un buen ejemplo.
 Para cuando los clones de sus placas están en el mercado, Sparkfun ya tiene una nueva versión publicada, ofreciendo una ventaja competitiva a sus clientes.
 
-El etiquetado de productos 'open source' es una opción que en el pasado fue utilizada por compañías que no lo desarrollaban, por lo cual la OSHWA desarrolló un programa de certificación para revertir el mal uso (Pearce, 2018).
+El etiquetado de productos 'open source' es una opción que fue utilizada en el pasado con malos resultados ya que compañías de diseño cerrado etiquetaban sus productos como open source.
+OSHWA desarrolló un programa de certificación open source hardware para revertir este mal uso (Pearce, 2018).
 
 > **Box 10: 3D Robotics - Mediodía y ocaso de los drones**
 >
@@ -513,9 +542,10 @@ El etiquetado de productos 'open source' es una opción que en el pasado fue uti
 >
 >La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.
 
-- Modelo 4: Basados en el conocimiento y el expertise
+- Modelo 3: Basados en el conocimiento y el expertise
 
-Este modelo está inspirado directamente en la industria del software libre, su valor radica en el expertise y el servicio de soporte. En OHW esto se traduce a talleres de DIY (Tripalium, Open Source Ecology), la venta del producto más la "experiencia" de construirlo (Wikispeed) ó venta de servicios de consultoría para empresas que desean utilizar el producto en su cadena de valor (Arduino, Wikispeed).
+Este modelo está inspirado directamente en la industria del software libre, su valor radica en el expertise y el servicio de soporte. 
+En OHW esto se traduce a talleres de DIY (Tripalium, Open Source Ecology), la venta del producto más la "experiencia" de construirlo (Wikispeed) ó venta de servicios de consultoría para empresas que desean utilizar el producto en su cadena de valor (Arduino, Wikispeed).
 
 <img src=https://i.pinimg.com/originals/85/c9/99/85c999a3b9c1a0541c68c52a217cbb81.png width=70%>    
 _Fig 14. Turbina eólica abierta de Tripalium, una fundación que promueve la energía eólica (Fuente: Tripalium.org)_    
@@ -525,12 +555,11 @@ Otras compañías ofrecen servicios a usuarios particulares que se encuentran ex
 - Modelo 4: Sistemas de Producto-Servicio (a futuro)
 
 Surgieron en 1959 con el modelo de impresión pay-per-copy instalado por Xerox, y están teniendo mayor difusión actualmente de la mano de conceptos como la economía social y la economía circular. 
-Se basan en ofrecer el derecho de uso del producto en lugar de su propiedad. 
-En hardware aún es incipiente.
+Se basan en ofrecer el derecho de uso del producto en lugar de su propiedad, pero en hardware aún es incipiente.
 
 - Modelo 5: Estandarización 
 
-Consiste en abrir estratégicamente un producto clave que sea redituable en sí mismo pero que su apertura implique un impulso para que la tecnología asociada a él se convierta en un estándar de la industria. 
+Consiste en abrir estratégicamente un producto clave que sea redituable en sí mismo para que su apertura impulse la creación denuevas tecnologías y lo convierta en un estándar de la industria. 
 El ejemplo típico en este caso es el sistema operativo Android, de Google, y los motores Tesla, que permitieron a Tesla Motors incursionar en el mercado de las baterías y estaciones cargadoras.
 
 - Modelo 6: Modelos de plataforma
@@ -549,11 +578,93 @@ OSVehicle diseñó el motor y chasis Tabby -OHW, eléctrico y modular-, construy
 >Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
 >El nombre Adafruit proviene del nickname "LadyAda" que Fried utilizaba online como homenaje a Ada Lovelace, la pionera en ciencias de la computación. La compañía además produce recursos educativos, incluyendo tutoriales escritos y videos en Youtube con el objetivo de entusiasmar a más personas para que se involucren en el desarrollo de tecnología, especialmente mujeres. En su sitio web oficial Fried declara: “Adafruit es una compañía 100% propiedad de una mujer”.
 
+
+Pearce (2018) identifica ventajas y limitaciones del hardware abierto en términos de generación de valor y nuevos modelos de negocios.
+
+Entre las ventajas resalta: 
+
+- Reducción de costos asociados a tasas legales (patentes, abogados, juicios, acuerdos) que hacen que por ejemplo Apple o Google inviertan más en esto que en I+D (Covert, 2012)
+
+- Reducción de costos asociados a soporte, dada la contribución de la comunidad en foros y otros eespacios
+
+- Soporte más eficiente, rápido y menos costoso al facilitar la información necesaria para que otras compañías y 3rd parties lo brinden 
+
+- Mejores empleados, como se ve en FOSS ya que sus nombres están asociados a su producción (Lerner and Triole, 2000; Marz, 2010)
+
+Entre las limitaciones:
+
+- El prosumidor debe tener una formación técnica mediana-alta para poder producir a partir de la documentación abierta, lo cual no es una realidad en la mayoría del ámbito científico aún
+
+- Puede impedirse la comercialización aludiendo al cumplimiento de regulaciones de calidad
+
+- Para proyectos más grandes y/o sofisticados la inversión inicial aún es importante y las agencias de financiamiento todavía no apoyan masivamente
+
+- Existe presión real sobre las compañías para adoptar el modelo propietario dados los todavía escasos modelos exitosos
+
+- Fabricar un producto o proyecto no garantiza que se forme una comunidad alrededor del mismo
+
+- Un proyecto exitoso requiere desarrolladores dedicados, promoción y publicidad (Vickery, 2015). 
+
+
 #### Modelos de negocio para hardware abierto en ciencia
 
+Específicamente en modelos de negocio para hardware científico abierto, el principal aporte es de Pearce (2018), que categoriza los modelos de acuerdo a los usuarios a los que se dirigen dentro del ámbito científico, obteniendo tres tipos principales: makers, consumidores, terciarizadores.
 
+- Tipo 1: grupos que fabrican sus propios equipos utilizando hardware abierto ('makers')
+- Tipo 2: grupos que pagarían para que otros fabriquen sus equipos, incluye grupos de investigación en instituciones con altos presupuestos, plazos ajustados o poco personal, o en áreas por fuera de física o ingeniería donde puede resultar más difícil obtener el expertise. 
+- Tipo 3: grupos que terciarizan experimentos a laboratorios o compañías especializados
 
-    
+Dentro de estos tres tipos detalla algunos de los que mencionaba anteriormente Tincq.
+
+#### Tipo 1: makers
+
+Estos modelos son análogos al tipo 2 de Tincq, basados en fabricación. 
+
+a) Fabricantes de kits     
+Actualmente para desarrollar hardware existen piezas que no pueden ser fabricadas con impresión 3D u otras herramientas, y que resulta más complicado conseguir. 
+Esta inversión extra de tiempo abre la oportunidad a que las compañías provean todos estos componentes específicos en forma de kits para un diseño en particular.
+
+b) Proveedores especializados de componentes     
+Incluso entre usuarios que desarrollan sus propios productos la especialización es una necesidad, más allá de los kits estándar. 
+Las compañías pueden proveer partes especializadas en materiales que comúnmente no están disponibles en el mercado (por ejemplo algunos materiales especiales para impresoras 3D).
+
+c) Servicios de calibración y validación      
+Las compañías peuden ofrecer servicios de calibración, validación o testeo de hardware. 
+Aunque existen cientos de diseños abiertos, una pequeña parte está formalmente validada y aún menos calibrada.
+A medida que este servicio comience a ofrecerse se espera que se produzca un salto en la adopción de hardware científico abierto.
+
+#### Tipo 2: consumidores
+
+a) Vendedores de hardware científico abierto (análogo al modelo 1 de Tincq)     
+Se puede vender equipamiento abierto a través de pre-ventas y crowdfunding, en negocios especializados o tiendas onlines.
+Un ejemplo de esto es Aleph Objects, una compañía que vende impresoras 3D Lulzbot de diseño abierto, que aunque podrían ser replicadas a partir de los planos, muchos consumidores prefieren comprar hechas.
+La comunidad alrededor de su producto hace que Aleph Object tenga menos costos de I+D y más rápido lanzamiento de innovaciones al mercado, gracias a la información que proveen los usuarios (Zimmermann, 2014). 
+
+Otra posibilidad es el “package model” que integra componentes abiertos a líneas de producción existentes; o el “secondary supplier model” (Buitenhuis and Pearce, 2012) que al abrir diseños propios baja el costo de tecnologías que se desarrollan en base a ellos. 
+Un ejemplo de esto es la Nitrate Elimination Corporation (NECi), fabricante de enzimas para análisis químicos, que abrió los diseños de su fotómetro bajando el costo de otros métodos para detección de nitratos (Wittbrodt, et al. 2015).
+Comercializan el fotómetro y promueven su uso en grupos de ciencia ciudadana y makers para que elaboren sus propios diseños ampliando el mercado.
+
+b) Vendedores de servicios (análogo al modelo 3 de Tincq)     
+Análogo a la industria de FOSS, vender expertise de forma tal que se divulgue el producto y se amplíe la base para otros servicios, como el caso de RedHat.
+
+Para el modelo de servicios en ciencia Pearce propone cinco estrategias:
+
+1. Vender suscripciones a un paquete de servicios alrededor de un producto. Particularmente útil para grandes centros de investigación en industria, gobierno o academia donde diferentes productos deberían ser mantenidos.
+
+2. Ofrecer soporte y capacitación en instalación y operación de hardware y guardias para emergencias, reparaciones o actualizaciones. Puede proveer ingresos directos (cursos) o indirectos (publicado en sitios como Instructables que tienen ingresos por publicidad). 
+
+3. Consultoría para realizar versiones más sofisticadas de equipos, aprovechando el expertise en últimas tecnologías disponibles. Puede ser útil en universidades ya que el esquema de trabajo financiado por subsidios es similar al actual.
+
+4. Consorcio de productores para solucionar un problema específico en un campo (Bruns, 2001). Las firmas se benefician por participar en un estudio que no existiría individualmente.
+
+5. Soporte al desarrollo de otras compañías de hardware abierto, como el caso de Seeed Studio. Seeed Studio provee los servicios en China para que las compañías lleven sus prototipos a mayor excala, utilizando procesos propios de ingeniería, manejo de la cadena de suministros, fabricación ágil y distribución, además de acceso a inversores.
+
+#### Tipo 3: terciarizadores
+
+Este modelo se puede comparar con el tipo 6 de Tincq, o modelos de plataforma.
+Haciendo una analogía con plataformas como Etsy, propone la oferta de servicios de hardware científico abierto, como por ejemplo la realización de experimentos. 
+Un ejemplo de este tipo es Science Exchange, una plataforma que conecta laboratorios avanzados con científicos que requieren realizar experimentos (Gould, 2015). 
+
 
 > **Box 9: Open Desk**
 >
@@ -565,8 +676,6 @@ OSVehicle diseñó el motor y chasis Tabby -OHW, eléctrico y modular-, construy
 > _Fig. 15: modelo de escritorio disponible para descargar (Fuente: OpenDesk.com)_
 >
 >Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
-
-
 
 
 ## Desafíos

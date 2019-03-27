@@ -30,61 +30,8 @@ that this will create an open-ing for open hardware and small businesses.
 
 ## business models
 
-**tincq 2014**
-
-
-
-- Model 3: expertise and experience based 
-
-This model is directly inspired from the free software industry, in which the most popular business model consist in monetizing expertise and
-service. 
-In Open Hardware, this can translate into: 
-DIY Workshops to teach students how to make the product by themselves (ex: Tripalium teaches how to build the Piggott wind turbine)
-Selling not only a product, but also the “experience” of building it yourself, together with the project team (ex: Wikispeed)
-Consulting Services for companies to customize or build derivatives of your product (ex: Arduino) or learn your processes (ex: Wikispeed) 
-
-**from cicero, 2013 **
-
-
-Professional Services: a bunch of interesting and very focused small companies are bootstrapping businesses around visionary customers exploring IoT, Machine to Machine and hardware innovation
-
-
-- Model 4: product-service systems (prospective) 
-
-The Product-Service System (PSS) model rose to prominence in 1959 when Xerox introduced the “pay-per-copy” printing model. It is now
-spreading throughout industries in the light of trends such as the sharing economy and the circular economy. 
-This model is still prospective in Open Hardware but has untapped potential: 
-Data-driven Services for connected hardware / internet of things
-Subscription Model with spare parts for repair and upgrade
-Product As A Service to access it rather than owning it 
-
-- Model 5: standardize & leverage 
-
-One key product is opened, which serves to make the associated technology a de facto standard in the industry. Openness enables the firm to
-leverage other capabilities adapted to that standard. 
-e.g.: Android OS, Tesla motors opening its patents 
-
-- Model 6: platform model 
-
-Inspired by the platformization of the digital economy, the core of the value proposition is to organize an ecosystem of industry players
-(designers, manufacturers, resellers, customers, prosumers, brands, ...) around one key open hardware technology or design platform.Key examples in the open hardware movement include OpenDesk and OSVehicle, with an increasing interest from many project holders to adapt
-it to other product
 
 **pearce 2018**
-Originally FOSS community members believed that Libre Hardware was challenging because of the nature of the design that was necessary to
-build physical artifacts (Stallman, 1999), however, with advancements in digital manufacturing technology these views have changed (Stallman,
-2015). 
-
-The trajectories of improvements and innovation are steeper (Foss and Pedersen, 2004) than they are for traditional manufacturing technologies 
-The number of libre designs have been shown to be growing at an exponential rate (Wittbrodt et al., 2013). At the moment, most designs (for
-printed objects) are hard to copyright, and copyright laws can be bypassed through the introduction of small changes in the overall design
-(Bradshaw et al., 2010). Copyright is not the appropriate IP strategy for design files on any product that has utility (e.g. patents). Therefore,
-YouMagine, Stanford 3D Scanning Repository, Github, Repables, Pirate Bay Physibles, Fab Fabbers, Cubehero, Bld3r, Thingiverse, Libre 3D and
-many other repositories are blossoming (RepRap, 2016). 
-
-A business model describes the rationale of how a firm creates, delivers, and captures economic value (­Hedman and Kalling, 2003). 
-Companies developing and distributing FOSS can not depend on their control of the source code for their business model, they rely on non
-traditional models to provide sources of revenue instead (Krishnamurthy, 2005). 
 
 
 OHW advantages:
@@ -157,6 +104,13 @@ The control oven manufacturing and distribution can be done through patents (inc
 name identifying OSH and linking it to a company/org in terms of quality, reputation and recognizability (Arduino). 
 The most used licences are TAPR Open Hardware License, CERN OHL 
 
+pearce2018
+The trajectories of improvements and innovation are steeper (Foss and Pedersen, 2004) than they are for traditional manufacturing technologies 
+The number of libre designs have been shown to be growing at an exponential rate (Wittbrodt et al., 2013). At the moment, most designs (for
+printed objects) are hard to copyright, and copyright laws can be bypassed through the introduction of small changes in the overall design
+(Bradshaw et al., 2010). Copyright is not the appropriate IP strategy for design files on any product that has utility (e.g. patents). Therefore,
+YouMagine, Stanford 3D Scanning Repository, Github, Repables, Pirate Bay Physibles, Fab Fabbers, Cubehero, Bld3r, Thingiverse, Libre 3D and
+many other repositories are blossoming (RepRap, 2016). 
 
 
 ## ¿En qué áreas se desarrolla hardware científico abierto?

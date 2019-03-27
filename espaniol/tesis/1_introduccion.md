@@ -475,7 +475,6 @@ Algunos autores los clasifican en primarios (desarrollo de hardware) y secundari
 
 Tincq (2013) propone una tipología de modelos de negocio para hardware abierto que distingue entre seis tipos:
 
-
 - Modelo 1: Basados en diseño
 
 El modelo más común, enfocado a diseño e investigación y terciarizando la fabricación.
@@ -497,109 +496,7 @@ Uno de los riesgos de la libre circulación de información es que los diseños 
 Una de las estrategias utilizadas es la de innovar a mayor velocidad que las copias: Sparkfun, fabricante de electrónica open source, es un buen ejemplo.
 Para cuando los clones de sus placas están en el mercado, Sparkfun ya tiene una nueva versión publicada, ofreciendo una ventaja competitiva a sus clientes.
 
-Labelling: The Open Source labeling already has a strong positive connotation among many technology customers, and some have speculated it
-could be the next organic or fair trade (Gibb, 2014) label. Currently Open Source is becoming increasingly viewed as an ethical bonus as it has
-value to firms as good will. The Open Source labeling has already resulted in misuse and abuse by some companies that do not develop and
-release Open Source technologies however. The Open Source Hardware Association is trying to rectify the abuse by providing a certification
-program. 
-
-
-- Model 3: expertise and experience based 
-
-This model is directly inspired from the free software industry, in which the most popular business model consist in monetizing expertise and
-service. 
-In Open Hardware, this can translate into: 
-DIY Workshops to teach students how to make the product by themselves (ex: Tripalium teaches how to build the Piggott wind turbine)
-Selling not only a product, but also the “experience” of building it yourself, together with the project team (ex: Wikispeed)
-Consulting Services for companies to customize or build derivatives of your product (ex: Arduino) or learn your processes (ex: Wikispeed) 
-
-**from cicero, 2013 **
-
-
-Professional Services: a bunch of interesting and very focused small companies are bootstrapping businesses around visionary customers exploring IoT, Machine to Machine and hardware innovation
-
-
-- Model 4: product-service systems (prospective) 
-
-The Product-Service System (PSS) model rose to prominence in 1959 when Xerox introduced the “pay-per-copy” printing model. It is now
-spreading throughout industries in the light of trends such as the sharing economy and the circular economy. 
-This model is still prospective in Open Hardware but has untapped potential: 
-Data-driven Services for connected hardware / internet of things
-Subscription Model with spare parts for repair and upgrade
-Product As A Service to access it rather than owning it 
-
-- Model 5: standardize & leverage 
-
-One key product is opened, which serves to make the associated technology a de facto standard in the industry. Openness enables the firm to
-leverage other capabilities adapted to that standard. 
-e.g.: Android OS, Tesla motors opening its patents 
-
-- Model 6: platform model 
-
-Inspired by the platformization of the digital economy, the core of the value proposition is to organize an ecosystem of industry players
-(designers, manufacturers, resellers, customers, prosumers, brands, ...) around one key open hardware technology or design platform.Key examples in the open hardware movement include OpenDesk and OSVehicle, with an increasing interest from many project holders to adapt
-it to other product
-
-
-
-
-
->**Box 8: Adafruit**
->
->Adafruit Industries es una compañía basada en open source hardware ubicada en la ciudad de Nueva York, fundada en 2005 por la hacker e ingeniera Limor Fried mientras estudiaba en el Massachusetts Institute of Technology. La empresa diseña y fabrica una serie de productos electrónicos y vende un amplio rango de componentes, herramientas y accesorios vía su tienda web. Los productos ofrecidos abarcan rangos de principiante -kits que producen sonidos al recibir una señal- a experto -como sofisticados microcontroladores para celulares y desarrolladores de videojuegos-.
->
-><img src=https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg width=50%>    
->_Fig. 13: Limor Fried, premiada como emprendedora del año en 2012, fue tapa de la revista de tecnología WIRED (Fuente: Wired)_
->
->Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
->El nombre Adafruit proviene del nickname "LadyAda" que Fried utilizaba online como homenaje a Ada Lovelace, la pionera en ciencias de la computación. La compañía además produce recursos educativos, incluyendo tutoriales escritos y videos en Youtube con el objetivo de entusiasmar a más personas para que se involucren en el desarrollo de tecnología, especialmente mujeres. En su sitio web oficial Fried declara: “Adafruit es una compañía 100% propiedad de una mujer”.
-
-En cuanto a modelos de negocio posibles, la definición más amplia es la planteada por Benichou y Tincq (2014) donde establecen seis categorizaciones basadas en el valor: expertise/experiencia; diseño; fabricación; servicios; estandarización y modelo de plataforma.
-
-1. **Basados en el diseño e investigación de productos**
-
-Constituyen el modelo más común de negocio actual, donde la compañía se enfoca en el diseño e I+D de un producto, mientras delega su fabricación. Los activos más valiosos en este caso son la marca del producto y la comunidad generada alrededor de él. Existen variaciones según si lo que se comercializa son kits o ensamblados de partes (OpenROV; Open Energy Monitor); productos terminados (Arduino) ó productos basados en diseños compartidos por un ecosistema de fabricantes, gestionado por una fundación OHW -inspirado por un modelo más cercano al software libre- (Wikihouse)
-
-2. **Basados en la producción**
-
-El principal valor en este caso está asociado a la fabricación y distribución de productos OHW a precios accesibles. Al nombre de marca y la comunidad, se agrega como activo la eficiencia industrial. Simone Cicero (2013) agrega a esto que la ventaja de poseer los medios de producción se ha relativizado ya que el conocimiento, las herramientas y los diseños necesarios se encuentran accesibles a cientos de compañías e individuos; para el autor la capacidad de producción dejó de ser un factor diferencial en sí mismo. Por ello remarca que en este modelo, la ventaja reside en la elasticidad y capacidad de innovación de la compañía para generar nuevos productos.
-
-Dependiendo del rubro, la variedad y velocidad de renovación del catálogo de productos resulta un factor de peso: por ejemplo en el rubro de electrónica (Sparkfun, Adafruit -ver Box 8-).
-
-3. **Basados en el conocimiento y la experiencia**
-
-Este modelo está inspirado directamente en la industria del software libre, su valor radica en la experiencia y el servicio. En OHW esto se traduce a talleres de DIY (Tripalium, Open Source Ecology), la venta del producto más la "experiencia" de construirlo (Wikispeed) ó venta de servicios de consultoría para empresas que desean utilizar el producto en su cadena de valor (Arduino, Wikispeed).
-
-<img src=https://i.pinimg.com/originals/85/c9/99/85c999a3b9c1a0541c68c52a217cbb81.png width=70%>    
-_Fig 14. Turbina eólica abierta de Tripalium, una fundación que promueve la energía eólica (Fuente: Tripalium.org)_    
-    
-4. **Sistemas de Producto-Servicio**
-
-Surgieron en 1959 con el modelo de impresión pay-per-copy instalado por Xerox, y están teniendo mayor difusión actualmente de la mano de conceptos como la economía social y la economía circular. Se basan en ofrecer el derecho de uso del producto en lugar de su propiedad. En OHW aún es incipiente, pero el autor aduce que posee potencial. Cicero agrega que las compañías podrían beneficiarse a partir de un ofrecer el software como servicio asociado a un producto OHW, especialmente en el caso de los sistemas embebidos y la Internet de las Cosas (IoT) -aunque alega que el mercado aún no posee la madurez suficiente para llegar a ese lugar-.
-
-5. **Estandarización y ¿apalancamiento?!**
-
-Consiste en abrir estratégicamente un producto clave que sea redituable en sí mismo pero que su apertura implique un impulso para que la tecnología asociada a él se convierta en un estándar de la industria. El ejemplo típico en este caso es el sistema operativo Android, de Google, y los motores Tesla, que permitieron a Tesla Motors incursionar en el mercado de las baterías y estaciones cargadoras.
-
-6. **Modelos de plataforma**
-
-Su valor radica en organizar un ecosistema de actores industriales (diseñadores, fabricantes, revendedores, consumidores, prosumidores, marcas, etc.) alrededor de una tecnología clave OHW o plataforma. Casos paradigmáticos: OpenDesk (ver Box 9) y OSVehicle. OSVehicle diseñó el motor y chasis Tabby -OHW, eléctrico y modular-. Construyeron una "cadena de valor participativa" donde el mismo se distribuye de manera justa entre todos los participantes.
-<br>
-
-> **Box 9: Open Desk**
->
->Opendesk se autodefine como una plataforma global para la producción local. Consiste en una herramienta de "producción abierta" que puede utilizarse para descargar, fabricar y comprar mobiliario. Cuenta con un catálogo de diseños específicamente realizados para la fabricación digital, por lo cual el objeto puede producirse localmente, de acuerdo a la demanda, en cualquier lugar del mundo.
->
->Cuánto de este proceso es realizado por el usuario depende un poco de sí mismo. Si se cuenta con la capacidad y herramientas para construir el diseño, se puede descargar y hacer el producto desde cero. En caso contrario, se puede contratar un maker desde la página, que fabricará el objeto para el cliente. Mientras mas trabajo se haga personalmente, mas bajo es el costo. Todo depende de donde se encuentre, si hay fabricantes locales disponibles y de si se tiene acceso a la maquinaria necesaria.
->
-> <img src=https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg width=70%>       
-> _Fig. 15: modelo de escritorio disponible para descargar (Fuente: OpenDesk.com)_
->
->Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
-
-Un caso particular es del del modelo de negocio basado en **licencias duales**. Este sistema, altamente difundido en la industria del software, consiste en distribuir un producto tanto con licencia privativa como con licencia abierta. Es el caso de LEON, un microprocesador basado en tecnología SPARC-V que se distribuye tanto bajo licencia GPL abierta como con licencia privativa a fin de ser integrado en productos cerrados. Otra variante en este sentido consiste en modelos de negocio a partir de un núcleo de producto OHW cuyas extensiones y funcionalidades extra tienen carácter privativo.
-
-Uno de los puntos más interesantes es el análisis de por qué aún el OHW no es masivamente adoptado en el mundo de los negocios, como sí es el OSW. La mayor parte de los autores coinciden en que los cambios no vendrán de las empresas tradicionales sino que una nueva camada de fabricantes irrumpirá en el panorama actual, debido principalmente a la rigidez organizacional de las grandes empresas. Cicero menciona que aunque las empresas líderes en hardware siguen siendo privativas -como Samsung o General Electric- existen industrias emergentes como la de los drones o UAV que están siendo enteramente desarrolladas bajo el concepto de hardware abierto y modular, con proyectos surgiendo día a día.
+El etiquetado de productos 'open source' es una opción que en el pasado fue utilizada por compañías que no lo desarrollaban, por lo cual la OSHWA desarrolló un programa de certificación para revertir el mal uso (Pearce, 2018).
 
 > **Box 10: 3D Robotics - Mediodía y ocaso de los drones**
 >
@@ -615,6 +512,62 @@ Uno de los puntos más interesantes es el análisis de por qué aún el OHW no e
 >La empresa llegó a tener oficinas en la ciudad de San Diego y Berkeley en California, ventas y marketing en Austin, Texas y una planta de producción en Tijuana, Baja California, México, que producían alrededor de 15,000 pilotos automáticos al año, generando ganancias de alrededor de 20 millones de dólares anuales.
 >
 >La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.
+
+- Modelo 4: Basados en el conocimiento y el expertise
+
+Este modelo está inspirado directamente en la industria del software libre, su valor radica en el expertise y el servicio de soporte. En OHW esto se traduce a talleres de DIY (Tripalium, Open Source Ecology), la venta del producto más la "experiencia" de construirlo (Wikispeed) ó venta de servicios de consultoría para empresas que desean utilizar el producto en su cadena de valor (Arduino, Wikispeed).
+
+<img src=https://i.pinimg.com/originals/85/c9/99/85c999a3b9c1a0541c68c52a217cbb81.png width=70%>    
+_Fig 14. Turbina eólica abierta de Tripalium, una fundación que promueve la energía eólica (Fuente: Tripalium.org)_    
+
+Otras compañías ofrecen servicios a usuarios particulares que se encuentran explorando distintos usos de hardware, como IoT (Cicero, 2013).
+
+- Modelo 4: Sistemas de Producto-Servicio (a futuro)
+
+Surgieron en 1959 con el modelo de impresión pay-per-copy instalado por Xerox, y están teniendo mayor difusión actualmente de la mano de conceptos como la economía social y la economía circular. 
+Se basan en ofrecer el derecho de uso del producto en lugar de su propiedad. 
+En hardware aún es incipiente.
+
+- Modelo 5: Estandarización 
+
+Consiste en abrir estratégicamente un producto clave que sea redituable en sí mismo pero que su apertura implique un impulso para que la tecnología asociada a él se convierta en un estándar de la industria. 
+El ejemplo típico en este caso es el sistema operativo Android, de Google, y los motores Tesla, que permitieron a Tesla Motors incursionar en el mercado de las baterías y estaciones cargadoras.
+
+- Modelo 6: Modelos de plataforma
+
+Su valor radica en organizar un ecosistema de actores industriales (diseñadores, fabricantes, revendedores, consumidores, prosumidores, marcas, etc.) alrededor de una tecnología clave OHW o plataforma. 
+Casos paradigmáticos: OpenDesk (ver Box 9) y OSVehicle. 
+OSVehicle diseñó el motor y chasis Tabby -OHW, eléctrico y modular-, construyeron una "cadena de valor participativa" donde el mismo se distribuye de manera justa entre todos los participantes.
+
+>**Box 8: Adafruit**
+>
+>Adafruit Industries es una compañía basada en open source hardware ubicada en la ciudad de Nueva York, fundada en 2005 por la hacker e ingeniera Limor Fried mientras estudiaba en el Massachusetts Institute of Technology. La empresa diseña y fabrica una serie de productos electrónicos y vende un amplio rango de componentes, herramientas y accesorios vía su tienda web. Los productos ofrecidos abarcan rangos de principiante -kits que producen sonidos al recibir una señal- a experto -como sofisticados microcontroladores para celulares y desarrolladores de videojuegos-.
+>
+><img src=https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg width=50%>    
+>_Fig. 13: Limor Fried, premiada como emprendedora del año en 2012, fue tapa de la revista de tecnología WIRED (Fuente: Wired)_
+>
+>Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
+>El nombre Adafruit proviene del nickname "LadyAda" que Fried utilizaba online como homenaje a Ada Lovelace, la pionera en ciencias de la computación. La compañía además produce recursos educativos, incluyendo tutoriales escritos y videos en Youtube con el objetivo de entusiasmar a más personas para que se involucren en el desarrollo de tecnología, especialmente mujeres. En su sitio web oficial Fried declara: “Adafruit es una compañía 100% propiedad de una mujer”.
+
+#### Modelos de negocio para hardware abierto en ciencia
+
+
+
+    
+
+> **Box 9: Open Desk**
+>
+>Opendesk se autodefine como una plataforma global para la producción local. Consiste en una herramienta de "producción abierta" que puede utilizarse para descargar, fabricar y comprar mobiliario. Cuenta con un catálogo de diseños específicamente realizados para la fabricación digital, por lo cual el objeto puede producirse localmente, de acuerdo a la demanda, en cualquier lugar del mundo.
+>
+>Cuánto de este proceso es realizado por el usuario depende un poco de sí mismo. Si se cuenta con la capacidad y herramientas para construir el diseño, se puede descargar y hacer el producto desde cero. En caso contrario, se puede contratar un maker desde la página, que fabricará el objeto para el cliente. Mientras mas trabajo se haga personalmente, mas bajo es el costo. Todo depende de donde se encuentre, si hay fabricantes locales disponibles y de si se tiene acceso a la maquinaria necesaria.
+>
+> <img src=https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg width=70%>       
+> _Fig. 15: modelo de escritorio disponible para descargar (Fuente: OpenDesk.com)_
+>
+>Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
+
+
+
 
 ## Desafíos
 

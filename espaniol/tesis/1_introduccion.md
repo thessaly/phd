@@ -7,7 +7,6 @@ El primero es la falta de una traducción. ¿Cómo se traduce 'hardware'? ¿Se t
 ¿Incluye materiales biológicos, reactivos, herramientas analógicas, mecánicas?
 ¿Es necesario traducirlo? 
 
-
 En segundo lugar aparece la asociación directa del término al ámbito de la informática. 
 Coloquialmente en español entendemos el concepto 'hardware' como el soporte físico (ref RAE) o los componentes materiales de una computadora, equiparándolo al concepto de 'computer hardware' en inglés. 
 Esto genera algunos problemas dado que se pierden en la traducción acepciones importantes. 
@@ -89,7 +88,7 @@ A su vez se introducen algunos casos relevantes a nivel global, ya sea por la im
 >(Baden et al, 2015; Pearce, 2012), por docentes para enseñar programación y robótica a estudiantes (Bordignon, 2015; Valera et al, 2014), por músicos y artistas para experimentar y realizar nuevas instalaciones (Juan Cortés; Zach Gage), por ingenieros y diseñadores para prototipar nuevos artefactos (Gautam et al, 2016; Karvinen y Karvinen, 2011) y por ejemplo, construir dispositivos de accesibilidad -como anteojos o calzado para no videntes-.
 ***
 
-## ¿Por qué desarrollar hardware científico abierto?
+## ¿Quiénes y por qué desarrollan hardware científico abierto?
 
 Una de las discusiones centrales en la literatura open source es la de entender por qué las comunidades desarrollan tecnologías abiertas, qué motivaciones encuentran para invertir tiempo y energía en proyectos que pueden -o no- monetizarse, o qué otro tipo de retribuciones reciben los colaboradores. 
 Al mirar el panorama de las comunidades que se encuentran desarrollando hardware abierto para ciencia el primer rasgo que surge es la heterogeneidad. 
@@ -357,24 +356,69 @@ Pearce aduce que se habrían reducido los costos de producir hardware científic
 
 ## ¿Cómo se hace hardware abierto?
 
-### Desarrollo del prototipo
-Una de las principales cuestiones que la literatura analiza es la diferencia entre el proceso de desarrollo del software y el de hardware. Mientras la virtualidad del software facilita la colaboración sin mediar distancias en un proceso bastante directo entre usuarios, la materialidad inherente al desarrollo de hardware implica que éste requiera de instancias discretas y potencialmente independientes de trabajo. Como se ve en algunos estudios de caso, esto determina cuellos de botella particulares, asociados principalmente al multi-expertise requerido para modificar un objeto y a la existencia de patentes en los objetos físicos. Al respecto, algunas organizaciones han comenzado a documentar protocolos de desarrollo de OSH, a manera de guías de buenas prácticas (Cenditel) o describiendo procesos exitosos (Ackermann, 2009).
+### Herramientas utilizadas 
 
-Los pasos necesarios para construir hardware electrónico han ido mutando hacia formas automatizadas en los últimos años. Sin embargo aún se precisa contar con ciertos conocimientos y herramientas específicos.
+### 3D Printing
+The purest of these digital fabrication processes are the various forms of 3D printing. These turndigital design into physical objects by gradually adding material in the desired locations, allowing fora wide range of possible geometries. The term 3D printing encompasses a broad range of machines,from personal plastic printers costing a few hundred dollars to industrial machines that sinter metaland cost hundreds of thousands of dollars. Different machines work with different materials and offerdifferent resolutions and tolerances. The materials may have different strengths, optical properties,appearances, finishing possibilities, and so on. Depending on the object being fabricated, some or allof these characteristics may be crucial to creating a useable result. In designing and sharing objectsfor 3D printing, therefore, it’s important to specify not just their geometries, but also the requiredtolerances, materials, and other characteristics—most of which are less easily captured in digitalform. In addition, many 3D-printing processes need some form of manual post-processing, such asremoval of support material, finishing, or curing. These require an operator with appropriateknowledge and skill—and can create variations from one print to the next, even with the same file andmachine. Finally, 3D printing technology is evolving and diversifying rapidly. For all these reasons,it’s important not to think of 3D printing as a way to automatically create things from information, butrather as a material process with specific qualities and affordances.
 
-Un primer paso consiste en obtener un **diagrama esquemático**, es decir un gráfico donde se especifican los componentes electrónicos (resistencias, capacitores, circuitos integrados)  a utilizar y sus conexiones, a través de un sistema de símbolos. En caso de ser necesario también se indica información sobre valores de cada componente (por ejemplo una resistencia de 10-kilohm). Sin embargo el esquemático no posee toda la información necesaria para fabricar una plaqueta de circuito impreso.
+### Milling and Cutting
+Other fabrication processes work by cutting or removing pieces of a larger stock material. Lasercutters cut 2D shapes out of plywood, cardboard, acrylic, and other flat materials. Vinyl cutters do thesame, but with a knife that cuts through thin materials like paper or adhesive-backed vinyl. The water-jet cutter handles stronger and thicker materials like wood, metal, and glass, cutting with a stream ofhard particles in a powerful jet of water. CNC (computer-numeric control) machines, like mills orrouters, work in three (or more) dimensions, removing material from solid blocks of stock with avariety of cutting bits. They are often capable of very precise operations, albeit only within specificaxes of movement. Compared with 3D printers, these cutting and milling tools have the advantage ofbeing able to work with a variety of existing materials, including natural ones with complex structuresthat are difficult or impossible to replicate with the homogenous stock of most 3D printers. They aremore limited in the geometries they can produce, however, and often require more steps in fabricatingor assembling the parts.
 
-![esquemático](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/4_bit_counter.svg/1280px-4_bit_counter.svg.png)
-*Fig. 3: Ejemplo de diagrama esquemático de un contador TTL (Fuente: Wikipedia)*
+In addition to specifying the geometry of the design itself, it’s important to be explicit about thenature of the stock material and the characteristics of the cutting process. Whether two parts press-fittightly together, slip past each other, or don’t fit at all depends as much on the precise thickness of thestock (which can vary even across nominally equivalent materials) and the thickness of the cut as onthe shape in the file. Some constructions may be infeasible to achieve given the tolerances of aparticular machine. (Laser cutters may yield slightly different cut thicknesses on different sides oftheir working area; water-jet cutters can give rough, nonvertical edges, for example.) Traditionalengineering drawings often capture the required tolerances for various surfaces and the material to beused. A quickly created CAD file used for a prototype and then thrown up on a webpage may not.Parts might be sanded, glued, pounded together, or otherwise tweaked in ways not reflected in thedesign files. Generating tool paths for a CNC machine is a complex process with a significant impacton the form and finish of the resulting object; this complexity may not be possible to capture in a waythat can be easily shared with others, particularly if they are using a different machine. Finishing andassembling parts created with CNC devices requires careful craft, which might be difficult tocommunicate or learn. All of these factors need to be kept in mind when designing or sharing a digitalfile for someone else to replicate.
 
-En la actualidad, todos los objetos electrónicos se fabrican utilizando plaquetas de circuito impreso, a diferencia del sistema de cableado punto a punto utilizado hasta los años 60. Los circuitos impresos aportaron un nivel mucho mayor de automatización en la fabricación: se eliminó el cableado, ya que las conexiones, constituidas por líneas de cobre, se encuentran integradas en un soporte no conductor -generalmente epoxy- que además sostiene los componentes. Esto permitió no sólo reducir el espacio que ocupa el circuito sino también integrar el uso de microchips, el corazón de las tecnologías como teléfonos móviles, computadoras, tablets y más.
+### Other Fabrication Machines
+A variety of other digital fabrication processes exist, each with its own affordances and constraints.For example, a host of machines are available for working with soft materials: CNC embroiderymachines apply custom designs to fabric, knitting machines generate colors and constructions basedon digital files, and Jacquard looms are possibly the oldest digital fabrication machines in existence.Industrial production uses a variety of automated machines, including robot arms and other adaptableparts of an assembly line. Furthermore, as digital fabrication becomes more established, more peopleare creating their own machines for custom purposes of various kinds.
+
+### Printed Circuit Boards and Electronics
+The production of printed circuit boards (PCBs) can also be considered a digital fabrication process—and a relatively mature one. Digital designs are etched from copper or other materials using aphotographic process, then covered with an isolating layer and text and other annotations. While theprocesses for creating circuit boards in this way are generally toxic and the automated systems fordoing so are expensive, many services will produce PCBs on demand for individual customers withsmall or nonexistent minimums and standard specifications and tolerances. (As a board’sspecifications get more demanding, however, costs can increase, sometimes dramatically.) Circuitboards can also be manually etched or milled on a CNC machine, processes that are more directlyaccessible to individuals but also less robust and precise. While some circuits are sensitive to theprecise characteristics of circuit board’s substrate or the exact tolerances of the fabrication process, agreat many can be shared with relative confidence that they will work when made on a differentmachine from a different provider.
+
+In reproducing circuits, then, the main difficulties are typically getting the necessary parts andassembling them. While vast quantities of components are available to individuals—and manydistributors specifically target hobbyists—advanced parts with specific functionality may not beaccessible. These may be simply impossible to purchase, require an extended procurement processthat makes replication infeasible, or be difficult or impossible to assemble with the processesavailable. As parts are optimized for size and automated assembly, they become harder forindividuals to work with. Even easier-to-solder parts rely on manual skill and the knowledge totroubleshoot problems. Different electronic components may be available or preferred in differentlocations. Parts may go out of stock, become obsolete, or cease being made altogether. All of thesefactors mean that while making a PCB may be a robust and accessible process, much work must bedone to ensure that individuals are able to replicate a complete electronic circuit for themselves. (It’salso worth noting that while the problem may be worse for electronic components, other materials—such as plywood or 3D printer stock—are also industrial products and may not be availableeverywhere or all the time.
+
+### Access to Fabrication
+Access to digital fabrication processes comes in a variety of forms. Some machines, particularly 3Dprinters and vinyl cutters, are being targeted at individual consumers via low-cost, Easy-to-usemodels. Local workshops, whether at schools, libraries, community centers, or commercial locations,provide access to larger, messier, and more expensive machines. They also offer opportunities forpeople to learn how to use the machines and can provide a community of like-minded individuals.Online services offer an alternative for those without local, hands-on access. They can provide alarger variety of processes and materials than those found in a single workshop and obviate the needto learn to operate the machines directly. On the downside, the time required for parts to be producedand shipped—and the lack of direct control over the process—can make it harder to iterate and refinedesigns when using an online service. Additionally, online services generally involve higher per-partprices than direct machine access, since they need to cover the cost of the machines, labor, andinfrastructure required to support the service.
+
+### Diseño y fabricación: de la idea al prototipo, del prototipo al producto
+Wozniak (2014) propone un modelo de diseño de producto para hardware al que denomina 'cascada'. 
+En el mismo las etapas de definición de especificaciones, diseño, prototipado y testeo se encuentran unidas por un proceso iterativo.
+
+![waterfall model of product development](../notas_bibliografia/wozniak.png)
+
+En la realidad muchos de los makers o diseñadores DIY no siguen tan al punto este modelo, pero el proceso de iteración rápida es clave para el desarrollo, y se trata del paso que fue facilitado por plataformas como Arduino.
+Los pasos necesarios para construir hardware electrónico han ido mutando con la disponibilidad de software que permite emular parte de los procesos.
+Sin embargo aún se precisa contar con ciertos conocimientos y herramientas específicos en términos de electrónica o programación.
+
+La mayoría de los proyectos comienzan con una idea prototipada rápidamente como prueba de concepto.
+Para ello suelen utilizarse protoboards, básicamente cajas de plástico con orificios conectados entre sí que permiten crear un circuito sin necesidad de soldar cables o componentes.
+En este punto el diseño no es perfecto, sólo sirve para comprobar que funciona y determinar qué componentes son necesarios.
+
+![protoboard](https://en.wikipedia.org/wiki/Breadboard#/media/File:Breadboard.JPG)
+
+En la actualidad todos los objetos electrónicos se fabrican utilizando plaquetas de circuito impreso, a diferencia del sistema de cableado punto a punto utilizado hasta los años 60. 
+Hasta el advenimiento de las herramientas digitales se requería cierta habilidad "artística" del fabricante: se utilizaba una “máscara” de cinta negra sobre una placa de acetato para indicar la ruta de conexiones más eficiente a fin de transformar el diagrama en una plaqueta. 
+Los circuitos impresos aportaron un nivel mucho mayor de automatización en la fabricación: se eliminó el cableado, ya que las conexiones, constituidas por líneas de cobre, se encuentran integradas en un soporte no conductor -generalmente epoxy- que además sostiene los componentes.
+Estas innovaciones permitieron no sólo reducir el espacio que ocupa el circuito sino también integrar el uso de microchips, el corazón de las tecnologías como teléfonos móviles, computadoras, tablets y más.
+
 <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PCB_design_and_realisation_smt_and_through_hole.png/1024px-PCB_design_and_realisation_smt_and_through_hole.png" width=80%>    
 *Fig 4: ejemplo de diseño digital de circuito impreso (izq.) y circuito final (der.) (Fuente: Wikipedia)*
 
-Hasta el advenimiento de las herramientas digitales, el paso del esquemático al circuito impreso requería cierta habilidad "artística" del fabricante: se utilizaba una “máscara” de cinta negra sobre una placa de acetato para indicar la ruta de conexiones más eficiente a fin de transformar el diagrama en una plaqueta. Actualmente este proceso se encuentra automatizado en dos pasos: primero se crea digitalmente a partir del diagrama una “**captura esquemática”**, es decir una representación lógica de los componentes y su interconexión. El producto de este proceso es un archivo conteniendo toda la información sobre el diagrama y un archivo “netlist” con datos sobre conexiones eléctricas entre componentes.
+Actualmente, una vez que se obtiene un circuito que funciona el próximo paso consiste en trasladar el diseño a su versión digital, que servirá para producir el circuito integrado o PCB.
+Esta 'versión digital' consta de dos partes: un diagrama esquemático ('schematic') y un diagrama de diseño ('layout'). 
 
-Los dos productos de la etapa anterior son luego traducidos en un segundo paso -en el que puede utilizarse o no el mismo software-, a fin de obtener un **diseño físico** posible de ser fabricado. Utilizando librerías de componentes -específicas, provistas por desarrolladores del software utilizado y compartidas por la comunidad- que proveen información detallada sobre tamaño, forma y conexiones, se diseña la configuración física final del circuito. Es un proceso orientado gráficamente, en el cual el diseñador ubica los componentes y las conexiones de la forma más eficiente posible -el software propone el arreglo más conveniente aunque siempre requiere retoques por parte del diseñador-. El producto de esta etapa es un set de archivos denominados "**Gerber**", en el formato utilizado por los fabricantes de circuitos impresos. Dado un set, el fabricante puede crear una o 100 mil copias de un circuito.
+El diagrama esquemático es un gráfico donde se especifican los componentes electrónicos (resistencias, capacitores, circuitos integrados)  a utilizar y sus conexiones, a través de un sistema de símbolos. 
+En caso de ser necesario también se indica información sobre valores de cada componente (por ejemplo una resistencia de 10-kilohm). 
+Sin embargo el esquemático no posee toda la información necesaria para fabricar una plaqueta de circuito impreso, por lo cual se debe armar el diagrama de diseño, que especifica la disposición del circuito en la placa.
+Tanto el esquemático como el layout se obtienen mediante software como Fritzing o KiCad, ambos de código abierto.
+
+![esquemático](https://circuitdigest.com/sites/default/files/circuitdiagram_mic/12v-battery-charger-circuit-with-variable-voltage.gif)
+*Fig. 3: Ejemplo de diagrama esquemático para un cargador de batería DIY (Fuente: Circuit Digest)*
+
+![layout](https://circuitdigest.com/sites/default/files/inlineimages/12v-battery-charger-circuit-PCB-layout-Kicad.gif)
+*Fig. 3: Ejemplo de PCB layout para un cargador de batería DIY (Fuente: Circuit Digest)*
+
+Los dos productos de la etapa anterior son luego transformados en archivos vectoriales denominados 'Gerber' que pueden ser leídos por un fabricante, donde se detallan tamaño de componentes, forma y conexiones y se diseña la configuración física final del circuito. 
+Es un proceso orientado gráficamente, en el cual el diseñador ubica los componentes y las conexiones de la forma más eficiente posible -el software propone el arreglo más conveniente aunque siempre requiere retoques por parte del diseñador-. 
+Dado un set Gerber, el fabricante puede crear una o 100 mil copias de un circuito.
 
 ```
 G04 Short version a file taken from the Example Job 1, created by Filip Vermeire, Ucamco*
@@ -412,51 +456,111 @@ M02*
 ```    
 _Fig 5: ejemplo de archivo en formato Gerber, para ser leído por el fabricante (Fuente: Wikipedia)_
 
-Los pasos descritos aplican al desarrollo de una plaqueta electrónica, presente en casi todos los artefactos que usamos a diario. Sin embargo, crear un artefacto requiere de otras instancias adicionales, como el diseño del aspecto, elección de los materiales, mecánica entre las partes, programación, etc. A diferencia del proceso colaborativo que da origen al software libre, en el caso del hardware la multiplicidad de conocimientos requeridos para comenzar a trabajar impone ciertas restricciones: salvo contadas excepciones, se requiere de trabajo en grupo donde actores de diversa formación aporten sus conocimientos.
+El diseño puede involucrar partes impresas digitalmente, que implican archivos de diseño específicos realizados con software como Blender u OpenSCAD.
+Los pasos descritos aplican al desarrollo de una plaqueta electrónica, presente en casi todos los artefactos que usamos a diario. 
+Sin embargo, crear un artefacto requiere de otras instancias adicionales, como el diseño del aspecto, elección de los materiales, mecánica entre las partes, programación, etc. 
 
-Algunos autores enfatizan que uno de los criterios para que un desarrollo de hardware sea exitoso es que la comunidad de colaboradores sea lo suficientemente grande para asegurar un mínimo de aportes diversos.  Sin embargo, Buechley remarca que este proceso de colaboración se da de manera más descentralizada en hardware que en software, observándose mucho más frecuentemente múltiples iniciativas de pequeña escala, con una dinámica más "privada" de la colaboración, sobre grandes iniciativas a partir de comunidades numerosas. El carácter privado de la colaboración también es observado por Malinen en el caso del desarrollo del eCar finés: a la hora de construir hardware, es más común que la colaboración exitosa se pueda dar en pequeños grupos que al menos una vez se encuentran físicamente en lugares de trabajo.
-
-Aunque los costos de las plataformas electrónicas como Arduino realmente disminuyeron y las volvieron accesibles en el último tiempo, todavía la velocidad de iteración -es decir cuán rápido se puede modificar un artefacto- sigue siendo un obstáculo en el desarrollo de hardware si lo comparamos con el de software. Por ello tanto Buechley como Malinen y Mellis coinciden en que otro aspecto clave a la hora de facilitar el proceso de desarrollo de hardware libre es la modularidad de los artefactos a desarrollar. Resulta mucho más sencillo modificar o diseñar un objeto si sus funciones se encuentran diferenciadas en módulos, ya que en caso contrario es necesario cambiarlo todo para modificar sólo una función.
+Aunque los costos de las plataformas electrónicas como Arduino realmente disminuyeron y las volvieron accesibles en el último tiempo, todavía la velocidad de iteración -es decir cuán rápido se puede modificar un artefacto- sigue siendo un obstáculo en el desarrollo de hardware si lo comparamos con el de software. 
+Por ello tanto Buechley como Malinen y Mellis coinciden en que otro aspecto clave a la hora de facilitar el proceso de desarrollo de hardware libre es la modularidad de los artefactos a desarrollar. 
+Resulta mucho más sencillo modificar o diseñar un objeto si sus funciones se encuentran diferenciadas en módulos, ya que en caso contrario es necesario cambiarlo todo para modificar sólo una función.
 
 En cuanto a las dificultades que se identifican en los procesos de desarrollo, principalmente son aquellas relacionadas a la dificultad de conseguir componentes -que no se encuentran disponibles en todos los países-, la necesidad de estandarización en el uso tanto de plataformas electrónicas como de software de diseño, que permita a los grupos interactuar de forma sencilla -en este sentido todos los autores remarcan la importancia de Arduino-, y en menor medida la dificultad para documentar y trackear los cambios entre versiones -para lo cual existen iniciativas de documentación por parte de distintas organizaciones-.
+
+### Comunidad y colaboración
+
+Una de las principales cuestiones que la literatura analiza es la diferencia entre el proceso de desarrollo del software y el de hardware.
+Mientras la virtualidad del software facilita la colaboración sin mediar distancias en un proceso bastante directo entre usuarios, la materialidad inherente al desarrollo de hardware implica que éste requiera de instancias discretas y potencialmente independientes de trabajo. 
+Como se ve en algunos estudios de caso, esto determina cuellos de botella particulares, asociados principalmente al multi-expertise requerido para modificar un objeto y a la existencia de patentes en los objetos físicos. 
+Al respecto, algunas organizaciones han comenzado a documentar protocolos de desarrollo de OSH, a manera de guías de buenas prácticas (Oberloier y Pearce, 2017) o describiendo procesos exitosos (Ackermann, 2009).
+
+A diferencia del proceso colaborativo que da origen al software libre, en el caso del hardware la multiplicidad de conocimientos requeridos para comenzar a trabajar impone ciertas restricciones: salvo contadas excepciones, se requiere de trabajo en grupo donde actores de diversa formación aporten sus conocimientos.
+
+Algunos autores enfatizan que uno de los criterios para que un desarrollo de hardware sea exitoso es que la comunidad de colaboradores sea lo suficientemente grande para asegurar un mínimo de aportes diversos.  
+Sin embargo, Buechley remarca que este proceso de colaboración se da de manera más descentralizada en hardware que en software, observándose mucho más frecuentemente múltiples iniciativas de pequeña escala, con una dinámica más "privada" de la colaboración, sobre grandes iniciativas a partir de comunidades numerosas. 
+El carácter privado de la colaboración también es observado por Malinen en el caso del desarrollo del eCar finés: a la hora de construir hardware, es más común que la colaboración exitosa se pueda dar en pequeños grupos que al menos una vez se encuentran físicamente en lugares de trabajo.
 
 
 ### Licencias para hardware
 
-Las licencias disponibles hoy más utilizadas son:
+El objetivo de contar con licencias para hardware es asegurar tanto la libre circulación de ideas como la atribución a los autores.
+Una de las distinciones fundamentales que diferencian al hardware de FOSS es que el copyright aplica a los esquemáticos y los diseños, pero no al producto tangible, donde aplican patentes y marcas registradas.
+Pearce (2018) asocia el crecimiento de los repositorios online en los últimos años (como Github, Thingiverse, Libre3D y muchos otros) a que el uso de copyright no es la estrategia apropiada para esquemáticos y diseños de productos tangibles, resultando sencillo realizar una pequeña modificación de un diseño protegido evitando sanciones (Bradshaw et al., 2010).
+
+Existen antecedentes de encuestas a la comunidad de hardware abierto que incluyen preguntas sobre licencias, pero los datos están desactualizados (OSHWA 2012, 2013) o las metodologías no son consistentes (Black Duck).
+Katz (2012) hizo una revisión de las licencias existentes para hardware hasta el momento, destacando la licencia TAPR y la licencia CERN OHL.
+Tanto TAPR como CERN OHL siguen la lógica copyleft, para asegurar que tal como en FOSS el hardware se distribuya garantizando disponibilidad de la documentación de base y asegurando reutilización, adopción y redistribución con las mismas reglas.
+Katz (2012) critica este rasgo y propone adaptar la licencia Apache 2.0, ampliamente utilizada en FOSS; esta propuesta se transformaría en la licencia Solderpad.
+
+En 2019 Katz realiza una encuesta orientada a productores de procesadores abiertos pero que brinda información útil sobre la comunidad y el uso de licencias.
+Según este último estudio, alrededor de 500 proyectos utilizan la licencia CERN-OHL en GitHub, 434 utilizan Solderpad y sólo 15 utilizan TAPR OHL en la misma plataforma.
+La mayoría de los entrevistados prefiere licencias más permisivas como Solderpad, ya que dejan menos elementos bajo incertidumbre y resulta más difícil interactuar con modelos propietarios que no desean ser incluidos bajo copyleft, además de traer problemas con agencias de financiamiento.
+Todos coinciden sin embargo en que la adopción de copyleft o no-copyleft finalmente es ideológica, con proyectos que no ven problemas en utilizar licencias permisivas con el riesgo de ser integrados en proyectos propietarios; y otros que privilegian la libre redistribución.
+
+![licencias para hardware](../notas_bibliografia/katz2018.png)
+
+El mismo estudio sugiere que los proyectos de hardware abierto deberían incorporar alguna de las licencias más populares dependiendo de los objetivos del mismo; utilizar licencias menos populares puede causar problemas de incompatibilidad y de adopción por otros del proyecto.
+Las sugerencias apuntan a si el proyecto busca maximizar reutilización o libertades - sugiriendo Solderpad en el primer caso y CERN OHL en el segundo.
+En el primer caso el portador de la licencia puede verse en la situación de que su diseño sea incorporado a sistemas propietarios y el diseño resultante no sea puesto a disponibilidad.
+
+Por otro lado, como se mencionaba al inicio el concepto de hardware implica mucho más que artefactos electrónicos. 
+Uno de los casos que es útil para ilustrar esto en la licencia OpenMTA, orientada a regular la transferencia de materiales biológicos como ser plásmidos, muestras y otros cuyas cantidades no son intrínsecamente limitadas.
+Open MTA fue presentado en 2018 por un colectivo de investigadores, profesionales de transferencia de tecnología y expertos legales entre otros, en una nota en la revista Nature (Kahl et al, 2018).
+
 
 1. [TAPR license](https://www.tapr.org/ohl.html)    
 
-La [Tucson Amateur Packet Radio](https://en.wikipedia.org/wiki/Tucson_Amateur_Packet_Radio) -TAPR, una organización internacional de radios amateur- definió el concepto de "hardware libre" en lo que constituyó el primer mecanismo de regulación de propiedad intelectual para este tipo de desarrollos. En esta licencia se lo define como “**una cosa -artefacto físico, ya sea eléctrico o mecánico- cuya información de diseño se encuentra disponible y utilizable por parte del público, de forma tal que permite a cualquier persona fabricarla, modificarla, distribuirla o utilizarla**” (TAPR, 2007).
+La Tucson Amateur Packet Radio Corporation es una organización internacional sin fines de lucro fundada en 1982 en Estados Unidos, que reúne radioaficionados y promueve actividades de investigación, educación, publicaciones, reuniones y estándares en la comunidad. 
+Una de sus actividades es la de provisión de kits para que hobbistas puedan armar sus propios sistemas y soporte para que puedan concretar sus diseños en productos.
 
+Según OSHWA en su [breve historia del hardware abierto](https://www.oshwa.org/research/brief-history-of-open-%20source-hardware-organizations-and-definitions/), en 2005 en una de estas colaboraciones con un grupo desarrollando software para radioaficionados (Tucson Amateur Packet RadioSystem) se planteó la necesidad de contar con un mecanismo que impidiera la apropiación por privados del desarrollo.
+Fue escrita por John Ackermann, un abogado y radioaficionado, y publicada en 2007 con el expreso fin de aplicar el mecanismo copyleft a dispositivos físicos.
+
+Se convirtió así en la primer licencia abierta para hardware, bajo forma de contrato a diferencia de GPL que se plantea como términos y condiciones.
+Requiere que la documentación de diseño (archivos CAD, esquemáticos, planos mecánicos) esté disponible para cualquier usuario del dispositivo, incluyendo modificaciones.
+El software que acompaña el dispositivo (incluyendo firmware) no está cubierto por la licencia, que delega esta función en licencias de software que se consideren apropiadas.
 
 2. [CERN open hardware license](https://www.ohwr.org/projects/cernohl)
 
-In 2008, a team of hardware designers led by Javier Serrano in the Beams Department at CERN (the renowned European Laboratory for Particle Physics) started collaborating with industry in the development of the Open Hardware Repository (3), which went online in January 2009. Later that year, they published their plans for an OSHW collection of hardware modules for controls and data acquisition in particle accelerators, in collaboration with other institutes and commercial companies.
+La Colaboración Europea para la Investigación Nuclear (CERN) fue una de las pioneras en el área al lanzar el repositorio de hardware abierto en 2009. 
+Éste surgió a partir de la colaboración entre CERN y la industria aldededor del proyecto White Rabbit, un dispositivo para sincronización de nodos en un radio de 10 km con precisión de sub-nanosegundos.
+Javier Serrano, líder del equipo de hardware para sincronización en CERN, decidió aplicar la metodología de colaboración y trabajo abierto que veía en los equipos de software a su propio equipo.
 
-In July 2011, CERN issued a press release declaring that it had created an open source hardware license (CERN OHL). On this announcement, Javier explained the decision thus: “By sharing designs openly, CERN expects to improve the quality of designs through peer review and to guarantee their users – including commercial companies – the freedom to study, modify and manufacture them, leading to better hardware and less duplication of efforts” (CERN 2011). The license was initially drafted to address CERN-specific concerns, such as tracing the impact of the organization’s research, but in its current form it can be used by anyone developing open source hardware (Ayass 2011). From its first version, the drafting of the CERN OHL had as a goal to be compliant with the OSHW Definition 1.0 released earlier that year
+En 2011 a partir de la colaboración entre Javier y el equipo de Knowledge Transfer en CERN se publica la primera versión de la CERN Open Hardware License (CERN OHL).
+Según Ayass (2012), abogada que colaboró en la redacción de la licencia, el objetivo era 'definir las reglas bajo las cuales se comparten y distribuyen los diseños en el Open Hardware Repository, y establecer un marco legal para las contribuciones de CERN al repositorio'.
+Originalmente pensada para uso interno de CERN, la licencia está disponible y es utilizada por numerosos proyectos de hardware abierto. 
 
+La licencia está diseñada para ser compatible con la definición de apertura de OSHWA.
+Dos características son relevantes: por un lado es una licencia copyleft, aunque los autores consideran que existe flexibilidad en caso de que las compañías requieran esquemas diferentes como dual licensing (Ayass, 2012).
+Por otro lado es importante para CERN demostrar su contribución a la sociedad y por ende hacer un seguimiento de quiénes utilizan la licencia; sugieren por lo tanto notificar al iniciador del proyecto cuando se utiliza y exigen mantener la notificación sobre la licencia en la documentación con fines de acreditación.
 
+Al igual que TAPR, CERN OHL sólo se aplica a hardware: el software que acompaña el dispositivo (incluyendo firmware) no está cubierto por la licencia.
+La actual versión, CERN OHL 1.2 está en proceso colaborativo de revisión a una versión 2 que aparecería con variantes más permisivas (similar a Solderpad) sumadas a la actual de copyleft (Katz, 2019).cence
+ 
 3. [Solderpad](http://solderpad.org/licenses/)
+
+Como se mencionaba anteriormente, la licencia Solderpad surge a partir de una crítica a la rigidez del copyleft para el caso de hardware, realizada por Andrew Katz (2012).
+Katz hace hincapié en que este mecanismo conduce a una menor adopción del hardware abierto, haciendo su evolución más lenta y disminuyendo el tamaño del ecosistema de innovación.
+El autor toma la licencia de software abierto Apache 2.0, ampliamente reconocida y comprendida por la comunidad, y la adapta a los usos del hardware.
+
+La principal modificación radica en extender los derechos de Apache asociados a copyright, patentes y marcas registradas hacia derechos sobre bases de datos, diseños y topografía de semiconductores.
+El aporte de esta licencia radica en ser una alternativa no copyleft, es decir no obliga al usuario a utilizar la misma licencia en los derivados.
+La versión vigente es la 2.0, en revisión por cambios menores.
 
 4. [OpenMTA](https://biobricks.org/openmta)
 
-Como se mencionaba anteriormente, hardware implica mucho más que artefactos electrónicos. 
-Uno de los casos que es útil para ilustrar esto en la licencia OpenMTA orientada a regular la transferencia de materiales biológicos como ser plásmidos, muestras y otros cuyas cantidades no son intrínsecamente limitadas.
-Open MTA fue presentado en 2018 por el colectivo de autores, en una nota en la revista Nature (Kahl et al, 2018).
-
 Los Acuerdos de Transferencia de Materiales (MTAs) establecen los marcos legales para compartir biomateriales, con el objetivo de promover el intercambio, innovación y traducción en tecnologías.
-Sin embargo el MTA más frecuentemente utilizado en la actualidad, el [Acuerdo Uniforme de Transferencia de Materiales Biológicos (UBMTA)](https://www.ott.nih.gov/resources/) fue desarrollado en 1990 antes de la difusión de internet, la secuenciación de genoma y la síntesis, lo que dificulta el trabajo en la actualidad.
-Dos de las restricciones más importantes son la prohibición de redistribución y el no-uso comercial. 
+El MTA más frecuentemente utilizado en la actualidad, el [Acuerdo Uniforme de Transferencia de Materiales Biológicos (UBMTA)](https://www.ott.nih.gov/resources/) fue desarrollado en 1990 antes de la masificación de internet, la secuenciación de genoma y la biología sintética, lo que dificulta el trabajo en la actualidad.
+Dos de las restricciones más importantes de la UBMTA son la prohibición de redistribución y del uso comercial. 
 
 A modo de propuesta OpenMTA se desarrolló colaborativamente impulsado por la fundación BioBricks y el centro de investigación en biología sintética OpenPlant.
-OpenMTA tiene cinco objetivos principales, alineados a la Definición de Apertura: acceso, atribución, reuso, redistribución y no discriminación. 
+Tiene cinco objetivos principales, alineados a la Definición de Apertura: acceso, atribución, reuso, redistribución y no discriminación. 
 
 Como todos los MTAs se trata de un contrato en el cual el proveedor entrega materiales a cambio de la promesa de atribución, reporte y pago de tasas de procesamiento de material.
-A diferencia de los actuales, OpenMTA permite el reuso de materiales dentro de los marcos legales y la redistribución con reporte.
+A diferencia de los actuales, OpenMTA permite el reuso de materiales dentro de los marcos legales y la redistribución con reporte al proveedor.
 Las instituciones firmantes no tienen obligación de manejarse 100% con OpenMTA, ni de aplicarlo a derivados. 
 
 OpenMTA se encuentra disponible en el sitio de BioBricks y se planea sumar adhesiones para incorporarlo a otras plataformas de intercambio de materiales biológicos. 
+La aplicación a materiales humanos no está contemplada en esta versión, pero numerosas peticiones hicieron que se inicie un proceso de discusión colaborativa para elaborar una propuesta.
 
 
 ### Modelos de negocio basados en la apertura
@@ -681,7 +785,7 @@ Un ejemplo de este tipo es Science Exchange, una plataforma que conecta laborato
 ## Desafíos
 
 El fenómeno del hardware científico abierto es relativamente reciente, con un crecimiento exponencial de iniciativas a partir de 2012 en áreas muy especializadas.
-Algunos de los desafíos identificados por la comunidad Global por el Hardware Científico Abierto (2018) son: 
+La comunidad Global por el Hardware Científico Abierto (2018) identifica tres áreas principales de trabajo: aprendizaje, sostenibilidad y crecimiento:    
 
 Fomentar el aprendizaje y la investigación en las siguientes áreas:
 
@@ -707,12 +811,9 @@ Relacionados al crecimiento de la comunidad:
 - Desarrollar actividades de difusión
 
 Pearce (2017) identifica tres obstáculos principales en el crecimiento del hardware científico abierto a mayor escala, que coinciden con algunos anteriormente mencionados.
-
 En primer lugar, los recursos económicos para desarrollarlo son limitados, principalmente debido a que las agencias de financiación aún prefieren no correr riesgos y utilizar patentes para asegurar sus inversiones (Demsetz,  1973; McGaughey, 2002; Smith, 2007; May, 2013). 
 El modelo de propiedad intelectual, fuertemente anclado en las agencias públicas y privadas que financian la compra de equipos, desacelera la innovación como se ha documentado por ejemplo en el área de la nanotecnología (Pearce,  2012b).  
-
 En segundo lugar, debido a la naturaleza distribuida de la producción de hardware científico abierto, éste no se encuentra en los catálogos que se ofrecen a los consumidores, dificultando su difusión. 
-
 Finalmente, las instituciones y organismos de investigación favorecen la compra de equipos propietarios debido a mecanismos burocráticos.
 El bajo costo del equipamiento abierto permite una tasa de overhead mucho menor para las Universidades, que paradójicamente no lo ven conveniente (Pearce, 2016).
 

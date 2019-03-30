@@ -53,31 +53,8 @@ The fourth argument is not related directly to shared designs, but on the use of
 >
 >Open Source Ecology es una obvia inspiración para otros “makers” y emprendedores, pero además puede brindar lecciones a instituciones de investigación y desarrollo existentes. Existen enormes oportunidades en el acceso abierto a los planos técnicos de maquinaria agrícola, energía renovable y tecnologías de acceso al agua y saneamiento, que ya han sido desarrolladas por dichas instituciones de I+D. Abrir esos diseños podría ayudar a los actores locales a adquirir nuevos conocimientos, desarrollar sus propias herramientas e incluso ayudar a mejorar las que ya están disponibles.
 
-# licences
-The aim of licenses is to balance rights of authors derived from copyright law with principles of open source. They make sure ideas may freely
-circulate and attribution to contributors is given. 
-In OSH projects the aim is to implement an idea in a physical object - schematics and designs are subject to copyright law, but the tangible
-product is not. 
-The control oven manufacturing and distribution can be done through patents (incompatible with OS principles) or through trademark - a logo or
-name identifying OSH and linking it to a company/org in terms of quality, reputation and recognizability (Arduino). 
-The most used licences are TAPR Open Hardware License, CERN OHL 
 
-pearce2018
-The trajectories of improvements and innovation are steeper (Foss and Pedersen, 2004) than they are for traditional manufacturing technologies 
-The number of libre designs have been shown to be growing at an exponential rate (Wittbrodt et al., 2013). At the moment, most designs (for
-printed objects) are hard to copyright, and copyright laws can be bypassed through the introduction of small changes in the overall design
-(Bradshaw et al., 2010). Copyright is not the appropriate IP strategy for design files on any product that has utility (e.g. patents). Therefore,
-YouMagine, Stanford 3D Scanning Repository, Github, Repables, Pirate Bay Physibles, Fab Fabbers, Cubehero, Bld3r, Thingiverse, Libre 3D and
-many other repositories are blossoming (RepRap, 2016). 
 
-**from oshwa**
-#### TAPR licence
-In 2007, TAPR created the first open hardware license. The Tucson Amateur Packet Radio Corporation (TAPR), founded in 1982, is a non-profit organization of amateur radio operators with the goals of supporting R&D efforts in the area of amateur digital communications, disseminating information on packet and digital communications, providing affordable and useful kits for experimenters and hobbyists, pursuing and helping advance the amateur art of communications, and supporting publications, meetings, and standards in the area of amateur digital communications. As part of its role in supporting groups of amateurs working on digital communications projects, TAPR offers help in turning concepts into reproducible designs and making them available as kits or finished products to others. In 2005, TAPR began working with one such group, which was developing high performance software defined radio products and wanted to contribute their free time and expertise to the ham radio community (Ackermann 2009). The group feared that their efforts might be co-opted by commercial entities and therefore asked for TAPR’s assistance in developing a license to achieve their goals (Ackermann 2009)⁠. The result was the TAPR Open Hardware License, the first hardware-specific open source license.
-
-#### CERN OHL
-In 2008, a team of hardware designers led by Javier Serrano in the Beams Department at CERN (the renowned European Laboratory for Particle Physics) started collaborating with industry in the development of the Open Hardware Repository (3), which went online in January 2009. Later that year, they published their plans for an OSHW collection of hardware modules for controls and data acquisition in particle accelerators, in collaboration with other institutes and commercial companies.
-
-In July 2011, CERN issued a press release declaring that it had created an open source hardware license (CERN OHL). On this announcement, Javier explained the decision thus: “By sharing designs openly, CERN expects to improve the quality of designs through peer review and to guarantee their users – including commercial companies – the freedom to study, modify and manufacture them, leading to better hardware and less duplication of efforts” (CERN 2011). The license was initially drafted to address CERN-specific concerns, such as tracing the impact of the organization’s research, but in its current form it can be used by anyone developing open source hardware (Ayass 2011). From its first version, the drafting of the CERN OHL had as a goal to be compliant with the OSHW Definition 1.0 released earlier that year
 
 
 ## ¿En qué áreas se desarrolla hardware científico abierto?

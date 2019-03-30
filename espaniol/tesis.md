@@ -8,13 +8,33 @@
     
 1. [Introducción](tesis/1_introduccion.md)     
    
-   - Qué es el HW científico abierto
-   - Grupos y motivaciones
-   - Contexto favorable
-   - Cómo se desarrolla, licencias y modelos de negocio
-   - Desafíos y oportunidades
-   - Recomendaciones de políticas
+    - ¿Qué es el Hardware Científico Abierto? (OSHWA, Free cultural works, GOSH)
+    - ¿Quiénes y por qué desarrollan HCA?
+        - FOSS (Stallmann, Raymond, Levy) 
+        - Cultura hacker (Maxigas, Coleman, Söderberg) 
+        - Cultura DIY (Kera, Powell)
+        - Biohacking (DIYBio, Delfanti, Bloom, Schmidt)
+        - Latinoamérica: tecnología apropiada y pedagogías críticas (Fressoli)
+    - ¿Por qué ahora? (von Hippel, Powell, Söderberg, Pearce)
+    - ¿Cómo se hace hardware abierto?
+        - Herramientas utilizadas (Mellis)
+        - Diseño y fabricación (Oberloier, Gibb, Wozniak, Bolton)
+        - Comunidad y colaboración (Bonvoisin, Mellis, Morreale)
+        - Licencias (Katz, Serrano-Ayass, Ackermann, OpenMTA)
+        - Modelos de negocio (Tincq, Pearce, Moritz)
+    - Desafíos y oportunidades (Pearce, Kera, Bauwens, Powell, von Hippel, Söderberg)
+    - Recomendaciones de políticas (Baden, Pearce, GOSH)
 
+    Casos:
+        - Educación 
+        - Biomedicina
+        - Wearables
+        - Biohacking
+        - Monitoreo ambiental
+        - Microscopios
+        - Microfluidos
+        - Arte/Ciencia
+    
 2. [Marco teórico](tesis/2_marcoteorico.md)    
     Teoría crítica de la tecnología, Transiciones socio-técnicas, Movimientos de Innovación de Base    
 

@@ -1031,32 +1031,4 @@ Pero existen aportes en otros términos, relacionados a la democratización de l
 
 ## Bibliografía
 
-Baden, T., Chagas, A. M., Gage, G., Marzullo, T., Prieto-Godino, L. L., & Euler, T. (2015). Open Labware: 3-D Printing Your Own Lab Equipment. PLoS Biology, 13(3), 1–12. http://doi.org/10.1371/journal.pbio.1002086
-
-Berchon, M. (2013). The State of Open Hardware Entrepreneurship 2013. Retrieved from[ http://makingsociety.com/2013/09/the-state-of-open-hardware-entrepreneurship-2013/](http://makingsociety.com/2013/09/the-state-of-open-hardware-entrepreneurship-2013/)
-
-Bordignon, F. R. A., & Iglesias, A. A. (2015). Diseño y construcción de objetos interactivos digitales: experimentos con la plataforma Arduino, 131.
-
-Gautam, A., Bareja, D., Virdi, S. K., Shekar, S., & Verma, G. (2016). Implementaion of high performance home automation using arduino. Indian Journal of Science and Technology, 9(21), 1–5. http://doi.org/10.17485/ijst/2016/v9i21/94842
-
-http://makingsociety.com/2011/03/zach-gage-conceptual-artist-and-arduino-enthusiast/
-
-Pearce, J. M. (2014). Open-source Lab. How to Build Your Own Hardware and Reduce Research Costs.
-
-Richard M. Stallman. (n.d.). Free Hardware and Free Hardware Designs. Retrieved from https://www.gnu.org/philosophy/free-hardware-designs.html
-
-Valera, A., Soriano, A., & Vallés, M. (2014). Plataformas de Bajo Coste para la Realización de Trabajos Prácticos de Mecatrónica y Robótica. RIAI - Revista Iberoamericana de Automática E Informática Industrial, 11(4), 363–376.
-
-Rubow, E. (2008). Open Source Hardware. Journal Article.
-
-Society, B. C.-F. (2015). Hardware - Ecosistemas de innovación y producción basados en hardware libre. Journal Article.
-
-McNamara, P. (2007). Open Hardware. TIM Review. Journal Article.
-
-Raymond, Eric S. (1997). The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary. O'Reilly Media.
-
-Powell, A. (2012). Democratizing production through open source knowledge: from open software to open hardware. Media, Culture & Society, 34(6), 691–708. Journal Article.
-
-Himanen, P. (2001). The Hacker Ethic and the Spirit of the Information Age. Max Weber Studies.
-
-Coleman, E. G., & Golub, a. (2008). Hacker practice: Moral genres and the cultural articulation of liberalism. Anthropological Theory, 8(3), 255–277.
+Ver [aquí](chapter1_biblio.md)

@@ -55,66 +55,6 @@ The fourth argument is not related directly to shared designs, but on the use of
 
 
 
-
-
-## ¿En qué áreas se desarrolla hardware científico abierto?
-
-### Ciencia
-
-Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrollo de instrumental para laboratorios científicos. Combinando el uso de Arduino e Impresión 3D, investigadores de diversos puntos del planeta comienzan a generar instrumental específico, que permite automatizar la toma de datos a menores tiempos y costos de investigación. Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
-
->**Box 6: Bomba de jeringa open source (OSSP)**
->
->Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
->
->El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
->
->La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
->
-><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
->_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
->
->Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
-
-Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
-
-En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
-
-Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
-
-#### Educación
-
-Dentro del ámbito de la educación, el principal impacto se ve en la enseñanza de contenidos técnicos a través de los talleres de robótica. La robótica presenta una doble ventaja como herramienta en la educación técnica: por un lado combina un componente de interés y fascinación por parte de los estudiantes -materializado en múltiples concursos a escala global- y a la vez requiere el desarrollo de múltiples habilidades: mecánica, electrónica, gestión energía, ciencias de la computación, entre otras. Para orientar estos cursos en ciertos colegios o universidades se utilizan herramientas de programación de bajo nivel como lenguaje ensamblador, o nivel medio como lenguaje C. Sin embargo la sintaxis o estructura de estos lenguajes se convierte en algún momento en barreras que desmotivan a los estudiantes:, si le sumamos la parte electrónica, el montaje y el diseño, muchas veces se vuelve un motivo de frustración.
-
-La principal ventaja del OH en este campo es el aumento de la velocidad de iteración, es decir la posibilidad de experimentar a un bajo costo, y la creatividad que se puede desarrollar a partir de la utilización de sistemas flexibles, como Arduino. Un punto no menor consiste en que al contar con el diseño completamente abierto, los estudiantes acceden a experimentar con los desarrollos en todos los niveles y los docentes encuentran más fácil la tarea de dar soporte y mantenimiento.
-
-Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. Existen múltiples experiencias de estudiantes y talleres en escuelas donde se evidencia la sencillez y mayor velocidad en los procesos de aprendizaje cuando se utilizan diseños basados en OSHW.
-
-Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
-
-> **Box 7: Minipiano - Haciendo música con Arduino**
->
->En este experimento, Bordignon e Iglesias enseñan a los estudiantes, a través de la construcción de un piano de tres teclas, a trabajar con luces led, botones y con un buzzer para entender cómo se leen los datos y cómo utilizarlos en los programas que se realizarán en Arduino.
->  
->A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
->
-><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>    
->_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
-
-Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
-
-En este ámbito se puede observar una motivación cercana al movimiento *maker*, relacionada a la corriente del aprendizaje construccionista y su leitmotiv de "aprender haciendo", basada en las ideas de John Dewey, Maria Montessori, y Jean Piaget. Los educadores que adhieren a esta orientación plantean que enseñar en la práctica el uso del hardware y su intervención permite tener una perspectiva más amplia sobre el funcionamiento de las tecnologías digitales y deja de lado la visión de los objetos cotidianos como cajas negras cerradas y mágicas para pasar a percibirlos como resultado de un diseño premeditado. Además, hacen hincapié en la valoración del error como método de aprendizaje, generando un espacio seguro donde los estudiantes pueden tomar información a partir de experimentos fallidos.
-
-En el ámbito local es importante mencionar el trabajo de Bordignon e Iglesias, donde proponen una serie de experimentos basados en Arduino para aplicar en clase. Trabajando con sistemas embebidos, detallan la información necesaria para que en distintos niveles del ciclo educativo los estudiantes puedan desarrollar desde un semáforo o un termómetro hasta juegos con electrónica de mayor complejidad (ver Box 7).
-
-#### Personalización del consumo - DIY
-***
-**A completar**
-Para el autor es esperable que aparezcan nuevos jugadores en el mercado de la producción de hardware que más allá de estar basados o no en la filosofía de apertura, aprovecharán la ventaja otorgada por la creciente modularización que el OHW trae a la industria -como hizo Google con el FLOSS-. Este escenario de fabricantes lo suficientemente elásticos en infraestructura sería compatible con un nuevo tipo de demanda, ágil, ultra customizada, orientada por la comunidad y a los prosumidores.
-
-Según Cicero en los próximos años deberíamos poder observar transformaciones radicales en el concepto de "fábrica": la producción será descentralizada y potencialmente desvinculada de las marcas y fabricantes, acercándose al concepto defendido por FLOK sobre desarrollo endógeno y soberanía tecnológica. En este sentido Powell coincide con Cicero aunque resulta más escéptico respecto al beneficio social en otros aspectos -por ejemplo democratización en el acceso a la tecnología-. Ambos plantean que la inserción del modelo OHW en la industria traería ventajas relacionadas a la sustentabilidad al favorecer la desaparición de la obsolescencia programada en los productos de consumo .
-
-Los principales obstáculos que se pueden identificar en el uso de OHW para modelos de negocio son los relacionados a las patentes -en muchos casos salvados por el dual licensing-, la falta de modularidad en los diseños actuales -que dificulta su intervención- y la necesidad de generar confianza en el consumidor acerca de la calidad de los productos de diseño abierto. Dependiendo del modelo de negocio analizado, si la orientación es hacia desarrollo de productos, el peso de la marca y el tamaño de la comunidad son factores limitantes: si la base es la producción entonces la oferta de un catálogo variado y renovado es un factor diferencial. En el caso de los modelos de licencia dual, algunos autores señalan que un obstáculo puede ser el lock in por parte de los usuarios con filosofía OHW, especialmente en el segmento profesional.
 ## 2. Innovación democrática
 
 Las corrientes y teorías mencionadas hasta ahora hacen referencia en diferentes oportunidades al concepto de 'innovación'. Freeman (1991) definió la innovación como *'la capacidad de las personas de aprovechar una nueva idea o método y a través de ella generar impacto material y social'*. Puede incluir el desarrollo de nuevas tecnologías, procesos, organizaciones y servicios que generen cambios incrementales, radicales o transformadores en la vida social, y principalmente, la desarrollan personas trabajando en distintas organizaciones en red (Sterling & Smith, 2018).

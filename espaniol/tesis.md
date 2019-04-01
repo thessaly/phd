@@ -6,7 +6,7 @@
     Proyecto presentado a CONICET por beca doctoral     
         0.b [Resumen e Índice](tesis/0_resumen.md)
     
-1. [Introducción](tesis/1_introduccion.md)     
+1. [Introducción - Revisión de la literatura en hardware abierto](tesis/1_introduccion.md)     
    
     - ¿Qué es el Hardware Científico Abierto? (OSHWA, Free cultural works, GOSH)
     - ¿Quiénes y por qué desarrollan HCA?
@@ -16,16 +16,7 @@
         - Biohacking (DIYBio, Delfanti, Bloom, Schmidt)
         - Latinoamérica: tecnología apropiada y pedagogías críticas (Fressoli)
     - ¿Por qué ahora? (von Hippel, Powell, Söderberg, Pearce)
-    - ¿Cómo se hace hardware abierto?
-        - Herramientas utilizadas (Mellis)
-        - Diseño y fabricación (Oberloier, Gibb, Wozniak, Bolton)
-        - Comunidad y colaboración (Bonvoisin, Mellis, Morreale)
-        - Licencias (Katz, Serrano-Ayass, Ackermann, OpenMTA)
-        - Modelos de negocio (Tincq, Pearce, Moritz)
-    - Desafíos y oportunidades (Pearce, Kera, Bauwens, Powell, von Hippel, Söderberg)
-    - Recomendaciones de políticas (Baden, Pearce, GOSH)
-
-    Casos:
+    - Usos
         - Educación 
         - Biomedicina
         - Wearables
@@ -33,7 +24,18 @@
         - Monitoreo ambiental
         - Microscopios
         - Microfluidos
-        - Arte/Ciencia
+        - Arte/Ciencia        
+    - ¿Cómo se hace hardware abierto?
+        - Herramientas (Mellis)
+        - Diseño y fabricación (Oberloier, Gibb, Wozniak, Bolton)
+        - Comunidad y colaboración (Bonvoisin, Mellis, Morreale)
+        - Documentación (Wagenknecht, Bonvoisin)
+        - Licencias (Katz, Serrano-Ayass, Ackermann, OpenMTA, Weinberg)
+    - Modelos de negocio (Tincq, Pearce, Moritz, Zimmermann)
+    - Recomendaciones de políticas (Baden, Pearce, GOSH)
+    - Desafíos y oportunidades (Pearce, Kera, Bauwens, Powell, von Hippel, Söderberg)
+
+        
     
 2. [Marco teórico](tesis/2_marcoteorico.md)    
     Teoría crítica de la tecnología, Transiciones socio-técnicas, Movimientos de Innovación de Base    

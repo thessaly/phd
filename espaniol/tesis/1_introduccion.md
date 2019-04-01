@@ -354,37 +354,136 @@ Pearce aduce que se habrían reducido los costos de producir hardware científic
 >
 >En 2011 nació el grupo conocido como "Clone Wars" dentro de la comunidad RepRap, con el fin de documentar en español todo lo necesario para que cualquier persona pueda construir su propia impresora 3D.
 
+## ¿Cuáles son los principales usos del hardware abierto? **FALTA**
+
+### Ciencia y tecnología en contextos académicos
+
+Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrollo de instrumental para laboratorios científicos. Combinando el uso de Arduino e Impresión 3D, investigadores de diversos puntos del planeta comienzan a generar instrumental específico, que permite automatizar la toma de datos a menores tiempos y costos de investigación. Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
+
+>**Box 6: Bomba de jeringa open source (OSSP)**
+>
+>Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
+>
+>El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
+>
+>La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
+>
+><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
+>_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
+>
+>Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
+
+Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
+
+En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
+
+Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
+
+- biología sintética
+- óptica, microscopios
+- microfluídica
+- física (CERN y otros)
+- nanotecnología
+- muestreos ambientales/biológicos
+- química
+
+### Ciencia comunitaria
+
+- monitoreos ambientales comunitarios
+- biohacking
+- drones
+
+### Medicina
+
+### Agricultura
+
+### Educación
+
+- educación STEM
+- introducción a la electrónica para alumnos de diseño y otros
+
+Dentro del ámbito de la educación, el principal impacto se ve en la enseñanza de contenidos técnicos a través de los talleres de robótica. La robótica presenta una doble ventaja como herramienta en la educación técnica: por un lado combina un componente de interés y fascinación por parte de los estudiantes -materializado en múltiples concursos a escala global- y a la vez requiere el desarrollo de múltiples habilidades: mecánica, electrónica, gestión energía, ciencias de la computación, entre otras. Para orientar estos cursos en ciertos colegios o universidades se utilizan herramientas de programación de bajo nivel como lenguaje ensamblador, o nivel medio como lenguaje C. Sin embargo la sintaxis o estructura de estos lenguajes se convierte en algún momento en barreras que desmotivan a los estudiantes:, si le sumamos la parte electrónica, el montaje y el diseño, muchas veces se vuelve un motivo de frustración.
+
+La principal ventaja del OH en este campo es el aumento de la velocidad de iteración, es decir la posibilidad de experimentar a un bajo costo, y la creatividad que se puede desarrollar a partir de la utilización de sistemas flexibles, como Arduino. Un punto no menor consiste en que al contar con el diseño completamente abierto, los estudiantes acceden a experimentar con los desarrollos en todos los niveles y los docentes encuentran más fácil la tarea de dar soporte y mantenimiento.
+
+Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. Existen múltiples experiencias de estudiantes y talleres en escuelas donde se evidencia la sencillez y mayor velocidad en los procesos de aprendizaje cuando se utilizan diseños basados en OSHW.
+
+Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
+
+> **Box 7: Minipiano - Haciendo música con Arduino**
+>
+>En este experimento, Bordignon e Iglesias enseñan a los estudiantes, a través de la construcción de un piano de tres teclas, a trabajar con luces led, botones y con un buzzer para entender cómo se leen los datos y cómo utilizarlos en los programas que se realizarán en Arduino.
+>  
+>A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
+>
+><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>    
+>_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
+
+Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
+
+En este ámbito se puede observar una motivación cercana al movimiento *maker*, relacionada a la corriente del aprendizaje construccionista y su leitmotiv de "aprender haciendo", basada en las ideas de John Dewey, Maria Montessori, y Jean Piaget. Los educadores que adhieren a esta orientación plantean que enseñar en la práctica el uso del hardware y su intervención permite tener una perspectiva más amplia sobre el funcionamiento de las tecnologías digitales y deja de lado la visión de los objetos cotidianos como cajas negras cerradas y mágicas para pasar a percibirlos como resultado de un diseño premeditado. Además, hacen hincapié en la valoración del error como método de aprendizaje, generando un espacio seguro donde los estudiantes pueden tomar información a partir de experimentos fallidos.
+
+En el ámbito local es importante mencionar el trabajo de Bordignon e Iglesias, donde proponen una serie de experimentos basados en Arduino para aplicar en clase. Trabajando con sistemas embebidos, detallan la información necesaria para que en distintos niveles del ciclo educativo los estudiantes puedan desarrollar desde un semáforo o un termómetro hasta juegos con electrónica de mayor complejidad (ver Box 7).
+
+### Productos de consumo
+- wearables
+- DIY hedonista
+
+### Arte
+
+- audiovisuales
+- sonido
+- performance
+
+### Activismo 
+- transhackfeminismo 
+- redes libres
+
 ## ¿Cómo se hace hardware abierto?
 
-### Herramientas utilizadas 
+### Herramientas de fabricación digital 
 
-### 3D Printing
-The purest of these digital fabrication processes are the various forms of 3D printing. These turndigital design into physical objects by gradually adding material in the desired locations, allowing fora wide range of possible geometries. The term 3D printing encompasses a broad range of machines,from personal plastic printers costing a few hundred dollars to industrial machines that sinter metaland cost hundreds of thousands of dollars. Different machines work with different materials and offerdifferent resolutions and tolerances. The materials may have different strengths, optical properties,appearances, finishing possibilities, and so on. Depending on the object being fabricated, some or allof these characteristics may be crucial to creating a useable result. In designing and sharing objectsfor 3D printing, therefore, it’s important to specify not just their geometries, but also the requiredtolerances, materials, and other characteristics—most of which are less easily captured in digitalform. In addition, many 3D-printing processes need some form of manual post-processing, such asremoval of support material, finishing, or curing. These require an operator with appropriateknowledge and skill—and can create variations from one print to the next, even with the same file andmachine. Finally, 3D printing technology is evolving and diversifying rapidly. For all these reasons,it’s important not to think of 3D printing as a way to automatically create things from information, butrather as a material process with specific qualities and affordances.
+Como se mencionaba en la sección '¿Por qué ahora?', el desarrollo y difusión de herramientas de fabricación digital tuvo un impacto directo en el surgimiento de proyectos de hardware abierto (Söderberg, 2013).
+Muchas de las herramientas tecnológicas que conforman la práctica de fabricación digital no son particularmente nuevas; lo novedoso en la actualidad son las reducciones de los costos y escala de las tecnologías y un aumento de la versatilidad en el proceso de fabricación (Fressoli y Smith, 2015).
 
-### Milling and Cutting
-Other fabrication processes work by cutting or removing pieces of a larger stock material. Lasercutters cut 2D shapes out of plywood, cardboard, acrylic, and other flat materials. Vinyl cutters do thesame, but with a knife that cuts through thin materials like paper or adhesive-backed vinyl. The water-jet cutter handles stronger and thicker materials like wood, metal, and glass, cutting with a stream ofhard particles in a powerful jet of water. CNC (computer-numeric control) machines, like mills orrouters, work in three (or more) dimensions, removing material from solid blocks of stock with avariety of cutting bits. They are often capable of very precise operations, albeit only within specificaxes of movement. Compared with 3D printers, these cutting and milling tools have the advantage ofbeing able to work with a variety of existing materials, including natural ones with complex structuresthat are difficult or impossible to replicate with the homogenous stock of most 3D printers. They aremore limited in the geometries they can produce, however, and often require more steps in fabricatingor assembling the parts.
+Los usuarios disponen indivualmente de las herramientas o abonan por tiempo de uso de las que se encuentran disponibles en hackerspaces y fablabs (Maxigas, 2012; Mellis, 2014).
+Los espacios comunitarios permiten acceder a herramientas más complejas y costosas, y ofrecen oportunidades para el aprendizaje y el intercambio.
+También existe la posibilidad de contratar una variedad de servicios de fabricación digital, lo que incrementa tanto la velocidad como el costo del proceso pero disminuye el control del usuario sobre el mismo. 
 
-In addition to specifying the geometry of the design itself, it’s important to be explicit about thenature of the stock material and the characteristics of the cutting process. Whether two parts press-fittightly together, slip past each other, or don’t fit at all depends as much on the precise thickness of thestock (which can vary even across nominally equivalent materials) and the thickness of the cut as onthe shape in the file. Some constructions may be infeasible to achieve given the tolerances of aparticular machine. (Laser cutters may yield slightly different cut thicknesses on different sides oftheir working area; water-jet cutters can give rough, nonvertical edges, for example.) Traditionalengineering drawings often capture the required tolerances for various surfaces and the material to beused. A quickly created CAD file used for a prototype and then thrown up on a webpage may not.Parts might be sanded, glued, pounded together, or otherwise tweaked in ways not reflected in thedesign files. Generating tool paths for a CNC machine is a complex process with a significant impacton the form and finish of the resulting object; this complexity may not be possible to capture in a waythat can be easily shared with others, particularly if they are using a different machine. Finishing andassembling parts created with CNC devices requires careful craft, which might be difficult tocommunicate or learn. All of these factors need to be kept in mind when designing or sharing a digitalfile for someone else to replicate.
+En esta sección se detallan las principales herramientas de fabricación digital disponibles y sus principales usos. 
+Además de las mencionadas existen una variedad de otras herramientas específicas desarrolladas por los usuarios. 
 
-### Other Fabrication Machines
-A variety of other digital fabrication processes exist, each with its own affordances and constraints.For example, a host of machines are available for working with soft materials: CNC embroiderymachines apply custom designs to fabric, knitting machines generate colors and constructions basedon digital files, and Jacquard looms are possibly the oldest digital fabrication machines in existence.Industrial production uses a variety of automated machines, including robot arms and other adaptableparts of an assembly line. Furthermore, as digital fabrication becomes more established, more peopleare creating their own machines for custom purposes of various kinds.
+#### Impresión 3D
+Uno de los disparadores del crecimiento de la impresión 3D fue la expiración de las patentes de los equipos creados en la década de los ochenta.
+Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocido como FMD por su sigla en inglés) que utiliza filamentos plásticos, ocasionando una explosión de experimentación (Fressoli y Smith, 2015).
 
-### Printed Circuit Boards and Electronics
-The production of printed circuit boards (PCBs) can also be considered a digital fabrication process—and a relatively mature one. Digital designs are etched from copper or other materials using aphotographic process, then covered with an isolating layer and text and other annotations. While theprocesses for creating circuit boards in this way are generally toxic and the automated systems fordoing so are expensive, many services will produce PCBs on demand for individual customers withsmall or nonexistent minimums and standard specifications and tolerances. (As a board’sspecifications get more demanding, however, costs can increase, sometimes dramatically.) Circuitboards can also be manually etched or milled on a CNC machine, processes that are more directlyaccessible to individuals but also less robust and precise. While some circuits are sensitive to theprecise characteristics of circuit board’s substrate or the exact tolerances of the fabrication process, agreat many can be shared with relative confidence that they will work when made on a differentmachine from a different provider.
+El proyecto RepRap (nombre corto de 'Replicating rapid prototyper'), iniciado por Adrian Bowyer en la Universidad de Bath (Reino Unido), es uno de los casos paradigmáticos dentro de la impresión 3D.
+Su objetivo original era desarrollar una herramienta de fabricación de bajo costo capaz de producir una copia de sí misma, basada en archivos digitales de diseño (de Brujin, 2010).
+Utilizando procesos aditivos de fabricación, la RepRap se comercializa a menos de 500 euros, garantizando el acceso a una gran cantidad de usuarios.
 
-In reproducing circuits, then, the main difficulties are typically getting the necessary parts andassembling them. While vast quantities of components are available to individuals—and manydistributors specifically target hobbyists—advanced parts with specific functionality may not beaccessible. These may be simply impossible to purchase, require an extended procurement processthat makes replication infeasible, or be difficult or impossible to assemble with the processesavailable. As parts are optimized for size and automated assembly, they become harder forindividuals to work with. Even easier-to-solder parts rely on manual skill and the knowledge totroubleshoot problems. Different electronic components may be available or preferred in differentlocations. Parts may go out of stock, become obsolete, or cease being made altogether. All of thesefactors mean that while making a PCB may be a robust and accessible process, much work must bedone to ensure that individuals are able to replicate a complete electronic circuit for themselves. (It’salso worth noting that while the problem may be worse for electronic components, other materials—such as plywood or 3D printer stock—are also industrial products and may not be availableeverywhere or all the time.
+Diferentes modelos de impresoras 3D pueden utilizarse con diversos materiales, resoluciones y tolerancias; ampliando el espectro de estabilidad, propiedades ópticas, apariencia, acabado y demás propiedades (Mellis, 2014).
+Las especificaciones de diseño, geometría, materiales y resistencias se distribuyen fácilmente en archivos digitales editables con software abierto especializado (Blender, OpenSCAD), lo que facilita la colaboración dentro de las comunidades.
 
-### Access to Fabrication
-Access to digital fabrication processes comes in a variety of forms. Some machines, particularly 3Dprinters and vinyl cutters, are being targeted at individual consumers via low-cost, Easy-to-usemodels. Local workshops, whether at schools, libraries, community centers, or commercial locations,provide access to larger, messier, and more expensive machines. They also offer opportunities forpeople to learn how to use the machines and can provide a community of like-minded individuals.Online services offer an alternative for those without local, hands-on access. They can provide alarger variety of processes and materials than those found in a single workshop and obviate the needto learn to operate the machines directly. On the downside, the time required for parts to be producedand shipped—and the lack of direct control over the process—can make it harder to iterate and refinedesigns when using an online service. Additionally, online services generally involve higher per-partprices than direct machine access, since they need to cover the cost of the machines, labor, andinfrastructure required to support the service.
+#### Cortadoras láser, tornos CNC y otras
+Las cortadoras láser y los tornos CNC (control numérico) son otro ejemplo de herramientas ampliamente difundidas en fablabs o makerspaces. 
+Las primeras permiten calar, cortar o grabar materiales como maderas balsas, cartón, acrílico y otros; existen variedades que cortan vinílico y otras basadas en chorro de agua para cortar materiales más densos.
+En el caso de los tornos CNC, permiten la remoción controlada de materiales con alta precisión a partir de bloques sólidos.
+
+Estas herramientas trabajan con una variedad mayor de materiales respecto de la impresión 3D, pero son más limitadas en términos de las geometrías que pueden producir, e involucran un proceso más largo de fabricación, ensamblado y acabado. 
+Nuevamente las especificaciones geométricas, de material y ensamblado son fácilmente distribuidas en archivos digitales, aunque requieren de ajustes particulares adaptados a cada máquina. 
+Para materiales textiles existen también herramientas de control numérico que emulan el proceso de bordado o el telar, mientras que los brazos robóticos y otras partes adaptables son cada vez más comúnmente desarrolladas por los usuarios (Mellis, 2014).
+
+#### Circuitos impresos y electrónica
+Mellis (2014) considera la producción de circuitos impresos como un proceso de fabricación digital.
+A partir de los diseños digitales se producen placas mediante procesos afotográficos sobre materiales como el cobre, sumando una capa de aislante y otra con texto y anotaciones.
+El proceso puede realizarse con máquinas CNC o mediante servicios que ofrecen la fabricación a usuarios individuales partir del diseño digital.
+
+Uno de los principales obstáculos identificados por el autor a la hora de replicar diseños es encontrar los componentes electrónicos necesarios. 
+La alta especificidad de algunos diseños hace que sea muy complejo encontrarlos, sumado a que en algunos países existen limitaciones de importación.
+El ensamblado además requiere de cierta habilidad manual para la soldadura y resolución de problemas. 
 
 ### Diseño y fabricación: de la idea al prototipo, del prototipo al producto
-Wozniak (2014) propone un modelo de diseño de producto para hardware al que denomina 'cascada'. 
-En el mismo las etapas de definición de especificaciones, diseño, prototipado y testeo se encuentran unidas por un proceso iterativo.
-
-![waterfall model of product development](../notas_bibliografia/wozniak.png)
-
-En la realidad muchos de los makers o diseñadores DIY no siguen tan al punto este modelo, pero el proceso de iteración rápida es clave para el desarrollo, y se trata del paso que fue facilitado por plataformas como Arduino.
-Los pasos necesarios para construir hardware electrónico han ido mutando con la disponibilidad de software que permite emular parte de los procesos.
+Los pasos necesarios para construir hardware electrónico han ido mutando con la disponibilidad de herramientas de fabricación digital y FOSS que permite emular parte de los procesos.
 Sin embargo aún se precisa contar con ciertos conocimientos y herramientas específicos en términos de electrónica o programación.
 
 La mayoría de los proyectos comienzan con una idea prototipada rápidamente como prueba de concepto.
@@ -393,7 +492,7 @@ En este punto el diseño no es perfecto, sólo sirve para comprobar que funciona
 
 ![protoboard](https://en.wikipedia.org/wiki/Breadboard#/media/File:Breadboard.JPG)
 
-En la actualidad todos los objetos electrónicos se fabrican utilizando plaquetas de circuito impreso, a diferencia del sistema de cableado punto a punto utilizado hasta los años 60. 
+En la actualidad todos los objetos electrónicos se fabrican utilizando plaquetas de circuito impreso (PCB), a diferencia del sistema de cableado punto a punto utilizado hasta los años 60. 
 Hasta el advenimiento de las herramientas digitales se requería cierta habilidad "artística" del fabricante: se utilizaba una “máscara” de cinta negra sobre una placa de acetato para indicar la ruta de conexiones más eficiente a fin de transformar el diagrama en una plaqueta. 
 Los circuitos impresos aportaron un nivel mucho mayor de automatización en la fabricación: se eliminó el cableado, ya que las conexiones, constituidas por líneas de cobre, se encuentran integradas en un soporte no conductor -generalmente epoxy- que además sostiene los componentes.
 Estas innovaciones permitieron no sólo reducir el espacio que ocupa el circuito sino también integrar el uso de microchips, el corazón de las tecnologías como teléfonos móviles, computadoras, tablets y más.
@@ -402,10 +501,10 @@ Estas innovaciones permitieron no sólo reducir el espacio que ocupa el circuito
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PCB_design_and_realisation_smt_and_through_hole.png/1024px-PCB_design_and_realisation_smt_and_through_hole.png" width=80%>    
 *Fig 4: ejemplo de diseño digital de circuito impreso (izq.) y circuito final (der.) (Fuente: Wikipedia)*
 
-Actualmente, una vez que se obtiene un circuito que funciona el próximo paso consiste en trasladar el diseño a su versión digital, que servirá para producir el circuito integrado o PCB.
+Actualmente, una vez que se obtiene un diseño de circuito que funciona el próximo paso consiste en trasladar el diseño a su versión digital, que servirá para producir el circuito integrado o PCB.
 Esta 'versión digital' consta de dos partes: un diagrama esquemático ('schematic') y un diagrama de diseño ('layout'). 
 
-El diagrama esquemático es un gráfico donde se especifican los componentes electrónicos (resistencias, capacitores, circuitos integrados)  a utilizar y sus conexiones, a través de un sistema de símbolos. 
+El diagrama esquemático es un gráfico donde se especifican los componentes electrónicos (resistencias, capacitores, circuitos integrados) a utilizar y sus conexiones, a través de un sistema de símbolos. 
 En caso de ser necesario también se indica información sobre valores de cada componente (por ejemplo una resistencia de 10-kilohm). 
 Sin embargo el esquemático no posee toda la información necesaria para fabricar una plaqueta de circuito impreso, por lo cual se debe armar el diagrama de diseño, que especifica la disposición del circuito en la placa.
 Tanto el esquemático como el layout se obtienen mediante software como Fritzing o KiCad, ambos de código abierto.
@@ -456,17 +555,77 @@ M02*
 ```    
 _Fig 5: ejemplo de archivo en formato Gerber, para ser leído por el fabricante (Fuente: Wikipedia)_
 
-El diseño puede involucrar partes impresas digitalmente, que implican archivos de diseño específicos realizados con software como Blender u OpenSCAD.
-Los pasos descritos aplican al desarrollo de una plaqueta electrónica, presente en casi todos los artefactos que usamos a diario. 
+Los pasos descritos aplican al desarrollo de una plaqueta electrónica (PCB), presente en casi todos los artefactos que usamos a diario. 
 Sin embargo, crear un artefacto requiere de otras instancias adicionales, como el diseño del aspecto, elección de los materiales, mecánica entre las partes, programación, etc. 
-
-Aunque los costos de las plataformas electrónicas como Arduino realmente disminuyeron y las volvieron accesibles en el último tiempo, todavía la velocidad de iteración -es decir cuán rápido se puede modificar un artefacto- sigue siendo un obstáculo en el desarrollo de hardware si lo comparamos con el de software. 
-Por ello tanto Buechley como Malinen y Mellis coinciden en que otro aspecto clave a la hora de facilitar el proceso de desarrollo de hardware libre es la modularidad de los artefactos a desarrollar. 
-Resulta mucho más sencillo modificar o diseñar un objeto si sus funciones se encuentran diferenciadas en módulos, ya que en caso contrario es necesario cambiarlo todo para modificar sólo una función.
 
 En cuanto a las dificultades que se identifican en los procesos de desarrollo, principalmente son aquellas relacionadas a la dificultad de conseguir componentes -que no se encuentran disponibles en todos los países-, la necesidad de estandarización en el uso tanto de plataformas electrónicas como de software de diseño, que permita a los grupos interactuar de forma sencilla -en este sentido todos los autores remarcan la importancia de Arduino-, y en menor medida la dificultad para documentar y trackear los cambios entre versiones -para lo cual existen iniciativas de documentación por parte de distintas organizaciones-.
 
-### Comunidad y colaboración
+#### Buenas prácticas
+
+Aunque la barrera de acceso a la fabricación de hardware es menor en la actualidad, autores como Wozniak (2014) y Oberloier (2017) consideran que las buenas prácticas de diseño son fundamentales para asegurar la accesibilidad y replicabilidad de los desarrollos. 
+
+Wozniak (2014) propone un modelo de diseño de producto para hardware al que denomina 'cascada'. 
+En el mismo se detallan etapas de definición de especificaciones, diseño, prototipado y testeo; unidas por un proceso iterativo.
+
+![waterfall model of product development](../notas_bibliografia/wozniak.png)
+
+Todas las recomenciones (Buechley, ; Malinen, ; Mellis, 2014) coinciden en que otro aspecto clave a la hora de facilitar el proceso de desarrollo de hardware libre es la **modularidad**.
+Oberloier detalla aún más este y otros requisitos en sus procedimiento general para el diseño de hardware científico abierto (2017).
+
+Las guías incluyen no sólo recomendaciones para el diseño si no para la documentación y colaboración, bajo cinco preceptos:
+
+1. Hacer una revisión de la literatura para basarse en diseños pre-existentes, y si no es posible realizar una prueba de concepto simple
+    - Este paso asegura que no se 'reinventa la rueda' y se contribuye al pool de conocimientos existente. 
+2. Diseñar teniendo en cuenta:
+    - Utilización de FOSS para garantizar replicabilidad
+    - Minimizar el tipo de partes y complejidad para asegurar reparabilidad, actualización y mantenimiento
+    - Minimizar el volumen de material y costo de producción para disminuir el impacto ambiental, costos económicos y tiempo de desarrollo
+    - Utilizar componentes ampliamente disponibles en el mercado cuando no se trate de piezas personalizadas, para facilitar replicabilidad
+3. Validar el diseño a través de un proceso de calibración de bajo costo y transparente.
+4. Documentar el diseño, fabricación, ensamblado, calibración y operación en detalle, orientado a un no especialista, siguiendo las guías de OSHWA.
+5. Compartir la documentación en repositorios open source específicos (Open Science Framework, Github, 3DPrint Exchange, Open Circuit Institute)
+
+### Documentación y grados de apertura **FALTA**
+
+Journal of Open Hardware
+HardwareX
+OSF
+Docubricks
+
+Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. G. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4. https://doi.org/10.1017/dsj.2018.15
+
+Bonvoisin, J., & Mies, R. (2018). Measuring Openness in Open Source Hardware with the Open-o-Meter. Procedia CIRP, 78, 388–393. https://doi.org/10.1016/j.procir.2018.08.306
+
+Bonvoisin, J., Mies, R., Boujut, J.-F., & Stark, R. (2017). What is the “Source” of Open Source Hardware? Journal of Open Hardware, 1(1). https://doi.org/10.5334/joh.7
+
+Bonvoisin, J., & Schmidt, K. C. (2017). Best practices of open source mechanical hardware. https://doi.org/10.14279/depositonce-5729
+
+Wagenknecht. (2014). Taxonomy of Hardware Documentation. In Building Open Source Hardware: DIY Manufacturing for Hackers and Makers.
+
+Yanamandram, V. M. K., & Panchal, J. H. (2014). Evaluating the Level of Openness in Open Source Hardware. In Product development in the socio-sphere (pp. 99–120). New York: Springer.
+
+
+
+
+### Comunidad y colaboración **FALTA**
+
+Cruz, A. H. M. (n.d.). Exploring the Open Source Hardware phenomenon: Empirical essays on the role of user communities in the creation of innovation, organizations and markets. 165.
+
+Hallgren, J., & Wiberg, W. (n.d.). Open Source Hardware – A case study of user developed derivatives. 47.
+
+Kyriakou, H., & Nickerson, J. V. (2014). Collective Innovation in Open Source Hardware. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.2421332
+
+Mellis L., D. . B. (2012). Collaboration in Open-Source Hardware: Third-Party Variations on the Arduino Duemilanove.
+
+Mies, R., Bonvoisin, J., & Jochem, R. (2018). Harnessing the Synergy Potential of Open Source Hardware Communities. In Co-creation: reshaping business and society in the era of bottom-up economics. New York, NY: Springer Berlin Heidelberg.
+
+Morreale, F., Moro, G., Chamberlain, A., Benford, S., & McPherson, A. P. (2017). Building a Maker Community Around an Open Hardware Platform. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems  - CHI ’17, 6948–6959. https://
+doi.org/10.1145/3025453.3026056
+
+Tech, R. P. G., Ferdinand, J.-P., & Dopfer, M. (2016). Open Source Hardware Startups and Their Communities. In The decentralized and networked future of value creation (pp. 129–145). New York, NY: Springer Berlin Heidelberg.
+
+Wozniak. (2014). The Design Process: How to Get from Nothing to Something. In Building Open Source Hardware: DIY Manufacturing for Hackers and Makers.
+
 
 Una de las principales cuestiones que la literatura analiza es la diferencia entre el proceso de desarrollo del software y el de hardware.
 Mientras la virtualidad del software facilita la colaboración sin mediar distancias en un proceso bastante directo entre usuarios, la materialidad inherente al desarrollo de hardware implica que éste requiera de instancias discretas y potencialmente independientes de trabajo. 
@@ -478,7 +637,6 @@ A diferencia del proceso colaborativo que da origen al software libre, en el cas
 Algunos autores enfatizan que uno de los criterios para que un desarrollo de hardware sea exitoso es que la comunidad de colaboradores sea lo suficientemente grande para asegurar un mínimo de aportes diversos.  
 Sin embargo, Buechley remarca que este proceso de colaboración se da de manera más descentralizada en hardware que en software, observándose mucho más frecuentemente múltiples iniciativas de pequeña escala, con una dinámica más "privada" de la colaboración, sobre grandes iniciativas a partir de comunidades numerosas. 
 El carácter privado de la colaboración también es observado por Malinen en el caso del desarrollo del eCar finés: a la hora de construir hardware, es más común que la colaboración exitosa se pueda dar en pequeños grupos que al menos una vez se encuentran físicamente en lugares de trabajo.
-
 
 ### Licencias para hardware
 
@@ -563,7 +721,7 @@ OpenMTA se encuentra disponible en el sitio de BioBricks y se planea sumar adhes
 La aplicación a materiales humanos no está contemplada en esta versión, pero numerosas peticiones hicieron que se inicie un proceso de discusión colaborativa para elaborar una propuesta.
 
 
-### Modelos de negocio basados en la apertura
+## Modelos de negocio para hardware abierto
 
 Autores como Bauwens (2011) y Söderberg (2011) asocian al hardware abierto con la producción distribuida y sus beneficios (fabricación local, menores costos de distribución y transporte, comunidades de innovación, mayor participación).
 La aparición y crecimiento de los proyectos basados en hardware abierto, particularmente el caso de Arduino y otras firmas como Sparkfun y Adafruit, desafían la lógica de los modelos de negocio tradicionales. 
@@ -781,6 +939,33 @@ Un ejemplo de este tipo es Science Exchange, una plataforma que conecta laborato
 >
 >Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
 
+## Políticas
+
+Como se menciona anteriormente, el campo de desarrollo de hardware científico es reciente, sin embargo algunos autores comienzan a elaborar recomendaciones de políticas para su crecimiento. 
+
+Baden (2015) identifica un esbozo de recomendaciones de políticas para el desarrollo del hardware científico abierto, orientadas principalmente a la educación e investigación:
+
+1. Incoporar el hardware científico abierto en la currícula escolar oficial;
+2. Aumentar cursos prácticos con hardware científico abierto para cientificos y docentes dentro de la currícula oficial;
+3. Asegurar infraestructura de fabricación digital en las instituciones de investigación y educación;
+4. Promover la inversión empresarial en modelos abiertos de desarrollo de producto.
+
+Pearce (2017) recomienda cuatro direcciones para futuras políticas de hardware científico abierto en Estados Unidos a fin de aprovechar los retornos de inversión tanto para agencias de financiación como instituciones de investigación.
+Asegura que ésto no sólo sería positivo para laboratorios si no también para empresas de tecnología, start-ups y formación de recursos humanos.
+Se enfoca en cuatro medidas que permitirían un escalamiento horizontal, a través de una inversión inicial seguida de replicación digital de bajo costo:
+
+1. Establecer una agencia ferederal que identifique las oportunidades estratégicas de inversión con alto ROI en términos de hardware científico abierto;
+2. Promover el desarrollo de los equipos identificados, favoreciendo la compra de equipos abiertos validados en todas las dependencias del Estado y asegurando fondos para su desarrollo;
+3. Crear una base de datos abierta de hardware científico abierto validado con toda su documentación asociada;
+4. Proveer incentivos a emprendedores para escalar la producción de componentes de difícil acceso.
+
+La comunidad GOSH (2018) identifica la necesidad de recomendar e implementar políticas que fomenten el crecimiento del movimiento, orientadas a la apertura institucional en universidades y organismos de investigación, y la disponibilidad de fondos.
+
+En Latinoamérica en general aún no se multiplican las recomendaciones de políticas específicas para hardware científico abierto, con la excepción de Ecuador (FLOK, 2015), donde se identifica la necesidad de fomentar la innovación social a través del mismo. 
+Particularmente son cuatro recomendaciones en la misma dirección que la propuesta de Pearce. 
+En Venezuela en el 2004 se realizaron talleres que convocaron miembros del sector público y privado para la "Elaboración  de  Políticas  para  la Administración y Uso del Hardware en la Administración Pública".
+El propósito fundamental de ese taller era el  “fortalecimiento  de  la  infraestructura  tecnológica  en  el  área  de manufactura, producción y comercialización de hardware, también fomentar el conocimiento y la capacidad de invención, comercialización de productos en el mercado interno y externo aprovechando nuestro potencial y ubicación geopolítica en el mundo.” (Córdova, 2004)
+
 
 ## Desafíos
 
@@ -842,33 +1027,6 @@ Pero existen aportes en otros términos, relacionados a la democratización de l
 ***
 > **Box: trend4africa**
 ***
-
-## Políticas
-
-Como se menciona anteriormente, el campo de desarrollo de hardware científico es reciente, sin embargo algunos autores comienzan a elaborar recomendaciones de políticas para su crecimiento. 
-
-Baden (2015) identifica un esbozo de recomendaciones de políticas para el desarrollo del hardware científico abierto, orientadas principalmente a la educación e investigación:
-
-1. Incoporar el hardware científico abierto en la currícula escolar oficial;
-2. Aumentar cursos prácticos con hardware científico abierto para cientificos y docentes dentro de la currícula oficial;
-3. Asegurar infraestructura de fabricación digital en las instituciones de investigación y educación;
-4. Promover la inversión empresarial en modelos abiertos de desarrollo de producto.
-
-Pearce (2017) recomienda cuatro direcciones para futuras políticas de hardware científico abierto en Estados Unidos a fin de aprovechar los retornos de inversión tanto para agencias de financiación como instituciones de investigación.
-Asegura que ésto no sólo sería positivo para laboratorios si no también para empresas de tecnología, start-ups y formación de recursos humanos.
-Se enfoca en cuatro medidas que permitirían un escalamiento horizontal, a través de una inversión inicial seguida de replicación digital de bajo costo:
-
-1. Establecer una agencia ferederal que identifique las oportunidades estratégicas de inversión con alto ROI en términos de hardware científico abierto;
-2. Promover el desarrollo de los equipos identificados, favoreciendo la compra de equipos abiertos validados en todas las dependencias del Estado y asegurando fondos para su desarrollo;
-3. Crear una base de datos abierta de hardware científico abierto validado con toda su documentación asociada;
-4. Proveer incentivos a emprendedores para escalar la producción de componentes de difícil acceso.
-
-La comunidad GOSH (2018) identifica la necesidad de recomendar e implementar políticas que fomenten el crecimiento del movimiento, orientadas a la apertura institucional en universidades y organismos de investigación, y la disponibilidad de fondos.
-
-En Latinoamérica en general aún no se multiplican las recomendaciones de políticas específicas para hardware científico abierto, con la excepción de Ecuador (FLOK, 2015), donde se identifica la necesidad de fomentar la innovación social a través del mismo. 
-Particularmente son cuatro recomendaciones en la misma dirección que la propuesta de Pearce. 
-En Venezuela en el 2004 se realizaron talleres que convocaron miembros del sector público y privado para la "Elaboración  de  Políticas  para  la Administración y Uso del Hardware en la Administración Pública".
-El propósito fundamental de ese taller era el  “fortalecimiento  de  la  infraestructura  tecnológica  en  el  área  de manufactura, producción y comercialización de hardware, también fomentar el conocimiento y la capacidad de invención, comercialización de productos en el mercado interno y externo aprovechando nuestro potencial y ubicación geopolítica en el mundo.” (Córdova, 2004)
 
 
 ## Bibliografía

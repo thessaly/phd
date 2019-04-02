@@ -444,46 +444,47 @@ En el ámbito local es importante mencionar el trabajo de Bordignon e Iglesias, 
 ### Herramientas de fabricación digital 
 
 Como se mencionaba en la sección '¿Por qué ahora?', el desarrollo y difusión de herramientas de fabricación digital tuvo un impacto directo en el surgimiento de proyectos de hardware abierto (Söderberg, 2013).
-Muchas de las herramientas tecnológicas que conforman la práctica de fabricación digital no son particularmente nuevas; lo novedoso en la actualidad son las reducciones de los costos y escala de las tecnologías y un aumento de la versatilidad en el proceso de fabricación (Fressoli y Smith, 2015).
+Muchas de las herramientas tecnológicas que conforman la práctica de la fabricación digital no son particularmente nuevas; lo novedoso en la actualidad son las reducciones de los costos y escala de las tecnologías y un aumento de la versatilidad en el proceso de fabricación (Fressoli y Smith, 2015).
 
-Los usuarios disponen indivualmente de las herramientas o abonan por tiempo de uso de las que se encuentran disponibles en hackerspaces y fablabs (Maxigas, 2012; Mellis, 2014).
+En términos de acceso, los usuarios pueden disponer indivualmente de las herramientas o acudir a espacios comunitarios donde abonan una tarifa por tiempo de uso (o usan sin costo) las herramientas disponibles (de Brujin, 2010; Mellis, 2014).
 Los espacios comunitarios permiten acceder a herramientas más complejas y costosas, y ofrecen oportunidades para el aprendizaje y el intercambio.
-También existe la posibilidad de contratar una variedad de servicios de fabricación digital, lo que incrementa tanto la velocidad como el costo del proceso pero disminuye el control del usuario sobre el mismo. 
+También existe la posibilidad de contratar una variedad de servicios de fabricación digital a distancia, lo que incrementa tanto la velocidad como el costo del proceso pero disminuye el control del usuario sobre el mismo y la posibilidad de iteración.
 
 En esta sección se detallan las principales herramientas de fabricación digital disponibles y sus principales usos. 
 Además de las mencionadas existen una variedad de otras herramientas específicas desarrolladas por los usuarios. 
 
 #### Impresión 3D
 Uno de los disparadores del crecimiento de la impresión 3D fue la expiración de las patentes de los equipos creados en la década de los ochenta.
-Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocido como FMD por su sigla en inglés) que utiliza filamentos plásticos, ocasionando una explosión de experimentación (Fressoli y Smith, 2015).
+A modo de ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocido como FMD por su sigla en inglés) que utiliza filamentos plásticos, ocasionando una explosión de experimentación en el rubro (Fressoli y Smith, 2015).
 
 El proyecto RepRap (nombre corto de 'Replicating rapid prototyper'), iniciado por Adrian Bowyer en la Universidad de Bath (Reino Unido), es uno de los casos paradigmáticos dentro de la impresión 3D.
 Su objetivo original era desarrollar una herramienta de fabricación de bajo costo capaz de producir una copia de sí misma, basada en archivos digitales de diseño (de Brujin, 2010).
 Utilizando procesos aditivos de fabricación, la RepRap se comercializa a menos de 500 euros, garantizando el acceso a una gran cantidad de usuarios.
 
 Diferentes modelos de impresoras 3D pueden utilizarse con diversos materiales, resoluciones y tolerancias; ampliando el espectro de estabilidad, propiedades ópticas, apariencia, acabado y demás propiedades (Mellis, 2014).
-Las especificaciones de diseño, geometría, materiales y resistencias se distribuyen fácilmente en archivos digitales editables con software abierto especializado (Blender, OpenSCAD), lo que facilita la colaboración dentro de las comunidades.
+Las especificaciones de diseño, geometría, materiales y resistencias se distribuyen fácilmente en archivos digitales editables con FOSS especializado (Blender, OpenSCAD), lo que facilita la colaboración dentro de las comunidades.
 
-#### Cortadoras láser, tornos CNC y otras
+#### Cortadoras láser, tornos CNC y otros
 Las cortadoras láser y los tornos CNC (control numérico) son otro ejemplo de herramientas ampliamente difundidas en fablabs o makerspaces. 
 Las primeras permiten calar, cortar o grabar materiales como maderas balsas, cartón, acrílico y otros; existen variedades que cortan vinílico y otras basadas en chorro de agua para cortar materiales más densos.
-En el caso de los tornos CNC, permiten la remoción controlada de materiales con alta precisión a partir de bloques sólidos.
+En el caso de los tornos CNC, su utilización permite la remoción controlada de materiales con alta precisión a partir de bloques sólidos.
 
 Estas herramientas trabajan con una variedad mayor de materiales respecto de la impresión 3D, pero son más limitadas en términos de las geometrías que pueden producir, e involucran un proceso más largo de fabricación, ensamblado y acabado. 
 Nuevamente las especificaciones geométricas, de material y ensamblado son fácilmente distribuidas en archivos digitales, aunque requieren de ajustes particulares adaptados a cada máquina. 
-Para materiales textiles existen también herramientas de control numérico que emulan el proceso de bordado o el telar, mientras que los brazos robóticos y otras partes adaptables son cada vez más comúnmente desarrolladas por los usuarios (Mellis, 2014).
+
+Para materiales textiles existen también herramientas de control numérico que emulan el proceso de bordado o del telar, otros dispositivos como brazos robóticos y partes adaptables son cada vez más comúnmente desarrolladas por los usuarios (Mellis, 2014).
 
 #### Circuitos impresos y electrónica
 Mellis (2014) considera la producción de circuitos impresos como un proceso de fabricación digital.
-A partir de los diseños digitales se producen placas mediante procesos afotográficos sobre materiales como el cobre, sumando una capa de aislante y otra con texto y anotaciones.
-El proceso puede realizarse con máquinas CNC o mediante servicios que ofrecen la fabricación a usuarios individuales partir del diseño digital.
+A partir de los diseños digitales se producen placas mediante procesos afotográficos sobre materiales como cobre, a la que se suma una capa aislante y otra con texto y anotaciones.
+El proceso puede realizarse con máquinas CNC en espacios comunitarios o mediante servicios que ofrecen la fabricación a usuarios individuales partir del diseño digital.
 
-Uno de los principales obstáculos identificados por el autor a la hora de replicar diseños es encontrar los componentes electrónicos necesarios. 
+Uno de los principales obstáculos identificados a la hora de replicar diseños electrónicos es encontrar los componentes electrónicos necesarios (GOSH, 2018). 
 La alta especificidad de algunos diseños hace que sea muy complejo encontrarlos, sumado a que en algunos países existen limitaciones de importación.
 El ensamblado además requiere de cierta habilidad manual para la soldadura y resolución de problemas. 
 
 ### Diseño y fabricación: de la idea al prototipo, del prototipo al producto
-Los pasos necesarios para construir hardware electrónico han ido mutando con la disponibilidad de herramientas de fabricación digital y FOSS que permite emular parte de los procesos.
+Los pasos necesarios para construir hardware electrónico han ido mutando a partir de la disponibilidad de herramientas de fabricación digital y FOSS que permite emular etapas de diseño y testeo.
 Sin embargo aún se precisa contar con ciertos conocimientos y herramientas específicos en términos de electrónica o programación.
 
 La mayoría de los proyectos comienzan con una idea prototipada rápidamente como prueba de concepto.
@@ -501,13 +502,14 @@ Estas innovaciones permitieron no sólo reducir el espacio que ocupa el circuito
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PCB_design_and_realisation_smt_and_through_hole.png/1024px-PCB_design_and_realisation_smt_and_through_hole.png" width=80%>    
 *Fig 4: ejemplo de diseño digital de circuito impreso (izq.) y circuito final (der.) (Fuente: Wikipedia)*
 
-Actualmente, una vez que se obtiene un diseño de circuito que funciona el próximo paso consiste en trasladar el diseño a su versión digital, que servirá para producir el circuito integrado o PCB.
+Actualmente, una vez que se obtiene una prueba de concepto el próximo paso consiste en trasladar el diseño a su versión digital, que servirá para producir el circuito integrado o PCB.
 Esta 'versión digital' consta de dos partes: un diagrama esquemático ('schematic') y un diagrama de diseño ('layout'). 
 
 El diagrama esquemático es un gráfico donde se especifican los componentes electrónicos (resistencias, capacitores, circuitos integrados) a utilizar y sus conexiones, a través de un sistema de símbolos. 
 En caso de ser necesario también se indica información sobre valores de cada componente (por ejemplo una resistencia de 10-kilohm). 
+
 Sin embargo el esquemático no posee toda la información necesaria para fabricar una plaqueta de circuito impreso, por lo cual se debe armar el diagrama de diseño, que especifica la disposición del circuito en la placa.
-Tanto el esquemático como el layout se obtienen mediante software como Fritzing o KiCad, ambos de código abierto.
+Tanto el esquemático como el layout se obtienen mediante FOSS especializado, como Fritzing o KiCad.
 
 ![esquemático](https://circuitdigest.com/sites/default/files/circuitdiagram_mic/12v-battery-charger-circuit-with-variable-voltage.gif)
 *Fig. 3: Ejemplo de diagrama esquemático para un cargador de batería DIY (Fuente: Circuit Digest)*
@@ -555,17 +557,17 @@ M02*
 ```    
 _Fig 5: ejemplo de archivo en formato Gerber, para ser leído por el fabricante (Fuente: Wikipedia)_
 
-Los pasos descritos aplican al desarrollo de una plaqueta electrónica (PCB), presente en casi todos los artefactos que usamos a diario. 
-Sin embargo, crear un artefacto requiere de otras instancias adicionales, como el diseño del aspecto, elección de los materiales, mecánica entre las partes, programación, etc. 
-
 En cuanto a las dificultades que se identifican en los procesos de desarrollo, principalmente son aquellas relacionadas a la dificultad de conseguir componentes -que no se encuentran disponibles en todos los países-, la necesidad de estandarización en el uso tanto de plataformas electrónicas como de software de diseño, que permita a los grupos interactuar de forma sencilla -en este sentido todos los autores remarcan la importancia de Arduino-, y en menor medida la dificultad para documentar y trackear los cambios entre versiones -para lo cual existen iniciativas de documentación por parte de distintas organizaciones-.
+
+Los pasos descritos aplican al desarrollo de una plaqueta electrónica (PCB), presente en casi todos los artefactos que usamos a diario. 
+Sin embargo, crear un artefacto requiere de otras instancias adicionales de desarrollo, como el diseño final del objeto, elección de los materiales, mecánica de las partes, programación del software, etc. 
 
 #### Buenas prácticas
 
 Aunque la barrera de acceso a la fabricación de hardware es menor en la actualidad, autores como Wozniak (2014) y Oberloier (2017) consideran que las buenas prácticas de diseño son fundamentales para asegurar la accesibilidad y replicabilidad de los desarrollos. 
 
 Wozniak (2014) propone un modelo de diseño de producto para hardware al que denomina 'cascada'. 
-En el mismo se detallan etapas de definición de especificaciones, diseño, prototipado y testeo; unidas por un proceso iterativo.
+En el mismo se detallan etapas de definición de especificaciones, diseño, prototipado y testeo; el proceso es necesariamente iterativo pero requiere de avances secuenciales. .
 
 ![waterfall model of product development](../notas_bibliografia/wozniak.png)
 
@@ -585,7 +587,12 @@ Las guías incluyen no sólo recomendaciones para el diseño si no para la docum
 4. Documentar el diseño, fabricación, ensamblado, calibración y operación en detalle, orientado a un no especialista, siguiendo las guías de OSHWA.
 5. Compartir la documentación en repositorios open source específicos (Open Science Framework, Github, 3DPrint Exchange, Open Circuit Institute)
 
+
 ### Documentación y grados de apertura **FALTA**
+
+One of the challenges they face is that sharing knowledge about atoms is not as frictionless as sharing bits; hardware needs to  be  described  through  more  complex  constructs  like  2D  or  3D schematics, which may require more specific software to  be  edited  and  displayed  (Bonvoisin, 2017). 
+Hardware components are generally less documented than software (), which makes some authors (Bonvoisin, 2017) raise questions around the degrees of openness in open source hardware projects.
+
 
 Journal of Open Hardware
 HardwareX
@@ -595,15 +602,6 @@ Docubricks
 Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. G. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4. https://doi.org/10.1017/dsj.2018.15
 
 Bonvoisin, J., & Mies, R. (2018). Measuring Openness in Open Source Hardware with the Open-o-Meter. Procedia CIRP, 78, 388–393. https://doi.org/10.1016/j.procir.2018.08.306
-
-Bonvoisin, J., Mies, R., Boujut, J.-F., & Stark, R. (2017). What is the “Source” of Open Source Hardware? Journal of Open Hardware, 1(1). https://doi.org/10.5334/joh.7
-
-Bonvoisin, J., & Schmidt, K. C. (2017). Best practices of open source mechanical hardware. https://doi.org/10.14279/depositonce-5729
-
-Wagenknecht. (2014). Taxonomy of Hardware Documentation. In Building Open Source Hardware: DIY Manufacturing for Hackers and Makers.
-
-Yanamandram, V. M. K., & Panchal, J. H. (2014). Evaluating the Level of Openness in Open Source Hardware. In Product development in the socio-sphere (pp. 99–120). New York: Springer.
-
 
 
 

@@ -562,7 +562,7 @@ En cuanto a las dificultades que se identifican en los procesos de desarrollo, p
 Los pasos descritos aplican al desarrollo de una plaqueta electrónica (PCB), presente en casi todos los artefactos que usamos a diario. 
 Sin embargo, crear un artefacto requiere de otras instancias adicionales de desarrollo, como el diseño final del objeto, elección de los materiales, mecánica de las partes, programación del software, etc. 
 
-#### Buenas prácticas
+#### Buenas prácticas de diseño
 
 Aunque la barrera de acceso a la fabricación de hardware es menor en la actualidad, autores como Wozniak (2014) y Oberloier (2017) consideran que las buenas prácticas de diseño son fundamentales para asegurar la accesibilidad y replicabilidad de los desarrollos. 
 
@@ -571,7 +571,6 @@ En el mismo se detallan etapas de definición de especificaciones, diseño, prot
 
 ![waterfall model of product development](../notas_bibliografia/wozniak.png)
 
-Todas las recomenciones (Buechley, ; Malinen, ; Mellis, 2014) coinciden en que otro aspecto clave a la hora de facilitar el proceso de desarrollo de hardware libre es la **modularidad**.
 Oberloier detalla aún más este y otros requisitos en sus procedimiento general para el diseño de hardware científico abierto (2017).
 
 Las guías incluyen no sólo recomendaciones para el diseño si no para la documentación y colaboración, bajo cinco preceptos:
@@ -587,11 +586,15 @@ Las guías incluyen no sólo recomendaciones para el diseño si no para la docum
 4. Documentar el diseño, fabricación, ensamblado, calibración y operación en detalle, orientado a un no especialista, siguiendo las guías de OSHWA.
 5. Compartir la documentación en repositorios open source específicos (Open Science Framework, Github, 3DPrint Exchange, Open Circuit Institute)
 
+En su análisis del proceso de construcción de un derivado open source, Mellis & Buechley (2011) destacan en particular la importancia de la modularidad en el proceso, ya que permite a usuarios menos experimentados utilizar los diseños como patrón y modificar las partes que les interesan, sin afectar la funcionalidad.
 
 ### Documentación y grados de apertura **FALTA**
 
-One of the challenges they face is that sharing knowledge about atoms is not as frictionless as sharing bits; hardware needs to  be  described  through  more  complex  constructs  like  2D  or  3D schematics, which may require more specific software to  be  edited  and  displayed  (Bonvoisin, 2017). 
-Hardware components are generally less documented than software (), which makes some authors (Bonvoisin, 2017) raise questions around the degrees of openness in open source hardware projects.
+Bonvoisin (2017) hace una revisión de la literatura sobre documentación y colaboración en hardware abierto.
+En ella resalta la noción de que uno de los obstáculos principales identificados es que compartir conocimiento sobre átomos no es tan sencillo como compartir conocimiento en bits, los diseños de objetos precisan de otras representaciones como esquemáticos 2D o 3D para ser reproducibles.
+En general los componentes de hardware de los proyectos están documentados en menor grado que los de software (Raasch et al, 2009), originando gradientes de apertura y confusión alrededor del concepto de hardware abierto.
+
+
 
 
 Journal of Open Hardware

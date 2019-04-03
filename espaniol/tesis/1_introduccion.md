@@ -587,11 +587,9 @@ Las guías incluyen no sólo recomendaciones para el diseño si no para la docum
 5. Compartir la documentación en repositorios open source específicos (Open Science Framework, Github, 3DPrint Exchange, Open Circuit Institute)
 
 En su análisis del proceso de construcción de un derivado open source, Mellis & Buechley (2011) destacan en particular la importancia de la modularidad en el proceso, ya que permite a usuarios menos experimentados utilizar los diseños como patrón y modificar las partes que les interesan, sin afectar la funcionalidad.
+Yanamandra (2014) identifica la modularidad en software como la característica fundamental del software abierto que no es trasladada aún al hardware, el hecho de que el hardware se aborde en su totalidad resulta agobiante debido a la diversidad de expertise necesaria para su desarrollo.
 
 ### Documentación y grados de apertura **FALTA**
-
-Bonvoisin (2017) hace una revisión de la literatura sobre documentación y colaboración en hardware abierto.
-En ella resalta la noción de que uno de los obstáculos principales identificados es que compartir conocimiento sobre átomos no es tan sencillo como compartir conocimiento en bits, ya que el diseño de objetos precisa de otras representaciones como esquemáticos 2D o 3D para ser reproducibles.
 
 Wagenknecht (2014) propone una taxonomía de la documentación necesaria para los proyectos de hardware abierto que incluye:
 
@@ -613,25 +611,84 @@ Wagenknecht (2014) propone una taxonomía de la documentación necesaria para lo
 
 Estas recomendaciones se alinean con las buenas prácticas publicadas por la Open Source Hardware Association (OSHWA, 2017).
 
-En general los componentes de hardware de los proyectos están documentados en menor grado que los de software (Raasch et al, 2009), originando gradientes de apertura y confusión alrededor del concepto de hardware abierto.
+Bonvoisin y Schmidt (2017) elaboran recomendaciones para la documentación de proyectos de hardware mecánicos, organizadas alrededor de tres objetivos: 
 
+- Permitir que otros estudien el producto: compartir diseños en formato original en un repositorio, utilizar FOSS
 
-Otra distinción que presenta Bonvoisin es la de diseño abierto 
+- Permitir que otros repliquen el producto: adicionalmente compartir lista de materiales completa e instrucciones de ensamblado en texto e imagen/video
 
+- Permitir que otros contribuyan al producto: compartir archivos editables o utilizar wikis, publicar guías de contribución 
 
+Yanamandra (2014) identifica el control de versiones como una característica fundamental utilizada en software que debe ser trasladada a los archivos de diseño de hardware.
+Considera que existe la necesidad de desarrollar una plataforma que cubra estos requerimientos y permita la colaboración de la comunidad.
+Sin embargo los proyectos de hardware abierto no están centralizados en una plataforma principal, como sí lo hacen las comunidades de software o impresión 3D (Raasch and Herstatt, 2011).
 
-Journal of Open Hardware
-HardwareX
-OSF
-Docubricks
+La comunidad tiende a utilizar una variedad de plataformas para colaboración y difusión (Bonvoisin et al. 2017) como ser GitHub, Thingiverse, Instructables (mayoritariamente personalización del consumo), Docubricks, Open Science Framework (científicos), Kit Space (electrónicos).
+Adicionalmente los diseños pueden publicarse en revistas especializadas, como el Journal of Open Hardware ó HardwareX, pero también de rubros específicos, como revistas sobre diseño, ingeniería, instrumental científico o médico, educación.
 
-Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. G. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4. https://doi.org/10.1017/dsj.2018.15
+Bonvoisin (2017) hace una revisión de la literatura sobre documentación y colaboración en hardware abierto orientada a evaluar cuáles son las prácticas de apertura en la comunidad.
+Uno de los obstáculos principales identificados es que compartir conocimiento sobre átomos no es tan sencillo como compartir conocimiento sobre bits: el diseño de objetos precisa de otras representaciones como esquemáticos 2D o 3D para ser reproducibles.
+En general los componentes de hardware de los proyectos están documentados en menor grado que los de software (Raasch et al, 2009), originando gradientes de apertura y discusiones sobre qué sí es y qué no es hardware abierto.
 
-Bonvoisin, J., & Mies, R. (2018). Measuring Openness in Open Source Hardware with the Open-o-Meter. Procedia CIRP, 78, 388–393. https://doi.org/10.1016/j.procir.2018.08.306
+En cuanto a antecedentes, desde 2016 OSHWA ofrece un programa de auto-certificación que permite utilizar el logo de hardware abierto si se cumple con su definición de hardware abierto, con 180 proyectos suscriptos a mayo 2018 (Bonvoisin y Mies 2018).
+Sin embargo esta propuesta no establece los requisitos mínimos del contenido de la documentación, si no que está orientada a los aspectos del producto relacionados a las licencias abiertas, con la asunción de que ésto garantiza la apertura.
 
+Bonvoisin y Mies (2018) proponen una topografía de la documentación para hardware abierto que considera las cuatro libertades del software libre y las 'fuentes' que deben documentarse para alcanzarlas.
+Toman para ello el concepto de Huizingh de apertura de producto y apertura de proceso, e identifican que en el discurso sobre código abierto la apertura de proceso está implícita por definición, refiriéndose a la transferencia de la innovación desde el ámbito privado al ámbito público.
 
+Los autores mencionan como la apertura del proceso de innovación no está explícitamente declarada en las buenas prácticas o guías de certificación disponibles, y numerosos proyectos no la incorporan.
+Sin embargo alertan que es poco realista en términos de inversión de tiempo para los proyectos exigir toda la documentación ya que además estos requisitos varían en las distintas etapas de vida de los proyectos.
+
+![aproximaciones al ohw](../notas_bibliografia/bonvoisin2018.png)
+
+La evaluación de la apertura de proyectos de hardware abierto de Bonvoisin y colaboradores se basa en cuatro dimensiones identificadas en la literatura y su asociación a las libertades del software libre:
+    
+- Transparencia (T) asociada a la libertad de estudiar, se cumple cuando se publican los archivos de diseño.
+- Accessibilidad (A) asociada a la libertad de modifciar, se cumple cuando el contenido publicado es editable o existen guías para la contribución.
+- Replicabilidad (R) asociada a la libertad de fabricar, se cumple cuando se publican listas de materiales e instrucciones de ensamblado.
+- Posible uso comercial (C) asociada a la libertad de distribución, se cumple cuando las licencias permiten el uso comercial del contenido publicado.
+
+![aproximaciones al ohw](../notas_bibliografia/bonvoisin2017.png)
+
+Además propone un indicador de apertura basado en la disponibilidad de documentación de los proyectos, por puntaje acumulativo (Open-O-Meter):
+
+a. Archivos CAD disponibles     
+b. Archivos CAD editables     
+c. Instrucciones de ensamblado disponibles     
+d. Instrucciones de ensamblado editables     
+e. Lista de materiales disponible     
+f. Lista de materiales editable     
+g. Guías para contribución disponibles      
+h. Uso comercial permitido
+
+La evaluación se aplicó a 132 productos de hardware abierto no electrónicos seleccionados a partir de búsquedas online, y de acuerdo a los resultados se identificaron clusters.
+Los resultados muestran una heterogeneidad de prácticas de documentación, con 18% de proyectos que no cumplen con ninguno de los requisitos. 
+Los autores asocian esto a posibles interpretaciones equivocadas de la apertura, 'open-washing' o el efecto del tiempo sobre los proyectos, e identifican la necesidad de nuevos estándares públicos que clarifiquen el uso del término. 
+
+A partir de la evaluación de las prácticas de documentación los autores identifican dos aproximaciones al hardware abierto: una de desarrollo comunitario que clasifica como hardware de código abierto y otra de difusión de innovaciones alcanzadas dentro del ámbito privado (o public innovation, que no sería open source hardware).
+Estas categorías se desagregan en la documentación que comparten de acuerdo al ciclo de vida del proyecto.
+
+![aproximaciones al ohw](../notas_bibliografia/bonvoisin2017b.png)
+
+Los autores proponen una versión revisada del Open-O-Meter como una metodología rápida de evaluación de apertura en proyectos de hardware abierto, con un máximo de 8 (totalmente abierto, cumple con las prácticas recomendadas) y un mínimo de 0 (no cumple con requisitos de apertura y por lo tanto no es abierto). 
+Esto debe ser complementado con información contextual sobre etapa dentro del ciclo de vida del proyecto ó complejidad, que alteran el máximo de puntos alcanzable.
+
+Los ocho criterios del Open-O-Meter son:
+
+**Apertura de producto**     
+1. Los contenidos están liberados bajo licencias abiertas o compatibles (por ejemplo hardware bajo TAPR, software GPL)
+2. Todos los archivos de diseño (CAD) están disponibles, cuando existe software, el código está disponible, cuando existen componentes electrónicos se comparten los esquemáticos (eCAD).
+3. La lista de materiales está disponible
+4. Las instrucciones de ensamblado están disponibles
+5. Todos los archivos están disponibles en su formato original
+
+**Apertura de proceso**     
+6. Todos los archivos se mantienen con control de versiones permitiendo la edición
+7. Existen guías de contribución
+8. Herramientas de seguimiento de problemas o mecanismos equivalentes permiten trackear tareas y mejoras
 
 ### Comunidad y colaboración **FALTA**
+Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. G. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4. https://doi.org/10.1017/dsj.2018.15
 
 Cruz, A. H. M. (n.d.). Exploring the Open Source Hardware phenomenon: Empirical essays on the role of user communities in the creation of innovation, organizations and markets. 165.
 

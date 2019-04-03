@@ -589,7 +589,7 @@ Las guías incluyen no sólo recomendaciones para el diseño si no para la docum
 En su análisis del proceso de construcción de un derivado open source, Mellis & Buechley (2011) destacan en particular la importancia de la modularidad en el proceso, ya que permite a usuarios menos experimentados utilizar los diseños como patrón y modificar las partes que les interesan, sin afectar la funcionalidad.
 Yanamandra (2014) identifica la modularidad en software como la característica fundamental del software abierto que no es trasladada aún al hardware, el hecho de que el hardware se aborde en su totalidad resulta agobiante debido a la diversidad de expertise necesaria para su desarrollo.
 
-### Documentación y grados de apertura **FALTA**
+### Documentación y grados de apertura
 
 Wagenknecht (2014) propone una taxonomía de la documentación necesaria para los proyectos de hardware abierto que incluye:
 
@@ -670,7 +670,7 @@ Estas categorías se desagregan en la documentación que comparten de acuerdo al
 
 ![aproximaciones al ohw](../notas_bibliografia/bonvoisin2017b.png)
 
-Los autores proponen una versión revisada del Open-O-Meter como una metodología rápida de evaluación de apertura en proyectos de hardware abierto, con un máximo de 8 (totalmente abierto, cumple con las prácticas recomendadas) y un mínimo de 0 (no cumple con requisitos de apertura y por lo tanto no es abierto). 
+Los autores proponen una versión revisada del Open-O-Meter (Bonvoisin y Mies, 2018) como una metodología rápida de evaluación de apertura en proyectos de hardware abierto, con un máximo de 8 (totalmente abierto, cumple con las prácticas recomendadas) y un mínimo de 0 (no cumple con requisitos de apertura y por lo tanto no es abierto). 
 Esto debe ser complementado con información contextual sobre etapa dentro del ciclo de vida del proyecto ó complejidad, que alteran el máximo de puntos alcanzable.
 
 Los ocho criterios del Open-O-Meter son:
@@ -686,6 +686,13 @@ Los ocho criterios del Open-O-Meter son:
 6. Todos los archivos se mantienen con control de versiones permitiendo la edición
 7. Existen guías de contribución
 8. Herramientas de seguimiento de problemas o mecanismos equivalentes permiten trackear tareas y mejoras
+
+Esta metodología la aplican al análisis de tres productos, echOpen (un ecoestetoscopio abierto), inMoov (robot humanoide de tamaño real fabricado a partir de impresión 3D) y POM (un proyecto de Renault para fabricar un vehículo 'open source').
+El resultado del Open-O-Meter en base al análisis de la documentación disponible arroja los siguientes resultados: 
+
+![aproximaciones al ohw](../notas_bibliografia/bonvoisin_mies.png)
+
+Estos tres ejemplos identifican tipos de proyectos de código abierto (echOpen), proyectos con apertura de producto (inMoov) y proyectos cerrados (POM). 
 
 ### Comunidad y colaboración **FALTA**
 Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. G. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4. https://doi.org/10.1017/dsj.2018.15
@@ -854,6 +861,20 @@ Otro modelo de este tipo es el que posee un núcleo de producto abierto y ofrece
 
 ![business canvas Arduino segun Tincq](../notas_bibliografia/tincq_arduinobm.png)
 *Modelo de negocio de Arduino (Tincq, 2013)*
+
+Sobre el modelo de kits para fomentar la innovación de los usuarios, von Hippel y Katz (2002) hacen un análisis de los casos donde las compañías desarrollan kits y concluyen que es una tendencia que se difundirá cada vez más.
+Identifican que éstos resultan particularmente beneficiosos en mercados con demanda muy heterogénea.
+Su mecanismo de acción radica en despegar la información que los usuarios tienen de sus necesidades de la información sobre posibles soluciones que tienen los fabricantes, e incorporarlo en un kit.
+
+Propone cinco medidas que conforman un kit efectivo:
+
+- Permite a los usuarios completar ciclos de aprendizaje en base a prueba y error
+- Ofrece a los usuarios un 'espacio de soluciones' que es coherente con los diseños que se desean crear
+- Habla el lenguaje de los usuarios, no demandando demasiada capacitación adicional
+- Contiene librerías de módulos comúnmente utilizados que el usuario puede incorporar en su diseño enfocándose en su necesidad particular
+- Asegura que los diseños de los usuarios pueden ser producidos por el fabricante sin revisiones o modificaciones adicionales de los expertos dentro de la firma
+
+El fabricante debe saber cuál es el espacio de soluciones posibles a configurar para el usuario, esta información puede obtenerse analizando productos y dimensiones existentes o modificando diseños de herramientas que el fabricante ya utiliza para volverlas más amigables al usuario.
 
 - Modelo 2: Basados en fabricación
 

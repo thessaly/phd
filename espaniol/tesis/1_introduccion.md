@@ -591,9 +591,32 @@ En su análisis del proceso de construcción de un derivado open source, Mellis 
 ### Documentación y grados de apertura **FALTA**
 
 Bonvoisin (2017) hace una revisión de la literatura sobre documentación y colaboración en hardware abierto.
-En ella resalta la noción de que uno de los obstáculos principales identificados es que compartir conocimiento sobre átomos no es tan sencillo como compartir conocimiento en bits, los diseños de objetos precisan de otras representaciones como esquemáticos 2D o 3D para ser reproducibles.
+En ella resalta la noción de que uno de los obstáculos principales identificados es que compartir conocimiento sobre átomos no es tan sencillo como compartir conocimiento en bits, ya que el diseño de objetos precisa de otras representaciones como esquemáticos 2D o 3D para ser reproducibles.
+
+Wagenknecht (2014) propone una taxonomía de la documentación necesaria para los proyectos de hardware abierto que incluye:
+
+- Archivo README con una descripción rápida del proyecto, licencias, atribución, tiempo y costo de fabricación y nivel de expertise necesario
+
+- Sitio web para dirigir al usuario a los recursos relevantes y a los canales de comunicación rápidamente
+
+- Lista de materiales (ó BoM por sus siglas en inglés) considerando diferencias de disponibilidad de materiales entre países, principales proveedores, costos y hojas de producto
+    
+- Tutoriales en imagen o video 
+
+- Archivos fuente de hardware que pueden incluir:
+    - Dibujos 2D o archivos CAD utilizados para cortadoras láser, en su formato original -Corel Draw (.cdr), Inkscape (.svg), Adobe Illustrator (.ai), AutoCAD-.
+    - Diseños 3D para ser impresos, moldeados, extrudados o cualquier otro proceso -SolidWorks (.sldprt, .sldasm) ó Rhino-.
+    - Esquemáticos y layouts para PCB -Eagle, Altium, KiCad, gEDA-.
+    - Librerías de componentes necesarias para la modificación de los archivos CAD.
+    - Dibujos técnicos adicionales en formato original que sean necesarios para la fabricación
+    - Diseños artísticos adicionales incluidos en el producto, por ejemplo con fines estéticos
+
+Estas recomendaciones se alinean con las buenas prácticas publicadas por la Open Source Hardware Association (OSHWA, 2017).
+
 En general los componentes de hardware de los proyectos están documentados en menor grado que los de software (Raasch et al, 2009), originando gradientes de apertura y confusión alrededor del concepto de hardware abierto.
 
+
+Otra distinción que presenta Bonvoisin es la de diseño abierto 
 
 
 

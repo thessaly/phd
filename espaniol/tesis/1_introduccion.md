@@ -697,23 +697,13 @@ Estos tres ejemplos identifican tipos de proyectos de código abierto (echOpen),
 ### Comunidad y colaboración **FALTA**
 Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. G. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4. https://doi.org/10.1017/dsj.2018.15
 
-Cruz, A. H. M. (n.d.). Exploring the Open Source Hardware phenomenon: Empirical essays on the role of user communities in the creation of innovation, organizations and markets. 165.
-
-Hallgren, J., & Wiberg, W. (n.d.). Open Source Hardware – A case study of user developed derivatives. 47.
-
-Kyriakou, H., & Nickerson, J. V. (2014). Collective Innovation in Open Source Hardware. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.2421332
-
-Mellis L., D. . B. (2012). Collaboration in Open-Source Hardware: Third-Party Variations on the Arduino Duemilanove.
-
 Mies, R., Bonvoisin, J., & Jochem, R. (2018). Harnessing the Synergy Potential of Open Source Hardware Communities. In Co-creation: reshaping business and society in the era of bottom-up economics. New York, NY: Springer Berlin Heidelberg.
-
-Morreale, F., Moro, G., Chamberlain, A., Benford, S., & McPherson, A. P. (2017). Building a Maker Community Around an Open Hardware Platform. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems  - CHI ’17, 6948–6959. https://
-doi.org/10.1145/3025453.3026056
 
 Tech, R. P. G., Ferdinand, J.-P., & Dopfer, M. (2016). Open Source Hardware Startups and Their Communities. In The decentralized and networked future of value creation (pp. 129–145). New York, NY: Springer Berlin Heidelberg.
 
-Wozniak. (2014). The Design Process: How to Get from Nothing to Something. In Building Open Source Hardware: DIY Manufacturing for Hackers and Makers.
-
+- Definir comunidad, qué es? (getting clear about communities)
+- diferencias con el sw
+- crowdsourcing
 
 Una de las principales cuestiones que la literatura analiza es la diferencia entre el proceso de desarrollo del software y el de hardware.
 Mientras la virtualidad del software facilita la colaboración sin mediar distancias en un proceso bastante directo entre usuarios, la materialidad inherente al desarrollo de hardware implica que éste requiera de instancias discretas y potencialmente independientes de trabajo. 
@@ -875,6 +865,8 @@ Propone cinco medidas que conforman un kit efectivo:
 - Asegura que los diseños de los usuarios pueden ser producidos por el fabricante sin revisiones o modificaciones adicionales de los expertos dentro de la firma
 
 El fabricante debe saber cuál es el espacio de soluciones posibles a configurar para el usuario, esta información puede obtenerse analizando productos y dimensiones existentes o modificando diseños de herramientas que el fabricante ya utiliza para volverlas más amigables al usuario.
+
+Diversos autores dentro de la literatura de innovación exploran dentro de este modelo cómo las firmas pueden contribuir a formar comunidades y producir innovaciones exitosas, cómo los diversos grados de apertura incentivan o no la innovación, o qué tipo de interacciones se originan entre comunidades donde las firmas deciden abrir sus diseños (Cruz, 2017; Balka, 2013).
 
 - Modelo 2: Basados en fabricación
 

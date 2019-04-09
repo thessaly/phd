@@ -6,7 +6,7 @@ You can take a look at my **resumé** [here](/resume.md)
 
 ### Contact
 
-Easiest way to contact me is via e-mail to [jarancio@fund-cenit.org.ar](mailto:jarancio@fund-cenit.org.ar) or [Twitter](https://www.twitter.com/cassandreces)
+Easiest way to contact me is via e-mail to [jarancio@unsam.edu.ar](mailto:jarancio@unsam.edu.ar) or [Twitter](https://www.twitter.com/cassandreces)
 
 If you happen to be in Geneva and want to talk about **open-anything**, don't hesitate, drop me a line!
 

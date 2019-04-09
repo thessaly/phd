@@ -694,27 +694,108 @@ El resultado del Open-O-Meter en base al análisis de la documentación disponib
 
 Estos tres ejemplos identifican tipos de proyectos de código abierto (echOpen), proyectos con apertura de producto (inMoov) y proyectos cerrados (POM). 
 
-### Comunidad y colaboración **FALTA**
+### Comunidad y colaboración
+
+West y Lakhani (2008) critican el escaso estudio de las comunidades dentro de los trabajos sobre innovación abierta (Chesbrough, 2003; Chesbroughet al., 2006; Gassmann, 2006) e identifica que refieren al concepto de "comunidad" con aproximaciones implícitas, explícitas o fenomenológicas.
+Los autores proponen una definición de 'comunidad' en la innovación abierta basada en el trabajo de Gläser (2001), como *una asociación voluntaria de actores, típicamente sin afiliación previa (por ejemplo no trabajan para la misma firma) pero reunidas alrededor de un objetivo compartido concreto*.
+
+El nivel de análisis de comunidad puede resultar complejo, ya que están integradas tanto por usuarios aislados como por miembros de compañías o fabricantes (von Hippel, 2005), y en diferentes niveles de pertenencia. 
+Uno de los conceptos más cercanos al de comunidad es el de Red, donde las normas de reputación, reciprocidad y relaciones mutuamente benéficas también existen (Powell, 1990).
+
+Con el objetivo de definir los límites de la 'comunidad' como objeto de estudio, West y Lakhani formulan algunos interrogantes: quiénes integran la comunidad? Es un conjunto de firmas una comunidad o una red? Existen redes dentro de las comunidades o viceversa? Es posible hablar de comunidad si no existe sentido de pertenencia (Corlett, 1989)?
+
+#### Originales y derivados
+
+Mellis (2010) identifica cinco formas de interacción de las personas con los objetos abiertos, a partir del estudio del proceso de adaptación de un diseño de radio FM:
+
+- Hacer: replicar el objeto a partir del diseño digital, lo que permite a los usuarios entender cómo está hecho, ensamblado y cómo funciona.
+- Personalizar: modificaciones simples que no afectan la funcionalidad del diseño pero crean una conexión personal entre el objeto y su desarrollador
+- Diseñar: Utilizando el diseño original como patrón, diseñar una nueva forma manteniendo aspectos requeridos para el ensamblado o funcionamiento
+- Desarrollar: explorar posibilidades técnicas y aprendizajes a través de situarlos en un contexto (el del objeto) que motiva e inspira nuevas ideas
+- Experimentar: probar usos, lógicas, materiales o percepciones diferentes alrededor de un objeto
+
+Según el autor la ventaja de la aproximación open source radica en que estas relaciones entre personas y objetos pueden ser compartidas con otros que la modificarán a su vez o integrarán en sus propias ideas.
+Esto se ve imposibilitado en otros diseños como el de kits de desarrollo, donde la elaboración está más restringida por el universo de posibilidades ideado por el fabricante del kit.
+
+Gibb (2014) detalla una guía de buenas prácticas a la hora de hacer un derivado de un producto de hardware abierto, es decir replicarlo y/o modificarlo a partir de los diseños originales, que tiene en cuenta principalmente cuestiones de atribución.
+
+Kyriakou (2014) propone el estudio de una plataforma online (Thingiverse) para analizar el concepto de derivados o 'remixing' a través del cual los miembros de una comunidad modifican o combinan ideas de otros.
+Este proceso bajo diferentes nombres es identificado como clave en el desarrollo de la innovación (van den Bergh 2008; Kogut and Zander 1996; Schumpeter 1934). 
+
+#### Modelos de interacción
+
+Dentro de los estudios de innovación abierta, el rol de las comunidades es ampliamente estudiado en el campo del FOSS (Lakhani y von Hippel, 2003), específicamente en cómo el soporte comunitario facilita la adopción y uso de la innovación.
+
+Los estudios de FOSS proveen modelos de 'cebolla' o innovación en capas, donde los desarrolladores pertenecen al núcleo del proyecto (quienes revisan, lideran y mantienen) o a la periferia (grupo mayor de colaboradores). 
+El núcleo depende de la periferia para reportar fallas, probar soluciones y proveer mejoras, que son luego incorporadas por el núcleo en la próxima versión (Rullani, 2007).
+El desarrollo del producto es un proceso de aprendizaje evolutivo, dirigido por la crítica y corrección de errores, institucionalizado como revisión de pares, de forma continua.
+
+Buechley remarca que este proceso de colaboración se da de manera más descentralizada en hardware que en software, observándose mucho más frecuentemente múltiples iniciativas de pequeña escala, con una dinámica más "privada" de la colaboración, sobre grandes iniciativas a partir de comunidades numerosas. 
+El carácter privado de la colaboración también es observado por Malinen en el caso del desarrollo del eCar finés: a la hora de construir hardware, es más común que la colaboración exitosa se pueda dar en pequeños grupos que al menos una vez se encuentran físicamente en lugares de trabajo.
+
+Raasch y colaboradores (2011) comparan este modelo de software con el proceso de desarrollo abierto de un producto de hardware, identificando similitudes y diferencias. 
+Dentro de las similitudes encuentran el uso de licencias abiertas, la ausencia de control sobre la participación de los colaboradores, la distinción entre núcleo y periferia de colaboradores asociados a roles diferenciales, la estructura de revisión, experimentación y liberación de versiones estables y el desarrollo basado en la experimentación y práctica por parte de la comunidad. 
+
+Las diferencias son agrupadas en cuatro categorías:
+
+- Habilidades 
+
+La diversidad de conocimientos requerida para desarrollar un proyecto dificulta la coordinación de esfuerzos, sumando trabajo al núcleo de desarrolladores.
+Frente a esto la mayoría de los proyectos limita las contribuciones activas a través de minimizar el apoyo a desarrollos nuevos o limitar directamente el número de desarrolladores núcleo. 
+De esta forma se intenta hacer coincidir la demanda de coordinación con la disponibilidad de tiempo existente, en proyectos generalmente voluntarios.
+
+- Herramientas
+
+Las herramientas para diseñar objetos suelen ser costosas, no proveer las funcionalidades requeridas o presentar una curva de aprendizaje costosa. 
+Para sortear la primer dificultad los grupos suelen utilizar herramientas FOSS, cada vez más disponibles. 
+La segunda efectivamente afecta el desarrollo haciéndolo más lento y reduciendo el número de colaboradores.
+La última implica el abandono de colaboradores hobbistas o voluntarios part-time, también disminuyendo el número total de colaboradores.
+
+- Propiedad intelectual
+
+En casos donde se trata de realizar derivados, o en situaciones de ingeniería reversa, la existencia de patentes sobre los objetos o copyright sobre diseños implica que partes del diseño son cajas cerradas para los colaboradores.
+
+- Producción física
+
+La variabilidad en la posibilidad de adquirir componentes en distintos países es importante, los proyectos como RepRap atacan esta dificultad incorporando listas de materiales lo más estándar posible.
+Sin embargo estas variaciones geográficas siguen siendo importantes, por lo en casos como RepRap se generaron sub-comunidades por región, orientadas a proveer soporte en condiciones locales.
+
+La mayor parte de la experimentación ocurre offline por lo cual la documentación es un esfuerzo extra.
+Esto hace que por ejemplo los experimentos fallidos no sean generalmente documentados, cambiando el foco de la revisión de pares a la revisión individual. 
+Esta secuencia de colaboración offline y online no está totalmente explorada.
+
+Raasch y colaboradores proponen una serie de soluciones a estas dificultades, encabezadas por una propuesta de modularidad total del diseño, que consideran es favorable frente a los cuatro desafíos expuestos anteriormente.
+
+![challenges and solutions for open design](../notas_bibliografia/raasch2011.png)
+
+Mellis (2012) analiza las variaciones de la plaqueta Arduino Duemilanove para caracterizar la dinámica de la colaboración en hardware respecto de software. 
+Encuentra que se trata de un ecosistema de numerosos grupos pequeños (incluyendo compañías) que ofrecen alternativas alrededor de un mismo producto, sin cambiar su funcionalidad inicial. 
+
+El autor encuentra diferencias con el proceso del software que se asimilan a las encontradas por Raasch et al (2011):
+
+- Es necesario acordar en fundamentos mínimos, como el tipo de componentes a utilizar en el desarrollo (e.g. surface-mount components vs through-hole components), para facilitar la colaboración y el testeo de ideas en un plano físico. 
+
+- La frecuencia de iteración e integración de cambios es menor y costosa, incentivando a los usuarios a comercializar su versión más que contribuir al producto original
+
+- Las herramientas de control de versiones de hardware que se utilizan no son específicas, impidiendo un total aprovechamiento del proceso
+
+West y Lakhani mencionan que aunque el modelo de cebolla es observable, los límites entre el núcleo y periferia son más  claros que los límites entre colaboradores y no colaboradores de la periferia.
+Cita como ejemplo el estudio de 116 proyectos de la plataforma SourceForge (Crowston et al., 2006) donde se encontraron diferentes nociones de pertenencia a partir de responsabilidades, contribuciones e interacciones.
+
+Brujin (2010) se enfoca en las motivaciones para la colaboración en las comunidades, y distingue entre comportamientos a futuro y comportamientos reactivos. 
+Los primeros refieren a cómo los individuos participan más cuando existe el potencial de recibir feedback, los segundos a que los individuos participan más cuando observan que otros también lo hacen, a modo de comportamiento recíproco (Cheshire, 2007). 
+
+Tech (2016) categoriza las interacciones dentro de una comunidad en: contribuciones, apoyo y documentación tanto online como offline; e identifica cómo aquellas propuestas por miembros de mayor prestigio o antigüedad son ampliamente aceptadas, mientras que los miembros nuevos generalmente no obtienen el momentum necesario debido a críticas poco constructivas o ser ignorados en los foros.
+Asocia la colaboración offline a los fablabs/hackerspaces, donde se suma un sentido de pertenencia a la comunidad a través de actividades de socialización; y detecta una diferencia entra la modalidad de colaboración online versus la offline, con la primera tendiente a publicar los diseños una vez alcanzado un estadío de producto medianamente avanzado, no antes. 
+
+### Participación en hardware de código abierto
+
 Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. G. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4. https://doi.org/10.1017/dsj.2018.15
 
 Mies, R., Bonvoisin, J., & Jochem, R. (2018). Harnessing the Synergy Potential of Open Source Hardware Communities. In Co-creation: reshaping business and society in the era of bottom-up economics. New York, NY: Springer Berlin Heidelberg.
 
-Tech, R. P. G., Ferdinand, J.-P., & Dopfer, M. (2016). Open Source Hardware Startups and Their Communities. In The decentralized and networked future of value creation (pp. 129–145). New York, NY: Springer Berlin Heidelberg.
+Morreale, F., Moro, G., Chamberlain, A., Benford, S., & McPherson, A. P. (2017). Building a Maker Community Around an Open Hardware Platform. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems  - CHI ’17, 6948–6959. https://doi.org/10.1145/3025453.3026056
 
-- Definir comunidad, qué es? (getting clear about communities)
-- diferencias con el sw
-- crowdsourcing
-
-Una de las principales cuestiones que la literatura analiza es la diferencia entre el proceso de desarrollo del software y el de hardware.
-Mientras la virtualidad del software facilita la colaboración sin mediar distancias en un proceso bastante directo entre usuarios, la materialidad inherente al desarrollo de hardware implica que éste requiera de instancias discretas y potencialmente independientes de trabajo. 
-Como se ve en algunos estudios de caso, esto determina cuellos de botella particulares, asociados principalmente al multi-expertise requerido para modificar un objeto y a la existencia de patentes en los objetos físicos. 
-Al respecto, algunas organizaciones han comenzado a documentar protocolos de desarrollo de OSH, a manera de guías de buenas prácticas (Oberloier y Pearce, 2017) o describiendo procesos exitosos (Ackermann, 2009).
-
-A diferencia del proceso colaborativo que da origen al software libre, en el caso del hardware la multiplicidad de conocimientos requeridos para comenzar a trabajar impone ciertas restricciones: salvo contadas excepciones, se requiere de trabajo en grupo donde actores de diversa formación aporten sus conocimientos.
-
-Algunos autores enfatizan que uno de los criterios para que un desarrollo de hardware sea exitoso es que la comunidad de colaboradores sea lo suficientemente grande para asegurar un mínimo de aportes diversos.  
-Sin embargo, Buechley remarca que este proceso de colaboración se da de manera más descentralizada en hardware que en software, observándose mucho más frecuentemente múltiples iniciativas de pequeña escala, con una dinámica más "privada" de la colaboración, sobre grandes iniciativas a partir de comunidades numerosas. 
-El carácter privado de la colaboración también es observado por Malinen en el caso del desarrollo del eCar finés: a la hora de construir hardware, es más común que la colaboración exitosa se pueda dar en pequeños grupos que al menos una vez se encuentran físicamente en lugares de trabajo.
 
 ### Licencias para hardware
 

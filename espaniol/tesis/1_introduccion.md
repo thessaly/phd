@@ -562,6 +562,25 @@ En cuanto a las dificultades que se identifican en los procesos de desarrollo, p
 Los pasos descritos aplican al desarrollo de una plaqueta electrónica (PCB), presente en casi todos los artefactos que usamos a diario. 
 Sin embargo, crear un artefacto requiere de otras instancias adicionales de desarrollo, como el diseño final del objeto, elección de los materiales, mecánica de las partes, programación del software, etc. 
 
+Mellis (2010) identifica cinco formas de interacción de las personas con los objetos abiertos, a partir del estudio del proceso de adaptación de un diseño de radio FM:
+
+- Hacer: replicar el objeto a partir del diseño digital, lo que permite a los usuarios entender cómo está hecho, ensamblado y cómo funciona (proceso descrito anteriormente)
+
+- Personalizar: modificaciones simples que no afectan la funcionalidad del diseño pero crean una conexión personal entre el objeto y su desarrollador
+
+- Diseñar: Utilizando el diseño original como patrón, diseñar una nueva forma manteniendo aspectos requeridos para el ensamblado o funcionamiento
+
+- Desarrollar: explorar posibilidades técnicas y aprendizajes a través de situarlos en un contexto (el del objeto) que motiva e inspira nuevas ideas
+
+- Experimentar: probar usos, lógicas, materiales o percepciones diferentes alrededor de un objeto
+
+Según el autor la ventaja de la aproximación open source radica en que estas relaciones entre personas y objetos pueden ser compartidas con otros que la modificarán a su vez o integrarán en sus propias ideas.
+Esto se ve imposibilitado en otros diseños como el de kits de desarrollo, donde la elaboración está más restringida por el universo de posibilidades ideado por el fabricante del kit.
+
+Kyriakou (2014) propone el estudio de una plataforma online (Thingiverse) para analizar el concepto de derivados o 'remixing' a través del cual los miembros de una comunidad modifican o combinan ideas de otros.
+Este proceso bajo diferentes nombres es identificado como clave en el desarrollo de la innovación (van den Bergh 2008; Kogut and Zander 1996; Schumpeter 1934). 
+
+
 #### Buenas prácticas de diseño
 
 Aunque la barrera de acceso a la fabricación de hardware es menor en la actualidad, autores como Wozniak (2014) y Oberloier (2017) consideran que las buenas prácticas de diseño son fundamentales para asegurar la accesibilidad y replicabilidad de los desarrollos. 
@@ -588,6 +607,7 @@ Las guías incluyen no sólo recomendaciones para el diseño si no para la docum
 
 En su análisis del proceso de construcción de un derivado open source, Mellis & Buechley (2011) destacan en particular la importancia de la modularidad en el proceso, ya que permite a usuarios menos experimentados utilizar los diseños como patrón y modificar las partes que les interesan, sin afectar la funcionalidad.
 Yanamandra (2014) identifica la modularidad en software como la característica fundamental del software abierto que no es trasladada aún al hardware, el hecho de que el hardware se aborde en su totalidad resulta agobiante debido a la diversidad de expertise necesaria para su desarrollo.
+Gibb (2014) detalla una guía de buenas prácticas a la hora de hacer un derivado de un producto de hardware abierto, es decir replicarlo y/o modificarlo a partir de los diseños originales, que tiene en cuenta principalmente cuestiones de atribución.
 
 ### Documentación y grados de apertura
 
@@ -703,24 +723,6 @@ El nivel de análisis de comunidad puede resultar complejo, ya que están integr
 Uno de los conceptos más cercanos al de comunidad es el de Red, donde las normas de reputación, reciprocidad y relaciones mutuamente benéficas también existen (Powell, 1990).
 
 Con el objetivo de definir los límites de la 'comunidad' como objeto de estudio, West y Lakhani formulan algunos interrogantes: quiénes integran la comunidad? Es un conjunto de firmas una comunidad o una red? Existen redes dentro de las comunidades o viceversa? Es posible hablar de comunidad si no existe sentido de pertenencia (Corlett, 1989)?
-
-#### Originales y derivados
-
-Mellis (2010) identifica cinco formas de interacción de las personas con los objetos abiertos, a partir del estudio del proceso de adaptación de un diseño de radio FM:
-
-- Hacer: replicar el objeto a partir del diseño digital, lo que permite a los usuarios entender cómo está hecho, ensamblado y cómo funciona.
-- Personalizar: modificaciones simples que no afectan la funcionalidad del diseño pero crean una conexión personal entre el objeto y su desarrollador
-- Diseñar: Utilizando el diseño original como patrón, diseñar una nueva forma manteniendo aspectos requeridos para el ensamblado o funcionamiento
-- Desarrollar: explorar posibilidades técnicas y aprendizajes a través de situarlos en un contexto (el del objeto) que motiva e inspira nuevas ideas
-- Experimentar: probar usos, lógicas, materiales o percepciones diferentes alrededor de un objeto
-
-Según el autor la ventaja de la aproximación open source radica en que estas relaciones entre personas y objetos pueden ser compartidas con otros que la modificarán a su vez o integrarán en sus propias ideas.
-Esto se ve imposibilitado en otros diseños como el de kits de desarrollo, donde la elaboración está más restringida por el universo de posibilidades ideado por el fabricante del kit.
-
-Gibb (2014) detalla una guía de buenas prácticas a la hora de hacer un derivado de un producto de hardware abierto, es decir replicarlo y/o modificarlo a partir de los diseños originales, que tiene en cuenta principalmente cuestiones de atribución.
-
-Kyriakou (2014) propone el estudio de una plataforma online (Thingiverse) para analizar el concepto de derivados o 'remixing' a través del cual los miembros de una comunidad modifican o combinan ideas de otros.
-Este proceso bajo diferentes nombres es identificado como clave en el desarrollo de la innovación (van den Bergh 2008; Kogut and Zander 1996; Schumpeter 1934). 
 
 #### Modelos de interacción
 

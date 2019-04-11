@@ -354,95 +354,9 @@ Pearce aduce que se habrían reducido los costos de producir hardware científic
 >
 >En 2011 nació el grupo conocido como "Clone Wars" dentro de la comunidad RepRap, con el fin de documentar en español todo lo necesario para que cualquier persona pueda construir su propia impresora 3D.
 
-## ¿Cuáles son los principales usos del hardware abierto? **FALTA**
-
-### Ciencia y tecnología en contextos académicos
-
-Uno de los sectores donde el OSHW ha tenido mayor impacto ha sido el de desarrollo de instrumental para laboratorios científicos. Combinando el uso de Arduino e Impresión 3D, investigadores de diversos puntos del planeta comienzan a generar instrumental específico, que permite automatizar la toma de datos a menores tiempos y costos de investigación. Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
-
->**Box 6: Bomba de jeringa open source (OSSP)**
->
->Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
->
->El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
->
->La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
->
-><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
->_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
->
->Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
-
-Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
-
-En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
-
-Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
-
-- biología sintética
-- óptica, microscopios
-- microfluídica
-- física (CERN y otros)
-- nanotecnología
-- muestreos ambientales/biológicos
-- química
-
-### Ciencia comunitaria
-
-- monitoreos ambientales comunitarios
-- biohacking
-- drones
-
-### Medicina
-
-### Agricultura
-
-### Educación
-
-- educación STEM
-- introducción a la electrónica para alumnos de diseño y otros
-
-Dentro del ámbito de la educación, el principal impacto se ve en la enseñanza de contenidos técnicos a través de los talleres de robótica. La robótica presenta una doble ventaja como herramienta en la educación técnica: por un lado combina un componente de interés y fascinación por parte de los estudiantes -materializado en múltiples concursos a escala global- y a la vez requiere el desarrollo de múltiples habilidades: mecánica, electrónica, gestión energía, ciencias de la computación, entre otras. Para orientar estos cursos en ciertos colegios o universidades se utilizan herramientas de programación de bajo nivel como lenguaje ensamblador, o nivel medio como lenguaje C. Sin embargo la sintaxis o estructura de estos lenguajes se convierte en algún momento en barreras que desmotivan a los estudiantes:, si le sumamos la parte electrónica, el montaje y el diseño, muchas veces se vuelve un motivo de frustración.
-
-La principal ventaja del OH en este campo es el aumento de la velocidad de iteración, es decir la posibilidad de experimentar a un bajo costo, y la creatividad que se puede desarrollar a partir de la utilización de sistemas flexibles, como Arduino. Un punto no menor consiste en que al contar con el diseño completamente abierto, los estudiantes acceden a experimentar con los desarrollos en todos los niveles y los docentes encuentran más fácil la tarea de dar soporte y mantenimiento.
-
-Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. Existen múltiples experiencias de estudiantes y talleres en escuelas donde se evidencia la sencillez y mayor velocidad en los procesos de aprendizaje cuando se utilizan diseños basados en OSHW.
-
-Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
-
-> **Box 7: Minipiano - Haciendo música con Arduino**
->
->En este experimento, Bordignon e Iglesias enseñan a los estudiantes, a través de la construcción de un piano de tres teclas, a trabajar con luces led, botones y con un buzzer para entender cómo se leen los datos y cómo utilizarlos en los programas que se realizarán en Arduino.
->  
->A medida que el desarrollo del juguete va requiriendo mayores capacidades, las instrucciones van entrando en mayor detalle: valores de verdad y condiciones lógicas, sentencias de programación específicas, etc.
->
-><img src=https://i.ytimg.com/vi/bHOqsk8TnGY/maxresdefault.jpg width=70%>    
->_Fig. 11. En la plataforma YouTube se pueden encontrar distintas versiones del proyecto de minipiano en Arduino (Fuente: YouTube)_
-
-Otra rama de la educación donde comienza a evidenciarse el potencial del OSHW, cercano a la robótica, es en el diseño de sistemas embebidos. Un sistema embebido es una combinación de hardware y software que trabaja junto con algún sistema mecánico o electrónico diseñado para cumplir una función específica. Por lo tanto, se usa para dotar de "inteligencia" a un artefacto, por ejemplo electrodomésticos. Miles de millones de microprocesadores se fabrican por año en el mundo, sin embargo 99% de ellos permanece invisible para los consumidores, siendo su destino los sistemas embebidos.
-
-En este ámbito se puede observar una motivación cercana al movimiento *maker*, relacionada a la corriente del aprendizaje construccionista y su leitmotiv de "aprender haciendo", basada en las ideas de John Dewey, Maria Montessori, y Jean Piaget. Los educadores que adhieren a esta orientación plantean que enseñar en la práctica el uso del hardware y su intervención permite tener una perspectiva más amplia sobre el funcionamiento de las tecnologías digitales y deja de lado la visión de los objetos cotidianos como cajas negras cerradas y mágicas para pasar a percibirlos como resultado de un diseño premeditado. Además, hacen hincapié en la valoración del error como método de aprendizaje, generando un espacio seguro donde los estudiantes pueden tomar información a partir de experimentos fallidos.
-
-En el ámbito local es importante mencionar el trabajo de Bordignon e Iglesias, donde proponen una serie de experimentos basados en Arduino para aplicar en clase. Trabajando con sistemas embebidos, detallan la información necesaria para que en distintos niveles del ciclo educativo los estudiantes puedan desarrollar desde un semáforo o un termómetro hasta juegos con electrónica de mayor complejidad (ver Box 7).
-
-### Productos de consumo
-- wearables
-- DIY hedonista
-
-### Arte
-
-- audiovisuales
-- sonido
-- performance
-
-### Activismo 
-- transhackfeminismo 
-- redes libres
-
 ## ¿Cómo se hace hardware abierto?
 
 ### Herramientas de fabricación digital 
-
 Como se mencionaba en la sección '¿Por qué ahora?', el desarrollo y difusión de herramientas de fabricación digital tuvo un impacto directo en el surgimiento de proyectos de hardware abierto (Söderberg, 2013).
 Muchas de las herramientas tecnológicas que conforman la práctica de la fabricación digital no son particularmente nuevas; lo novedoso en la actualidad son las reducciones de los costos y escala de las tecnologías y un aumento de la versatilidad en el proceso de fabricación (Fressoli y Smith, 2015).
 
@@ -582,7 +496,6 @@ Este proceso bajo diferentes nombres es identificado como clave en el desarrollo
 
 
 #### Buenas prácticas de diseño
-
 Aunque la barrera de acceso a la fabricación de hardware es menor en la actualidad, autores como Wozniak (2014) y Oberloier (2017) consideran que las buenas prácticas de diseño son fundamentales para asegurar la accesibilidad y replicabilidad de los desarrollos. 
 
 Wozniak (2014) propone un modelo de diseño de producto para hardware al que denomina 'cascada'. 
@@ -610,7 +523,6 @@ Yanamandra (2014) identifica la modularidad en software como la característica 
 Gibb (2014) detalla una guía de buenas prácticas a la hora de hacer un derivado de un producto de hardware abierto, es decir replicarlo y/o modificarlo a partir de los diseños originales, que tiene en cuenta principalmente cuestiones de atribución.
 
 ### Documentación y grados de apertura
-
 Wagenknecht (2014) propone una taxonomía de la documentación necesaria para los proyectos de hardware abierto que incluye:
 
 - Archivo README con una descripción rápida del proyecto, licencias, atribución, tiempo y costo de fabricación y nivel de expertise necesario
@@ -715,7 +627,6 @@ El resultado del Open-O-Meter en base al análisis de la documentación disponib
 Estos tres ejemplos identifican tipos de proyectos de código abierto (echOpen), proyectos con apertura de producto (inMoov) y proyectos cerrados (POM). 
 
 ### Comunidad y colaboración
-
 West y Lakhani (2008) critican el escaso estudio de las comunidades dentro de los trabajos sobre innovación abierta (Chesbrough, 2003; Chesbroughet al., 2006; Gassmann, 2006) e identifica que refieren al concepto de "comunidad" con aproximaciones implícitas, explícitas o fenomenológicas.
 Los autores proponen una definición de 'comunidad' en la innovación abierta basada en el trabajo de Gläser (2001), como *una asociación voluntaria de actores, típicamente sin afiliación previa (por ejemplo no trabajan para la misma firma) pero reunidas alrededor de un objetivo compartido concreto*.
 
@@ -723,6 +634,10 @@ El nivel de análisis de comunidad puede resultar complejo, ya que están integr
 Uno de los conceptos más cercanos al de comunidad es el de Red, donde las normas de reputación, reciprocidad y relaciones mutuamente benéficas también existen (Powell, 1990).
 
 Con el objetivo de definir los límites de la 'comunidad' como objeto de estudio, West y Lakhani formulan algunos interrogantes: quiénes integran la comunidad? Es un conjunto de firmas una comunidad o una red? Existen redes dentro de las comunidades o viceversa? Es posible hablar de comunidad si no existe sentido de pertenencia (Corlett, 1989)?
+
+Mies y colaboradores (2018) definen a las comunidades de hardware de código abierto como grupos heterogéneos de agentes y actores que co-crean productos de hardware abierto. 
+Los colaboradores contribuyen de forma individual tomando el rol de seguidores, replicadores, desarrolladores o administradores dentro de la comunidad, de forma auto-organizada eligiendo tanto el rol como el tiempo que invierten en él.
+Extrapolan directamente el modelo de capas típico de FOSS (ver 'Modelos de interacción'), definiendo cómo dentro de estas comunidades, colaboradores dispersos geográficamente son coordinados por un equipo central a través de plataformas online (Mies et al, 2018).
 
 #### Modelos de interacción
 
@@ -790,16 +705,46 @@ Los primeros refieren a cómo los individuos participan más cuando existe el po
 Tech (2016) categoriza las interacciones dentro de una comunidad en: contribuciones, apoyo y documentación tanto online como offline; e identifica cómo aquellas propuestas por miembros de mayor prestigio o antigüedad son ampliamente aceptadas, mientras que los miembros nuevos generalmente no obtienen el momentum necesario debido a críticas poco constructivas o ser ignorados en los foros.
 Asocia la colaboración offline a los fablabs/hackerspaces, donde se suma un sentido de pertenencia a la comunidad a través de actividades de socialización; y detecta una diferencia entra la modalidad de colaboración online versus la offline, con la primera tendiente a publicar los diseños una vez alcanzado un estadío de producto medianamente avanzado, no antes. 
 
-### Participación en hardware de código abierto
+Morreale y colaboradores (2017) estudian cómo surge una comunidad maker alrededor de un instrumento musical abierto (Bela).
+Sus resultados revelan cómo sólo liberar los diseños bajo código abierto resulta insuficiente para que una comunidad surja, y cómo conectar el desarrollo a otras herramientas y comunidades abiertas existentes resulta eficiente para atraer colaboradores.
 
-Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. G. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4. https://doi.org/10.1017/dsj.2018.15
+Los autores identifican al crowdfunding o financiamiento colectivo como un facilitador en la formación de comunidades, no sólo por los recursos económicos disponibles si no por la difusión del proyecto y atracción de futuros usuarios/colaboradores.
+En cuanto a la sostenibilidad de las comunidades destacan la importancia de la presencia física (por ejemplo en makerspaces) como forma de facilitar los procesos de aprendizaje situado, y el mayor éxito de comunidades alrededor de herramientas concretas que posibilitan a los usuarios construir sus propios desarrollos.
 
-Mies, R., Bonvoisin, J., & Jochem, R. (2018). Harnessing the Synergy Potential of Open Source Hardware Communities. In Co-creation: reshaping business and society in the era of bottom-up economics. New York, NY: Springer Berlin Heidelberg.
+Mies y colaboradores (2018) resaltan que la fuente primaria de creación de valor de las comunidades consiste en generar momentum que culmine en trabajo distribuido, relevante al desarrollo de objetos complejos, dependiente de múltiples habilidades y colaboración.
+Identifica que las comunidades incentivan a la colaboración basada en resolución de problemas concretos en todas las fases de desarrollo de producto, desde diseño a fabricación. 
+Al ser procesos mediados por internet requieren del uso de herramientas de trabajo en equipos, uso de redes sociales, manejo de datos y comunicación, dentro de las que resaltan las herramientas de control de versiones. 
 
-Morreale, F., Moro, G., Chamberlain, A., Benford, S., & McPherson, A. P. (2017). Building a Maker Community Around an Open Hardware Platform. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems  - CHI ’17, 6948–6959. https://doi.org/10.1145/3025453.3026056
+Los autores observan a partir de la documentación en las herramientas de control de versión el siguiente procedimiento: 
 
+(i) definición (modularidad) y auto asignación de tareas     
+(ii) contribución y validación por parte del equipo núcleo (en múltiples iteraciones)      
+(iii) integración de versiones estables (mejora continua)     
+(iv) documentación a medida que se desarrolla
 
-### Licencias para hardware
+De esta forma las comunidades descritas por los autores progresan hacia mejores versiones de un desarrollo de forma auto-organizada, modular, tarea por tarea.
+
+Bonvoisin y colaboradores (2018) analizan proyectos de hardware abierto a partir de datos de repositorios online para entender qué tan transparentes son y cómo se distribuyen las contribuciones dentro de los mismos.
+En cuanto a la transparencia encuentran que las contribuciones se reflejan en los repositorios en la mayoría de los proyectos, incluso en la edición de archivos de hardware que son más difíciles de evaluar en el control de versiones. 
+
+En cuanto a la distribución de las contribuciones, encuentran que la estructura de la mayoría de los proyectos es descentralizada, un 30% asociada al modelo de red en estrella que se observa en las contribuciones FOSS.
+Sin embargo existe una heterogeneidad de prácticas de hardware abierto que hace que los autores identifiquen un continuo entre el proceso colaborativo y la innovación pública, totalmente participativos y totalmente no participativos respectivamente.
+
+Como parte del análisis detectan los siguientes patrones en cuanto a contribuciones (nodos son colaboradores, conexiones son contribuciones entre colaboradores):
+
+- Cluster 0: redes altamente conectadas, descentralizadas con sub-equipos conectados. Número de colaboradores promedio mayor al resto, son numerosas conexiones entre colaboradores y sin un nodo central definido
+
+- Cluster 1: proyectos individuales que involucran un bajo número de colaboradores en paralelo, con muy pocas conexiones entre nodos
+
+- Cluster 2: proyectos altamente centralizados, con un bajo número de colaboradores y algunas excepciones con más colaboradores, bajo un modelo de estrella indicando que las contribuciones son revisadas por el mismo 'gatekeeper'
+
+- Cluster 3: redes descentralizadas escasamente conectadas y con sub-equipos o colaboradores no conectados. El número de colaboradores es medio tendiente a bajo, con sub-equipos bajo modelo de estrella.
+
+![challenges and solutions for open design](../notas_bibliografia/bonvoisin2018c.png)
+
+La metodología presenta limitaciones ya que sólo alcanza a proyectos con repositorios online bajo control de versiones, aunque permite detectar algunas tendencias.
+
+### Licencias abiertas para hardware
 
 El objetivo de contar con licencias para hardware es asegurar tanto la libre circulación de ideas como la atribución a los autores.
 Una de las distinciones fundamentales que diferencian al hardware de FOSS es que el copyright aplica a los esquemáticos y los diseños, pero no al producto tangible, donde aplican patentes y marcas registradas.
@@ -883,7 +828,6 @@ La aplicación a materiales humanos no está contemplada en esta versión, pero 
 
 
 ## Modelos de negocio para hardware abierto
-
 Autores como Bauwens (2011) y Söderberg (2011) asocian al hardware abierto con la producción distribuida y sus beneficios (fabricación local, menores costos de distribución y transporte, comunidades de innovación, mayor participación).
 La aparición y crecimiento de los proyectos basados en hardware abierto, particularmente el caso de Arduino y otras firmas como Sparkfun y Adafruit, desafían la lógica de los modelos de negocio tradicionales. 
 
@@ -1142,6 +1086,74 @@ En Latinoamérica en general aún no se multiplican las recomendaciones de polí
 Particularmente son cuatro recomendaciones en la misma dirección que la propuesta de Pearce. 
 En Venezuela en el 2004 se realizaron talleres que convocaron miembros del sector público y privado para la "Elaboración  de  Políticas  para  la Administración y Uso del Hardware en la Administración Pública".
 El propósito fundamental de ese taller era el  “fortalecimiento  de  la  infraestructura  tecnológica  en  el  área  de manufactura, producción y comercialización de hardware, también fomentar el conocimiento y la capacidad de invención, comercialización de productos en el mercado interno y externo aprovechando nuestro potencial y ubicación geopolítica en el mundo.” (Córdova, 2004)
+
+
+## ¿Cuáles son los principales usos del hardware abierto? **FALTA**
+
+### Ciencia
+
+Uno de los sectores donde el OSHW ha tenido mayor difusión ha sido el de desarrollo de instrumental científico.
+Combinando el uso de Arduino e Impresión 3D, investigadores alrededor del mundo fabrican instrumentos específicos que reducen los costos de investigación y amplían la autonomía de los investigadores.
+Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
+
+>**Box 6: Bomba de jeringa open source (OSSP)**
+>
+>Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
+>
+>El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
+>
+>La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
+>
+><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
+>_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
+>
+>Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
+
+Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
+
+En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
+
+Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
+
+- biología sintética
+- óptica, microscopios
+- microfluídica
+- física (CERN y otros)
+- nanotecnología
+- muestreos ambientales/biológicos
+- química
+- monitoreos ambientales comunitarios
+- biohacking
+- drones
+
+### Medicina
+
+### Agricultura
+
+### Educación
+Sin dudas la irrupción de Arduino es la que más fuertemente influencia al ámbito educativo en términos de hardware abierto.
+Surgido a partir de una colaboración entre docentes específicamente orientados a la currícula de diseño interactivo, se ve multiplicada en la actualidad en incontables aplicaciones y derivados.
+Su aproximación práctica y simplificada a la electrónica facilita el aprendizaje técnico y su bajo costo abre la posibilidad a realizar numerosas iteraciones, por lo cual es masivamente adoptada.
+
+Arduino es utilizado en diversos campos educativos como robótica (Ocak 2017; Soriano 2014; Araujo et al. 2015), herramientas de laboratorio (Sarik 2010; Salvador et al. 2016); diseño interactivo (Buechley and Eisenberg 2008; Gibb 2010; Varesano 2013); e instrumental científico para educación STEM (D’Ausilio 2012) incluyendo monitoreo y sensores ambientales (Baker 2014; Ali et al. 2016; Kenny et al. 2019).
+
+Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. 
+Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
+
+
+### Productos de consumo
+- wearables
+- DIY hedonista
+
+### Arte
+
+- audiovisuales
+- sonido
+- performance
+
+### Activismo 
+- transhackfeminismo 
+- redes libres
 
 
 ## Desafíos

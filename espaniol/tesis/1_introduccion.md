@@ -8,40 +8,41 @@ El primero es la falta de una traducción. ¿Cómo se traduce 'hardware'? ¿Se t
 ¿Es necesario traducirlo? 
 
 En segundo lugar aparece la asociación directa del término al ámbito de la informática. 
-Coloquialmente en español entendemos el concepto 'hardware' como el soporte físico (ref RAE) o los componentes materiales de una computadora, equiparándolo al concepto de 'computer hardware' en inglés. 
+Coloquialmente en español entendemos el concepto 'hardware' como el soporte físico o los componentes materiales de una computadora, equiparándolo al concepto de *'computer hardware'* en inglés. 
 Esto genera algunos problemas dado que se pierden en la traducción acepciones importantes. 
-'Hardware' originalmente incluye al conjunto de equipamiento o componentes utilizados para un fin en particular (ref Merriam-webster). 
+
+*'Hardware'* originalmente incluye al conjunto de equipamiento o componentes utilizados para un fin en particular. 
 Se trata de una definición amplia, que abarca tanto herramientas para crear música como equipamiento militar o ferretería industrial, por nombrar algunos usos.
 
 Este trabajo de tesis trata sobre el caso particular del hardware científico abierto. 
 Tomamos la definición de 'hardware científico' de la comunidad Global por el Hardware Científico Abierto ó GOSH (2018):
 
-> "El Hardware Científico Abierto (HwCA) refiere a cualquier tipo de hardware utilizado en investigaciones científicas que pueda ser obtenido, ensamblado, utilizado, estudiado, modificado, compartido y vendido por cualquier persona.
-> Incluye equipamiento tradicional de laboratorio tanto como materiales auxiliares como pueden ser sensores, reactivos biológicos, componentes electrónicos analógicos o digitales."
+> *El Hardware Científico Abierto (HwCA) refiere a cualquier tipo de hardware utilizado en investigaciones científicas que pueda ser obtenido, ensamblado, utilizado, estudiado, modificado, compartido y vendido por cualquier persona.
+> Incluye equipamiento tradicional de laboratorio tanto como materiales auxiliares como pueden ser sensores, reactivos biológicos, componentes electrónicos analógicos o digitales.*
 
 
 El término 'abierto' que utilizamos también se toma de la convención de esta comunidad (GOSH, 2018):
 
-> "La definición de Hardware científico abierto está en parte inspirada por las comunidades de Hardware Abierto y de Obras culturales Libres, pero los términos 'libre' (free) y 'abierto' (open) pueden prestarse a confusión.
-> La palabra 'libre' (free) en inglés en el contexto de la tecnología se suele malinterpretar como 'gratis' (free of charge).
+> *La definición de Hardware científico abierto está en parte inspirada por las comunidades de Hardware Abierto y de Obras culturales Libres, pero los términos 'libre' (free) y 'abierto' (open) pueden prestarse a confusión.
+> La palabra 'libre' (free) en inglés en el contexto de la tecnología se suele malinterpretar como 'gratis' (free of charge).*
 >
-> Nosotros la entendemos, sin embargo, como la libertad de restricciones a comprar, hacer, utilizar, estudiar, modificar, compartir y vender.
-> Estas libertades no implican que una tecnología deba ser gratis o no comercial.
+> *Nosotros la entendemos, sin embargo, como la libertad de restricciones a comprar, hacer, utilizar, estudiar, modificar, compartir y vender.*
+> *Estas libertades no implican que una tecnología deba ser gratis o no comercial.*
 >
-> Utilizamos el término 'abierto' para el hardware científico en contraste al hardware cerrado propietario, pero se deben tener en cuenta los valores mencionados anteriormente."
+> *Utilizamos el término 'abierto' para el hardware científico en contraste al hardware cerrado propietario, pero se deben tener en cuenta los valores mencionados anteriormente.*
 
-Esta distinción entre 'abierto' y 'libre' deriva de la barrera idiomática y se puede observar en la mayoría de las comunidades que trabajan con materiales no propietarios. En español esa ambigüedad no existe, por lo cual es común encontrar los términos 'hardware libre', 'tecnologías libres', 'tecnologías abiertas' y otros en proyectos de Latinoamérica. 
-Conociendo esta multiplicidad de denominaciones en la región, en este trabajo se utilizará la denominación 'hardware científico abierto' ya que figura oficialmente en la traducción al español del manifiesto GOSH.
+Esta distinción entre *'abierto'* y *'libre'* deriva de la barrera idiomática y se puede observar en la mayoría de las comunidades que trabajan con materiales no propietarios. En español esa ambigüedad no existe, por lo cual es común encontrar los términos *'hardware libre'*, *'tecnologías libres'*, *'tecnologías abiertas'* y otros en proyectos de Latinoamérica. 
+Conociendo esta multiplicidad de denominaciones en la región, en este trabajo se utilizará la denominación *'hardware científico abierto'* ya que figura oficialmente en la traducción al español del manifiesto GOSH.
 
-La definición de GOSH hace referencia a dos comunidades: de Hardware Abierto (OSHWA) y de Obras Culturales Libres que son ligeramente diferentes. 
+La definición de GOSH hace referencia a dos comunidades: de Hardware Abierto (OSHWA) y de Obras Culturales Libres, que son ligeramente diferentes. 
 
-Por un lado la comunidad [Open Hardware Association (OSHWA)](https://www.oshwa.org/) toma la siguiente definición de apertura:
+a) La comunidad [Open Hardware Association (OSHWA)](https://www.oshwa.org/) toma la siguiente definición de apertura:
 
 >"Hardware abierto es aquel hardware cuyo diseño se hace disponible públicamente para que cualquier persona lo pueda estudiar, modificar, distribuir, materializar y vender, tanto el original como otros objetos basados en ese diseño.
 >
 >Las fuentes del hardware (entendidas como los ficheros fuente) habrán de estar disponibles en un formato apropiado para poder realizar modificaciones sobre ellas. Idealmente, el hardware de fuentes abiertas utiliza componentes y materiales de alta disponibilidad, procesos estandarizados, infraestructuras abiertas, contenidos sin restricciones, y herramientas de fuentes abiertas de cara a maximizar la habilidad de los individuos para materializar y usar el hardware. El hardware de fuentes abiertas da libertad de controlar la tecnología y al mismo tiempo compartir conocimientos y estimular la comercialización por medio del intercambio abierto de diseños".
 
-Por otro lado, desde las [Obras Culturales Libres](https://freedomdefined.org) la apertura se basa en las cuatro libertades:
+b) Desde las [Obras Culturales Libres](https://freedomdefined.org) la apertura se basa en las cuatro libertades derivadas del software libre:
 
 >
 - la libertad de usar el trabajo y disfrutar de los beneficios de su uso
@@ -65,36 +66,15 @@ Las definiciones de las dos comunidades no son sustancialmente distintas, pero l
 Para que el hardware sea abierto, se considera que lo que debe abrirse son los archivos correspondientes a su diseño (esquemáticos, listas de materiales, instrucciones de uso y armado, software, etc). 
 
 Esta dificultad plantea preguntas interesantes alrededor de los conceptos de apertura y accesibilidad.
-¿Es abierto un desarrollo que tiene entre sus componentes un microprocesador que sólo puede ser fabricado en un lugar del mundo? ¿O un desarrollo que requiere de un expertise para ser utilizado, que no está disponible en ciertas comunidades?
+¿Es abierto un desarrollo que tiene entre sus componentes un microprocesador que sólo puede ser fabricado en un lugar del mundo? ¿O un desarrollo que requiere de un expertise que no está disponible en ciertas comunidades? 
 
-Este capítulo tiene la intención de introducir el concepto de hardware científico abierto a través de un hilo imaginario que conecta las distintas etapas de desarrollo de un proyecto de hardware científico abierto.
+Este capítulo tiene la intención de introducir el concepto de hardware científico abierto a través de un hilo imaginario que conecta las distintas etapas de desarrollo de un proyecto de estas características.
 Comienza con los orígenes y antecedentes, siguiendo con los factores macro que favorecieron el crecimiento exponencial de estas prácticas en los últimos años, para luego pensar qué razones movilizan a las personas a diseñar estos proyectos, cómo lo hacen, qué beneficios y qué obstáculos se presentan en el camino e incipientes recomendaciones de políticas de promoción. 
-A su vez se introducen algunos casos relevantes a nivel global, ya sea por la importancia de sus comunidades o su rol de multiplicador de nuevas iniciativas.
-
-***
->**Box 1: Arduino**  
->  
->Arduino es una plataforma de prototipado libre compuesta por una placa electrónica de entradas y salidas simple y un entorno de desarrollo que utiliza un lenguaje de programación fácil de usar. Los diseños del hardware y el software se encuentran liberados bajo licencia Creative Commons CompartirIgual 2.5 (Share-A-Like), lo que habilita a compartir, adaptar e incluso distribuir comercialmente los objetos creados en base a Arduino, siempre y cuando se indiquen las modificaciones realizadas y se mantenga el mismo tipo de licencia. Arduino funciona además como "marca", ya que se comercializan placas oficiales que pagan por llevar el nombre Arduino y otras que no y se definen como “Arduino-compatibles”.
->
-> En su origen, Arduino fue pensado por un equipo de cinco personas en el Ivrea Interaction Design Institute en Turín, Italia, con el objetivo de contar con una herramienta sencilla de utilizar para estudiantes, que les permitiera fabricar objetos sin tener que contar con conocimientos avanzados de electrónica. Actualmente, además de la plataforma, Arduino es una comunidad organizada alrededor de su sitio web, donde más de 300 mil usuarios de distintas partes del mundo comparten sus diseños, recomendaciones y preguntas.
->
-><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Reprap_Darwin.jpg" width=50%>       
->_Fig. 1: Versión 1.0 (Darwin) de RepRap, la impresora 3D autorreplicable basada en Arduino (Fuente: Wikipedia)_
->
->
->Arduino posee algunas ventajas que lo volvieron una de las ‘estrellas’ del hardware libre, viralizando su uso en cientos de proyectos a escala global y motorizando así la nueva ola del movimiento maker. Los atributos que destacan en Arduino son, principalmente: bajos costos -la placa más sencilla cuesta menos de 25 dólares-, compatibilidad en todos los sistemas operativos -Windows, Macintosh, Linux-, utilizar un lenguaje de programación simple para los novatos pero con funcionalidades potentes para los expertos, y la posibilidad de contar con código abierto tanto en software como hardware, posibilitando el intercambio entre usuarios y sumando modificaciones y nuevas funcionalidades en base a experiencias de otros.
->
->Arduino es empleado, entre otros usos, para crear instrumental de laboratorio económico y adaptado a las necesidades de los científicos
->(Baden et al, 2015; Pearce, 2012), por docentes para enseñar programación y robótica a estudiantes (Bordignon, 2015; Valera et al, 2014), por músicos y artistas para experimentar y realizar nuevas instalaciones (Juan Cortés; Zach Gage), por ingenieros y diseñadores para prototipar nuevos artefactos (Gautam et al, 2016; Karvinen y Karvinen, 2011) y por ejemplo, construir dispositivos de accesibilidad -como anteojos o calzado para no videntes-.
-***
+A su vez se introducen algunos casos relevantes a nivel global, ya sea por la importancia de sus comunidades o su rol de habilitador o multiplicador de nuevas iniciativas.
 
 ## ¿Quiénes y por qué desarrollan hardware científico abierto?
 
-Una de las discusiones centrales en la literatura open source es la de entender por qué las comunidades desarrollan tecnologías abiertas, qué motivaciones encuentran para invertir tiempo y energía en proyectos que pueden -o no- monetizarse, o qué otro tipo de retribuciones reciben los colaboradores. 
-Al mirar el panorama de las comunidades que se encuentran desarrollando hardware abierto para ciencia el primer rasgo que surge es la heterogeneidad. 
-
-Las motivaciones detrás de estos "hacedores" son diversas, abarcando un amplio espectro que incluye la figura del inventor hobbista y la tradición del “hágalo usted mismo”, las comunidades con una orientación política claramente definida, ancladas tanto en el autonomismo como el mediactivismo o la ética hacker, hasta nuevos emprendedores y organizaciones que comienzan a experimentar con modelos de negocio basados en la apertura.
-
+En la práctica de hardware abierto confluyen corrientes heterogéneas, con orígenes en la figura del inventor hobbista y la tradición del hágalo-usted-mismo (o DIY), en las comunidades con una orientación política claramente definida, con influencias autonomistas y medioactivistas, en la ética hacker, y más cercano en el tiempo, en el emprendedurismo.
 Esta sección intenta reconstruir los contextos y motivaciones que consideramos más relevantes al análisis de la comunidad de hardware científico abierto.
 
 ### Filosofía del Software Libre
@@ -104,160 +84,120 @@ Aunque el dominio específico de este movimiento sea el ámbito de la computaci�
 Su principal referente es Richard Stallman, quien en 1985 creó la Fundación por el Software Libre (FSF por sus siglas en inglés). 
 Después de graduarse en Harvard en 1971 Stallman comenzó a trabajar en el laboratorio de Inteligencia Artificial del MIT como programador, en un ambiente signado por la cultura hacker y la colaboración entre pares:
 
-> Whenever people from another university or a company wanted to port and use a program, we gladly let them. If you saw someone using an unfamiliar and interesting program, you could always ask to see the source code, so that you could read it, change it, or cannibalize parts of it to make a new program (Stallman, 1999)
+> *Whenever people from another university or a company wanted to port and use a program, we gladly let them. If you saw someone using an unfamiliar and interesting program, you could always ask to see the source code, so that you could read it, change it, or cannibalize parts of it to make a new program (Stallman, 1999)*
 
-Este panorama de libre intercambio de código mutó hacia el inicio de la década de los '80. 
-Por un lado la comunidad hacker(1) se vio desintegrada por el éxodo de los integrantes del laboratorio hacia empresas privadas. 
-Por otro lado, los fabricantes comenzaron a imponer restricciones a la copia y redistribución de código alegando razones de competencia y amparados por la recientemente publicada Ley de Copyright de Estados Unidos, en 1976 (ref). 
+Este panorama de libre intercambio de código mutó hacia el inicio de la década de los '80, tanto por el éxodo de gran parte de la comunidad hacker hacia empresas privadas como por las restricciones que los fabricantes comenzaron a imponer sobre la copia y redistribución de código, alegando razones de competencia y amparados por la recientemente publicada Ley de Copyright de Estados Unidos, en 1976 (ref). 
 Este carácter privativo de la producción de código continuaría en auge hasta el día de hoy, aunque con matices en los últimos años.
 
-A partir de este cambio en 1983 Stallman inicia el proyecto GNU ("GNU's Not UNIX") con el fin de producir un sistema operativo completamente libre. 
+A partir de este cambio en 1983 Stallman inicia el proyecto GNU (GNU's Not UNIX) con el fin de producir un sistema operativo completamente libre. 
 UNIX en ese entonces era uno de los sistemas operativos más ampliamente utilizados, privativo, creado por Ken Thompson y Dennis Ritchie tras abandonar un proyecto con MIT y sumarse a AT&T Bell Laboratories. 
 Contar con un sistema operativo libre constituía la base que habilitaría cualquier desarrollo de código posterior.
 
-Con el propósito de garantizar que la distribución de GNU no se volviera propietaria, Stallman crea el método 'copyleft': utiliza la ley de copyright para garantizar que el producto siga siendo libre, de forma contraria a su propósito original. 
-El instrumento específico que utiliza es la "Licencia Pública General de GNU" (o GNU GPL por sus siglas en inglés), una licencia que garantiza al usuario libertades de uso, modificación, distribución y estudio al mismo tiempo que le impide agregar futuras restricciones a estas mismas libertades.
+Con el propósito de garantizar que la distribución de GNU no se volviera propietaria, Stallman crea el método *copyleft*: utiliza la ley de copyright para garantizar que el producto siga siendo libre, de forma contraria a su propósito original. 
+El instrumento específico que utiliza es la *Licencia Pública General de GNU* (o GNU GPL por sus siglas en inglés), una licencia que garantiza al usuario libertades de uso, modificación, distribución y estudio al mismo tiempo que le impide agregar futuras restricciones a estas mismas libertades.
 
-A principios de los años '90 existía suficiente desarrollo en la comunidad GNU como para crear un sistema operativo funcional, sin embargo el núcleo o kernel (Hurd) no estaba lo suficientemente desarrollado. 
-Esto es lo que comenzó a desarrollar en 1991 Linus Torvalds, y que publicaría luego como Linux kernel bajo la licencia GPLv2, habilitando el uso de GNU-Linux a escala global.
+A principios de los años '90 existía suficiente desarrollo en la comunidad GNU como para crear un sistema operativo funcional, sin embargo el núcleo o kernel no estaba lo suficientemente desarrollado y por lo tanto el código no podía ser utilizado. 
+Este componente es el que comenzó a desarrollar en 1991 Linus Torvalds, y que publicaría luego como Linux kernel bajo la licencia GPLv2, habilitando el uso de GNU-Linux a escala global.
+
+Uno de los más importantes derivados del desarrollo del proyecto GNU y el trabajo de la Fundación por el Software Libre es el concepto de *código abierto* (open source), que surge como respuesta de un grupo de programadores dentro del mismo movimiento al término *software libre*.
+El contenido político y la ambiguedad en inglés del término *free software*, que se a gratuidad, volvían difícil su adopción en el ámbito de los negocios. 
+Es por esto que deciden generar un nuevo concepto, orientado a resaltar los beneficios en términos de colaboración y eficiencia, más cercano a la terminología empresarial.
+
+En 1998 Eric Raymond -programador, autor de *La Catedral y el Bazar*, texto de referencia en el ámbito open source-, hace un llamado público a la comunidad de software libre a adoptar el nuevo término y funda la asociación *Open Source Initiative*. 
+Contó con el apoyo de muchos personajes importantes de la comunidad en el primer *Open Source Summit*; entre otros Linus Torvalds. 
+Richard Stallman se opone al concepto de código abierto ya que '*resalta la posibilidad de crear software potente y de alta calidad, pero evita las ideas de libertad, comunidad y principios*'.
+
+A modo de ejemplo de las controversias en la comunidad, en 2007 luego de años de discusiones en la comunidad de software libre se lanzó la licencia GPLv3.
+La mayor diferencia entre las versiones v2 y v3 es que la última prohíbe la *tivoización*, concepto acuñado por Stallman para referirse a dispositivos que utilizan software con licencia GPLv2 pero limitan las libertades del usuario mediante modificaciones de hardware. 
+Torvalds se alejó de la discusión y no adoptó la GPLv3, por lo cual Linux sigue siendo GPLv2.
+
+La visión del grupo disidente creció tanto en número como influencia convirtiéndose en hegemónica en la actualidad, con licencias específicas open source (ref) y un cada vez mayor número de compañías utilizando software de código abierto (ref), entre las cuales se encuentran grandes nombres como Google, Facebook o Microsoft. 
+En los últimos años la definición de Código Abierto (ref) se modificó para incluir requerimientos adicionales a la libre disponibilidad del código, incorporando cláusulas de no discriminación a las personas, colectivos o grupos de trabajo.
 
 Compartir de forma pública las innovaciones o mejoras realizadas de forma individual no constituye una novedad a través de la historia, ya que pueden rastrearse antecedentes en áreas tan diversas como la industria del hierro en el siglo XVIII (Allen, 1983) o el equipamiento médico (Von Hippel and Finkelstein,1979). 
 Sin embargo el aporte del movimiento por el Software Libre a través del concepto de copyleft, sus licencias y la promoción del modelo de producción de pares sistematizó una forma de trabajar -e innovar- colaborativa, de libre circulación de la información. 
 
-Según Mansell y Berdou (2008), GPL establece un proceso de governanza auto-propagador por fuera del control de autoridades nacionales, internacionales u organismos de regulación que usualmente controlan el diseño, producción y circulación del conocimiento y la información.
-Esto inspiró otros movimientos en diversas áreas (open Source drugs, Open Design, Free Culture, Open Source Ecology para nombrar algunos), incluyendo el desarrollo de hardware.
-
-Uno de los más importantes derivados del desarrollo del proyecto GNU y el trabajo de la Fundación por el Software Libre es el concepto de "Código abierto" (open source). 
-Surge como respuesta de un grupo de programadores al término "software libre", dentro del mismo movimiento. 
-El contenido político y la ambiguedad en inglés del término 'free software' -que lo asocia a gratuidad- volvían difícil su adopción en el ámbito de los negocios. 
-Es por esto que deciden generar un nuevo concepto, orientado a resaltar los beneficios en términos de colaboración y eficiencia, más cercano a la terminología empresarial.
-
-En 1998 Eric Raymond -programador, autor de *'La Catedral y el Bazar'*, referencia en el ámbito open source-, hace un llamado público a la comunidad de software libre a adoptar el nuevo término y funda la asociación "Open Source Initiative". 
-Contó con el apoyo de muchos personajes importantes de la comunidad en el primer "Open Source Summit"; dentro de quienes apoyaron la iniciativa se encontraba Linus Torvalds. 
-Richard Stallman se opone al concepto de código abierto ya que "resalta la posibilidad de crear software potente y de alta calidad, pero evita las ideas de libertad, comunidad y principios".
-
-A modo de ejemplo de las controversias en la comunidad, en 2007 luego de años de discusiones en la comunidad de software libre se lanzó la licencia GPLv3.
-La mayor diferencia entre las versiones v2 y v3 es que la última prohíbe la 'tivoización', concepto acuñado por Stallman para referirse a dispositivos que utilizan software con licencia GPLv2 pero limitan las libertades del usuario mediante modificaciones de hardware. 
-Torvalds se alejó de la discusión y no adoptó la GPLv3, por lo cual Linux sigue siendo GPLv2.
-
-La visión del grupo disidente creció tanto en número como influencia convirtiéndose en hegemónica en la actualidad, con licencias específicas open source (ref) y un cada vez mayor número de compañías utilizando software de código abierto (ref), entre las cuales se encuentran grandes nombres como Google, Facebook o Microsoft. 
-En los últimos años la definición de Código Abierto (ref) incluyó requerimientos adicionales a la libre disponibilidad del código, incorporando cláusulas de no discriminación a las personas, colectivos o grupos de trabajo.
-
-***
->**Box2: Hardware científico abierto en CERN**
->
->
-***
+Según Mansell y Berdou (2008), GPL establece un proceso de gobernanza auto-propagador por fuera del control de autoridades nacionales, internacionales u organismos de regulación que usualmente controlan el diseño, producción y circulación del conocimiento y la información.
+Este modelo descentralizado de producción sumado al éxito del modelo de software de código abierto inspiraron una expansión a diversas áreas (open source drugs, open design, free culture, entre otros), incluyendo el desarrollo de hardware abierto.
 
 ### Cultura hacker
 Como se mencionaba anteriormente, la filosofía del software libre es uno de los pilares del movimiento de hardware abierto y en particular de hardware abierto científico. 
 En los años de surgimiento alrededor de 1980 el MIT fue uno de los lugares donde la cultura hacker comenzó y floreció; la visión de este grupo se ve expresada en uno de los textos claves de la época: *'Hackers: Heroes of the Computer Revolution'* (Levy, 1984).
 
-El libro de Levy hace explícita una 'ética hacker' que incluye compromiso con la libre circulación de la información, la meritocracia y la creencia de que puede construirse un mundo mejor y más bello utilizando computadoras.
-Numerosas aproximaciones a la cultura hacker invocan este hito aplicándolo a toda la comunidad y obviando las múltiples y diversas motivaciones que coexisten dentro de ella (Coleman, 2009).
-
+El libro de Levy hace explícita una *ética hacker* que incluye compromiso con la libre circulación de la información, la meritocracia y la creencia de que puede construirse un mundo mejor y más bello utilizando computadoras.
 El concepto de libertad, ya sea en términos de libertad de expresión, privacidad, meritocracia o poder de los individuos, es constituyente principal del discurso hacker (Coleman, 2004; Kelty, 2005, 2008). 
 Sin embargo la articulación de estos conceptos liberales toma diferentes formas en la interacción con sistemas socio-técnicos diversos, creando un set de expresiones relacionadas pero diferentes en torno a la propiedad, el trabajo y la creatividad (Coleman y Golub, 2008).
 
 Maxigas (2012) propone reconstruir estas identidades diversas a partir de una genealogía de dos de los espacios predominantemente habitados por la comunidad hacker a partir de los años '90: los hackerspaces y los hacklabs. 
-Esta aproximación resulta útil porque muestra dos polos dentro del gradiente de orientaciones, que dan origen a los múltiples ensamblados que encontramos en la actualidad.
-Además permite entender cómo sobre la figura de los hackerspaces, por ejemplo, se suman en los últimos años nuevas comunidades como la de Biohacking.
+Esta aproximación resulta útil porque identifica dos formas que darán origen a los múltiples contextos ensamblados que encontramos en la actualidad.
+Permite también entender cómo sobre la figura de los hackerspaces, por ejemplo, se suman en los últimos años nuevas comunidades como la de Biohacking.
 
 #### Hacklabs, autonomistas y mediactivistas 
-El primero de los casos se centra alrededor del espacio de los ‘hacklabs’. Yuill (2008) los define como "*[...] espacios voluntarios que proveen acceso público y gratuito a computadoras y a Internet. Usualmente hacen uso de máquinas recuperadas y recicladas que corren GNU/Linux y a la vez que proveen acceso a computadoras, la mayoría de los hacklabs tienen talleres funcionando en un rango de temas que van desde el uso básico de la computadora e instalación de software GNU/Linux, hasta programación, electrónica y radiodifusión independiente (o pirata). Los primeros hacklabs se desarrollaron en Europa, usualmente surgiendo de tradiciones de centros sociales ocupados y media labs comunitarios. En Italia se les relaciona con los centros sociales autonomistas y en España, Alemania y en los Países Bajos con movimientos de ocupación anarquistas"*. 
+El primero de los casos se centra alrededor del espacio de los *hacklabs*. Yuill (2008) los define como '*[...] espacios voluntarios que proveen acceso público y gratuito a computadoras y a Internet [...] La mayoría de los hacklabs tienen talleres funcionando en una variedad de temas que van desde el uso básico de la computadora e instalación de software GNU/Linux, hasta programación, electrónica y radiodifusión independiente (o pirata).'* 
+
+Los primeros hacklabs se desarrollaron en Europa alrededor de centros comunitarios en los *squats* y *medialabs* comunitarios. 
+En Italia se les relaciona con los centros sociales autonomistas y en España, Alemania y en los Países Bajos con movimientos de ocupación anarquistas.
 
 Los movimientos autonomistas, basados en conceptos marxistas y anarquistas, tuvieron relevancia en los años '70 en Italia, Alemania y Francia con la premisa de proveer alternativas a las instituciones administradas por el Estado. 
-Una de sus estrategias era el squatting u ocupación de inmuebles, donde una de las funciones de los espacios ocupados era la de 'centro social' donde se reproducían alternativas a las instituciones oficiales.
+Una de sus estrategias era el *squatting* u ocupación de inmuebles.
+Una de las actividades principales en los *squats* era la asignada a los centros comunitarios, donde se reproducían funciones alternativas a las desempeñadas por las instituciones del Estado.
 
-El medioactivismo era otra práctica difundida, sobre una tradición de publicación independiente con hitos en la radiodifusión pirata y comunitaria desde los años '60. 
-Las comunidades de medioactivistas apropiaron tecnologías de consumo masivo como grabadoras y otros productos electrónicos accesibles en los años '80, y luego computadoras personales. 
-Su objetivo entre otros era bajar las barreras para la participación de la producción cultural y tecnológica, y establecer una infraestructura de comunicación distribuida para organizaciones anticapitalistas. 
-Como tales, tuvieron un rol importante en el surgimiento del movimiento alternativo a la globalización: la iniciativa de mayor resonancia en este sentido fue la red Indymedia de comunicación independiente.
+El medioactivismo es la práctica de publicación periodística independiente con orígenes en la radiodifusión pirata y comunitaria de los años '60, muy activa en los años '90 y de rol clave en el surgimiento del movimiento alternativo a la globalización a través de la red Indymedia de comunicación independiente. 
+Su objetivo entre otros era bajar las barreras a la participación de las personas en la producción cultural y tecnológica, y establecer una infraestructura de comunicación distribuida para organizaciones anticapitalistas. 
+Con este fin las comunidades medioactivistas apropiaban y reutilizaban tecnologías de consumo masivo como grabadoras y otros productos electrónicos accesibles en los años '80, y más adelante computadoras personales.
 
-Estas dos tendencias se combinan en el origen de los hacklabs. Los centros sociales ocupados, en el corazón de la vida urbana, requerían de infraestructuras de comunicación como acceso público a internet y computadoras.
-Los mediactivistas, por el otro lado, requerían estrategias para convocar, producir, enseñar y aprender sobre sus prácticas.
+Estas dos tendencias, autonomismo y mediactivismo, se combinan en el origen de los hacklabs. Los centros sociales ocupados requerían de infraestructuras de comunicación, acceso público a internet y computadoras; los mediactivistas desarrollaban estrategias para convocar, producir, enseñar y aprender sobre sus prácticas.
 
-Algunos ejemplos de hacklabs son Ultralab en Forte Prenestino, Italia, surgido a fines de los '90, que se autodefine como un 'patrón emergente' de la conjunción de necesidades tecnológicas de las comunidades que lo integran. 
+Algunos ejemplos de hacklabs son Ultralab en Forte Prenestino, Italia, surgido a fines de los '90, que se autodefine como un *'patrón emergente de la conjunción de necesidades tecnológicas de las comunidades'* que lo integran. 
 Otro ejemplo más reciente es Hackney Crack House en Londres, que hasta 2012 proveía una red de área local y servidor al espacio ocupado donde se alojaba, y funcionaba como lugar de reunión para experimentar con distintas tecnologías.
 
-Los hacklabs son espacios declaradamente políticos enfocados en desarrollar infraestructura de comunicaciones para las comunidades que los habitan, privilegiando la creatividad y el acceso a quienes generalmente se ven inhabilitados para ello.
-
-***
->**Box3: Estrógenos abiertos, gynepunk**
->
->
-***
+Dado su origen los hacklabs son espacios declaradamente políticos enfocados en desarrollar infraestructura de comunicaciones para las comunidades que los habitan, privilegiando la creatividad y el acceso a quienes generalmente se ven inhabilitados para ello.
 
 #### Hackerspaces y expansión
-El caso de los hacklabs describido anteriormente es un extremo del espectro político dentro de un gradiente que incluye fablabs, makerlabs, medialabs, innovation labs y espacios de co-working.
-Los últimos dos (y también los fablabs), de surgimiento más reciente, se distinguen por estar inmersos en un contexto institucional (universitario, gubernamental, organización o empresa); su fin es la innovación en investigación o productos comerciales.
-Lo que diferencia a los hackerspaces del resto de estos espacios es que están administrados por y para integrantes de la comunidad hacker.
+El caso de los hacklabs descrito anteriormente es un extremo del espectro político, en el otro podemos ubicar a los hackerspaces. El gradiente incluye fablabs, makerlabs, innovation labs y espacios de co-working; con diferentes grados de inmersión institucional ya sea en empresas o universidades.
 
 La primer ola de hackerspaces se relaciona a la cultura hacker universitaria ya mencionada del MIT y otros institutos en los Estados Unidos, donde se desarrollaban las primeras computadoras y sistemas operativos.
 Esta escena se completaba con grupos que hacían ingeniería reversa de las nuevas tecnologías (phreakers), en ese momento mayoritariamente redes telefónicas.
-En Europa la historia está menos documentada pero uno de los hitos es la fundación del Chaos Computer Club en 1981, con fuerte foco en la investigación sobre seguridad informática y privacidad.
+En Europa la historia está menos documentada pero uno de los hitos es la fundación del Chaos Computer Club en 1981, espacio comunitario hacker con fuerte foco en la investigación sobre seguridad informática y privacidad.
 
 Una nueva ola de hackerspaces parece haber sido iniciada a partir de una serie de conferencias en 2007 y 2008, orientadas a los problemas prácticos de cómo se administra y organiza un espacio de estas características.
-Resulta relevante ya que pone el concepto de hackerspace al frente y la creación de nuevos espacios en la agenda de la comunidad. 
+Resulta relevante ya que pone el concepto de hackerspace nuevamente en discusión, y se hace un llamado a crear nuevos espacios.
 
-Estos nuevos espacios fomentan un modelo de membresía abierto con funciones de aprendizaje, producción y socialización.
-Aunque las actividades varían entre distintos espacios, Maxigas (2012) identifica una progresión desde las tareas de desarrollo de software libre hacia las de hardware, primero con desarrollo de infraestructura de redes, luego microelectrónica y en algunos casos impresión 3D - fabricación digital.
+El modelo es de membresía abierto, donde los miembros pagan por la utilización del inmueble y las herramientas, y se desarrollan actividades de aprendizaje, producción de pares y socialización.
+Aunque las actividades varían entre distintas iniciativas, Maxigas (2012) identifica un gradiente temporal que inicia con desarrollo de proyectos de software libre, desarrollo de infraestructura de redes, luego microelectrónica y en algunos casos adquisición de herramientas de fabricación digital, como impresoras 3D.
 El surgimiento de Arduino provocó una explosión de proyectos e interacción en este tipo de espacios, muchos de ellos con fines educativos, facilitando el diálogo con las instituciones formales como universidades o escuelas. 
 
-El desarrollo y expansión de los hackerspaces se alinea con la trayectoria del movimiento hacker, que gana cada vez mayor anclaje institucional.
-La apertura al trabajo con interfaces físicas (mayoritariamente microcontroladores) permitió el crecimiento masivo del modelo, ya que la colaboración en este tipo de proyectos se ve facilitada por la disponibilidad de espacios comunes. 
-El contenido político de estos espacios es más difuso, más orientado a valores liberales, lo que le permite una flexibilidad de discurso y expansión hacia un espectro mayor de actores: desde el público general a las empresas.
-
-***
->**Box4: flypi**
->
->
-***
+El desarrollo y expansión de los hackerspaces se alinea con la trayectoria del movimiento hacker, desde movimiento contracultural y de nicho a comunidades que ganan cada vez mayor anclaje institucional.
+El trabajo con hardware y herramientas de fabricación digital provocó una expansión de este modelo, ya que la colaboración en este tipo de proyectos se ve facilitada por la disponibilidad de espacios comunes. 
+El contenido político en los hackerspaces está menos implícito, con un discurso más flexible, orientado a valores liberales, que le permite una flexibilidad o y expansión hacia un espectro mayor de actores: desde el público general a las empresas.
 
 ### Cultura Do-it-yourself (DIY)
 Las actividades en los hackerspaces confluyen en numerosas oportunidades con la cultura del **Hágalo Usted Mismo** (“Do it yourself” o DIY, también autodenominados 'makers'), mencionada anteriormente aldededor del desarrollo de Arduino, RaspberryPi y otros microcontroladores accesibles al gran público.
 Algunos antecedentes culturales de estas actividades incluyen las actividades de radio aficionados (Douglas, 1987) y las prácticas DIY de mitad de siglo XX en Estados Unidos (la figura del inventor o hobbista), donde actividades previamente conceptualizadas como utilitarias se transformaron en recreativas (Haring, 2006).
 
-En la actualidad resulta útil la distinción que Hertz (2011) realiza sobre DIY utilitario y DIY hedonista.
-El primero responde a la necesidad de construir objetos con los materiales disponibles, muchas veces escasos o inapropiados, para resolver problemas de la vida cotidiana. 
-Por ejemplo, el científico que en un laboratorio sin recursos desarrolla hardware de bajo costo para obtener más muestras, o el que se encuentra estudiando un proceso y construye hardware que le permita ponerlo a prueba.
-Ambas situaciones están documentados para el caso del instrumental científico (von Hippel, 1976).
+Para entender la práctica DIY en la actualidad resulta útil la distinción que Hertz (2011) realiza sobre DIY utilitario y DIY hedonista.
+El primero responde a la necesidad de construir objetos con los materiales disponibles, muchas veces escasos o inapropiados, para resolver problemas de la vida cotidiana; el segundo refiere a la fabricación motivada por el elemento lúdico, la exploración personal y el aprendizaje por sí mismos.
+Más allá de ser útil al análisis y la comprensión de las motivaciones, en la realidad ambos conceptos suelen superponerse, con elementos predominantes de una u otra categoría.
 
-Por otro lado el DIY hedonista refiere al elemento lúdico, la exploración personal y el aprendizaje de nuevos métodos en el espectro de motivaciones.
-En la mayoría de los espacios más visibles de la comunidad maker (revista MAKE, MakerFaire, HackaDay, Instructables) el DIY hedonista es predominante, especialmente en proyectos de personalización del consumo.
-Más allá de ser útil al análisis y la comprensión de las motivaciones, en la realidad ambos conceptos suelen superponerse.
+En la mayoría de los espacios más visibles de la comunidad maker (revista MAKE, eventos como MakerFaire, plataformas online como HackaDay o Instructables) predomina el elemento hedonista, orientado a la personalización de objetos de consumo o experimentación con distintos materiales.
+Según Mark Frauenfelder -editor jefe de la revista MAKE- las motivaciones de la comunidad maker responden a una insatisfacción con la cultura del consumo y del descarte, y a una revalorización del concepto japonés de *wabi-sabi* o la "*apreciación de la imperfección de los objetos*" (Suzuki, D.1959). 
 
-Según Mark Frauenfelder -editor jefe de la revista MAKE, de referencia para el sector- las motivaciones de la comunidad maker responden a una insatisfacción con la cultura del consumo y del descarte, y a una revalorización del concepto japonés de *wabi-sabi* o la "*apreciación de la imperfección de los objetos*" (Suzuki, D.1959). 
-Hertz suma a esto la motivación generada por reacción a la cultura de la caja negra (“black box”) típica de la fabricación en la era digital: la velocidad de las innovaciones en materia de tecnología implica que los objetos de consumo estén producidos basándose en componentes y procesos complejos. 
+Uno de los conceptos clave es el de *caja negra*: la velocidad de las innovaciones en materia de tecnología implica que los objetos de consumo estén producidos de forma tal que no es posible para el usuario comprender su lógica interna sino sólo el resultado de su funcionamiento.
+Este rol pasivo de los consumidores, que no pueden reparar ni personalizar sus objetos, genera una reacción por parte de la comunidad DIY, que construye objetos de consumo con componentes simples y compartiendo información, algo que Frauenfelder engloba en el concepto de *'vivir auténticamente'*.
 
-El concepto de caja negra implica que no es posible para el usuario comprender su lógica interna sino sólo el resultado de su funcionamiento, incluso siendo experto. 
-Si un objeto se rompe o queda obsoleto, se vuelve inutilizable y genera dependencia de los fabricantes, lo cual es altamente frecuente dados los paradigmas de obsolescencia programada dominantes en la industria. 
-Reemplazar partes es casi imposible para los consumidores, dada la alta especialización de la ingeniería y fabricación que el objeto conlleva. 
-Este rol pasivo de los consumidores genera una reacción por parte de la comunidad DIY, que construye objetos de consumo con componentes simples y compartiendo información, algo que Frauenfelder engloba en el concepto de “vivir auténticamente”.
-
-A nivel de comunidad, los "makers" cuentan con reuniones y exposiciones anuales -Maker Faire en Nueva York, San Francisco y Nairobi, por ejemplo-, el desarrollo de un mercado cada vez más importante de componentes y kits electrónicos de fácil utilización (Powell, 2012) y la existencia de la revista *MAKE*, una especie de continuo de la revista *Popular Mechanics* de mediados del siglo XX, orientada a la clase media y las actividades hobbistas de tiempo libre. 
-El papel de MAKE no es menor: varios autores le asignan el rol de moldear y normativizar el rumbo que toma la comunidad en base a las prácticas que se difunden a través de ella.
-
-Específicamente la cultura DIY en el rubro del instrumental científico creció exponencialmente en los últimos años, tanto dentro como fuera de la academia. 
-Ejemplos de ésto son los desarrollos que se realizaron en diversas áreas, sólo contando los basados en Arduino: UAVs for oceanographic research (Busquets, et al., 2012), behavioral experiments (D’Ausilio, 2012), pressure monitoring (Russell et al., 2012), drop velocity measurements (Fobel, et al., 2013), microscopy (Gualda, et al., 2013), electrophysiology (Newman, et al., 2012), Skinner boxes (Pineño, 2014), and multi-spectral in-vivo optical image acquisition (Sun et al., 2010). 
+Algunos autores caracterizan a la cultura DIY actual como consumista y exclusiva (Williams, 2004); otros como Hertz o Ratto van más allá y proponen el concepto de *'critical making'*; un quehacer crítico que combina el desarrollo tecnológico con un compromiso social, personal y ciudadano' (Hertz, 2011).
 
 Cuando la distinción entre DIY hedonista y utilitario se quiere aplicar al hardware abierto científico surgen algunos problemas, ya que la percepción es que las motivaciones son híbridas. 
-Según el análisis de Kera (2018) sobre iniciativas de hardware científico abierto, éstas integran la ciencia a la vida cotidiana y por lo tanto a esferas políticas, artísticas y lo que denomina 'ciencia artesanal' (usos exploratorios).
-Los artesanos científicos combinan la búsqueda del conocimiento y la construcción de instrumentos con las necesidades de sus comunidades (utilitario) pero también con las propias (espíritu lúdico).
+Según el análisis de Kera (2018) sobre iniciativas de hardware científico abierto, lo que caracteriza estas iniciativas es que integran la ciencia a la vida cotidiana y por lo tanto a esferas políticas, artísticas y lo que denomina *'ciencia artesanal'* (usos exploratorios).
 
-Este aspecto híbrido los vuelve puentes útiles entre dominios del conocimiento generalmente desconectados (ingeniería, humanidades, arte, ciencia) pero también con el dominio cívico como el activismo, la colaboración y los valores comunitarios.
-En particular en Latinoamérica esta visión política está influenciada por movimientos surgidos en los años '80, como se describe más adelante.
 
-***
->**Box5: kalpana**
->
->
-***
+Los *artesanos científicos* combinan la búsqueda del conocimiento y la construcción de instrumentos con las necesidades de sus comunidades (utilitario) pero también con las propias (espíritu lúdico).
+Este aspecto híbrido los vuelve puentes útiles entre dominios del conocimiento generalmente desconectados (ingeniería, humanidades, arte, ciencia) pero también hacia dominios cívicos como el activismo, la colaboración y los valores comunitarios.
 
 ### Biohacking o DIY biology
 Garage biology, biohacking o biología ciudadana/comunitaria son expresiones que describen un movimiento de amateurs realizando experimentos biológicos fuera de los ámbitos tradicionales como universidades o corporaciones.
 Delfanti () analiza *DIYbio*, la iniciativa más reconocida del ambiente, una red creada en 2008 compuesta de varios grupos en ciudades de Europa y Estados Unidos.
-DIYbio tiene como objetivo proveer a los no expertos con un espacio de colaboración y protocolos y herramientas de código abierto para la investigación biológica.
+DIYbio tiene como objetivo proveer a los no expertos con un espacio de colaboración, protocolos y herramientas de código abierto para la investigación biológica.
 Como tales, son parte del fenómeno de la producción abierta y colaborativa a través de plataformas online (Benkler, 2006).
 
 Los miembros de la comunidad tienen relación con el movimiento hacker: desarrollan sus espacios bajo el modelo de hackerspaces o directamente instalan una sección 'bio' en hackerspaces existentes.
@@ -277,12 +217,6 @@ Otros se definen como makers, artesanos, entusiastas, hobbistas o amateurs pero 
 Como colectivo resaltan la importancia del rol educativo sobre las biotecnologías, especialmente frente a dudas sobre seguridad o ética en las prácticas (DIYbio 2010). 
 La apertura es un requisito de la iniciativa a fin de volver el campo *'accesible para quien desee involucrarse'*.
 El acceso a equipamiento científico es uno de los obstáculos principales en estos proyectos, siendo uno de los ámbitos más productivos del hardware científico abierto con ejemplos como OpenPCR (http://openpcr.org). 
-
-***
->**Box6: hackteria**
->
->
-***
 
 ### Latinoamérica: el movimiento de tecnología apropiada y las pedagogías críticas
 El panorama del hardware científico abierto tanto en Latinoamérica como en otras regiones del denominado 'Sur Global' presenta algunas particularidades; en general el discurso se orienta hacia las potencialidades que el mismo puede tener para el desarrollo, conectando con temáticas postcoloniales (Kera, 2018).
@@ -316,12 +250,6 @@ Las ideas del movimiento de TA impulsaron nociones sobre la tecnología que pued
 Los procesos de participación pública e inclusión de conocimientos locales son una práctica común en los proyectos actuales de desarrollo (Chambers, 1997; Pieterse, 1998), con sus críticas (Cooke & Kothari, 2001; Hickey & Mohan, 2004).
 En la actualidad, esta concepción del hardware científico abierto 'para el desarrollo' se puede observar en el trabajo de grupos con comunidades locales alrededor de temáticas principalmente de daño ambiental (monitoreo comunitario) y agroecología, pero también con iniciativas como Trend4Africa, donde el hardware científico abierto permite equipar laboratorios de bajos recursos en varios países africanos.
 
-***
->**Box7: public lab**
->
->
-***
-
 ## ¿Por qué ahora?
 Como se menciona en las secciones anteriores, la filosofía del software libre surgió en los años '80, la cultura del do-it-yourself tiene raíces aún anteriores y los científicos modifican sus equipos y herramientas desde hace al menos 30 años (von Hippel, 1976).
 Sin embargo en los últimos años se puede observar un crecimiento explosivo de los proyectos de hardware abierto para ciencia: colorímetros (Anzalone et al., 2013a), sistemas fotométricos para cuantificar nitratos enzimáticos (Wittbrodt, et al., 2015), nephelometers (Wijnen et al. 2014a), turbidímetros (Kelly et al., 2014), liquid auto-samplers (Carvalho and Eyre, 2013), operadores de microfluidos (Da Costa, et al., 2014), equipos para biotecnología (Lucking et al., 2014; Gross et al., 2014; Su et al., 2014), espectroscopía de masa (Malonado-Torres et al., 2014; Chiu and Urban, 2015), automated sensing arrays (Wittbrodt, et al. 2014), phasor measurement units (Laverty et al., 2013), syringe pumps (Wijnen et al., 2014b), optics and optical system components (Zhang et al., 2013), nanotecnología para trabajar con ADN (Damase et al., 2015), monitoreo ambiental (Pearce, et al., 2012; Chemin et al., 2014) and compatible components for plasma physics labs (Zwicker et al., 2015) and medical apparatuses like magnetic resonance imaging systems (Hermann et al., 2014).
@@ -340,19 +268,6 @@ Von Hippel, también en este sentido, menciona cómo la habilidad de innovar de 
 Actualmente es posible diseñar un prototipo virtualmente, probarlo y obtener una primera versión física sin demasiado esfuerzo, que posteriormente puede fabricarse a escala previa adaptación del diseño, por ejemplo en China.
 En el mundo del hardware abierto para productos de consumo esto es una práctica difundida, que lentamente comienza a ser explorada en el ámbito del hardware abierto para ciencia.
 Pearce aduce que se habrían reducido los costos de producir hardware científico en un 90–99% respecto de equipos propietarios de misma funcionalidad (Pearce, 2014a; Pearce,  2014b). 
-
-> **Box 8: RepRap**
->
->La construcción de una impresora RepRap constituye muchas veces uno de los primeros momentos de aprendizaje de los entusiastas de la fabricación digital.  
->
->De forma similar a Linux, RepRap comenzó en 2005 como un proyecto universitario del Dr. Adrian Bowyer de la Universidad de Bath, con el objetivo de construir una impresora auto-replicable. Es decir, una impresora que pudiera imprimir las partes para construir una nueva impresora. A partir de la colaboración online en blogs y wiki, los usuarios fueron construyendo copias del primer prototipo, realizando modificaciones que documentaban y ponían a disposición online.
->
-><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg" width=70%>    
->_Fig. 8: RepRap 2.0, versión Mendel (Fuente: Wikipedia)_
->
->Uno de los disparadores del boom de la impresión 3D ha sido la expiración de las patentes de los equipos originales de impresión (The Economist 2013), creados en la década de los ochenta. Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocidas como FMD por su sigla en inglés) que utiliza filamentos plásticos. La caída de las patentes permitió una explosión de experimentación con nuevas impresoras, de la cual surgió RepRap, que utilizando el modelo open source permite que cualquier usuario realice modificaciones y mejoras en las máquinas. Desde ese momento, la impresoras 3D FDM se convirtieron en un objeto de escritorio y su costo se redujo hasta menos de los mil dólares en los modelos fabricados por los usuarios (Mins 2013).
->
->En 2011 nació el grupo conocido como "Clone Wars" dentro de la comunidad RepRap, con el fin de documentar en español todo lo necesario para que cualquier persona pueda construir su propia impresora 3D.
 
 ## ¿Cómo se hace hardware abierto?
 
@@ -744,7 +659,7 @@ Como parte del análisis detectan los siguientes patrones en cuanto a contribuci
 
 La metodología presenta limitaciones ya que sólo alcanza a proyectos con repositorios online bajo control de versiones, aunque permite detectar algunas tendencias.
 
-### Licencias abiertas para hardware
+## Licencias abiertas para hardware
 
 El objetivo de contar con licencias para hardware es asegurar tanto la libre circulación de ideas como la atribución a los autores.
 Una de las distinciones fundamentales que diferencian al hardware de FOSS es que el copyright aplica a los esquemáticos y los diseños, pero no al producto tangible, donde aplican patentes y marcas registradas.
@@ -910,28 +825,10 @@ Para cuando los clones de sus placas están en el mercado, Sparkfun ya tiene una
 El etiquetado de productos 'open source' es una opción que fue utilizada en el pasado con malos resultados ya que compañías de diseño cerrado etiquetaban sus productos como open source.
 OSHWA desarrolló un programa de certificación open source hardware para revertir este mal uso (Pearce, 2018).
 
-> **Box 10: 3D Robotics - Mediodía y ocaso de los drones**
->
->3D Robotics es una empresa pionera en la creación de vehículos aéreos no tripulados (UAV), comúnmente conocidos como drones. Sus creaciones se basan en componentes de OSH.
->
->Jordi Muñoz -un joven mexicano emigrado a Estados Unidos- y Chris Anderson -editor de la revista WIRED- se conocieron en el foro open source DIY-Drones, comunidad donde comparten sus experiencias algunos aficionados a vehículos aéreos no tripulados. Allí, Jordi compartió con la comunidad su creación de un piloto automático con acelerómetros extraídos de su Nintendo Wii. Después de eso, su popularidad en el foro creció, llamando la atención de Chris Anderson, que le ofreció 500 dólares para seguir experimentando.
->
->En 2009 fundaron 3D Robotics con el objetivo de liderar el mercado de fabricación de drones y UAVS de calidad profesional a precios accesibles. En 2012, Anderson dejó la revista WIRED para ocupar el puesto de CEO junto con Jordi Muñoz, el mismo año que 3D Robotics anunció que cerraría parte de su código, lo cual fue tomado como una "traición" por parte de la comunidad de DIY Drones que se consideraba parte del proyecto (Cuartielles, 2014).
->
-><img src="https://3dr.com/wp-content/uploads/2017/03/Solo_r10c-1024x443.jpg" width=70%>         
->_Fig. 16. Solo, el drone estrella de 3D Robotics (Fuente: 3Dr)_
->
->La empresa llegó a tener oficinas en la ciudad de San Diego y Berkeley en California, ventas y marketing en Austin, Texas y una planta de producción en Tijuana, Baja California, México, que producían alrededor de 15,000 pilotos automáticos al año, generando ganancias de alrededor de 20 millones de dólares anuales.
->
->La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.
-
 - Modelo 3: Basados en el conocimiento y el expertise
 
 Este modelo está inspirado directamente en la industria del software libre, su valor radica en el expertise y el servicio de soporte. 
 En OHW esto se traduce a talleres de DIY (Tripalium, Open Source Ecology), la venta del producto más la "experiencia" de construirlo (Wikispeed) ó venta de servicios de consultoría para empresas que desean utilizar el producto en su cadena de valor (Arduino, Wikispeed).
-
-<img src=https://i.pinimg.com/originals/85/c9/99/85c999a3b9c1a0541c68c52a217cbb81.png width=70%>    
-_Fig 14. Turbina eólica abierta de Tripalium, una fundación que promueve la energía eólica (Fuente: Tripalium.org)_    
 
 Otras compañías ofrecen servicios a usuarios particulares que se encuentran explorando distintos usos de hardware, como IoT (Cicero, 2013).
 
@@ -950,17 +847,6 @@ El ejemplo típico en este caso es el sistema operativo Android, de Google, y lo
 Su valor radica en organizar un ecosistema de actores industriales (diseñadores, fabricantes, revendedores, consumidores, prosumidores, marcas, etc.) alrededor de una tecnología clave OHW o plataforma. 
 Casos paradigmáticos: OpenDesk (ver Box 9) y OSVehicle. 
 OSVehicle diseñó el motor y chasis Tabby -OHW, eléctrico y modular-, construyeron una "cadena de valor participativa" donde el mismo se distribuye de manera justa entre todos los participantes.
-
->**Box 8: Adafruit**
->
->Adafruit Industries es una compañía basada en open source hardware ubicada en la ciudad de Nueva York, fundada en 2005 por la hacker e ingeniera Limor Fried mientras estudiaba en el Massachusetts Institute of Technology. La empresa diseña y fabrica una serie de productos electrónicos y vende un amplio rango de componentes, herramientas y accesorios vía su tienda web. Los productos ofrecidos abarcan rangos de principiante -kits que producen sonidos al recibir una señal- a experto -como sofisticados microcontroladores para celulares y desarrolladores de videojuegos-.
->
-><img src=https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg width=50%>    
->_Fig. 13: Limor Fried, premiada como emprendedora del año en 2012, fue tapa de la revista de tecnología WIRED (Fuente: Wired)_
->
->Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
->El nombre Adafruit proviene del nickname "LadyAda" que Fried utilizaba online como homenaje a Ada Lovelace, la pionera en ciencias de la computación. La compañía además produce recursos educativos, incluyendo tutoriales escritos y videos en Youtube con el objetivo de entusiasmar a más personas para que se involucren en el desarrollo de tecnología, especialmente mujeres. En su sitio web oficial Fried declara: “Adafruit es una compañía 100% propiedad de una mujer”.
-
 
 Pearce (2018) identifica ventajas y limitaciones del hardware abierto en términos de generación de valor y nuevos modelos de negocios.
 
@@ -1048,18 +934,6 @@ Este modelo se puede comparar con el tipo 6 de Tincq, o modelos de plataforma.
 Haciendo una analogía con plataformas como Etsy, propone la oferta de servicios de hardware científico abierto, como por ejemplo la realización de experimentos. 
 Un ejemplo de este tipo es Science Exchange, una plataforma que conecta laboratorios avanzados con científicos que requieren realizar experimentos (Gould, 2015). 
 
-
-> **Box 9: Open Desk**
->
->Opendesk se autodefine como una plataforma global para la producción local. Consiste en una herramienta de "producción abierta" que puede utilizarse para descargar, fabricar y comprar mobiliario. Cuenta con un catálogo de diseños específicamente realizados para la fabricación digital, por lo cual el objeto puede producirse localmente, de acuerdo a la demanda, en cualquier lugar del mundo.
->
->Cuánto de este proceso es realizado por el usuario depende un poco de sí mismo. Si se cuenta con la capacidad y herramientas para construir el diseño, se puede descargar y hacer el producto desde cero. En caso contrario, se puede contratar un maker desde la página, que fabricará el objeto para el cliente. Mientras mas trabajo se haga personalmente, mas bajo es el costo. Todo depende de donde se encuentre, si hay fabricantes locales disponibles y de si se tiene acceso a la maquinaria necesaria.
->
-> <img src=https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg width=70%>       
-> _Fig. 15: modelo de escritorio disponible para descargar (Fuente: OpenDesk.com)_
->
->Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
-
 ## Políticas
 
 Como se menciona anteriormente, el campo de desarrollo de hardware científico es reciente, sin embargo algunos autores comienzan a elaborar recomendaciones de políticas para su crecimiento. 
@@ -1088,72 +962,59 @@ En Venezuela en el 2004 se realizaron talleres que convocaron miembros del secto
 El propósito fundamental de ese taller era el  “fortalecimiento  de  la  infraestructura  tecnológica  en  el  área  de manufactura, producción y comercialización de hardware, también fomentar el conocimiento y la capacidad de invención, comercialización de productos en el mercado interno y externo aprovechando nuestro potencial y ubicación geopolítica en el mundo.” (Córdova, 2004)
 
 
-## ¿Cuáles son los principales usos del hardware abierto? **FALTA**
+## ¿Cuáles son los principales usos del hardware abierto? 
 
 ### Ciencia
 
-Uno de los sectores donde el OSHW ha tenido mayor difusión ha sido el de desarrollo de instrumental científico.
-Combinando el uso de Arduino e Impresión 3D, investigadores alrededor del mundo fabrican instrumentos específicos que reducen los costos de investigación y amplían la autonomía de los investigadores.
-Esto es particularmente interesante en el caso de laboratorios ubicados en países con restricciones para el ingreso de instrumental o repuestos, pero también para el caso de necesidades muy específicas que generan poco interés en los grandes fabricantes y por lo tanto acarrean grandes costos y demoras en su provisión.
+Uno de los sectores donde el OSHW tiene mayor difusión es el de desarrollo de instrumental científico.
+En 2012 Joshua Pearce identifica los beneficios que las tecnologías open source pueden traer en la comunidad científica, principalmente en términos de reducción de costos, personalización de instrumental, reparación y reducción de tiempos de desarrollo; aunque aclara que dado lo reciente del rubro los diseños deben perfeccionarse.
 
->**Box 6: Bomba de jeringa open source (OSSP)**
->
->Un equipo de laboratorio de la Universidad Tecnológica de Michigan, liderado por el investigador Joshua Pearce, publicó una librería de diseños open source que permite a los científicos producir su propio instrumental de laboratorio. Comenzaron publicando los diseños de una bomba de jeringa, instrumento utilizado frecuentemente en la mayoría de los laboratorios para aplicar dosis controladas de líquidos, ya sea drogas o reactivos.
->
->El objetivo es que cualquier científico pueda reproducir los diseños y generar un ahorro a partir de la fabricación 3D con RepRap -autorreplicable-. Además, los planos son customizables realizando pequeños cambios en el software: "No sólo diseñamos una bomba de jeringa… Diseñamos todas las futuras" afirmó Pearce.
->
->La librería fue diseñada utilizando software open source, y puede ser replicada mayoritariamente utilizando una impresora 3D RepRap y materiales accesibles como arandelas. Los investigadores realizaron pruebas de performance, en las cuales la OSSP resultó ser consistente con la calidad de las bombas de jeringa comerciales. En total, el costo del desarrollo fue de 50 dólares, pudiendo reemplazar productos comerciales que cuestan entre 250 y 2500 dólares.
->
-><img src="http://www.appropedia.org/images/0/08/Double-pump.jpg" width=70%>    
->_Fig. 10. Una bomba de jeringa OS doble que cuesta 120 USD versus la versión comercial, de 5000 USD (Fuente: Appropedia)_
->
->Para este caso se realizó una valoración económica, obteniendo un valor de retorno de la inversión fluctuante entre $168,000 to $2.5 millones, para concluir que este método es sencillo y provee información para tomar decisiones. Resulta específicamente atractivo para organizaciones interesadas en maximizar el retorno de las inversiones públicas en tecnologías asociadas a la ciencia, medicina o educación.
+En la actualidad, combinando el uso de Arduino e Impresión 3D, investigadores alrededor del mundo fabrican instrumentos específicos que reducen los costos de investigación y amplían la autonomía de los investigadores (Damase et al, 2015; Coakley y Hurt, 2016; Dryden et al, 2017).
+Pearce (2017) nombra algunos de los desarrollos en rubros que incluyen entre otros la química (Anzalone  et  al.,  2013a; Wittbrodt,  et  al.,  2015; Car-valho  and  Eyre,  2013),  microfluídica (Da  Costa,  et  al.,  2014),  biotecnología (Luck-ing  et  al.,  2014;  Gross  et  al.,  2014;  Su  et  al.,  2014),  espectroscopía de masas (Malonado-Torres  et  al.,  2014;  Chiu  and  Urban,  2015),  óptica (Zhang et al., 2013), monitoreo ambiental (Pearce, et al., 2012; Chemin et al., 2014), agricultura (Trilles Oliver et al, 2018) y dispositivos médicos (Hermann et al., 2014; Niezen et al, 2016).
 
-Dado el reciente origen de los desarrollos, éstos aún no cuentan con un gran nivel de precisión, aunque se espera que la tendencia sea hacia un mayor perfeccionamiento. El hecho de que el personal de laboratorio se involucre en el desarrollo de los instrumentos trae aparejada una mayor comprensión de las condiciones en las que se generan los datos, mejorando la interpretación que se hace de los mismos.
+Uno de los casos paradigmáticos de hardware abieto en ciencia es el de la Organización Europea para la Investigación Nuclear (CERN). 
+En 2008 en CERN, el departamento de Sincronización comenzó a desarrollar hardware abierto motivados por la propuesta de trabajo colaborativo que veían que funcionaba en los departamentos de software, la posibilidad de diseñar instrumental altamente específico, reparable y como forma de ganar autonomía frente a proveedores (Javier Serrano, entrevista 2018). 
+En 2009 se crea el repositorio de hardware abierto a fin de albergar documentación de hardware para proyectos tanto internos como externos y en 2011 junto al departamento de Transferencia de Conocimiento elaboran la Licencia CERN Open Hardware 1.1 (Ayass y Serrano, 2011).
+En la actualidad CERN trabaja en ésta área con un ecosistema de múltiples proveedores en 8 países, generalmente compañías pequeñas-medianas (Bij et al, 2012).
+El primer desarrollo abierto de CERN, 'White Rabbit', fue modificado para diferentes usos alrededor del mundo, entre otros la sincronización de la hora oficial en Finlandia.
 
-En algunos casos, científicos de laboratorios tradicionales se han acercado a hackspaces y makerspaces, espacios de innovación ciudadana, conectando con actores fuera del ámbito académico que pueden enriquecer tanto las propuestas de desarrollo como la agenda de investigación. La creación de herramientas basadas en OHW es una forma de conectar el mundo académico con el resto de la sociedad: algunos proyectos lo utilizan para llamar la atención de los estudiantes hacia las carreras científicas.
-
-Uno de los principales obstáculos en este ámbito es que el esquema de incentivos profesional aún no valora el trabajo de creación de herramientas por parte del investigador. Generalmente los usos de los potenciales desarrollos de instrumental son tan específicos que el tamaño de la comunidad de colaboración no resulta significativo. Esto hace que en la práctica, en la mayoría de los casos el proceso de desarrollo recaiga principalmente en una o dos personas, volviéndose lento y demandando mucha energía por parte del científico. Al no estar formalmente categorizado dentro de los sistemas de valoración profesional, el tiempo dedicado a estas actividades no puede ser capitalizado, por lo cual la motivación para diseñar y construir OHW se ve reducida. Una de las opciones que se vislumbran para contrarrestar el problema es la aparición de revistas científicas especializadas para la publicación de diseños OHW, lo que permitiría visualizar el trabajo realizado por los científicos-inventores y medir su impacto en la comunidad.
-
-- biología sintética
-- óptica, microscopios
-- microfluídica
-- física (CERN y otros)
-- nanotecnología
-- muestreos ambientales/biológicos
-- química
-- monitoreos ambientales comunitarios
-- biohacking
-- drones
-
-### Medicina
-
-### Agricultura
+El surgimiento de espacios como la Comunidad Global por el Hardware Científico Abierto (GOSH) en 2016 permitió conectar iniciativas tanto institucionales como comunitarias, dando visibilidad al término "hardware científico abierto" a escala global, asociándolo a temas de inequidad y desarrollo (Murillo, Molloy and Dosemagen et al. 2018; Dosemagen, Liboiron and Molloy 2017).
+Dentro de esta comunidad destacan iniciativas autodenominadas como de 'ciencia comunitaria', donde se utiliza hardware abierto para generar conocimiento científico en ámbitos extra académicos (Wylie et al, 2014).
+Lo proyectos dentro de esta última categoría son heterogéneos, incluyendo monitoreos ambientales comunitarios (Liboiron, 2017), relevamientos con drones open source (Bernaldo e Irujo, 2013), plataformas para el desarrollo de proyectos de biología sintética (Hackteria) o proyectos ligados al transhacktivismo (Tsang, 2017).
 
 ### Educación
-Sin dudas la irrupción de Arduino es la que más fuertemente influencia al ámbito educativo en términos de hardware abierto.
-Surgido a partir de una colaboración entre docentes específicamente orientados a la currícula de diseño interactivo, se ve multiplicada en la actualidad en incontables aplicaciones y derivados.
-Su aproximación práctica y simplificada a la electrónica facilita el aprendizaje técnico y su bajo costo abre la posibilidad a realizar numerosas iteraciones, por lo cual es masivamente adoptada.
-
+Aunque la utilización de hardware abierto en ámbitos educativos tiene antecedentes (Pelgrims et al, 2007), sin dudas la irrupción de Arduino es la que más fuertemente influencia el área, originando una multiplicación de iniciativas a nivel global.
+Su aproximación práctica y simplificada a la electrónica facilita el aprendizaje técnico y su bajo costo abre la posibilidad a realizar numerosas iteraciones rápidamente, reutilizando la plataforma. 
 Arduino es utilizado en diversos campos educativos como robótica (Ocak 2017; Soriano 2014; Araujo et al. 2015), herramientas de laboratorio (Sarik 2010; Salvador et al. 2016); diseño interactivo (Buechley and Eisenberg 2008; Gibb 2010; Varesano 2013); e instrumental científico para educación STEM (D’Ausilio 2012) incluyendo monitoreo y sensores ambientales (Baker 2014; Ali et al. 2016; Kenny et al. 2019).
 
-Algunos autores resaltan la utilidad de los desarrollos para que los estudiantes puedan pasar de la filosofía del saber al hacer, en un ambiente de estudio propicio para nuevas posibilidades de expresión, antes vedadas por el elevado costo de los materiales. 
-Además de la adquisición de habilidades técnicas y el fomento de la creatividad, los estudiantes se benefician a partir del trabajo colaborativo y multidisciplinario que implica trabajar en el desarrollo de un artefacto basado en OSHW.
+Heradio y colaboradores (2018) realizan una revisión de la literatura sobre hardware abierto en el ámbito educativo.
+Las motivaciones para utilizar hardware abierto en educación que identifican como recurrentes son:
 
+- Mejorar los métodos de enseñanza: aproximación práctica a la comprensión de conceptos abstractos de ciencia e ingeniería
+- Reducción de costos: más económicos que alternativas propietarias, reutilizables, permiten mayor iteración, particularmente en el contextos de recursos escasos
+- Involucrar a los estudiantes: fomentar su acercamiento e interés a partir del uso de tecnología
+- Fomentar la creatividad de los estudiantes: llevar al estudiante a un rol activo donde pueda explorar su creatividad
+- Aprendizaje a distancia: desarrollo de laboratorios remotos y experimentos a distancia con los estudiantes
+- Generar datos sobre procesos de aprendizaje: hardware abierto para generar datos sobre cómo los estudiantes aprenden, dónde lo hacen, cuánto tiempo dedican
 
-### Productos de consumo
-- wearables
-- DIY hedonista
+Además encuentran que es mayoritariamente utilizado en el ámbito universitario, seguido por la escolarización primaria; principalmente en los rubros de electrónica y computación.
+Los autores identifican un cambio en la literatura orientada en un inicio a promover la creatividad y el interés de los estudiantes hasta 12 años en nuevas tecnologías, especialmente la inclusión de mujeres en STEM.
+Después de este período inicial más de la mitad de las publicaciones, a partir de 2010, estudian el hardware abierto como forma de mejorar la educación universitaria y reducir costos experimentales.
 
-### Arte
+![](../notas_bibliografia/heradio2018b.png) 
+![](../notas_bibliografia/heradio2018c.png)
 
-- audiovisuales
-- sonido
-- performance
+Melis y Buechley (2011) mencionan que la modularidad del hardware abierto facilita el aprendizaje y el desarrollo de la creatividad ya que permite por un lado adquirir capacidades progresivamente y por otro enfocarse en los aspectos creativos que la persona más valora sin afectar la funcionalidad total del desarrollo.
 
-### Activismo 
-- transhackfeminismo 
-- redes libres
+A nivel global la literatura de hardware abierto en educación proviene principalmente de Estados Unidos (38%) seguido por España, Brasil, Alemania y el Reino Unido. 
+Los autores coinciden en que la literatura a nivel global está en aumento, al igual que los rubros de aplicación. 
+
+### Hobbismo y productos de consumo
+
+Hertz (2011) analiza el fenómeno do-it-yourself asociado a Arduino y específicamente se enfoca en los proyectos 'hedonistas' o desarrollados sin una necesidad identificable.
+Los diseños involucran microcontroladores como Arduino o sus variantes conectados a motores, sensores de sonido, temperatura o luz, luces, parlantes, con el fin de crear objetos únicos interactivos.
+Algunos ejemplos incluyen (entre una multitud de proyectos) adaptaciones de teléfonos antiguos para que funcionen con Skype, mesas de café que cambian de color según el tiempo, o robots operados por el movimiento de insectos ó dispositivos utilizables 'wearables'.
+Éstos últimos fueron particularmente impulsados por la versión Lilypad de Ardunio, e incluyen vestimenta interactiva, accesorios, juguetes, esculturas y otros (Buechley y Hill, 2010).
 
 
 ## Desafíos
@@ -1213,9 +1074,7 @@ Pero existen aportes en otros términos, relacionados a la democratización de l
 - Facilitar la enseñanza y creatividad en áreas STEM en zonas de recursos escasos (Tech Academy)
 - Fomentar el surgimiento de nuevas compañías basadas en modelos de negocio abiertos
 
-***
-> **Box: trend4africa**
-***
+
 
 
 ## Bibliografía

@@ -219,71 +219,69 @@ La apertura es un requisito de la iniciativa a fin de volver el campo *'accesibl
 El acceso a equipamiento científico es uno de los obstáculos principales en estos proyectos, siendo uno de los ámbitos más productivos del hardware científico abierto con ejemplos como OpenPCR (http://openpcr.org). 
 
 ### Latinoamérica: el movimiento de tecnología apropiada y las pedagogías críticas
-El panorama del hardware científico abierto tanto en Latinoamérica como en otras regiones del denominado 'Sur Global' presenta algunas particularidades; en general el discurso se orienta hacia las potencialidades que el mismo puede tener para el desarrollo, conectando con temáticas postcoloniales (Kera, 2018).
-Esta orientación está presente en GOSH desde el manifiesto bajo las ideas de empoderamiento, justicia cognitiva, brecha norte-sur, conocimientos indígenas, desarrollo endógeno.
-En Latinoamérica existen grupos que son parte de GOSH y trabajan en temáticas cercanas a la agroecología, la educación popular y la revalorización del conocimiento indígena.
+El panorama del hardware científico abierto tanto en Latinoamérica como en otras regiones del denominado 'Sur Global' presenta algunas particularidades; en general el discurso se orienta hacia las potencialidades para el desarrollo, conectando con temáticas postcoloniales (Kera, 2018).
+Esta visión está presente en GOSH desde el manifiesto bajo las ideas de empoderamiento, justicia cognitiva, brecha norte-sur, conocimientos indígenas, desarrollo endógeno.
+Particularmente en Latinoamérica existen grupos que son parte de GOSH y trabajan en temáticas cercanas a la agroecología, la educación popular y la revalorización del conocimiento indígena.
 
 Estas concepciones y áreas de trabajo se alinean con las ideas del movimiento de Tecnología Apropiada, predominante en los años '80 en la región. 
-Las ideas de la Tecnología Apropiada (TA) se originaron en los debates sobre desarrollo y asistencialismo de los años '60, bajo el concepto de tecnologías para el desarrollo. 
+Las ideas de la Tecnología Apropiada (TA) se originaron en los debates sobre desarrollo y asistencialismo de los años '60, bajo el concepto de *tecnologías para el desarrollo*. 
 La búsqueda se orientaba a principios de diseño de tecnologías situadas, ambiental y socialmente justas involucrando comunidades locales (Kaplinksy, 1990; Willoughby, 1990).
 El término 'tecnología apropiada' implicaba un set de características comunes: tecnologías de bajo costo, fabricadas con materiales locales, generadoras de empleo, empleando mano de obra local, pequeña escala, sin requerir expertise o educación de tipo hegemónico 'occidental', de uso colaborativo o colectivo, sin uso de patentes o propiedad intelectual. 
 
-Los actores e instituciones alrededor de la TA eran diversos, incluyendo activistas, extensionistas, educadores, ingenieros, algunos científicos, organismos de financiación y hacedores de políticas.
-El movimiento llegó a Latinoamérica a principios de los años '80 en tiempos de represión política, ajuste económico y crisis de deuda internacional. 
-A nivel internacional ya se encontraba perdiendo fuerza frente al neoliberalismo (Kaplinksy, 1990), sin embargo a nivel regional ganó momento basándose en las ideas de la teoría de la dependencia estructural y la ‘Escuela Latinoamericana de Pensamiento en Ciencia, Tecnología y Desarrollo’.
-
-Casi todos los países de Sudamérica tuvieron algún tipo de actividad de TA en este período en forma de centros y programas de investigación autónomos.
+Casi todos los países de Sudamérica tuvieron algún tipo de actividad de TA en los años '80 en forma de centros y programas de investigación autónomos.
 Estos centros reunían ingenieros, economistas, sociólogos y trabajadores sociales, algunos estudiantes y voluntarios y escasos vínculos a instituciones académicas.
 Las ideas globales de la TA no se ajustaban a la realidad latinoamericana de los '80, por lo que la primer tarea de los centros fue desarrollar nuevos marcos en torno a los actores, situaciones y problemas locales.
 
-Lo que caracterizó al movimiento en Latinoamérica fue su esfuerzo por construir un abordaje distinto, participativo que utilizara la tecnología como una herramienta para la autonomía y el empoderamiento.
-Sus impulsores experimentaban con metodologías que permitieran a las comunidades definir sus propios problemas y testear sus alternativas. 
-Las ideas de la TA en la región fueron inevitablemente influenciadas por los debates e ideas de la educación popular, investigación acción participativa, agroecología y revalorización del conocimiento indígena. 
-Autores como Paulo Freire y Orlando Fals Borda eran muy influyentes, lo que contribuyó a delinear nuevas aproximaciones a la participación (Kaimowitz, 1993). 
-A través del desarrollo de artefactos, técnicas y prácticas materiales se pretendía desarrollar autonomía y crear nuevas formas de activismo y conciencia política para generar empoderamiento. 
+Lo que caracterizó al movimiento en Latinoamérica fue su esfuerzo por construir un abordaje distinto, participativo que utilizara el desarrollo de artefactos, técnicas y prácticas materiales como una herramienta para la autonomía y nuevas formas de activismo y conciencia política.
+Sus impulsores experimentaban con metodologías que permitieran a las comunidades definir sus propios problemas y probar sus alternativas. 
 Se trataba de una aproximación práctica, que surgía del trabajo a campo y por ende flexible a incorporar distintos enfoques; las metodologías incluían por ejemplo procesos de co-diseño de tecnologías, auto-organización y construcción desde los usuarios.
+
+Las ideas de la TA en la región fueron inevitablemente influenciadas por los debates e ideas de la educación popular, investigación acción participativa, agroecología y revalorización del conocimiento indígena. 
+Autores como Paulo Freire y Orlando Fals Borda tuvieron una gran influencia, contribuyendo a delinear nuevas aproximaciones a la participación (Kaimowitz, 1993). 
 
 A medida que las políticas neoliberales comenzaron a predominar en la región, las agencias de desarrollo se vieron somentidas a "ajustes estructurales" (Rist, 2011). 
 Algunas iniciativas de TA lograron sobrevivir a partir de fondos que buscaban reconstruir procesos de democratización luego de las dictaduras latinoamericanas, aunque con enfoques diferentes. 
 
 Las ideas del movimiento de TA impulsaron nociones sobre la tecnología que pueden rastrearse en distintas iniciativas, como la Red de Tecnologías Sociales en Brazil a comienzos del siglo XXI.
 Los procesos de participación pública e inclusión de conocimientos locales son una práctica común en los proyectos actuales de desarrollo (Chambers, 1997; Pieterse, 1998), con sus críticas (Cooke & Kothari, 2001; Hickey & Mohan, 2004).
-En la actualidad, esta concepción del hardware científico abierto 'para el desarrollo' se puede observar en el trabajo de grupos con comunidades locales alrededor de temáticas principalmente de daño ambiental (monitoreo comunitario) y agroecología, pero también con iniciativas como Trend4Africa, donde el hardware científico abierto permite equipar laboratorios de bajos recursos en varios países africanos.
+
+El concepto de tecnología apropiada aparece explícitamente mencionado en trabajos sobre hardware científico abierto asociados al desarrollo sostenible (Pearce et al, 2010). 
+Esta acepción del hardware científico abierto 'para el desarrollo' se puede observar en el trabajo de grupos que realizan monitoreos ambientales comunitarios o trabajo con comunidades campesinas, o en iniciativas como Trend4Africa, donde se capacita personal local en construcción de hardware científico abierto para equipar laboratorios de bajos recursos en varios países africanos.
 
 ## ¿Por qué ahora?
 Como se menciona en las secciones anteriores, la filosofía del software libre surgió en los años '80, la cultura del do-it-yourself tiene raíces aún anteriores y los científicos modifican sus equipos y herramientas desde hace al menos 30 años (von Hippel, 1976).
-Sin embargo en los últimos años se puede observar un crecimiento explosivo de los proyectos de hardware abierto para ciencia: colorímetros (Anzalone et al., 2013a), sistemas fotométricos para cuantificar nitratos enzimáticos (Wittbrodt, et al., 2015), nephelometers (Wijnen et al. 2014a), turbidímetros (Kelly et al., 2014), liquid auto-samplers (Carvalho and Eyre, 2013), operadores de microfluidos (Da Costa, et al., 2014), equipos para biotecnología (Lucking et al., 2014; Gross et al., 2014; Su et al., 2014), espectroscopía de masa (Malonado-Torres et al., 2014; Chiu and Urban, 2015), automated sensing arrays (Wittbrodt, et al. 2014), phasor measurement units (Laverty et al., 2013), syringe pumps (Wijnen et al., 2014b), optics and optical system components (Zhang et al., 2013), nanotecnología para trabajar con ADN (Damase et al., 2015), monitoreo ambiental (Pearce, et al., 2012; Chemin et al., 2014) and compatible components for plasma physics labs (Zwicker et al., 2015) and medical apparatuses like magnetic resonance imaging systems (Hermann et al., 2014).
+Sin embargo en los últimos años se puede observar un crecimiento explosivo de los proyectos y las publicaciones sobre hardware abierto en ciencia, educación y hobbismo/productos de consumo.
 
-Históricamente las grandes compañías dominan la producción de hardware por dos razones: la fabricación es costosa y requiere de expertise.
-Huang (2017) alega que la desaceleración de la performance en innovación de las grandes compañías habilita una ventana de oportunidad para el hardware abierto, sumado a una ola de la cultura de la reparación a medida que más tecnología se vuelve obsoleta.
-La literatura coincide en que la aparición de plataformas de prototipado de bajo costo y accesibilidad en términos de expertise, como Arduino, jugaron un rol fundamental en este salto (Pearce, 2017; Söderberg, 2013; Powell, 2012). 
-Otro factor de relevancia es la difusión de la fabricación digital con herramientas como impresoras 3D (ver Box XXX), clave para el desarrollo de proyectos de hardware abierto, pero también cortadoras láser, CNC y otros (Söderberg, 2013).
+Varios autores (von Hippel, ?; Huang, 2017; Pearce, ?) argumentan que la dominación histórica de la producción de hardware por parte de grandes compañías descansa en dos razones principales: la fabricación es costosa y requiere de expertise muy específico.
+Huang (2017) identifica una ventana de oportunidad para el hardware abierto en los últimos años a partir de la desaceleración de la performance en innovación de las grandes compañías, sumada a un revival en los usuarios de la cultura de la reparación, en respuesta a la velocidad a la que la tecnología se vuelve obsoleta.
 
-La práctica colaborativa de compartir los diseños, facilitada por la masificación de internet como medio de comunicación de bajo costo, permitió que se formen comunidades alrededor de los dispositivos donde la información circula libremente.
-Adicionalmente la infraestructura necesaria para la colaboración alrededor del hardware encontró lugar en la creación de innumerables espacios físicos de innovación de distinto tipo, ya sean hacklabs, makerspaces, fablabs, centros comunitarios de innovación u otros (Maxigas, 2012; Kera, 2012).
+Uno de los factores más relevantes en este proceso es la difusión de la fabricación digital, con herramientas como impresoras 3D (ver Box XXX), clave para el desarrollo de proyectos de hardware abierto, pero también cortadoras láser, CNC y otros (Söderberg, 2013).
+La literatura coincide en que la aparición de plataformas de prototipado de bajo costo y accesibilidad en términos de expertise, como Arduino, tienen un rol fundamental en la tendencia a la descentralización de la producción (Pearce, 2017; Söderberg, 2013; Powell, 2012). 
 
-Powell (2012) resalta como los costos también bajan a partir de que muchas formas de hardware antes electrónicas pueden hoy ser reemplazadas con software, y componentes simples pueden ser impresos en diversos materiales a bajo costo. 
+Pearce aduce que se habrían reducido los costos de producir hardware científico en un 90–99% respecto de equipos propietarios de misma funcionalidad (Pearce, 2014a; Pearce,  2014b). 
+Powell (2012) identifica cómo los costos de fabricación disminuyen a partir de que muchas etapas de la producción de hardware pueden hoy ser reemplazadas con software, y componentes simples pueden ser impresos en diversos materiales a bajo costo. 
 Von Hippel, también en este sentido, menciona cómo la habilidad de innovar de los usuarios es mayor en los últimos años gracias a la disponibilidad de software y hardware de alta calidad y facilidad de uso sumado al acceso a información compartida.
 
-Actualmente es posible diseñar un prototipo virtualmente, probarlo y obtener una primera versión física sin demasiado esfuerzo, que posteriormente puede fabricarse a escala previa adaptación del diseño, por ejemplo en China.
+Actualmente es posible diseñar un prototipo de forma virtual, probarlo y obtener una primera versión física sin demasiado esfuerzo, que posteriormente puede fabricarse a escala gracias a servicios de 'diseño para fabricación', como los que presta la compañía Seeed Studio en China.
 En el mundo del hardware abierto para productos de consumo esto es una práctica difundida, que lentamente comienza a ser explorada en el ámbito del hardware abierto para ciencia.
-Pearce aduce que se habrían reducido los costos de producir hardware científico en un 90–99% respecto de equipos propietarios de misma funcionalidad (Pearce, 2014a; Pearce,  2014b). 
+
+La práctica colaborativa de compartir los diseños, facilitada por la masificación de internet como medio de comunicación de bajo costo, permite la formación de comunidades donde la información sobre fabricación circula libremente.
+El proceso se ve facilitado por la existencia de numerosos y cada vez más frecuentes espacios físicos de innovación de distinto tipo, ya sean hacklabs, makerspaces, fablabs, centros comunitarios de innovación u otros (Maxigas, 2012; Kera, 2012).
 
 ## ¿Cómo se hace hardware abierto?
 
 ### Herramientas de fabricación digital 
-Como se mencionaba en la sección '¿Por qué ahora?', el desarrollo y difusión de herramientas de fabricación digital tuvo un impacto directo en el surgimiento de proyectos de hardware abierto (Söderberg, 2013).
-Muchas de las herramientas tecnológicas que conforman la práctica de la fabricación digital no son particularmente nuevas; lo novedoso en la actualidad son las reducciones de los costos y escala de las tecnologías y un aumento de la versatilidad en el proceso de fabricación (Fressoli y Smith, 2015).
+Como se mencionaba en la sección anterior, el desarrollo y difusión de herramientas de fabricación digital tiene un impacto directo en el surgimiento de proyectos de hardware abierto (Söderberg, 2013).
+Muchas de las herramientas tecnológicas que conforman la práctica de la fabricación digital no son particularmente nuevas; lo novedoso son las reducciones de los costos y escala de las tecnologías y un aumento de la versatilidad en el proceso de fabricación (Fressoli y Smith, 2015).
 
-En términos de acceso, los usuarios pueden disponer indivualmente de las herramientas o acudir a espacios comunitarios donde abonan una tarifa por tiempo de uso (o usan sin costo) las herramientas disponibles (de Brujin, 2010; Mellis, 2014).
-Los espacios comunitarios permiten acceder a herramientas más complejas y costosas, y ofrecen oportunidades para el aprendizaje y el intercambio.
+En términos de acceso, los usuarios pueden disponer indivualmente de las herramientas o acudir a espacios comunitarios donde abonan una tarifa por tiempo de uso (o usan sin costo) las que se encuentren disponibles (de Brujin, 2010; Mellis, 2014).
+Los espacios comunitarios permiten acceder a herramientas más complejas y costosas que las accesibles al usuario individual, y ofrecen oportunidades para el aprendizaje y el intercambio.
 También existe la posibilidad de contratar una variedad de servicios de fabricación digital a distancia, lo que incrementa tanto la velocidad como el costo del proceso pero disminuye el control del usuario sobre el mismo y la posibilidad de iteración.
 
-En esta sección se detallan las principales herramientas de fabricación digital disponibles y sus principales usos. 
-Además de las mencionadas existen una variedad de otras herramientas específicas desarrolladas por los usuarios. 
+En esta sección se detallan las herramientas de fabricación digital más utilizadas en los proyectos de hardware abierto, aunque existe una variedad de otras herramientas específicas desarrolladas por los usuarios. 
 
 #### Impresión 3D
-Uno de los disparadores del crecimiento de la impresión 3D fue la expiración de las patentes de los equipos creados en la década de los ochenta.
+Uno de los disparadores del crecimiento de la impresión 3D fue la expiración de las patentes de los equipos creados en la década de 1980.
 A modo de ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocido como FMD por su sigla en inglés) que utiliza filamentos plásticos, ocasionando una explosión de experimentación en el rubro (Fressoli y Smith, 2015).
 
 El proyecto RepRap (nombre corto de 'Replicating rapid prototyper'), iniciado por Adrian Bowyer en la Universidad de Bath (Reino Unido), es uno de los casos paradigmáticos dentro de la impresión 3D.
@@ -291,6 +289,7 @@ Su objetivo original era desarrollar una herramienta de fabricación de bajo cos
 Utilizando procesos aditivos de fabricación, la RepRap se comercializa a menos de 500 euros, garantizando el acceso a una gran cantidad de usuarios.
 
 Diferentes modelos de impresoras 3D pueden utilizarse con diversos materiales, resoluciones y tolerancias; ampliando el espectro de estabilidad, propiedades ópticas, apariencia, acabado y demás propiedades (Mellis, 2014).
+En proyectos de hardware abierto se suele utilizar la impresión 3D para confeccionar mecanismos para movimiento, encastres, cajas o contenedores de plaquetas. 
 Las especificaciones de diseño, geometría, materiales y resistencias se distribuyen fácilmente en archivos digitales editables con FOSS especializado (Blender, OpenSCAD), lo que facilita la colaboración dentro de las comunidades.
 
 #### Cortadoras láser, tornos CNC y otros
@@ -301,43 +300,61 @@ En el caso de los tornos CNC, su utilización permite la remoción controlada de
 Estas herramientas trabajan con una variedad mayor de materiales respecto de la impresión 3D, pero son más limitadas en términos de las geometrías que pueden producir, e involucran un proceso más largo de fabricación, ensamblado y acabado. 
 Nuevamente las especificaciones geométricas, de material y ensamblado son fácilmente distribuidas en archivos digitales, aunque requieren de ajustes particulares adaptados a cada máquina. 
 
-Para materiales textiles existen también herramientas de control numérico que emulan el proceso de bordado o del telar, otros dispositivos como brazos robóticos y partes adaptables son cada vez más comúnmente desarrolladas por los usuarios (Mellis, 2014).
+Para materiales textiles existen también herramientas de control numérico que emulan el proceso de bordado o del telar.
+Otros dispositivos como brazos robóticos y partes adaptables son cada vez más comúnmente desarrolladas por los usuarios (Mellis, 2014).
 
 #### Circuitos impresos y electrónica
 Mellis (2014) considera la producción de circuitos impresos como un proceso de fabricación digital.
-A partir de los diseños digitales se producen placas mediante procesos afotográficos sobre materiales como cobre, a la que se suma una capa aislante y otra con texto y anotaciones.
-El proceso puede realizarse con máquinas CNC en espacios comunitarios o mediante servicios que ofrecen la fabricación a usuarios individuales partir del diseño digital.
+Una vez probado el prototipo, a partir de los diseños digitales se pueden producir placas impresas con componentes soldados.
+El proceso puede realizarse con máquinas CNC en espacios comunitarios o mediante servicios que ofrecen la fabricación a usuarios individuales.
 
-Uno de los principales obstáculos identificados a la hora de replicar diseños electrónicos es encontrar los componentes electrónicos necesarios (GOSH, 2018). 
+Uno de los principales obstáculos identificados a la hora de replicar diseños electrónicos es efectivamente conseguir los componentes necesarios (GOSH, 2018). 
 La alta especificidad de algunos diseños hace que sea muy complejo encontrarlos, sumado a que en algunos países existen limitaciones de importación.
-El ensamblado además requiere de cierta habilidad manual para la soldadura y resolución de problemas. 
+El ensamblado además requiere de cierta habilidad manual para la soldadura y experiencia en resolución de problemas. 
 
 ### Diseño y fabricación: de la idea al prototipo, del prototipo al producto
+
+Mellis (2010) identifica cinco formas de interacción de las personas con el hardware abierto, a partir del estudio del proceso de adaptación de un diseño de radio FM:
+
+- Hacer: replicar el objeto a partir del diseño digital, lo que permite a los usuarios entender cómo está hecho, ensamblado y cómo funciona.
+
+- Personalizar: modificaciones simples que no afectan la funcionalidad del diseño pero crean una conexión personal entre el objeto y su desarrollador
+
+- Diseñar: Utilizando el diseño original como patrón, diseñar una nueva forma manteniendo aspectos requeridos para el ensamblado o funcionamiento
+
+- Desarrollar: explorar posibilidades técnicas y aprendizajes a través de situarlos en un contexto (el del objeto) que motiva e inspira nuevas ideas
+
+- Experimentar: probar usos, lógicas, materiales o percepciones diferentes alrededor de un objeto
+
+En todas las acepciones mencionadas salvo la primera, el usuario interviene el objeto para crear algo diferente.
+En la literatura y en la práctica este proceso se denomina 'derivado', 'remix' o 'fork', y es identificado como clave en el desarrollo de la innovación (van den Bergh 2008; Kogut and Zander 1996; Schumpeter 1934). 
+En el caso de FOSS son numerosos los trabajos que estudian la dinámica de la creación de derivados en una comunidad para inferir modelos de interacción (ver próxima sección). 
+En hardware estos estudios son incipientes pero cada vez más numerosos (Kyriakou, 2014; Bonvoisin, 2018).
+
 Los pasos necesarios para construir hardware electrónico han ido mutando a partir de la disponibilidad de herramientas de fabricación digital y FOSS que permite emular etapas de diseño y testeo.
 Sin embargo aún se precisa contar con ciertos conocimientos y herramientas específicos en términos de electrónica o programación.
 
 La mayoría de los proyectos comienzan con una idea prototipada rápidamente como prueba de concepto.
-Para ello suelen utilizarse protoboards, básicamente cajas de plástico con orificios conectados entre sí que permiten crear un circuito sin necesidad de soldar cables o componentes.
+Para ello suelen utilizarse plaquetas que facilitan el prototipado como Arduino o RaspberryPi, sensores y componentes específicos, y protoboards, que son básicamente cajas de plástico con orificios conectados entre sí que permiten crear un circuito sin necesidad de soldar cables o componentes.
 En este punto el diseño no es perfecto, sólo sirve para comprobar que funciona y determinar qué componentes son necesarios.
 
 ![protoboard](https://en.wikipedia.org/wiki/Breadboard#/media/File:Breadboard.JPG)
 
-En la actualidad todos los objetos electrónicos se fabrican utilizando plaquetas de circuito impreso (PCB), a diferencia del sistema de cableado punto a punto utilizado hasta los años 60. 
-Hasta el advenimiento de las herramientas digitales se requería cierta habilidad "artística" del fabricante: se utilizaba una “máscara” de cinta negra sobre una placa de acetato para indicar la ruta de conexiones más eficiente a fin de transformar el diagrama en una plaqueta. 
-Los circuitos impresos aportaron un nivel mucho mayor de automatización en la fabricación: se eliminó el cableado, ya que las conexiones, constituidas por líneas de cobre, se encuentran integradas en un soporte no conductor -generalmente epoxy- que además sostiene los componentes.
+Una vez que el diseño está probado, el paso que sigue es volcarlo en una plaqueta de circuito impreso o PCB, donde los componentes se sueldan y el diseño gana estabilidad.
+En la actualidad todos los objetos electrónicos se fabrican utilizando PCBs, a diferencia del sistema de cableado punto a punto utilizado hasta los años 60. 
+
+En los circuitos impresos las conexiones están constituidas por líneas de cobre integradas en un soporte no conductor -generalmente epoxy- que además sostiene los componentes.
 Estas innovaciones permitieron no sólo reducir el espacio que ocupa el circuito sino también integrar el uso de microchips, el corazón de las tecnologías como teléfonos móviles, computadoras, tablets y más.
 
 <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PCB_design_and_realisation_smt_and_through_hole.png/1024px-PCB_design_and_realisation_smt_and_through_hole.png" width=80%>    
 *Fig 4: ejemplo de diseño digital de circuito impreso (izq.) y circuito final (der.) (Fuente: Wikipedia)*
 
-Actualmente, una vez que se obtiene una prueba de concepto el próximo paso consiste en trasladar el diseño a su versión digital, que servirá para producir el circuito integrado o PCB.
-Esta 'versión digital' consta de dos partes: un diagrama esquemático ('schematic') y un diagrama de diseño ('layout'). 
+El traspaso de prototipo a PCB requiere que el diseño se encuentre digitalizado en dos partes: un diagrama esquemático ('schematic') y un diagrama de diseño ('layout'). 
 
 El diagrama esquemático es un gráfico donde se especifican los componentes electrónicos (resistencias, capacitores, circuitos integrados) a utilizar y sus conexiones, a través de un sistema de símbolos. 
-En caso de ser necesario también se indica información sobre valores de cada componente (por ejemplo una resistencia de 10-kilohm). 
-
-Sin embargo el esquemático no posee toda la información necesaria para fabricar una plaqueta de circuito impreso, por lo cual se debe armar el diagrama de diseño, que especifica la disposición del circuito en la placa.
+En caso de ser necesario también se indican datos sobre valores específicos para cada componente (por ejemplo una resistencia de 10-kilohm). 
+El diagrama de diseño especifica la disposición física del circuito en la placa que lo sostiene.
 Tanto el esquemático como el layout se obtienen mediante FOSS especializado, como Fritzing o KiCad.
 
 ![esquemático](https://circuitdigest.com/sites/default/files/circuitdiagram_mic/12v-battery-charger-circuit-with-variable-voltage.gif)
@@ -348,7 +365,7 @@ Tanto el esquemático como el layout se obtienen mediante FOSS especializado, co
 
 Los dos productos de la etapa anterior son luego transformados en archivos vectoriales denominados 'Gerber' que pueden ser leídos por un fabricante, donde se detallan tamaño de componentes, forma y conexiones y se diseña la configuración física final del circuito. 
 Es un proceso orientado gráficamente, en el cual el diseñador ubica los componentes y las conexiones de la forma más eficiente posible -el software propone el arreglo más conveniente aunque siempre requiere retoques por parte del diseñador-. 
-Dado un set Gerber, el fabricante puede crear una o 100 mil copias de un circuito.
+Dado un set Gerber, el fabricante puede crear una o cien mil copias de un circuito.
 
 ```
 G04 Short version a file taken from the Example Job 1, created by Filip Vermeire, Ucamco*
@@ -386,43 +403,18 @@ M02*
 ```    
 _Fig 5: ejemplo de archivo en formato Gerber, para ser leído por el fabricante (Fuente: Wikipedia)_
 
-En cuanto a las dificultades que se identifican en los procesos de desarrollo, principalmente son aquellas relacionadas a la dificultad de conseguir componentes -que no se encuentran disponibles en todos los países-, la necesidad de estandarización en el uso tanto de plataformas electrónicas como de software de diseño, que permita a los grupos interactuar de forma sencilla -en este sentido todos los autores remarcan la importancia de Arduino-, y en menor medida la dificultad para documentar y trackear los cambios entre versiones -para lo cual existen iniciativas de documentación por parte de distintas organizaciones-.
-
-Los pasos descritos aplican al desarrollo de una plaqueta electrónica (PCB), presente en casi todos los artefactos que usamos a diario. 
-Sin embargo, crear un artefacto requiere de otras instancias adicionales de desarrollo, como el diseño final del objeto, elección de los materiales, mecánica de las partes, programación del software, etc. 
-
-Mellis (2010) identifica cinco formas de interacción de las personas con los objetos abiertos, a partir del estudio del proceso de adaptación de un diseño de radio FM:
-
-- Hacer: replicar el objeto a partir del diseño digital, lo que permite a los usuarios entender cómo está hecho, ensamblado y cómo funciona (proceso descrito anteriormente)
-
-- Personalizar: modificaciones simples que no afectan la funcionalidad del diseño pero crean una conexión personal entre el objeto y su desarrollador
-
-- Diseñar: Utilizando el diseño original como patrón, diseñar una nueva forma manteniendo aspectos requeridos para el ensamblado o funcionamiento
-
-- Desarrollar: explorar posibilidades técnicas y aprendizajes a través de situarlos en un contexto (el del objeto) que motiva e inspira nuevas ideas
-
-- Experimentar: probar usos, lógicas, materiales o percepciones diferentes alrededor de un objeto
-
-Según el autor la ventaja de la aproximación open source radica en que estas relaciones entre personas y objetos pueden ser compartidas con otros que la modificarán a su vez o integrarán en sus propias ideas.
-Esto se ve imposibilitado en otros diseños como el de kits de desarrollo, donde la elaboración está más restringida por el universo de posibilidades ideado por el fabricante del kit.
-
-Kyriakou (2014) propone el estudio de una plataforma online (Thingiverse) para analizar el concepto de derivados o 'remixing' a través del cual los miembros de una comunidad modifican o combinan ideas de otros.
-Este proceso bajo diferentes nombres es identificado como clave en el desarrollo de la innovación (van den Bergh 2008; Kogut and Zander 1996; Schumpeter 1934). 
-
-
 #### Buenas prácticas de diseño
-Aunque la barrera de acceso a la fabricación de hardware es menor en la actualidad, autores como Wozniak (2014) y Oberloier (2017) consideran que las buenas prácticas de diseño son fundamentales para asegurar la accesibilidad y replicabilidad de los desarrollos. 
+Aunque la barrera de acceso a la fabricación de hardware es menor en la actualidad, autores como Wozniak (2014) y Oberloier (2017) consideran que las buenas prácticas de diseño son fundamentales para asegurar que la mayor cantidad posible de personas puede acceder y replicar los desarrollos.
 
-Wozniak (2014) propone un modelo de diseño de producto para hardware al que denomina 'cascada'. 
-En el mismo se detallan etapas de definición de especificaciones, diseño, prototipado y testeo; el proceso es necesariamente iterativo pero requiere de avances secuenciales. .
+Wozniak (2014) propone un modelo ideal de diseño de producto para hardware al que denomina 'cascada', que imita al proceso que se realiza a nivel industrial. 
+En el mismo se detallan etapas de definición de especificaciones, diseño, prototipado y testeo; el proceso es necesariamente iterativo pero requiere de avances secuenciales. 
 
 ![waterfall model of product development](../notas_bibliografia/wozniak.png)
 
-Oberloier detalla aún más este y otros requisitos en sus procedimiento general para el diseño de hardware científico abierto (2017).
+Oberloier detalla aún más este y otros requisitos en su procedimiento general para el diseño de hardware científico abierto (2017).
+La guía incluye no sólo recomendaciones para el diseño si no para la documentación y colaboración, bajo cinco preceptos principales:
 
-Las guías incluyen no sólo recomendaciones para el diseño si no para la documentación y colaboración, bajo cinco preceptos:
-
-1. Hacer una revisión de la literatura para basarse en diseños pre-existentes, y si no es posible realizar una prueba de concepto simple
+1. Hacer una revisión de la literatura previa para basarse en diseños pre-existentes, y si no existen antecedentes, realizar una prueba de concepto simple
     - Este paso asegura que no se 'reinventa la rueda' y se contribuye al pool de conocimientos existente. 
 2. Diseñar teniendo en cuenta:
     - Utilización de FOSS para garantizar replicabilidad
@@ -433,12 +425,30 @@ Las guías incluyen no sólo recomendaciones para el diseño si no para la docum
 4. Documentar el diseño, fabricación, ensamblado, calibración y operación en detalle, orientado a un no especialista, siguiendo las guías de OSHWA.
 5. Compartir la documentación en repositorios open source específicos (Open Science Framework, Github, 3DPrint Exchange, Open Circuit Institute)
 
-En su análisis del proceso de construcción de un derivado open source, Mellis & Buechley (2011) destacan en particular la importancia de la modularidad en el proceso, ya que permite a usuarios menos experimentados utilizar los diseños como patrón y modificar las partes que les interesan, sin afectar la funcionalidad.
-Yanamandra (2014) identifica la modularidad en software como la característica fundamental del software abierto que no es trasladada aún al hardware, el hecho de que el hardware se aborde en su totalidad resulta agobiante debido a la diversidad de expertise necesaria para su desarrollo.
-Gibb (2014) detalla una guía de buenas prácticas a la hora de hacer un derivado de un producto de hardware abierto, es decir replicarlo y/o modificarlo a partir de los diseños originales, que tiene en cuenta principalmente cuestiones de atribución.
+Un principio compartido por todas las recomendaciones (Gibb, 2014) es la *modularidad*, que consiste en separar las distintas funciones de un desarrollo en partes intercambiables, que puedan ser modificadas y probadas por sí mismas.
+En su análisis del proceso de construcción de un derivado open source, Mellis & Buechley (2011) destacan en particular la importancia de la modularidad ya que permite a usuarios menos experimentados utilizar los diseños como patrón y modificar las partes que les interesan, sin afectar la funcionalidad.
+
+Yanamandra (2014) identifica la modularidad en software como la característica fundamental de FOSS que aún no es trasladada a hardware.
+Esto hace que el abordaje del hardware abierto resulte demasiado complejo para la mayoría de las personas, debido a la diversidad de expertise necesaria para su desarrollo.
 
 ### Documentación y grados de apertura
-Wagenknecht (2014) propone una taxonomía de la documentación necesaria para los proyectos de hardware abierto que incluye:
+Uno de los obstáculos principales identificados en la literatura es que compartir conocimiento sobre átomos no es tan sencillo como compartir conocimiento sobre bits: el diseño de objetos precisa de otras representaciones como esquemáticos 2D o 3D para ser reproducibles (Bonvoisin, 2017).
+En general los componentes de hardware de los proyectos están documentados en menor grado que los de software (Raasch et al, 2009), originando gradientes de apertura y discusiones sobre qué sí es y qué no es hardware abierto.
+
+Desde 2016 OSHWA ofrece un programa de auto-certificación que permite utilizar el logo de hardware abierto si se cumple con su definición, con 180 proyectos suscriptos a mayo 2018 (Bonvoisin y Mies 2018).
+Sin embargo esta propuesta no establece los requisitos mínimos del contenido de la documentación, si no que está orientada a los aspectos del producto relacionados a las licencias abiertas, asumiendo que ésto garantiza la apertura.
+
+Los proyectos de hardware abierto no están centralizados en un repositorio principal, como sí lo hacen las comunidades de software o impresión 3D (Raasch and Herstatt, 2011).
+La comunidad tiende a utilizar una variedad de plataformas para colaboración y difusión (Bonvoisin et al. 2017) como ser GitHub, Thingiverse, Instructables (mayoritariamente personalización del consumo), Docubricks, Open Science Framework (científicos), Kit Space (electrónicos).
+Adicionalmente los diseños pueden publicarse en revistas especializadas, como el Journal of Open Hardware ó HardwareX, pero también de rubros específicos, como revistas sobre diseño, ingeniería, instrumental científico o médico, educación.
+
+El control de versiones es una de las prácticas más utilizadas para documentar la colaboración en el desarrollo de FOSS, mediante la cual todas las contribuciones de usuarios a un proyecto son históricamente registradas y se encuentran disponibles para reutilizar.
+Una de las herramientas más populares para realizar control de versiones es *git*, el software que originalmente se desarrolló para gestionar las colaboraciones sobre el kernel Linux, y que en los últimos años se encuentra asociado a plataformas web como GitHub, GitLab y otras.
+
+Yanamandra (2014) identifica el control de versiones como una práctica fundamental utilizada en software que debe ser trasladada a los archivos de diseño de hardware para permitir la colaboración real.
+Considera que existe la necesidad de desarrollar una plataforma que cubra los requerimientos específicos que demanda la colaboración en hardware y permita el crecimiento y gestión de la comunidad.
+
+En cuanto al contenido de la colaboración, Wagenknecht (2014) propone una primera taxonomía de la documentación necesaria para los proyectos de hardware abierto que incluye:
 
 - Archivo README con una descripción rápida del proyecto, licencias, atribución, tiempo y costo de fabricación y nivel de expertise necesario
 
@@ -458,32 +468,18 @@ Wagenknecht (2014) propone una taxonomía de la documentación necesaria para lo
 
 Estas recomendaciones se alinean con las buenas prácticas publicadas por la Open Source Hardware Association (OSHWA, 2017).
 
-Bonvoisin y Schmidt (2017) elaboran recomendaciones para la documentación de proyectos de hardware mecánicos, organizadas alrededor de tres objetivos: 
+Bonvoisin y Schmidt (2017) elaboran recomendaciones para la documentación de proyectos de hardware no electrónico, organizadas alrededor de tres objetivos: 
 
-- Permitir que otros estudien el producto: compartir diseños en formato original en un repositorio, utilizar FOSS
+- Permitir que otros estudien el producto --> compartir diseños en formato original en un repositorio, utilizar FOSS
 
-- Permitir que otros repliquen el producto: adicionalmente compartir lista de materiales completa e instrucciones de ensamblado en texto e imagen/video
+- Permitir que otros repliquen el producto --> adicionalmente compartir lista de materiales completa e instrucciones de ensamblado en texto e imagen/video
 
-- Permitir que otros contribuyan al producto: compartir archivos editables o utilizar wikis, publicar guías de contribución 
-
-Yanamandra (2014) identifica el control de versiones como una característica fundamental utilizada en software que debe ser trasladada a los archivos de diseño de hardware.
-Considera que existe la necesidad de desarrollar una plataforma que cubra estos requerimientos y permita la colaboración de la comunidad.
-Sin embargo los proyectos de hardware abierto no están centralizados en una plataforma principal, como sí lo hacen las comunidades de software o impresión 3D (Raasch and Herstatt, 2011).
-
-La comunidad tiende a utilizar una variedad de plataformas para colaboración y difusión (Bonvoisin et al. 2017) como ser GitHub, Thingiverse, Instructables (mayoritariamente personalización del consumo), Docubricks, Open Science Framework (científicos), Kit Space (electrónicos).
-Adicionalmente los diseños pueden publicarse en revistas especializadas, como el Journal of Open Hardware ó HardwareX, pero también de rubros específicos, como revistas sobre diseño, ingeniería, instrumental científico o médico, educación.
-
-Bonvoisin (2017) hace una revisión de la literatura sobre documentación y colaboración en hardware abierto orientada a evaluar cuáles son las prácticas de apertura en la comunidad.
-Uno de los obstáculos principales identificados es que compartir conocimiento sobre átomos no es tan sencillo como compartir conocimiento sobre bits: el diseño de objetos precisa de otras representaciones como esquemáticos 2D o 3D para ser reproducibles.
-En general los componentes de hardware de los proyectos están documentados en menor grado que los de software (Raasch et al, 2009), originando gradientes de apertura y discusiones sobre qué sí es y qué no es hardware abierto.
-
-En cuanto a antecedentes, desde 2016 OSHWA ofrece un programa de auto-certificación que permite utilizar el logo de hardware abierto si se cumple con su definición de hardware abierto, con 180 proyectos suscriptos a mayo 2018 (Bonvoisin y Mies 2018).
-Sin embargo esta propuesta no establece los requisitos mínimos del contenido de la documentación, si no que está orientada a los aspectos del producto relacionados a las licencias abiertas, con la asunción de que ésto garantiza la apertura.
+- Permitir que otros contribuyan al producto --> compartir archivos editables o utilizar wikis, publicar guías de contribución 
 
 Bonvoisin y Mies (2018) proponen una topografía de la documentación para hardware abierto que considera las cuatro libertades del software libre y las 'fuentes' que deben documentarse para alcanzarlas.
-Toman para ello el concepto de Huizingh de apertura de producto y apertura de proceso, e identifican que en el discurso sobre código abierto la apertura de proceso está implícita por definición, refiriéndose a la transferencia de la innovación desde el ámbito privado al ámbito público.
+Toman para ello el concepto de Huizingh de apertura de producto y apertura de proceso, e identifican que en el discurso sobre código abierto la apertura de proceso está implícita por definición, refiriéndose a la transferencia de la innovación desde el ámbito privado al ámbito público, y por ende es necesaria su implementación.
 
-Los autores mencionan como la apertura del proceso de innovación no está explícitamente declarada en las buenas prácticas o guías de certificación disponibles, y numerosos proyectos no la incorporan.
+Los autores identifican que la apertura del proceso de innovación no está explícitamente declarada en las buenas prácticas o guías de certificación disponibles, y numerosos proyectos no la incorporan.
 Sin embargo alertan que es poco realista en términos de inversión de tiempo para los proyectos exigir toda la documentación ya que además estos requisitos varían en las distintas etapas de vida de los proyectos.
 
 ![aproximaciones al ohw](../notas_bibliografia/bonvoisin2018.png)
@@ -491,38 +487,29 @@ Sin embargo alertan que es poco realista en términos de inversión de tiempo pa
 La evaluación de la apertura de proyectos de hardware abierto de Bonvoisin y colaboradores se basa en cuatro dimensiones identificadas en la literatura y su asociación a las libertades del software libre:
     
 - Transparencia (T) asociada a la libertad de estudiar, se cumple cuando se publican los archivos de diseño.
-- Accessibilidad (A) asociada a la libertad de modifciar, se cumple cuando el contenido publicado es editable o existen guías para la contribución.
-- Replicabilidad (R) asociada a la libertad de fabricar, se cumple cuando se publican listas de materiales e instrucciones de ensamblado.
-- Posible uso comercial (C) asociada a la libertad de distribución, se cumple cuando las licencias permiten el uso comercial del contenido publicado.
+- Accessibilidad (A) asociada a la libertad de modificar, se cumple cuando el contenido publicado es editable o existen guías para la contribución.
+- Replicabilidad ( R) asociada a la libertad de fabricar, se cumple cuando se publican listas de materiales e instrucciones de ensamblado.
+- Posible uso comercial ( C) asociada a la libertad de distribución, se cumple cuando las licencias permiten el uso comercial del contenido publicado.
 
 ![aproximaciones al ohw](../notas_bibliografia/bonvoisin2017.png)
 
-Además propone un indicador de apertura basado en la disponibilidad de documentación de los proyectos, por puntaje acumulativo (Open-O-Meter):
+Los autores proponen un indicador de apertura basado en la disponibilidad de documentación de los proyectos, por puntaje acumulativo (Open-O-Meter).
+Los resultados de la aplicación del Open-O-Meter sobre más de cien proyectos muestran una heterogeneidad de prácticas de documentación, con 18% de proyectos que no cumplen con ninguno de los requisitos. 
+Los autores asocian esto a posibles interpretaciones equivocadas de la apertura, procesos de 'open-washing' (utilizar el término open source para ganar reputación o mercados sin realmente ejercer las prácticas) o el efecto del tiempo sobre los proyectos, e identifican la necesidad de nuevos estándares públicos que clarifiquen el uso del término. 
 
-a. Archivos CAD disponibles     
-b. Archivos CAD editables     
-c. Instrucciones de ensamblado disponibles     
-d. Instrucciones de ensamblado editables     
-e. Lista de materiales disponible     
-f. Lista de materiales editable     
-g. Guías para contribución disponibles      
-h. Uso comercial permitido
-
-La evaluación se aplicó a 132 productos de hardware abierto no electrónicos seleccionados a partir de búsquedas online, y de acuerdo a los resultados se identificaron clusters.
-Los resultados muestran una heterogeneidad de prácticas de documentación, con 18% de proyectos que no cumplen con ninguno de los requisitos. 
-Los autores asocian esto a posibles interpretaciones equivocadas de la apertura, 'open-washing' o el efecto del tiempo sobre los proyectos, e identifican la necesidad de nuevos estándares públicos que clarifiquen el uso del término. 
-
-A partir de la evaluación de las prácticas de documentación los autores identifican dos aproximaciones al hardware abierto: una de desarrollo comunitario que clasifica como hardware de código abierto y otra de difusión de innovaciones alcanzadas dentro del ámbito privado (o public innovation, que no sería open source hardware).
+A partir de la evaluación de las prácticas de documentación los autores identifican dos aproximaciones: una de desarrollo comunitario que clasifica como hardware de código abierto y otra de difusión de innovaciones alcanzadas dentro del ámbito privado (o public innovation), que no catalogan como hardware abierto.
 Estas categorías se desagregan en la documentación que comparten de acuerdo al ciclo de vida del proyecto.
 
 ![aproximaciones al ohw](../notas_bibliografia/bonvoisin2017b.png)
 
-Los autores proponen una versión revisada del Open-O-Meter (Bonvoisin y Mies, 2018) como una metodología rápida de evaluación de apertura en proyectos de hardware abierto, con un máximo de 8 (totalmente abierto, cumple con las prácticas recomendadas) y un mínimo de 0 (no cumple con requisitos de apertura y por lo tanto no es abierto). 
-Esto debe ser complementado con información contextual sobre etapa dentro del ciclo de vida del proyecto ó complejidad, que alteran el máximo de puntos alcanzable.
+En 2018 los autores publican una versión revisada del Open-O-Meter (Bonvoisin y Mies, 2018) como metodología rápida de evaluación de apertura en proyectos de hardware abierto.
+El indicador toma un valor máximo de 8 (totalmente abierto, cumple con las prácticas recomendadas) y un mínimo de 0 (no cumple con requisitos de apertura y por lo tanto no es abierto). 
+Esta información debe ser complementada con información contextual sobre la etapa de ciclo de vida del proyecto y la complejidad del desarrollo, que alteran el máximo de puntos alcanzable.
 
 Los ocho criterios del Open-O-Meter son:
 
 **Apertura de producto**     
+
 1. Los contenidos están liberados bajo licencias abiertas o compatibles (por ejemplo hardware bajo TAPR, software GPL)
 2. Todos los archivos de diseño (CAD) están disponibles, cuando existe software, el código está disponible, cuando existen componentes electrónicos se comparten los esquemáticos (eCAD).
 3. La lista de materiales está disponible
@@ -530,55 +517,61 @@ Los ocho criterios del Open-O-Meter son:
 5. Todos los archivos están disponibles en su formato original
 
 **Apertura de proceso**     
+
 6. Todos los archivos se mantienen con control de versiones permitiendo la edición
 7. Existen guías de contribución
 8. Herramientas de seguimiento de problemas o mecanismos equivalentes permiten trackear tareas y mejoras
 
-Esta metodología la aplican al análisis de tres productos, echOpen (un ecoestetoscopio abierto), inMoov (robot humanoide de tamaño real fabricado a partir de impresión 3D) y POM (un proyecto de Renault para fabricar un vehículo 'open source').
+Con este indicador analizan tres productos, echOpen (un ecoestetoscopio abierto), inMoov (robot humanoide de tamaño real fabricado a partir de impresión 3D) y POM (un proyecto de Renault para fabricar un vehículo 'open source').
 El resultado del Open-O-Meter en base al análisis de la documentación disponible arroja los siguientes resultados: 
 
 ![aproximaciones al ohw](../notas_bibliografia/bonvoisin_mies.png)
 
-Estos tres ejemplos identifican tipos de proyectos de código abierto (echOpen), proyectos con apertura de producto (inMoov) y proyectos cerrados (POM). 
+Estos tres ejemplos ejemplifican la tipología de proyectos posibles: de código abierto (echOpen), de apertura de producto (inMoov) y proyectos cerrados (POM), que da origen a la combinación de posibilidades encontrada en la práctica. 
 
 ### Comunidad y colaboración
-West y Lakhani (2008) critican el escaso estudio de las comunidades dentro de los trabajos sobre innovación abierta (Chesbrough, 2003; Chesbroughet al., 2006; Gassmann, 2006) e identifica que refieren al concepto de "comunidad" con aproximaciones implícitas, explícitas o fenomenológicas.
+El nivel de análisis de comunidad en los estudios de innovación resulta complejo ya que pueden estar integradas tanto por usuarios aislados como por miembros de compañías (von Hippel, 2005) y su nivel de pertenencia puede variar en el tiempo. 
+Uno de los conceptos más cercanos al de comunidad es el de Red, donde las normas de reputación, reciprocidad y relaciones mutuamente benéficas se identifican de forma similar (Powell, 1990).
+
+West y Lakhani (2008) critican el escaso estudio de las comunidades dentro de los trabajos sobre innovación abierta (Chesbrough, 2003; Chesbroughet al., 2006; Gassmann, 2006) e identifica que los que sí las estudian refieren al concepto de *comunidad* con aproximaciones diversas implícitas, explícitas o fenomenológicas.
 Los autores proponen una definición de 'comunidad' en la innovación abierta basada en el trabajo de Gläser (2001), como *una asociación voluntaria de actores, típicamente sin afiliación previa (por ejemplo no trabajan para la misma firma) pero reunidas alrededor de un objetivo compartido concreto*.
 
-El nivel de análisis de comunidad puede resultar complejo, ya que están integradas tanto por usuarios aislados como por miembros de compañías o fabricantes (von Hippel, 2005), y en diferentes niveles de pertenencia. 
-Uno de los conceptos más cercanos al de comunidad es el de Red, donde las normas de reputación, reciprocidad y relaciones mutuamente benéficas también existen (Powell, 1990).
+Con el objetivo de definir los límites de la 'comunidad' como objeto de estudio, West y Lakhani formulan algunos interrogantes: ¿Quiénes integran la comunidad? ¿Es un conjunto de firmas una comunidad o una red? ¿Existen redes dentro de las comunidades o viceversa? ¿Es posible hablar de comunidad si no existe sentido de pertenencia (Corlett, 1989)?
 
-Con el objetivo de definir los límites de la 'comunidad' como objeto de estudio, West y Lakhani formulan algunos interrogantes: quiénes integran la comunidad? Es un conjunto de firmas una comunidad o una red? Existen redes dentro de las comunidades o viceversa? Es posible hablar de comunidad si no existe sentido de pertenencia (Corlett, 1989)?
+Para el caso particular del hardware abierto, Mies y colaboradores (2018) definen a las comunidades como grupos heterogéneos de agentes y actores que co-crean productos de hardware abierto. 
+Extrapolan directamente el modelo de capas típico de FOSS (ver 'Modelos de interacción'), donde colaboradores dispersos geográficamente son coordinados por un equipo central a través de plataformas online (Mies et al, 2018).
+Los colaboradores contribuyen de forma individual tomando el rol de seguidores, replicadores, desarrolladores o administradores dentro de la comunidad.
+Su rol como colaboradores y el tiempo invertido en el proyecto es determinado a nivel individual.
 
-Mies y colaboradores (2018) definen a las comunidades de hardware de código abierto como grupos heterogéneos de agentes y actores que co-crean productos de hardware abierto. 
-Los colaboradores contribuyen de forma individual tomando el rol de seguidores, replicadores, desarrolladores o administradores dentro de la comunidad, de forma auto-organizada eligiendo tanto el rol como el tiempo que invierten en él.
-Extrapolan directamente el modelo de capas típico de FOSS (ver 'Modelos de interacción'), definiendo cómo dentro de estas comunidades, colaboradores dispersos geográficamente son coordinados por un equipo central a través de plataformas online (Mies et al, 2018).
 
 #### Modelos de interacción
 
-Dentro de los estudios de innovación abierta, el rol de las comunidades es ampliamente estudiado en el campo del FOSS (Lakhani y von Hippel, 2003), específicamente en cómo el soporte comunitario facilita la adopción y uso de la innovación.
+Dentro de los estudios de innovación abierta el rol de las comunidades es ampliamente estudiado en el campo del FOSS (Lakhani y von Hippel, 2003), específicamente en cómo el soporte comunitario facilita la adopción y uso de la innovación.
 
 Los estudios de FOSS proveen modelos de 'cebolla' o innovación en capas, donde los desarrolladores pertenecen al núcleo del proyecto (quienes revisan, lideran y mantienen) o a la periferia (grupo mayor de colaboradores). 
 El núcleo depende de la periferia para reportar fallas, probar soluciones y proveer mejoras, que son luego incorporadas por el núcleo en la próxima versión (Rullani, 2007).
-El desarrollo del producto es un proceso de aprendizaje evolutivo, dirigido por la crítica y corrección de errores, institucionalizado como revisión de pares, de forma continua.
+El desarrollo del producto es un proceso de aprendizaje evolutivo, dirigido por la crítica y corrección de errores, institucionalizado como revisión de pares e instrumentado con herramientas de control de versiones.
+
+West y Lakhani mencionan que aunque el modelo de cebolla es observable, los límites entre el núcleo y periferia son más claros que los límites entre colaboradores y no colaboradores de la periferia.
+Cita como ejemplo el estudio de 116 proyectos de la plataforma SourceForge (Crowston et al., 2006) donde se encontraron diferentes nociones de pertenencia a partir de responsabilidades, contribuciones e interacciones.
 
 Buechley remarca que este proceso de colaboración se da de manera más descentralizada en hardware que en software, observándose mucho más frecuentemente múltiples iniciativas de pequeña escala, con una dinámica más "privada" de la colaboración, sobre grandes iniciativas a partir de comunidades numerosas. 
 El carácter privado de la colaboración también es observado por Malinen en el caso del desarrollo del eCar finés: a la hora de construir hardware, es más común que la colaboración exitosa se pueda dar en pequeños grupos que al menos una vez se encuentran físicamente en lugares de trabajo.
 
-Raasch y colaboradores (2011) comparan este modelo de software con el proceso de desarrollo abierto de un producto de hardware, identificando similitudes y diferencias. 
+Raasch y colaboradores (2011) comparan el modelo en capas de FOSS con el proceso de desarrollo abierto de un producto de hardware, identificando similitudes y diferencias. 
 Dentro de las similitudes encuentran el uso de licencias abiertas, la ausencia de control sobre la participación de los colaboradores, la distinción entre núcleo y periferia de colaboradores asociados a roles diferenciales, la estructura de revisión, experimentación y liberación de versiones estables y el desarrollo basado en la experimentación y práctica por parte de la comunidad. 
 
 Las diferencias son agrupadas en cuatro categorías:
 
 - Habilidades 
 
-La diversidad de conocimientos requerida para desarrollar un proyecto dificulta la coordinación de esfuerzos, sumando trabajo al núcleo de desarrolladores.
+La diversidad de conocimientos requerida para desarrollar un proyecto de hardware dificulta la coordinación de esfuerzos, sumando trabajo al núcleo de desarrolladores.
 Frente a esto la mayoría de los proyectos limita las contribuciones activas a través de minimizar el apoyo a desarrollos nuevos o limitar directamente el número de desarrolladores núcleo. 
 De esta forma se intenta hacer coincidir la demanda de coordinación con la disponibilidad de tiempo existente, en proyectos generalmente voluntarios.
 
 - Herramientas
 
-Las herramientas para diseñar objetos suelen ser costosas, no proveer las funcionalidades requeridas o presentar una curva de aprendizaje costosa. 
+Las herramientas para diseñar objetos suelen ser costosas, no proveer las funcionalidades requeridas o presentar una curva de aprendizaje demandante. 
 Para sortear la primer dificultad los grupos suelen utilizar herramientas FOSS, cada vez más disponibles. 
 La segunda efectivamente afecta el desarrollo haciéndolo más lento y reduciendo el número de colaboradores.
 La última implica el abandono de colaboradores hobbistas o voluntarios part-time, también disminuyendo el número total de colaboradores.
@@ -589,21 +582,21 @@ En casos donde se trata de realizar derivados, o en situaciones de ingeniería r
 
 - Producción física
 
-La variabilidad en la posibilidad de adquirir componentes en distintos países es importante, los proyectos como RepRap atacan esta dificultad incorporando listas de materiales lo más estándar posible.
-Sin embargo estas variaciones geográficas siguen siendo importantes, por lo en casos como RepRap se generaron sub-comunidades por región, orientadas a proveer soporte en condiciones locales.
+La variabilidad en la posibilidad de adquirir componentes en distintos países genera complicaciones.
+Los proyectos como RepRap atacan esta dificultad incorporando listas de materiales lo más estándar posibles.
+Sin embargo estas variaciones geográficas siguen siendo significativas; en RepRap se generaron sub-comunidades por región, orientadas a proveer soporte en condiciones locales.
 
-La mayor parte de la experimentación ocurre offline por lo cual la documentación es un esfuerzo extra.
-Esto hace que por ejemplo los experimentos fallidos no sean generalmente documentados, cambiando el foco de la revisión de pares a la revisión individual. 
-Esta secuencia de colaboración offline y online no está totalmente explorada.
+La mayor parte de la experimentación ocurre offline por lo cual la documentación es un esfuerzo extra, lo que hace que por ejemplo los experimentos fallidos no sean generalmente documentados.
+Esta característica hace que la revisión pase de ser de pares a individual.
 
 Raasch y colaboradores proponen una serie de soluciones a estas dificultades, encabezadas por una propuesta de modularidad total del diseño, que consideran es favorable frente a los cuatro desafíos expuestos anteriormente.
 
 ![challenges and solutions for open design](../notas_bibliografia/raasch2011.png)
 
 Mellis (2012) analiza las variaciones de la plaqueta Arduino Duemilanove para caracterizar la dinámica de la colaboración en hardware respecto de software. 
-Encuentra que se trata de un ecosistema de numerosos grupos pequeños (incluyendo compañías) que ofrecen alternativas alrededor de un mismo producto, sin cambiar su funcionalidad inicial. 
+Encuentra que se trata de un ecosistema de numerosos grupos pequeños (incluyendo compañías) que ofrecen derivados del producto que no afectan radicalmente la funcionalidad original. 
 
-El autor encuentra diferencias con el proceso del software que se asimilan a las encontradas por Raasch et al (2011):
+El autor encuentra diferencias con el proceso del software que se asimilan a las encontradas por Raasch et al (2011) y suma las siguientes:
 
 - Es necesario acordar en fundamentos mínimos, como el tipo de componentes a utilizar en el desarrollo (e.g. surface-mount components vs through-hole components), para facilitar la colaboración y el testeo de ideas en un plano físico. 
 
@@ -611,26 +604,20 @@ El autor encuentra diferencias con el proceso del software que se asimilan a las
 
 - Las herramientas de control de versiones de hardware que se utilizan no son específicas, impidiendo un total aprovechamiento del proceso
 
-West y Lakhani mencionan que aunque el modelo de cebolla es observable, los límites entre el núcleo y periferia son más  claros que los límites entre colaboradores y no colaboradores de la periferia.
-Cita como ejemplo el estudio de 116 proyectos de la plataforma SourceForge (Crowston et al., 2006) donde se encontraron diferentes nociones de pertenencia a partir de responsabilidades, contribuciones e interacciones.
-
-Brujin (2010) se enfoca en las motivaciones para la colaboración en las comunidades, y distingue entre comportamientos a futuro y comportamientos reactivos. 
-Los primeros refieren a cómo los individuos participan más cuando existe el potencial de recibir feedback, los segundos a que los individuos participan más cuando observan que otros también lo hacen, a modo de comportamiento recíproco (Cheshire, 2007). 
-
 Tech (2016) categoriza las interacciones dentro de una comunidad en: contribuciones, apoyo y documentación tanto online como offline; e identifica cómo aquellas propuestas por miembros de mayor prestigio o antigüedad son ampliamente aceptadas, mientras que los miembros nuevos generalmente no obtienen el momentum necesario debido a críticas poco constructivas o ser ignorados en los foros.
 Asocia la colaboración offline a los fablabs/hackerspaces, donde se suma un sentido de pertenencia a la comunidad a través de actividades de socialización; y detecta una diferencia entra la modalidad de colaboración online versus la offline, con la primera tendiente a publicar los diseños una vez alcanzado un estadío de producto medianamente avanzado, no antes. 
 
 Morreale y colaboradores (2017) estudian cómo surge una comunidad maker alrededor de un instrumento musical abierto (Bela).
 Sus resultados revelan cómo sólo liberar los diseños bajo código abierto resulta insuficiente para que una comunidad surja, y cómo conectar el desarrollo a otras herramientas y comunidades abiertas existentes resulta eficiente para atraer colaboradores.
 
-Los autores identifican al crowdfunding o financiamiento colectivo como un facilitador en la formación de comunidades, no sólo por los recursos económicos disponibles si no por la difusión del proyecto y atracción de futuros usuarios/colaboradores.
-En cuanto a la sostenibilidad de las comunidades destacan la importancia de la presencia física (por ejemplo en makerspaces) como forma de facilitar los procesos de aprendizaje situado, y el mayor éxito de comunidades alrededor de herramientas concretas que posibilitan a los usuarios construir sus propios desarrollos.
+Los autores identifican al crowdfunding o financiamiento colectivo como un factor relevante en la formación de comunidades, no sólo por los recursos económicos disponibles si no por la difusión del proyecto y atracción de futuros usuarios/colaboradores.
+En cuanto a la sostenibilidad de las comunidades destacan la importancia de la presencia física (por ejemplo en makerspaces) como forma de facilitar los procesos de aprendizaje situado, y el mayor éxito de comunidades alrededor de herramientas que posibilitan a los usuarios construir sus propios desarrollos a partir de ellas.
 
-Mies y colaboradores (2018) resaltan que la fuente primaria de creación de valor de las comunidades consiste en generar momentum que culmine en trabajo distribuido, relevante al desarrollo de objetos complejos, dependiente de múltiples habilidades y colaboración.
+Mies y colaboradores (2018) resaltan que la fuente primaria de creación de valor de las comunidades consiste en generar momentum que culmine en trabajo distribuido y relevante al desarrollo de objetos complejos.
 Identifica que las comunidades incentivan a la colaboración basada en resolución de problemas concretos en todas las fases de desarrollo de producto, desde diseño a fabricación. 
 Al ser procesos mediados por internet requieren del uso de herramientas de trabajo en equipos, uso de redes sociales, manejo de datos y comunicación, dentro de las que resaltan las herramientas de control de versiones. 
 
-Los autores observan a partir de la documentación en las herramientas de control de versión el siguiente procedimiento: 
+Los autores observan a partir de la documentación en las herramientas de control de versión el siguiente procedimiento de colaboración: 
 
 (i) definición (modularidad) y auto asignación de tareas     
 (ii) contribución y validación por parte del equipo núcleo (en múltiples iteraciones)      
@@ -642,10 +629,8 @@ De esta forma las comunidades descritas por los autores progresan hacia mejores 
 Bonvoisin y colaboradores (2018) analizan proyectos de hardware abierto a partir de datos de repositorios online para entender qué tan transparentes son y cómo se distribuyen las contribuciones dentro de los mismos.
 En cuanto a la transparencia encuentran que las contribuciones se reflejan en los repositorios en la mayoría de los proyectos, incluso en la edición de archivos de hardware que son más difíciles de evaluar en el control de versiones. 
 
-En cuanto a la distribución de las contribuciones, encuentran que la estructura de la mayoría de los proyectos es descentralizada, un 30% asociada al modelo de red en estrella que se observa en las contribuciones FOSS.
-Sin embargo existe una heterogeneidad de prácticas de hardware abierto que hace que los autores identifiquen un continuo entre el proceso colaborativo y la innovación pública, totalmente participativos y totalmente no participativos respectivamente.
-
-Como parte del análisis detectan los siguientes patrones en cuanto a contribuciones (nodos son colaboradores, conexiones son contribuciones entre colaboradores):
+En cuanto a la distribución de las contribuciones, encuentran que la estructura de la mayoría de los proyectos es descentralizada, similar al modelo de red en estrella que se observa en las contribuciones FOSS.
+Como parte del análisis detectan los siguientes patrones en cuanto a contribuciones (nodos son colaboradores, conexiones son interacciones entre colaboradores):
 
 - Cluster 0: redes altamente conectadas, descentralizadas con sub-equipos conectados. Número de colaboradores promedio mayor al resto, son numerosas conexiones entre colaboradores y sin un nodo central definido
 
@@ -657,27 +642,23 @@ Como parte del análisis detectan los siguientes patrones en cuanto a contribuci
 
 ![challenges and solutions for open design](../notas_bibliografia/bonvoisin2018c.png)
 
-La metodología presenta limitaciones ya que sólo alcanza a proyectos con repositorios online bajo control de versiones, aunque permite detectar algunas tendencias.
+La metodología de análisis de repositorios presenta limitaciones ya que sólo alcanza a proyectos online bajo control de versiones, y datos provistos por una única plataforma (GitHub).
 
 ## Licencias abiertas para hardware
 
 El objetivo de contar con licencias para hardware es asegurar tanto la libre circulación de ideas como la atribución a los autores.
 Una de las distinciones fundamentales que diferencian al hardware de FOSS es que el copyright aplica a los esquemáticos y los diseños, pero no al producto tangible, donde aplican patentes y marcas registradas.
+
 Pearce (2018) asocia el crecimiento de los repositorios online en los últimos años (como Github, Thingiverse, Libre3D y muchos otros) a que el uso de copyright no es la estrategia apropiada para esquemáticos y diseños de productos tangibles, resultando sencillo realizar una pequeña modificación de un diseño protegido evitando sanciones (Bradshaw et al., 2010).
 
 Existen antecedentes de encuestas a la comunidad de hardware abierto que incluyen preguntas sobre licencias, pero los datos están desactualizados (OSHWA 2012, 2013) o las metodologías no son consistentes (Black Duck).
-Katz (2012) hizo una revisión de las licencias existentes para hardware hasta el momento, destacando la licencia TAPR y la licencia CERN OHL.
-Tanto TAPR como CERN OHL siguen la lógica copyleft, para asegurar que tal como en FOSS el hardware se distribuya garantizando disponibilidad de la documentación de base y asegurando reutilización, adopción y redistribución con las mismas reglas.
-Katz (2012) critica este rasgo y propone adaptar la licencia Apache 2.0, ampliamente utilizada en FOSS; esta propuesta se transformaría en la licencia Solderpad.
-
 En 2019 Katz realiza una encuesta orientada a productores de procesadores abiertos pero que brinda información útil sobre la comunidad y el uso de licencias.
 Según este último estudio, alrededor de 500 proyectos utilizan la licencia CERN-OHL en GitHub, 434 utilizan Solderpad y sólo 15 utilizan TAPR OHL en la misma plataforma.
+
 La mayoría de los entrevistados prefiere licencias más permisivas como Solderpad, ya que dejan menos elementos bajo incertidumbre y resulta más difícil interactuar con modelos propietarios que no desean ser incluidos bajo copyleft, además de traer problemas con agencias de financiamiento.
 Todos coinciden sin embargo en que la adopción de copyleft o no-copyleft finalmente es ideológica, con proyectos que no ven problemas en utilizar licencias permisivas con el riesgo de ser integrados en proyectos propietarios; y otros que privilegian la libre redistribución.
 
-![licencias para hardware](../notas_bibliografia/katz2018.png)
-
-El mismo estudio sugiere que los proyectos de hardware abierto deberían incorporar alguna de las licencias más populares dependiendo de los objetivos del mismo; utilizar licencias menos populares puede causar problemas de incompatibilidad y de adopción por otros del proyecto.
+Katz (2012) sugiere que los proyectos de hardware abierto deberían incorporar alguna de las licencias más populares dependiendo de los objetivos del mismo; utilizar licencias menos populares puede causar problemas de incompatibilidad y de adopción por otros del proyecto.
 Las sugerencias apuntan a si el proyecto busca maximizar reutilización o libertades - sugiriendo Solderpad en el primer caso y CERN OHL en el segundo.
 En el primer caso el portador de la licencia puede verse en la situación de que su diseño sea incorporado a sistemas propietarios y el diseño resultante no sea puesto a disponibilidad.
 
@@ -685,6 +666,7 @@ Por otro lado, como se mencionaba al inicio el concepto de hardware implica much
 Uno de los casos que es útil para ilustrar esto en la licencia OpenMTA, orientada a regular la transferencia de materiales biológicos como ser plásmidos, muestras y otros cuyas cantidades no son intrínsecamente limitadas.
 Open MTA fue presentado en 2018 por un colectivo de investigadores, profesionales de transferencia de tecnología y expertos legales entre otros, en una nota en la revista Nature (Kahl et al, 2018).
 
+A continuación se describen las principales licencias utilizadas en proyectos de hardware abierto: 
 
 1. [TAPR license](https://www.tapr.org/ohl.html)    
 
@@ -769,11 +751,7 @@ Identifica adicionalmente algunas características comunes a los proyectos de ha
 - Enfocados a resolver necesidades existentes
 
 El indudable éxito de las compañías de software de código abierto (FOSS) probaría que los modelos basados en la apertura pueden funcionar.
-Sin embargo la extrapolación al rubro del hardware no es directa, ya que según Ticnq (2013):
-
-- El costo marginal de producir una unidad en FOSS en cero, en hardware no dada la necesidad de materiales y espacios
-- Las cadenas de suministro en hardware involucran múltiples organizaciones y sets de habilidades a comparación de FOSS
-- Los estándares de calidad y seguridad que aplican al hardware no aplican a FOSS
+Sin embargo la extrapolación al rubro del hardware no es directa, ya que según Ticnq (2013) i) el costo marginal de producir una unidad en FOSS en cero pero en hardware no, dada la necesidad de materiales y espacios; ii) las cadenas de suministro en hardware involucran múltiples organizaciones y sets de habilidades a comparación de FOSS; iii) los estándares de calidad y seguridad que aplican al hardware no aplican a FOSS.
 
 Los sistemas de generación de valor en hardware varían entre iniciativas, en algunos casos aplicando más de un modelo, o modelos mixtos (Moritz, 2013).
 Algunos autores los clasifican en primarios (desarrollo de hardware) y secundarios (actividades de soporte, expertise, talleres).
@@ -786,7 +764,7 @@ Tincq (2013) propone una tipología de modelos de negocio para hardware abierto 
 - Modelo 1: Basados en diseño
 
 El modelo más común, enfocado a diseño e investigación y terciarizando la fabricación.
-La organización puede proveer un artefacto ya ensamblado, kits que disminuyen la barrera de acceso a determinados dispositivos (OpenROV), o es parte de un ecosistema de fabricantes que venden productos basados en diseños abiertos (aún no desarrollado, por ejemplo Wikihouse).
+La organización puede ofrecer un artefacto ya ensamblado, kits que disminuyen la barrera de acceso a determinados dispositivos (OpenROV), o es parte de un ecosistema de fabricantes que venden productos basados en diseños abiertos (aún no desarrollado, por ejemplo Wikihouse).
 
 Algunas iniciativas utilizan el modelo de licencia dual de FOSS, ofreciendo tanto la licencia abierta como la propietaria en caso de integración a proyectos propietarios.
 Otro modelo de este tipo es el que posee un núcleo de producto abierto y ofrece extensiones o versiones propietarias del mismo (Cicero, 2013).
@@ -794,11 +772,11 @@ Otro modelo de este tipo es el que posee un núcleo de producto abierto y ofrece
 ![business canvas Arduino segun Tincq](../notas_bibliografia/tincq_arduinobm.png)
 *Modelo de negocio de Arduino (Tincq, 2013)*
 
-Sobre el modelo de kits para fomentar la innovación de los usuarios, von Hippel y Katz (2002) hacen un análisis de los casos donde las compañías desarrollan kits y concluyen que es una tendencia que se difundirá cada vez más.
+Sobre el modelo de kits para fomentar la innovación de los usuarios, von Hippel y Katz (2002) hacen un análisis de los casos donde las compañías desarrollan kits y concluyen que es una tendencia en crecimiento.
 Identifican que éstos resultan particularmente beneficiosos en mercados con demanda muy heterogénea.
 Su mecanismo de acción radica en despegar la información que los usuarios tienen de sus necesidades de la información sobre posibles soluciones que tienen los fabricantes, e incorporarlo en un kit.
 
-Propone cinco medidas que conforman un kit efectivo:
+Identifican cinco características de un kit exitoso: 
 
 - Permite a los usuarios completar ciclos de aprendizaje en base a prueba y error
 - Ofrece a los usuarios un 'espacio de soluciones' que es coherente con los diseños que se desean crear
@@ -806,7 +784,8 @@ Propone cinco medidas que conforman un kit efectivo:
 - Contiene librerías de módulos comúnmente utilizados que el usuario puede incorporar en su diseño enfocándose en su necesidad particular
 - Asegura que los diseños de los usuarios pueden ser producidos por el fabricante sin revisiones o modificaciones adicionales de los expertos dentro de la firma
 
-El fabricante debe saber cuál es el espacio de soluciones posibles a configurar para el usuario, esta información puede obtenerse analizando productos y dimensiones existentes o modificando diseños de herramientas que el fabricante ya utiliza para volverlas más amigables al usuario.
+El fabricante debe saber cuál es el espacio de soluciones posibles a configurar para el usuario.
+Esta información puede obtenerse analizando productos y dimensiones existentes o modificando diseños de herramientas que el fabricante ya utiliza para volverlas más amigables al usuario.
 
 Diversos autores dentro de la literatura de innovación exploran dentro de este modelo cómo las firmas pueden contribuir a formar comunidades y producir innovaciones exitosas, cómo los diversos grados de apertura incentivan o no la innovación, o qué tipo de interacciones se originan entre comunidades donde las firmas deciden abrir sus diseños (Cruz, 2017; Balka, 2013).
 
@@ -848,35 +827,7 @@ Su valor radica en organizar un ecosistema de actores industriales (diseñadores
 Casos paradigmáticos: OpenDesk (ver Box 9) y OSVehicle. 
 OSVehicle diseñó el motor y chasis Tabby -OHW, eléctrico y modular-, construyeron una "cadena de valor participativa" donde el mismo se distribuye de manera justa entre todos los participantes.
 
-Pearce (2018) identifica ventajas y limitaciones del hardware abierto en términos de generación de valor y nuevos modelos de negocios.
-
-Entre las ventajas resalta: 
-
-- Reducción de costos asociados a tasas legales (patentes, abogados, juicios, acuerdos) que hacen que por ejemplo Apple o Google inviertan más en esto que en I+D (Covert, 2012)
-
-- Reducción de costos asociados a soporte, dada la contribución de la comunidad en foros y otros eespacios
-
-- Soporte más eficiente, rápido y menos costoso al facilitar la información necesaria para que otras compañías y 3rd parties lo brinden 
-
-- Mejores empleados, como se ve en FOSS ya que sus nombres están asociados a su producción (Lerner and Triole, 2000; Marz, 2010)
-
-Entre las limitaciones:
-
-- El prosumidor debe tener una formación técnica mediana-alta para poder producir a partir de la documentación abierta, lo cual no es una realidad en la mayoría del ámbito científico aún
-
-- Puede impedirse la comercialización aludiendo al cumplimiento de regulaciones de calidad
-
-- Para proyectos más grandes y/o sofisticados la inversión inicial aún es importante y las agencias de financiamiento todavía no apoyan masivamente
-
-- Existe presión real sobre las compañías para adoptar el modelo propietario dados los todavía escasos modelos exitosos
-
-- Fabricar un producto o proyecto no garantiza que se forme una comunidad alrededor del mismo
-
-- Un proyecto exitoso requiere desarrolladores dedicados, promoción y publicidad (Vickery, 2015). 
-
-
 #### Modelos de negocio para hardware abierto en ciencia
-
 Específicamente en modelos de negocio para hardware científico abierto, el principal aporte es de Pearce (2018), que categoriza los modelos de acuerdo a los usuarios a los que se dirigen dentro del ámbito científico, obteniendo tres tipos principales: makers, consumidores, terciarizadores.
 
 - Tipo 1: grupos que fabrican sus propios equipos utilizando hardware abierto ('makers')
@@ -889,23 +840,23 @@ Dentro de estos tres tipos detalla algunos de los que mencionaba anteriormente T
 
 Estos modelos son análogos al tipo 2 de Tincq, basados en fabricación. 
 
-a) Fabricantes de kits     
-Actualmente para desarrollar hardware existen piezas que no pueden ser fabricadas con impresión 3D u otras herramientas, y que resulta más complicado conseguir. 
+*a) Fabricantes de kits*     
+Actualmente para desarrollar hardware existen piezas que no pueden ser fabricadas con impresión 3D u otras herramientas, y que resulta dificultoso conseguir. 
 Esta inversión extra de tiempo abre la oportunidad a que las compañías provean todos estos componentes específicos en forma de kits para un diseño en particular.
 
-b) Proveedores especializados de componentes     
+*b) Proveedores especializados de componentes*     
 Incluso entre usuarios que desarrollan sus propios productos la especialización es una necesidad, más allá de los kits estándar. 
-Las compañías pueden proveer partes especializadas en materiales que comúnmente no están disponibles en el mercado (por ejemplo algunos materiales especiales para impresoras 3D).
+Las compañías pueden ofrecer partes especializadas en materiales que comúnmente no están disponibles en el mercado (por ejemplo algunos materiales especiales para impresoras 3D).
 
-c) Servicios de calibración y validación      
+*c) Servicios de calibración y validación*      
 Las compañías peuden ofrecer servicios de calibración, validación o testeo de hardware. 
-Aunque existen cientos de diseños abiertos, una pequeña parte está formalmente validada y aún menos calibrada.
+Aunque existen cientos de diseños abiertos, una pequeña parte está formalmente validada y una parte aún menor está calibrada.
 A medida que este servicio comience a ofrecerse se espera que se produzca un salto en la adopción de hardware científico abierto.
 
 #### Tipo 2: consumidores
 
-a) Vendedores de hardware científico abierto (análogo al modelo 1 de Tincq)     
-Se puede vender equipamiento abierto a través de pre-ventas y crowdfunding, en negocios especializados o tiendas onlines.
+*a) Vendedores de hardware científico abierto (análogo al modelo 1 de Tincq)*     
+Las firmas pueden ofrecer equipamiento abierto a través de pre-ventas y crowdfunding, en negocios especializados o tiendas onlines.
 Un ejemplo de esto es Aleph Objects, una compañía que vende impresoras 3D Lulzbot de diseño abierto, que aunque podrían ser replicadas a partir de los planos, muchos consumidores prefieren comprar hechas.
 La comunidad alrededor de su producto hace que Aleph Object tenga menos costos de I+D y más rápido lanzamiento de innovaciones al mercado, gracias a la información que proveen los usuarios (Zimmermann, 2014). 
 
@@ -913,26 +864,30 @@ Otra posibilidad es el “package model” que integra componentes abiertos a l�
 Un ejemplo de esto es la Nitrate Elimination Corporation (NECi), fabricante de enzimas para análisis químicos, que abrió los diseños de su fotómetro bajando el costo de otros métodos para detección de nitratos (Wittbrodt, et al. 2015).
 Comercializan el fotómetro y promueven su uso en grupos de ciencia ciudadana y makers para que elaboren sus propios diseños ampliando el mercado.
 
-b) Vendedores de servicios (análogo al modelo 3 de Tincq)     
-Análogo a la industria de FOSS, vender expertise de forma tal que se divulgue el producto y se amplíe la base para otros servicios, como el caso de RedHat.
+*b) Vendedores de servicios (análogo al modelo 3 de Tincq)*     
+Análogo a la industria de FOSS, se trata de ofrecer expertise de forma tal que se divulgue el producto y se amplíe la base para otros servicios, como el caso de RedHat.
 
 Para el modelo de servicios en ciencia Pearce propone cinco estrategias:
 
-1. Vender suscripciones a un paquete de servicios alrededor de un producto. Particularmente útil para grandes centros de investigación en industria, gobierno o academia donde diferentes productos deberían ser mantenidos.
+1. Ofrecer suscripciones a un paquete de servicios alrededor de un producto. Particularmente útil para grandes centros de investigación en industria, gobierno o academia donde diferentes productos deberían ser mantenidos.
 
 2. Ofrecer soporte y capacitación en instalación y operación de hardware y guardias para emergencias, reparaciones o actualizaciones. Puede proveer ingresos directos (cursos) o indirectos (publicado en sitios como Instructables que tienen ingresos por publicidad). 
 
-3. Consultoría para realizar versiones más sofisticadas de equipos, aprovechando el expertise en últimas tecnologías disponibles. Puede ser útil en universidades ya que el esquema de trabajo financiado por subsidios es similar al actual.
+3. Ofrecer consultoría para realizar versiones más sofisticadas de equipos, aprovechando el expertise en últimas tecnologías disponibles. Puede ser útil en universidades ya que el esquema de trabajo financiado por subsidios es similar al actual.
 
-4. Consorcio de productores para solucionar un problema específico en un campo (Bruns, 2001). Las firmas se benefician por participar en un estudio que no existiría individualmente.
+4. Conformar consorcios de productores para solucionar problemas específico en un campo (Bruns, 2001). Las firmas se benefician por participar en un estudio que no existiría individualmente.
 
-5. Soporte al desarrollo de otras compañías de hardware abierto, como el caso de Seeed Studio. Seeed Studio provee los servicios en China para que las compañías lleven sus prototipos a mayor excala, utilizando procesos propios de ingeniería, manejo de la cadena de suministros, fabricación ágil y distribución, además de acceso a inversores.
+5. Ofrecer soporte al desarrollo de otras compañías de hardware abierto, como el caso de Seeed Studio. Seeed Studio provee los servicios en China para que las compañías lleven sus prototipos a mayor excala, utilizando procesos propios de ingeniería, manejo de la cadena de suministros, fabricación ágil y distribución, además de acceso a inversores.
 
 #### Tipo 3: terciarizadores
 
 Este modelo se puede comparar con el tipo 6 de Tincq, o modelos de plataforma.
 Haciendo una analogía con plataformas como Etsy, propone la oferta de servicios de hardware científico abierto, como por ejemplo la realización de experimentos. 
 Un ejemplo de este tipo es Science Exchange, una plataforma que conecta laboratorios avanzados con científicos que requieren realizar experimentos (Gould, 2015). 
+
+Pearce también identifica las principales ventajas y limitaciones del hardware abierto en términos de generación de valor y nuevos modelos de negocios. Entre las ventajas resaltan la reducción de costos asociados a IP (Covert, 2012) y a soporte dada la contribución de la comunidad, el ofrecer soporte más rápido y eficiente y por último ventajas en términos de atracción y retención de recursos humanos (Lerner and Triole, 2000; Marz, 2010).
+Entre las limitaciones destacan la formación técnica mediana-alta necesaria en los prosumidores, las regulaciones de calidad en la producción, la inversión inicial elevada y la ausencia de financiamiento en proyectos complejos, la presión para adoptar el modelo IP, la necesidad de recursos humanos, promoción y publicidad (Vickery, 2015) y el hecho de que desarrollar producto no garantiza que se forme una comunidad alrededor del mismo.
+
 
 ## Políticas
 

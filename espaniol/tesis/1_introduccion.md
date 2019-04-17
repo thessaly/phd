@@ -72,6 +72,22 @@ Este capítulo tiene la intención de introducir el concepto de hardware cientí
 Comienza con los orígenes y antecedentes, siguiendo con los factores macro que favorecieron el crecimiento exponencial de estas prácticas en los últimos años, para luego pensar qué razones movilizan a las personas a diseñar estos proyectos, cómo lo hacen, qué beneficios y qué obstáculos se presentan en el camino e incipientes recomendaciones de políticas de promoción. 
 A su vez se introducen algunos casos relevantes a nivel global, ya sea por la importancia de sus comunidades o su rol de habilitador o multiplicador de nuevas iniciativas.
 
+***
+>**Box 1: Arduino **
+>
+>Arduino es una plataforma de prototipado libre compuesta por una placa electrónica de entradas y salidas simple y un entorno de desarrollo que utiliza un lenguaje de programación fácil de usar. 
+Los diseños del hardware y el software se encuentran liberados bajo licencia Creative Commons CompartirIgual 2.5 (Share-A-Like), lo que habilita a compartir, adaptar e incluso distribuir comercialmente los objetos creados en base a Arduino, siempre y cuando se indiquen las modificaciones realizadas y se mantenga el mismo tipo de licencia.
+Arduino funciona además como “marca”, ya que se comercializan placas oficiales que pagan por llevar el nombre Arduino y otras que no y se definen como “Arduino-compatibles”. 
+>
+> En su origen, Arduino fue pensado por un equipo de cinco personas en el Ivrea Interaction Design Institute en Turín, Italia, con el objetivo de contar con una herramienta sencilla de utilizar para estudiantes, que les permitiera fabricar objetos sin tener que contar con conocimientos avanzados de electrónica. 
+Actualmente, además de la plataforma, Arduino es una comunidad organizada alrededor de su sitio web, donde más de 300 mil usuarios de distintas partes del mundo comparten sus diseños, recomendaciones y preguntas. 
+￼>
+> Arduino posee algunas ventajas que lo volvieron una de las ‘estrellas’ del hardware libre, viralizando su uso en cientos de proyectos a escala global y motorizando así la nueva ola del movimiento maker. 
+Los atributos que destacan en Arduino son, principalmente: bajos costos -la placa más sencilla cuesta menos de 25 dólares-, compatibilidad en todos los sistemas operativos -Windows, Macintosh, Linux-, utilizar un lenguaje de programación simple para los novatos pero con funcionalidades potentes para los expertos, y la posibilidad de contar con código abierto tanto en software como hardware, posibilitando el intercambio entre usuarios y sumando modificaciones y nuevas funcionalidades en base a experiencias de otros. 
+>
+> Arduino es empleado, entre otros usos, para crear instrumental de laboratorio económico y adaptado a las necesidades de los científicos (Baden et al, 2015; Pearce, 2012), por docentes para enseñar programación y robótica a estudiantes (Bordignon, 2015; Valera et al, 2014), por músicos y artistas para experimentar y realizar nuevas instalaciones (Juan Cortés; Zach Gage), por ingenieros y diseñadores para prototipar nuevos artefactos (Gautam et al, 2016; Karvinen y Karvinen, 2011) y por ejemplo, construir dispositivos de accesibilidad -como anteojos o calzado para no videntes-. 
+***
+
 ## ¿Quiénes y por qué desarrollan hardware científico abierto?
 
 En la práctica de hardware abierto confluyen corrientes heterogéneas, con orígenes en la figura del inventor hobbista y la tradición del hágalo-usted-mismo (o DIY), en las comunidades con una orientación política claramente definida, con influencias autonomistas y medioactivistas, en la ética hacker, y más cercano en el tiempo, en el emprendedurismo.
@@ -114,6 +130,11 @@ Torvalds se alejó de la discusión y no adoptó la GPLv3, por lo cual Linux sig
 La visión del grupo disidente creció tanto en número como influencia convirtiéndose en hegemónica en la actualidad, con licencias específicas open source (ref) y un cada vez mayor número de compañías utilizando software de código abierto (ref), entre las cuales se encuentran grandes nombres como Google, Facebook o Microsoft. 
 En los últimos años la definición de Código Abierto (ref) se modificó para incluir requerimientos adicionales a la libre disponibilidad del código, incorporando cláusulas de no discriminación a las personas, colectivos o grupos de trabajo.
 
+***
+>**Box 2: Hardware abierto en CERN **
+>
+***
+
 Compartir de forma pública las innovaciones o mejoras realizadas de forma individual no constituye una novedad a través de la historia, ya que pueden rastrearse antecedentes en áreas tan diversas como la industria del hierro en el siglo XVIII (Allen, 1983) o el equipamiento médico (Von Hippel and Finkelstein,1979). 
 Sin embargo el aporte del movimiento por el Software Libre a través del concepto de copyleft, sus licencias y la promoción del modelo de producción de pares sistematizó una forma de trabajar -e innovar- colaborativa, de libre circulación de la información. 
 
@@ -153,6 +174,11 @@ Otro ejemplo más reciente es Hackney Crack House en Londres, que hasta 2012 pro
 
 Dado su origen los hacklabs son espacios declaradamente políticos enfocados en desarrollar infraestructura de comunicaciones para las comunidades que los habitan, privilegiando la creatividad y el acceso a quienes generalmente se ven inhabilitados para ello.
 
+***
+>**Box 3: GynePunk**
+>
+***
+
 #### Hackerspaces y expansión
 El caso de los hacklabs descrito anteriormente es un extremo del espectro político, en el otro podemos ubicar a los hackerspaces. El gradiente incluye fablabs, makerlabs, innovation labs y espacios de co-working; con diferentes grados de inmersión institucional ya sea en empresas o universidades.
 
@@ -190,7 +216,6 @@ Algunos autores caracterizan a la cultura DIY actual como consumista y exclusiva
 Cuando la distinción entre DIY hedonista y utilitario se quiere aplicar al hardware abierto científico surgen algunos problemas, ya que la percepción es que las motivaciones son híbridas. 
 Según el análisis de Kera (2018) sobre iniciativas de hardware científico abierto, lo que caracteriza estas iniciativas es que integran la ciencia a la vida cotidiana y por lo tanto a esferas políticas, artísticas y lo que denomina *'ciencia artesanal'* (usos exploratorios).
 
-
 Los *artesanos científicos* combinan la búsqueda del conocimiento y la construcción de instrumentos con las necesidades de sus comunidades (utilitario) pero también con las propias (espíritu lúdico).
 Este aspecto híbrido los vuelve puentes útiles entre dominios del conocimiento generalmente desconectados (ingeniería, humanidades, arte, ciencia) pero también hacia dominios cívicos como el activismo, la colaboración y los valores comunitarios.
 
@@ -204,6 +229,11 @@ Los miembros de la comunidad tienen relación con el movimiento hacker: desarrol
 Están además inmersos en una red de emprendedores y start-ups que enfrentan al gran mercado de las compañías del rubro de la biotecnología.
 En 2008 el movimiento comenzó con Mackenzie Cowell, un desarrollador web, y Jason Bobe, parte del proyecto Genoma en la escuela de Medicina de Harvard.
 En 2010, cerca de 2000 personas eran parte de la lista de correos y existían docenas de grupos comunitarios desde Boston a Bangalore.
+
+***
+>**Box 4: Hackteria**
+>
+***
 
 Las actividades incluyen proyectos de ciencia ciudadana simples como aislamiento de bacterias o extracción de ADN, pero también construcción de hardware científico abierto (Ward, 2010).
 DIYbio dialoga con instituciones como universidades, compañías, medios y agencias gubernamentales preocupadas por cuestiones de ética y seguridad (Schmidt, 2008).
@@ -239,6 +269,11 @@ Se trataba de una aproximación práctica, que surgía del trabajo a campo y por
 Las ideas de la TA en la región fueron inevitablemente influenciadas por los debates e ideas de la educación popular, investigación acción participativa, agroecología y revalorización del conocimiento indígena. 
 Autores como Paulo Freire y Orlando Fals Borda tuvieron una gran influencia, contribuyendo a delinear nuevas aproximaciones a la participación (Kaimowitz, 1993). 
 
+***
+>**Box 5: Public Lab**
+>
+***
+
 A medida que las políticas neoliberales comenzaron a predominar en la región, las agencias de desarrollo se vieron somentidas a "ajustes estructurales" (Rist, 2011). 
 Algunas iniciativas de TA lograron sobrevivir a partir de fondos que buscaban reconstruir procesos de democratización luego de las dictaduras latinoamericanas, aunque con enfoques diferentes. 
 
@@ -261,6 +296,20 @@ La literatura coincide en que la aparición de plataformas de prototipado de baj
 Pearce aduce que se habrían reducido los costos de producir hardware científico en un 90–99% respecto de equipos propietarios de misma funcionalidad (Pearce, 2014a; Pearce,  2014b). 
 Powell (2012) identifica cómo los costos de fabricación disminuyen a partir de que muchas etapas de la producción de hardware pueden hoy ser reemplazadas con software, y componentes simples pueden ser impresos en diversos materiales a bajo costo. 
 Von Hippel, también en este sentido, menciona cómo la habilidad de innovar de los usuarios es mayor en los últimos años gracias a la disponibilidad de software y hardware de alta calidad y facilidad de uso sumado al acceso a información compartida.
+
+***
+>**Box 6: RepRap**
+>La construcción de una impresora RepRap constituye muchas veces uno de los primeros momentos de aprendizaje de los entusiastas de la fabricación digital.  
+>
+>De forma similar a Linux, RepRap comenzó en 2005 como un proyecto universitario del Dr. Adrian Bowyer de la Universidad de Bath, con el objetivo de construir una impresora auto-replicable. Es decir, una impresora que pudiera imprimir las partes para construir una nueva impresora. A partir de la colaboración online en blogs y wiki, los usuarios fueron construyendo copias del primer prototipo, realizando modificaciones que documentaban y ponían a disposición online.
+>
+><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg" width=70%>    
+>_Fig. 8: RepRap 2.0, versión Mendel (Fuente: Wikipedia)_
+>
+>Uno de los disparadores del boom de la impresión 3D ha sido la expiración de las patentes de los equipos originales de impresión (The Economist 2013), creados en la década de los ochenta. Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocidas como FMD por su sigla en inglés) que utiliza filamentos plásticos. La caída de las patentes permitió una explosión de experimentación con nuevas impresoras, de la cual surgió RepRap, que utilizando el modelo open source permite que cualquier usuario realice modificaciones y mejoras en las máquinas. Desde ese momento, la impresoras 3D FDM se convirtieron en un objeto de escritorio y su costo se redujo hasta menos de los mil dólares en los modelos fabricados por los usuarios (Mins 2013).
+>
+>En 2011 nació el grupo conocido como "Clone Wars" dentro de la comunidad RepRap, con el fin de documentar en español todo lo necesario para que cualquier persona pueda construir su propia impresora 3D.
+***
 
 Actualmente es posible diseñar un prototipo de forma virtual, probarlo y obtener una primera versión física sin demasiado esfuerzo, que posteriormente puede fabricarse a escala gracias a servicios de 'diseño para fabricación', como los que presta la compañía Seeed Studio en China.
 En el mundo del hardware abierto para productos de consumo esto es una práctica difundida, que lentamente comienza a ser explorada en el ámbito del hardware abierto para ciencia.
@@ -445,6 +494,11 @@ Adicionalmente los diseños pueden publicarse en revistas especializadas, como e
 El control de versiones es una de las prácticas más utilizadas para documentar la colaboración en el desarrollo de FOSS, mediante la cual todas las contribuciones de usuarios a un proyecto son históricamente registradas y se encuentran disponibles para reutilizar.
 Una de las herramientas más populares para realizar control de versiones es *git*, el software que originalmente se desarrolló para gestionar las colaboraciones sobre el kernel Linux, y que en los últimos años se encuentra asociado a plataformas web como GitHub, GitLab y otras.
 
+***
+>**Box 7: Programa de certificación OSHWA**
+>
+***
+
 Yanamandra (2014) identifica el control de versiones como una práctica fundamental utilizada en software que debe ser trasladada a los archivos de diseño de hardware para permitir la colaboración real.
 Considera que existe la necesidad de desarrollar una plataforma que cubra los requerimientos específicos que demanda la colaboración en hardware y permita el crecimiento y gestión de la comunidad.
 
@@ -543,14 +597,30 @@ Extrapolan directamente el modelo de capas típico de FOSS (ver 'Modelos de inte
 Los colaboradores contribuyen de forma individual tomando el rol de seguidores, replicadores, desarrolladores o administradores dentro de la comunidad.
 Su rol como colaboradores y el tiempo invertido en el proyecto es determinado a nivel individual.
 
+***
+>**Box 8: 3DRobotics, mediodía y ocaso de los drones**
+>
+>3D Robotics es una empresa pionera en la creación de vehículos aéreos no tripulados (UAV), comúnmente conocidos como drones, cuyas creaciones se basan en componentes de OSH. 
+Jordi Muñoz -un joven mexicano emigrado a Estados Unidos- y Chris Anderson -editor de la revista WIRED- se conocieron en el foro open source DIY-Drones, comunidad donde comparten sus experiencias algunos aficionados a vehículos aéreos no tripulados. 
+Allí, Jordi compartió con la comunidad su creación de un piloto automático con acelerómetros extraídos de su Nintendo Wii. 
+Después de eso, su popularidad en el foro creció, llamando la atención de Chris Anderson, que le ofreció 500 dólares para seguir experimentando. 
+>
+>En 2009 fundaron 3D Robotics con el objetivo de liderar el mercado de fabricación de drones y UAVS de calidad profesional a precios accesibles. 
+En 2012, Anderson dejó la revista WIRED para ocupar el puesto de CEO junto con Jordi Muñoz, el mismo año que 3D
+Robotics anunció que cerraría parte de su código, lo cual fue tomado como una “traición” por parte de la comunidad de DIY Drones que se consideraba parte del proyecto (Cuartielles, 2014). 
+￼>
+>La empresa llegó a tener oficinas en la ciudad de San Diego y Berkeley en California, ventas y marketing en Austin, Texas y una planta de producción en Tijuana, Baja California, México, que producían alrededor de 15,000 pilotos automáticos al año, generando ganancias de alrededor de 20 millones de dólares anuales. 
+>
+>La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios.
+Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics. 
+***
 
 #### Modelos de interacción
 
-Dentro de los estudios de innovación abierta el rol de las comunidades es ampliamente estudiado en el campo del FOSS (Lakhani y von Hippel, 2003), específicamente en cómo el soporte comunitario facilita la adopción y uso de la innovación.
-
+Dentro de los estudios de innovación abierta una de las áreas donde más se estudia el rol de las comunidades es el desarrollo de FOSS (Lakhani y von Hippel, 2003).
 Los estudios de FOSS proveen modelos de 'cebolla' o innovación en capas, donde los desarrolladores pertenecen al núcleo del proyecto (quienes revisan, lideran y mantienen) o a la periferia (grupo mayor de colaboradores). 
 El núcleo depende de la periferia para reportar fallas, probar soluciones y proveer mejoras, que son luego incorporadas por el núcleo en la próxima versión (Rullani, 2007).
-El desarrollo del producto es un proceso de aprendizaje evolutivo, dirigido por la crítica y corrección de errores, institucionalizado como revisión de pares e instrumentado con herramientas de control de versiones.
+El desarrollo del producto es un proceso de aprendizaje evolutivo, dirigido por la crítica y corrección de errores, institucionalizado como revisión de pares e instrumentado a través de herramientas de control de versiones.
 
 West y Lakhani mencionan que aunque el modelo de cebolla es observable, los límites entre el núcleo y periferia son más claros que los límites entre colaboradores y no colaboradores de la periferia.
 Cita como ejemplo el estudio de 116 proyectos de la plataforma SourceForge (Crowston et al., 2006) donde se encontraron diferentes nociones de pertenencia a partir de responsabilidades, contribuciones e interacciones.
@@ -571,30 +641,29 @@ De esta forma se intenta hacer coincidir la demanda de coordinación con la disp
 
 - Herramientas
 
-Las herramientas para diseñar objetos suelen ser costosas, no proveer las funcionalidades requeridas o presentar una curva de aprendizaje demandante. 
+Las herramientas para diseñar objetos suelen ser costosas, no proveer las funcionalidades requeridas o presentar una curva de aprendizaje demasiado demandante para los voluntarios. 
 Para sortear la primer dificultad los grupos suelen utilizar herramientas FOSS, cada vez más disponibles. 
 La segunda efectivamente afecta el desarrollo haciéndolo más lento y reduciendo el número de colaboradores.
 La última implica el abandono de colaboradores hobbistas o voluntarios part-time, también disminuyendo el número total de colaboradores.
 
 - Propiedad intelectual
 
-En casos donde se trata de realizar derivados, o en situaciones de ingeniería reversa, la existencia de patentes sobre los objetos o copyright sobre diseños implica que partes del diseño son cajas cerradas para los colaboradores.
+En casos donde se trata de realizar derivados, o en situaciones de ingeniería reversa, la existencia de patentes sobre los objetos o copyright sobre diseños implica que partes del mismo constituyen cajas cerradas para los colaboradores.
 
 - Producción física
 
-La variabilidad en la posibilidad de adquirir componentes en distintos países genera complicaciones.
+La variabilidad en el acceso a componentes en distintos países genera complicaciones.
 Los proyectos como RepRap atacan esta dificultad incorporando listas de materiales lo más estándar posibles.
 Sin embargo estas variaciones geográficas siguen siendo significativas; en RepRap se generaron sub-comunidades por región, orientadas a proveer soporte en condiciones locales.
 
-La mayor parte de la experimentación ocurre offline por lo cual la documentación es un esfuerzo extra, lo que hace que por ejemplo los experimentos fallidos no sean generalmente documentados.
-Esta característica hace que la revisión pase de ser de pares a individual.
+La mayor parte de la experimentación ocurre offline por lo cual la documentación es un esfuerzo extra, lo que hace que por ejemplo los experimentos fallidos no sean generalmente documentados, transformando la revisión de pares en revisión individual.
 
 Raasch y colaboradores proponen una serie de soluciones a estas dificultades, encabezadas por una propuesta de modularidad total del diseño, que consideran es favorable frente a los cuatro desafíos expuestos anteriormente.
 
 ![challenges and solutions for open design](../notas_bibliografia/raasch2011.png)
 
 Mellis (2012) analiza las variaciones de la plaqueta Arduino Duemilanove para caracterizar la dinámica de la colaboración en hardware respecto de software. 
-Encuentra que se trata de un ecosistema de numerosos grupos pequeños (incluyendo compañías) que ofrecen derivados del producto que no afectan radicalmente la funcionalidad original. 
+Encuentra que se trata de un ecosistema de numerosos grupos pequeños (incluyendo compañías) que ofrecen derivados del producto sin afectar radicalmente la funcionalidad original. 
 
 El autor encuentra diferencias con el proceso del software que se asimilan a las encontradas por Raasch et al (2011) y suma las siguientes:
 
@@ -617,12 +686,12 @@ Mies y colaboradores (2018) resaltan que la fuente primaria de creación de valo
 Identifica que las comunidades incentivan a la colaboración basada en resolución de problemas concretos en todas las fases de desarrollo de producto, desde diseño a fabricación. 
 Al ser procesos mediados por internet requieren del uso de herramientas de trabajo en equipos, uso de redes sociales, manejo de datos y comunicación, dentro de las que resaltan las herramientas de control de versiones. 
 
-Los autores observan a partir de la documentación en las herramientas de control de versión el siguiente procedimiento de colaboración: 
+Los autores observan a partir de la documentación en las herramientas de control de versión la siguiente secuencia de colaboración: 
 
-(i) definición (modularidad) y auto asignación de tareas     
-(ii) contribución y validación por parte del equipo núcleo (en múltiples iteraciones)      
-(iii) integración de versiones estables (mejora continua)     
-(iv) documentación a medida que se desarrolla
+- (i) definición (modularidad) y auto asignación de tareas     
+- (ii) contribución y validación por parte del equipo núcleo (en múltiples iteraciones)      
+- (iii) integración de versiones estables (mejora continua)     
+- (iv) documentación a medida que se desarrolla
 
 De esta forma las comunidades descritas por los autores progresan hacia mejores versiones de un desarrollo de forma auto-organizada, modular, tarea por tarea.
 
@@ -632,13 +701,13 @@ En cuanto a la transparencia encuentran que las contribuciones se reflejan en lo
 En cuanto a la distribución de las contribuciones, encuentran que la estructura de la mayoría de los proyectos es descentralizada, similar al modelo de red en estrella que se observa en las contribuciones FOSS.
 Como parte del análisis detectan los siguientes patrones en cuanto a contribuciones (nodos son colaboradores, conexiones son interacciones entre colaboradores):
 
-- Cluster 0: redes altamente conectadas, descentralizadas con sub-equipos conectados. Número de colaboradores promedio mayor al resto, son numerosas conexiones entre colaboradores y sin un nodo central definido
+- Cluster i: redes descentralizadas escasamente conectadas y con sub-equipos o colaboradores no conectados. El número de colaboradores es medio tendiente a bajo, con sub-equipos bajo modelo de estrella.
 
-- Cluster 1: proyectos individuales que involucran un bajo número de colaboradores en paralelo, con muy pocas conexiones entre nodos
+- Cluster ii: proyectos altamente centralizados, con un bajo número de colaboradores y algunas excepciones con más colaboradores, bajo un modelo de estrella indicando que las contribuciones son revisadas por el mismo 'gatekeeper'
 
-- Cluster 2: proyectos altamente centralizados, con un bajo número de colaboradores y algunas excepciones con más colaboradores, bajo un modelo de estrella indicando que las contribuciones son revisadas por el mismo 'gatekeeper'
+- Cluster iii: proyectos individuales que involucran un bajo número de colaboradores en paralelo, con muy pocas conexiones entre nodos
 
-- Cluster 3: redes descentralizadas escasamente conectadas y con sub-equipos o colaboradores no conectados. El número de colaboradores es medio tendiente a bajo, con sub-equipos bajo modelo de estrella.
+- Cluster iv: redes altamente conectadas, descentralizadas con sub-equipos conectados. Número de colaboradores promedio mayor al resto, son numerosas conexiones entre colaboradores y sin un nodo central definido
 
 ![challenges and solutions for open design](../notas_bibliografia/bonvoisin2018c.png)
 
@@ -723,6 +792,20 @@ Las instituciones firmantes no tienen obligación de manejarse 100% con OpenMTA,
 OpenMTA se encuentra disponible en el sitio de BioBricks y se planea sumar adhesiones para incorporarlo a otras plataformas de intercambio de materiales biológicos. 
 La aplicación a materiales humanos no está contemplada en esta versión, pero numerosas peticiones hicieron que se inicie un proceso de discusión colaborativa para elaborar una propuesta.
 
+***
+>**Box 9: Computadora Industrial Abierta Argentina**
+>
+>El Proyecto CIAA surgió en 2013 como una iniciativa conjunta entre el sector académico y la industria nacionales, con el objetivo de desarrollar un sistema electrónico abierto de uso general, donde absolutamente toda su documentación y el material para su fabricación estuviera libremente disponible en internet-(diagramas esquemáticos, diseño del circuito impreso, códigos fuentes de los programas, etc.-, que estuviera diseñado en base a criterios adecuados para su utilización en aplicaciones industriales, que no dependiera de una línea específica de procesadores, y que pudiera ser fabricado por la mayoría de las empresas PyMEs nacionales, lo que implicaba por ejemplo utilizar en el diseño circuitos impresos de no más de cuatro capas.
+>
+>El hardware, el firmware y el software de la CIAA, así como los documentos y archivos generados como parte de su desarrollo, son liberados bajo las condiciones de la Licencia BSD modificada, que permite la redistribución ilimitada del producto, con o sin modificaciones y para cualquier propósito, siempre que se mantenga la autoría del proyecto y la renuncia a garantías.
+>
+> La primera versión, CIAA-NXP, fue diseñada utilizando un microprocesador provisto por la empresa NXP Semiconductors. Más adelante se realizaron versiones para microprocesadores de otras compañías. Lo interesante del proyecto es que se trata de una computadora industrial y abierta, ya que su diseño está preparado para las exigencias de confiabilidad, temperatura, vibraciones, ruido electromagnético, tensiones, cortocircuitos, etc., que demandan los productos y procesos industriales. Actualmente la CIAA es fabricada y comercializada por distintas empresas argentinas.
+>
+>![EDU-CIAA-NXP](http://www.proyecto-ciaa.com.ar/devwiki/lib/exe/fetch.php?media=desarrollo:edu-ciaa:edu-ciaa-nxp.png)    
+>_Fig. 2: EDU-CIAA-NXP, una versión de bajo costo de la CIAA-NXP pensada para la enseñanza universitaria, terciaria y secundaria (Fuente: CIAA)_
+>
+>Entre algunos de los proyectos que utilizan CIAA, se encuentran aplicaciones de automatización industrial, equipamiento médico, industria ferroviaria, maquinaria agrícola. Además, se diseñó una versión educativa de la plataforma, la EDU-CIAA, más simple y de menor costo, para lograr un impacto en la enseñanza primaria, secundaria y universitaria.
+***
 
 ## Modelos de negocio para hardware abierto
 Autores como Bauwens (2011) y Söderberg (2011) asocian al hardware abierto con la producción distribuida y sus beneficios (fabricación local, menores costos de distribución y transporte, comunidades de innovación, mayor participación).
@@ -738,7 +821,17 @@ En cuanto al perfil de los emprendedores, mayoritariamente poseen una formación
 El 47% de las compañías es liderado por emprendedores solos, comparado con el 52% que lo hace en equipo, lo que la autora atribuye a la ventaja de contar con una comunidad online fuerte de apoyo. 
 Sólo el 5% de las compañías son lideradas por mujeres -con excepciones notables como Adafruit o LittleBits-, y sólo 10% las incluyen en los equipos fundadores, aunque sí participan en gran medida en hackerspaces, proyectos y eventos.
 
-![evolución de start-ups de hardware](http://makingsociety.com/wp-content/uploads/2013/09/slide-growth-open-hardware-startups-e1378750427505.png)
+***
+>**Box 10: Adafruit**
+>
+>Adafruit Industries es una compañía basada en open source hardware ubicada en la ciudad de Nueva York, fundada en 2005 por la hacker e ingeniera Limor Fried mientras estudiaba en el Massachusetts Institute of Technology. La empresa diseña y fabrica una serie de productos electrónicos y vende un amplio rango de componentes, herramientas y accesorios vía su tienda web. Los productos ofrecidos abarcan rangos de principiante -kits que producen sonidos al recibir una señal- a experto -como sofisticados microcontroladores para celulares y desarrolladores de videojuegos-.
+>
+><img src=https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg width=50%>    
+>_Fig. 13: Limor Fried, premiada como emprendedora del año en 2012, fue tapa de la revista de tecnología WIRED (Fuente: Wired)_
+>
+>Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
+>El nombre Adafruit proviene del nickname "LadyAda" que Fried utilizaba online como homenaje a Ada Lovelace, la pionera en ciencias de la computación. La compañía además produce recursos educativos, incluyendo tutoriales escritos y videos en Youtube con el objetivo de entusiasmar a más personas para que se involucren en el desarrollo de tecnología, especialmente mujeres. En su sitio web oficial Fried declara: “Adafruit es una compañía 100% propiedad de una mujer”.
+***
 
 Más de la mitad de las compañías se financian con sus propios recursos (62%) aunque cada vez es mayor el número de empresas que se financian parcial o totalmente a partir de crowdfunding (28%).
 Cicero (2013) asocia al segmento de consumidores de éste último modelo (prosumidores creativos) a una evolución del mercado do-it-yourself.
@@ -927,6 +1020,11 @@ En 2012 Joshua Pearce identifica los beneficios que las tecnologías open source
 En la actualidad, combinando el uso de Arduino e Impresión 3D, investigadores alrededor del mundo fabrican instrumentos específicos que reducen los costos de investigación y amplían la autonomía de los investigadores (Damase et al, 2015; Coakley y Hurt, 2016; Dryden et al, 2017).
 Pearce (2017) nombra algunos de los desarrollos en rubros que incluyen entre otros la química (Anzalone  et  al.,  2013a; Wittbrodt,  et  al.,  2015; Car-valho  and  Eyre,  2013),  microfluídica (Da  Costa,  et  al.,  2014),  biotecnología (Luck-ing  et  al.,  2014;  Gross  et  al.,  2014;  Su  et  al.,  2014),  espectroscopía de masas (Malonado-Torres  et  al.,  2014;  Chiu  and  Urban,  2015),  óptica (Zhang et al., 2013), monitoreo ambiental (Pearce, et al., 2012; Chemin et al., 2014), agricultura (Trilles Oliver et al, 2018) y dispositivos médicos (Hermann et al., 2014; Niezen et al, 2016).
 
+***
+>**Box 11: Open Flexure**
+>
+***
+
 Uno de los casos paradigmáticos de hardware abieto en ciencia es el de la Organización Europea para la Investigación Nuclear (CERN). 
 En 2008 en CERN, el departamento de Sincronización comenzó a desarrollar hardware abierto motivados por la propuesta de trabajo colaborativo que veían que funcionaba en los departamentos de software, la posibilidad de diseñar instrumental altamente específico, reparable y como forma de ganar autonomía frente a proveedores (Javier Serrano, entrevista 2018). 
 En 2009 se crea el repositorio de hardware abierto a fin de albergar documentación de hardware para proyectos tanto internos como externos y en 2011 junto al departamento de Transferencia de Conocimiento elaboran la Licencia CERN Open Hardware 1.1 (Ayass y Serrano, 2011).
@@ -938,9 +1036,14 @@ Dentro de esta comunidad destacan iniciativas autodenominadas como de 'ciencia c
 Lo proyectos dentro de esta última categoría son heterogéneos, incluyendo monitoreos ambientales comunitarios (Liboiron, 2017), relevamientos con drones open source (Bernaldo e Irujo, 2013), plataformas para el desarrollo de proyectos de biología sintética (Hackteria) o proyectos ligados al transhacktivismo (Tsang, 2017).
 
 ### Educación
-Aunque la utilización de hardware abierto en ámbitos educativos tiene antecedentes (Pelgrims et al, 2007), sin dudas la irrupción de Arduino es la que más fuertemente influencia el área, originando una multiplicación de iniciativas a nivel global.
+Aunque la utilización de hardware abierto en ámbitos educativos cuenta con otros antecedentes (Pelgrims et al, 2007), sin dudas la irrupción de Arduino es la que más fuertemente influencia el área, originando una multiplicación de iniciativas a nivel global.
 Su aproximación práctica y simplificada a la electrónica facilita el aprendizaje técnico y su bajo costo abre la posibilidad a realizar numerosas iteraciones rápidamente, reutilizando la plataforma. 
 Arduino es utilizado en diversos campos educativos como robótica (Ocak 2017; Soriano 2014; Araujo et al. 2015), herramientas de laboratorio (Sarik 2010; Salvador et al. 2016); diseño interactivo (Buechley and Eisenberg 2008; Gibb 2010; Varesano 2013); e instrumental científico para educación STEM (D’Ausilio 2012) incluyendo monitoreo y sensores ambientales (Baker 2014; Ali et al. 2016; Kenny et al. 2019).
+
+***
+>**Box 12: Kalpana**
+>
+***
 
 Heradio y colaboradores (2018) realizan una revisión de la literatura sobre hardware abierto en el ámbito educativo.
 Las motivaciones para utilizar hardware abierto en educación que identifican como recurrentes son:
@@ -971,34 +1074,23 @@ Los diseños involucran microcontroladores como Arduino o sus variantes conectad
 Algunos ejemplos incluyen (entre una multitud de proyectos) adaptaciones de teléfonos antiguos para que funcionen con Skype, mesas de café que cambian de color según el tiempo, o robots operados por el movimiento de insectos ó dispositivos utilizables 'wearables'.
 Éstos últimos fueron particularmente impulsados por la versión Lilypad de Ardunio, e incluyen vestimenta interactiva, accesorios, juguetes, esculturas y otros (Buechley y Hill, 2010).
 
+El ecosistema de hardware abierto hobbista incluye plataformas como Instructables, Hackaday, Thingiverse, revistas como MAKE, encuentros que se multiplican a escala global como MakerFaire, concursos organizados por fabricantes como Adafruit o Sparkfun y tutoriales en distintos formatos realizados por makers alrededor del mundo.
+
+***
+>**Box 13: Naomi Wu**
+>
+***
 
 ## Desafíos
 
 El fenómeno del hardware científico abierto es relativamente reciente, con un crecimiento exponencial de iniciativas a partir de 2012 en áreas muy especializadas.
-La comunidad Global por el Hardware Científico Abierto (2018) identifica tres áreas principales de trabajo: aprendizaje, sostenibilidad y crecimiento:    
+A partir de un relevamiento con la comunidad, en 2018 se identificaron tres áreas principales de trabajo necesarias para impulsar el hardware científico abierto a nivel global: aprendizaje, sostenibilidad y crecimiento
 
-Fomentar el aprendizaje y la investigación en las siguientes áreas:
+Bajo 'aprendizaje' se incluyen las áreas donde es necesario producir investigaciones y conocimiento específico para el crecimiento. Éstas incluyen entre otras un mejor entendimiento de la diversidad presente en la comunidad, cómo las personas interactúan y colaboran, cuáles son las licencias utilizadas y sus ventajas y desafíos, casos exitosos de modelos de negocio, los riesgos que representan y cómo pueden adaptarse, confección de métricas situadas que permitan evaluar las iniciativas de manera justa.
 
-- Diversidad de la comunidad
-- Métodos de colaboración y coordinación
-- Modelos de negocio
-- Licencias abiertas y políticas de innovación 
-- Métricas situadas para la evaluación de proyectos 
+El eje de 'sostenibilidad' apunta a infraestructuras necesarias para el crecimiento sostenido en el tiempo, incluyendo el desarrollo de modelos de gobernanza, cómo colocar el tema en agenda institucional, mecanismos para obtener apoyo en términos de fondos, espacios e infraestructura, cómo disminuir las barreras de acceso aún presentes para el gran público y cómo mejorar los estándares de calidad y calibración en los proyectos de la comunidad.
 
-Relacionados a la sostenibilidad de las iniciativas:
-
-- Desarrollo de modelos de gobernanza
-- Colocar el hardware científico abierto en agenda institucional
-- Obtener apoyo en términos de espacios e infraestructura
-- Obtener apoyo en términos de fondos
-- Disminuir las barreras de acceso de los usuarios
-- Mejorar los controles de calidad y calibraciones
-
-Relacionados al crecimiento de la comunidad:
-
-- Aumentar el número y diversidad de participantes
-- Desarrollar recursos educativos abiertos
-- Desarrollar actividades de difusión
+Finalmente bajo 'crecimiento' los objetivos se agrupan en aumentar el número y diversidad de participantes en la comunidad, desarrollar recursos educativos abiertos y actividades de difusión.
 
 Pearce (2017) identifica tres obstáculos principales en el crecimiento del hardware científico abierto a mayor escala, que coinciden con algunos anteriormente mencionados.
 En primer lugar, los recursos económicos para desarrollarlo son limitados, principalmente debido a que las agencias de financiación aún prefieren no correr riesgos y utilizar patentes para asegurar sus inversiones (Demsetz,  1973; McGaughey, 2002; Smith, 2007; May, 2013). 
@@ -1013,23 +1105,35 @@ Existen aún obstáculos asociados a la barrera de ingreso relacionada al expert
 
 ## Oportunidades
 
-Las ventajas de desarrollar hardware abierto que primero aparecen son las relacionadas a la eficiencia:
+La literatura hace referencia de forma extensa a las ventajas de desarrollar hardware abierto en términos de eficiencia tanto de recursos como tiempo. 
+Todos los autores coinciden en que los desarrollos abiertos suelen ser menos costosos que sus pares privativos, aunque ésto no implique que sean 'low-cost'. 
+Bajar los costos de investigación no sólo habilita más estudios si no que brinda la posibilidad de contar cno estudios más potentes (Pearce, 2012).
 
-- En general los equipos suelen tener costos menores que sus pares propietarios, bajando los costos de investigación y habilitando estudios más potentes (Pearce, 2012);
-- Es posible personalizar los diseños para responder a una variedad de situaciones, esta mayor flexibilidad acelera la experimentación y evolución de la ciencia experimental (Pearce, 2014);
-- Los científicos no deben limitarse a las opciones de equipo disponibles en el mercado, lo que resulta valioso especialmente en disciplinas novedosas;
-- Mejora el control sobre los laboratorios, cortando dependencias con monopolios de proveedores (Bruns, 2000; Kogut and Metiu, 2001)
-- Posibilidad de contar con equipos siempre actualizados y con menor tasa de decarte dado que el usuario puede repararlos o acceder a asistencia técnica distribuida
+El desarrollo científico suele requerir de avances y personalizaciones en los diseños muy específicas, que no son ampliamente difundidas en el mercado. 
+Acceder a los diseños permite a los mismos usuarios implementar esas modificaciones, disminuyendo los tiempos y costos de espera del fabricante, para quien la escala no resulta significativa. 
+Los científicos no deben limitarse a las opciones de equipo disponibles en el mercado, lo que resulta valioso especialmente en disciplinas novedosas.
+Esta mayor flexibilidad acelera la experimentación y evolución de la ciencia experimental (Pearce, 2014).
 
-Pero existen aportes en otros términos, relacionados a la democratización de las herramientas científicas:
+Conectado al concepto de personalización, otra de las ventajas es la reparación ya sea por los usuarios o por comunidades locales.
+Contar con hardware abierto abre la posibilidad a tener equipos siempre actualizados y con menor tasa de decarte dado que el usuario puede repararlos o acceder a asistencia técnica distribuida.
+De esta forma mejora el control sobre los laboratorios, cortando dependencias con monopolios de proveedores (Bruns, 2000; Kogut and Metiu, 2001).
 
-- Acceso a la producción de conocimiento científico en laboratorios de recursos escasos
-- Soporte para actividades de activismo  y ciencia comunitaria, como monitoreos ambientales comunitarios (Public Lab, )
-- Involucrar nuevas voces y nuevos problemas de investigación en la producción de conocimiento científico (Kera, 2018)
-- Facilitar la enseñanza y creatividad en áreas STEM en zonas de recursos escasos (Tech Academy)
-- Fomentar el surgimiento de nuevas compañías basadas en modelos de negocio abiertos
+Otros autores y miembros de las comunidades de hardware abierto identifican beneficios asociados al potencial democratizador de las herramientas científicas abiertas (Kera, 2018; GOSH, 2018). 
+Nuevamente en términos de costos, acceder a diseños de hardware científico permitiría contar con más investigación desarrollada en contextos de recursos escasos, atacando la asimetría actual en la generación de conocimiento a nivel global (cita Alperín).
 
+Las ventajas del hardware abierto en ámbitos educativos fueron mencionadas anteriormente y se evidencian en la multitud de proyectos desarrollados alrededor del mundo.
+Numerosas iniciativas utilizan hardware científico abierto para incorporar contenidos STEM en comunidades de recursos escasos, aprovechando las ventajas del 'learning by doing', cuyos costos serían prohibitivos con materiales cerrados.
 
+Pearce (2018) menciona cómo el surgimiento de nuevos modelos de negocio alrededor de hardware científico abierto puede generar actividad económica significativa.
+Esta aproximación está siendo activamente discutida en AfricaOSH, la comunidad de hardware científico abierto más activa en el Sur Global.
+
+***
+>**Box 14: Trend4Africa**
+>
+***
+
+En términos de producción de conocimiento, Kera (2018) identifica al hardware científico abierto y los procesos de aprendizaje asociados como una vía para la incorporación de nuevas voces y nuevos problemas de investigación en la producción de conocimiento científico, funcionando como soporte para activismo y ciencia comunitaria. 
+A modo de ejemplo, el hardware científico abierto puede funcionar como facilitador de procesos de monitoreo ambiental comunitario, cuando no existen incentivos del mercado para hacerlo y no se cuenta con presencia estatal.
 
 
 ## Bibliografía

@@ -1,99 +1,13 @@
->**Box 1: Arduino**  
->  
->Arduino es una plataforma de prototipado libre compuesta por una placa electrónica de entradas y salidas simple y un entorno de desarrollo que utiliza un lenguaje de programación fácil de usar. Los diseños del hardware y el software se encuentran liberados bajo licencia Creative Commons CompartirIgual 2.5 (Share-A-Like), lo que habilita a compartir, adaptar e incluso distribuir comercialmente los objetos creados en base a Arduino, siempre y cuando se indiquen las modificaciones realizadas y se mantenga el mismo tipo de licencia. Arduino funciona además como "marca", ya que se comercializan placas oficiales que pagan por llevar el nombre Arduino y otras que no y se definen como “Arduino-compatibles”.
->
-> En su origen, Arduino fue pensado por un equipo de cinco personas en el Ivrea Interaction Design Institute en Turín, Italia, con el objetivo de contar con una herramienta sencilla de utilizar para estudiantes, que les permitiera fabricar objetos sin tener que contar con conocimientos avanzados de electrónica. Actualmente, además de la plataforma, Arduino es una comunidad organizada alrededor de su sitio web, donde más de 300 mil usuarios de distintas partes del mundo comparten sus diseños, recomendaciones y preguntas.
->
-><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Reprap_Darwin.jpg" width=50%>       
->_Fig. 1: Versión 1.0 (Darwin) de RepRap, la impresora 3D autorreplicable basada en Arduino (Fuente: Wikipedia)_
->
->
->Arduino posee algunas ventajas que lo volvieron una de las ‘estrellas’ del hardware libre, viralizando su uso en cientos de proyectos a escala global y motorizando así la nueva ola del movimiento maker. Los atributos que destacan en Arduino son, principalmente: bajos costos -la placa más sencilla cuesta menos de 25 dólares-, compatibilidad en todos los sistemas operativos -Windows, Macintosh, Linux-, utilizar un lenguaje de programación simple para los novatos pero con funcionalidades potentes para los expertos, y la posibilidad de contar con código abierto tanto en software como hardware, posibilitando el intercambio entre usuarios y sumando modificaciones y nuevas funcionalidades en base a experiencias de otros.
->
->Arduino es empleado, entre otros usos, para crear instrumental de laboratorio económico y adaptado a las necesidades de los científicos
->(Baden et al, 2015; Pearce, 2012), por docentes para enseñar programación y robótica a estudiantes (Bordignon, 2015; Valera et al, 2014), por músicos y artistas para experimentar y realizar nuevas instalaciones (Juan Cortés; Zach Gage), por ingenieros y diseñadores para prototipar nuevos artefactos (Gautam et al, 2016; Karvinen y Karvinen, 2011) y por ejemplo, construir dispositivos de accesibilidad -como anteojos o calzado para no videntes-.
-
->**Box2: Hardware científico abierto en CERN**
->
->
-
->**Box3: Estrógenos abiertos, gynepunk**
->
->
-
-
->**Box4: flypi**
->
->
-
->**Box5: kalpana**
->
->
-
-***
->**Box6: hackteria**
->
->
-***
-
-***
->**Box7: public lab**
->
->
-***
-
-> **Box 8: RepRap**
->
->La construcción de una impresora RepRap constituye muchas veces uno de los primeros momentos de aprendizaje de los entusiastas de la fabricación digital.  
->
->De forma similar a Linux, RepRap comenzó en 2005 como un proyecto universitario del Dr. Adrian Bowyer de la Universidad de Bath, con el objetivo de construir una impresora auto-replicable. Es decir, una impresora que pudiera imprimir las partes para construir una nueva impresora. A partir de la colaboración online en blogs y wiki, los usuarios fueron construyendo copias del primer prototipo, realizando modificaciones que documentaban y ponían a disposición online.
->
-><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/RepRap_%27Mendel%27.jpg" width=70%>    
->_Fig. 8: RepRap 2.0, versión Mendel (Fuente: Wikipedia)_
->
->Uno de los disparadores del boom de la impresión 3D ha sido la expiración de las patentes de los equipos originales de impresión (The Economist 2013), creados en la década de los ochenta. Por ejemplo, en 2009 expiró la patente del proceso de modelado por deposición fundida (conocidas como FMD por su sigla en inglés) que utiliza filamentos plásticos. La caída de las patentes permitió una explosión de experimentación con nuevas impresoras, de la cual surgió RepRap, que utilizando el modelo open source permite que cualquier usuario realice modificaciones y mejoras en las máquinas. Desde ese momento, la impresoras 3D FDM se convirtieron en un objeto de escritorio y su costo se redujo hasta menos de los mil dólares en los modelos fabricados por los usuarios (Mins 2013).
->
->En 2011 nació el grupo conocido como "Clone Wars" dentro de la comunidad RepRap, con el fin de documentar en español todo lo necesario para que cualquier persona pueda construir su propia impresora 3D.
-
-
-> **Box 10: 3D Robotics - Mediodía y ocaso de los drones**
->
->3D Robotics es una empresa pionera en la creación de vehículos aéreos no tripulados (UAV), comúnmente conocidos como drones. Sus creaciones se basan en componentes de OSH.
->
->Jordi Muñoz -un joven mexicano emigrado a Estados Unidos- y Chris Anderson -editor de la revista WIRED- se conocieron en el foro open source DIY-Drones, comunidad donde comparten sus experiencias algunos aficionados a vehículos aéreos no tripulados. Allí, Jordi compartió con la comunidad su creación de un piloto automático con acelerómetros extraídos de su Nintendo Wii. Después de eso, su popularidad en el foro creció, llamando la atención de Chris Anderson, que le ofreció 500 dólares para seguir experimentando.
->
->En 2009 fundaron 3D Robotics con el objetivo de liderar el mercado de fabricación de drones y UAVS de calidad profesional a precios accesibles. En 2012, Anderson dejó la revista WIRED para ocupar el puesto de CEO junto con Jordi Muñoz, el mismo año que 3D Robotics anunció que cerraría parte de su código, lo cual fue tomado como una "traición" por parte de la comunidad de DIY Drones que se consideraba parte del proyecto (Cuartielles, 2014).
->
-><img src="https://3dr.com/wp-content/uploads/2017/03/Solo_r10c-1024x443.jpg" width=70%>         
->_Fig. 16. Solo, el drone estrella de 3D Robotics (Fuente: 3Dr)_
->
->La empresa llegó a tener oficinas en la ciudad de San Diego y Berkeley en California, ventas y marketing en Austin, Texas y una planta de producción en Tijuana, Baja California, México, que producían alrededor de 15,000 pilotos automáticos al año, generando ganancias de alrededor de 20 millones de dólares anuales.
->
->La revista Forbes entrevistó a ex empleados de 3D Robotics que narraron cómo la competencia en precios de la compañía china DJI y los problemas internos impidieron que la empresa cumpliera aquella visión revolucionaria de sus inicios. Ya no producirá sus drones Solo, estrella de la compañía, despidió a más de 150 personas, gastó casi 100 millones de dólares de inversiones y lucha por sobrevivir con un fuerte cambio de modelo de negocio en que ahora se concentra en producir software. Muñoz dejó la empresa para fundar otra llamada mRobotics, también basada en San Diego, una abreviatura de Mayan Robotics.
-
-
->**Box 8: Adafruit**
->
->Adafruit Industries es una compañía basada en open source hardware ubicada en la ciudad de Nueva York, fundada en 2005 por la hacker e ingeniera Limor Fried mientras estudiaba en el Massachusetts Institute of Technology. La empresa diseña y fabrica una serie de productos electrónicos y vende un amplio rango de componentes, herramientas y accesorios vía su tienda web. Los productos ofrecidos abarcan rangos de principiante -kits que producen sonidos al recibir una señal- a experto -como sofisticados microcontroladores para celulares y desarrolladores de videojuegos-.
->
-><img src=https://www.wired.com/wp-content/uploads/blogs/geekmom/wp-content/uploads/2011/03/Wired-Cover.jpg width=50%>    
->_Fig. 13: Limor Fried, premiada como emprendedora del año en 2012, fue tapa de la revista de tecnología WIRED (Fuente: Wired)_
->
->Todos sus productos son fabricados en la planta del SoHo newyorquino, que cuenta con más de cien empleados. En 2013 entregaron 480 mil pedidos con más de un millón de productos, obteniendo ingresos por 22 millones de dólares. En 2016 registraron su pedido número un millón.
->El nombre Adafruit proviene del nickname "LadyAda" que Fried utilizaba online como homenaje a Ada Lovelace, la pionera en ciencias de la computación. La compañía además produce recursos educativos, incluyendo tutoriales escritos y videos en Youtube con el objetivo de entusiasmar a más personas para que se involucren en el desarrollo de tecnología, especialmente mujeres. En su sitio web oficial Fried declara: “Adafruit es una compañía 100% propiedad de una mujer”.
 
 
 
-> **Box 9: Open Desk**
->
->Opendesk se autodefine como una plataforma global para la producción local. Consiste en una herramienta de "producción abierta" que puede utilizarse para descargar, fabricar y comprar mobiliario. Cuenta con un catálogo de diseños específicamente realizados para la fabricación digital, por lo cual el objeto puede producirse localmente, de acuerdo a la demanda, en cualquier lugar del mundo.
->
->Cuánto de este proceso es realizado por el usuario depende un poco de sí mismo. Si se cuenta con la capacidad y herramientas para construir el diseño, se puede descargar y hacer el producto desde cero. En caso contrario, se puede contratar un maker desde la página, que fabricará el objeto para el cliente. Mientras mas trabajo se haga personalmente, mas bajo es el costo. Todo depende de donde se encuentre, si hay fabricantes locales disponibles y de si se tiene acceso a la maquinaria necesaria.
->
-> <img src=https://d2mgbjyendvdw0.cloudfront.net/02628/02973/5ee268/opendesk_furniture_lean-desk_design-listing-page_listing-image-image-side-all-ply_full_2.jpg width=70%>       
-> _Fig. 15: modelo de escritorio disponible para descargar (Fuente: OpenDesk.com)_
->
->Iniciada a partir de un petitorio en Crowdfunding en 2014, Opendesk es propiedad en parte de los miembros de la comunidad -diseñadores, clientes, fabricantes- e inversores privados. Por un lado, los diseñadores cuentan con un canal global de distribución, los makers consiguen nuevos clientes y un pago justo por su trabajo, y el cliente obtiene un producto que no posee el sobreprecio del mercado de diseño, además de producido de una forma social y ambientalmente más responsable.
+
+
+
+
+
+
+
 
 
 ***
@@ -126,37 +40,6 @@ Open hardware is related to the general trend of 3D printing, personal fabricato
 The fourth argument is not related directly to shared designs, but on the use of networked technology in the development of shared infrastructures. We’re thinking here of how such infrastructures, and the radical diminishing of transaction and coordination costs that they entail, has led to the emergence of a very strong sharing economy. Used fractional ownership of cars for example, as in Zipcar carsharing, or real p2p sharing which allows for the optimal more collective use of privately owned cars, has a dramatic effect on the amount of physical production needed to insure a given amount of transportation. These shared infrastructures only become possible because of the availability of networked technologies, the same tech that is also at the basis of the emergence of open and shared design. Once we abandon the central requirement of the necessity of private property of the means of production, and change the focus on ownership for one on access and use, combined with more distributed forms of ownership of the common stock, we can envision the transformation of property-based economics to an economics of provisioning, as envisaged by Marvin Brown in “Civilising the Economy” or as a series of functions, or an “economy of functionalities” based on integrated product-service systems. This transformation, within the bounds of the present political economy, has been described by Rachel Cobcroft in “What’s Mine is Yours”, or Lisa Gansky’s “The Mesh” 
 
 
-***
->**Box2: Computadora Industrial Abierta Argentina**
->
->El Proyecto CIAA surgió en 2013 como una iniciativa conjunta entre el sector académico y la industria nacionales, con el objetivo de desarrollar un sistema electrónico abierto de uso general, donde absolutamente toda su documentación y el material para su fabricación estuviera libremente disponible en internet-(diagramas esquemáticos, diseño del circuito impreso, códigos fuentes de los programas, etc.-, que estuviera diseñado en base a criterios adecuados para su utilización en aplicaciones industriales, que no dependiera de una línea específica de procesadores, y que pudiera ser fabricado por la mayoría de las empresas PyMEs nacionales, lo que implicaba por ejemplo utilizar en el diseño circuitos impresos de no más de cuatro capas.
->
->El hardware, el firmware y el software de la CIAA, así como los documentos y archivos generados como parte de su desarrollo, son liberados bajo las condiciones de la Licencia BSD modificada, que permite la redistribución ilimitada del producto, con o sin modificaciones y para cualquier propósito, siempre que se mantenga la autoría del proyecto y la renuncia a garantías.
->
-> La primera versión, CIAA-NXP, fue diseñada utilizando un microprocesador provisto por la empresa NXP Semiconductors. Más adelante se realizaron versiones para microprocesadores de otras compañías. Lo interesante del proyecto es que se trata de una computadora industrial y abierta, ya que su diseño está preparado para las exigencias de confiabilidad, temperatura, vibraciones, ruido electromagnético, tensiones, cortocircuitos, etc., que demandan los productos y procesos industriales. Actualmente la CIAA es fabricada y comercializada por distintas empresas argentinas.
->
->![EDU-CIAA-NXP](http://www.proyecto-ciaa.com.ar/devwiki/lib/exe/fetch.php?media=desarrollo:edu-ciaa:edu-ciaa-nxp.png)    
->_Fig. 2: EDU-CIAA-NXP, una versión de bajo costo de la CIAA-NXP pensada para la enseñanza universitaria, terciaria y secundaria (Fuente: CIAA)_
->
->Entre algunos de los proyectos que utilizan CIAA, se encuentran aplicaciones de automatización industrial, equipamiento médico, industria ferroviaria, maquinaria agrícola. Además, se diseñó una versión educativa de la plataforma, la EDU-CIAA, más simple y de menor costo, para lograr un impacto en la enseñanza primaria, secundaria y universitaria.
-***
-
-> **Box3: Open Source Ecology - Global Village Construction Set**     
-> Open Source Ecology es una iniciativa de Marcin Jakubowski, un estudiante polaco de física nuclear en Estados Unidos, quien después de obtener su doctorado comenzó a trabajar en su propia finca en Missouri. Allí se dio cuenta que era incapaz de reparar por sí mismo el tractor con el que trabajaba debido al elevado costo de los repuestos, por lo que decidió crear ‘Global Village Construction Set’, siguiendo la filosofía del software libre.
->
-> Global Village Construction Set es el desafío de crear 50 herramientas que cualquier finca necesitaría con el objetivo de ser sostenible y autónoma. Según Wikipedia, es "Una plataforma de alto rendimiento, modular, de bajo costo, do-it-yourself que habilita la fabricación de 50 máquinas industriales diferentes que se precisan para construir una pequeña y sostenible civilización con comodidades modernas".
->
->![Global village construction set](https://www.opensourceecology.org/wp-content/uploads/2014/02/gvcs-all-50.jpg)    
->_Fig. 6: El kit incluye un tractor, impresora 3D, cortadora láser, soldadora, aserradero, un horno de panadería, un pulverizador de suelo, una sembradora, un aerogenerador, entre otros (Fuente: Open Source Ecology)_
->
->La filosofía de Open Source Ecology es que el problema del acceso a las herramientas y maquinarias no está relacionado a la escasez de recursos sino a su distribución desigual. Volviendo accesibles los planos, esquemáticos y manuales, Open Source Ecology busca fabricar herramientas accesibles para todos, especialmente aquellos que habitan pequeñas comunidades.
->
->El proyecto ha estado funcionando durante los últimos 5 años, contando ya con alrededor de 20 prototipos. Ofrecen planos y manuales (incluyendo tutoriales en Youtube) sobre cómo fabricar las herramientas, además de talleres específicos en los sitios de interés. Al compartir los diseños online, permitieron que se creara una gran red de personas que colaboran el diseño de las máquinas, las mejoran y modifican para adaptarlas a nuevos usos. Una encuesta en 2014 registró 110 réplicas de los diseños provenientes de Global Village Construction Set en Estados Unidos, Chile, Nicaragua, Guatemala, China, India, Italia y Turquía
->
->![johndeere](https://image.slidesharecdn.com/openhardwarebusinessmodels-141115072738-conversion-gate01/95/business-models-for-open-source-hardware-23-638.jpg)    
->_Fig. 7: Comparación de costos entre maquinaria agrícola abierta y privativa (Fuente: Benjamin Tincq)_
->
->Open Source Ecology es una obvia inspiración para otros “makers” y emprendedores, pero además puede brindar lecciones a instituciones de investigación y desarrollo existentes. Existen enormes oportunidades en el acceso abierto a los planos técnicos de maquinaria agrícola, energía renovable y tecnologías de acceso al agua y saneamiento, que ya han sido desarrolladas por dichas instituciones de I+D. Abrir esos diseños podría ayudar a los actores locales a adquirir nuevos conocimientos, desarrollar sus propias herramientas e incluso ayudar a mejorar las que ya están disponibles.
 
 
 

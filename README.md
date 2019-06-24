@@ -7,7 +7,7 @@
 Welcome! Here you'll find the latest updates on my phD work about the Open Science Hardware [GOSH](https://openhardware.science) movement in Latin America. 
 
 ```
-Updated: March 2019 
+Updated: May 2019 
 ```
 
 - [Map of OSHW projects](https://github.com/thessaly/goshMap), _a collaborative GOSH map_

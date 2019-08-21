@@ -23,3 +23,7 @@
 - a possibility is to take the approach of [Jesper Juul](https://www.jesperjuul.net/) (game studies, video game theory), which is substractive, to define 'democracy'. He defines what a videogame is with a checklist of features, as no one in the community could define what a videogame was. (note from me: could be a gradient instead of checklist, in which initiatives move from less to more democratic)
 
 - take a look at [Engeström's activity theory](https://en.wikipedia.org/wiki/Activity_theory#Theory)
+
+- [Stuart Geiger](https://stuartgeiger.com/)
+
+- [evolution of wikis collab and comms using wikichron](https://opensym.org/wp-content/uploads/2019/08/os19-paper-A11-faqir.pdf)

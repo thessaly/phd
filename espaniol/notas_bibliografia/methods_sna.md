@@ -29,4 +29,7 @@ Borgatti et al. (2009) identify four broad categories of relations:
 
 ## GUIDING PRINCIPLES OF NETWORK ANALYSIS
 
-- Relations, not attributes: 
+- Relations, not attributes: causation is not located in the individual (education, race, income), but in the social structure or its position in the network
+
+- Networks, not groups
+

@@ -1,10 +1,10 @@
-# Open Science Hardware in Latin America: Democratising technology?
+# Open Science Hardware: Democratising technology?
 
 
 [Versión en español](/espaniol/README_ES.md)
 
 
-Welcome! Here you'll find the latest updates on my phD work about the Open Science Hardware [GOSH](https://openhardware.science) movement in Latin America. 
+Welcome! Here you'll find the latest updates on my phD work about the Open Science Hardware [GOSH](https://openhardware.science). 
 
 ```
 Updated: November 2019 

@@ -1,15 +1,18 @@
 # Resumen
 
-Se utilizará la perspectiva multi-nivel para analizar en qué medida las  tecnologías libres en América Latina constituyen un nicho sostenible dentro del régimen actual de desarrollo de tecnologías. Quienes participan en la producción de tecnologías libres argumentan que su forma de producción, basadas en el desarrollo colaborativo y en la difusión mediante  licencias abiertas, es más democrática que la dominante. Por un lado, aumenta la participación de las personas en el diseño de objetos, abriendo la caja negra de la tecnología y cortando lazos de dependencia. Esto empodera a las comunidades que participan, que pueden de esta forma desarrollar instrumentos acordes a sus necesidades. Por otro lado, porque disminuyen los costos de producción de tecnologías, ampliando el acceso y la difusión en nuevos usos. En la tesis, se contrastarán dichos argumentos con las prácticas reales que llevan adelante estos grupos. Para eso, desarrollaremos un marco teórico a partir de elementos conceptuales de la literatura de transiciones socio-técnicas, estudios sociales de ciencia y tecnología y movimientos sociales. A partir de este marco se identificarán las principales dimensiones que prevalecen en contextos de democratización de la tecnología y las condiciones que deben cumplir los nichos tecnológicos para sobrevivir y eventualmente expandirse en co-existencia con un régimen de producción regulado por normas diferentes de producción y reproducción. El trabajo empírico consistirá en entrevistar a la población de grupos desarrollando tecnologías libres en América Latina, con el objetivo de comprender en qué medida su práctica se articula con los principios democratizantes con los que se identifican.
+## Introducción
+La comunidad Global por el Hardware Científico Abierto (GOSH por sus siglas en inglés) es una iniciativa que reúne un conjunto heterogéneo de actores provenientes de la academia, el sector educativo, emprendedores y organizaciones civiles, con el objetivo común de hacer que los diseños de herramientas para la ciencia estén públicamente disponibles.
 
-# Índice
+Se trata de una "red de redes" conformada en su primera reunión de 2016 en la Organización Europea para la Investigación Nuclear (CERN) en Ginebra, Suiza. El trabajo de la red contribuyó a que desde 2016 a hoy el hardware científico abierto haya obtenido una mayor visibilidad. Los proyectos y propuestas han recibido cobertura en la prensa académica y no académica, se crearon nuevos programas de mentoreo, algunas agencias de financiamiento comienzan a apoyar iniciativas, y las universidades lentamente ofrecen algunas señales de apoyo. 
 
-1. Introducción - Estado de la cuestión
-2. Marco teórico
-3. Metodología
-4. Contexto: Historia de GOSH
-6. Casos - Tipo A (Am. Latina + 1 Europeo)
-7. Casos - Tipo B (Am. Latina + 1 Europeo)
-8. Casos - Tipo C (Am. Latina + 1 Europeo)
-9. Análisis y Discusión
-10. Conclusiones
+Después de tres años de reuniones globales, la publicación de un manifiesto y una hoja de ruta definidos por la comunidad y la descentralización del movimiento en reuniones regionales, la comunidad decidió no organizar una reunión global en 2019. En lo que parece ser un punto de inflexión, los capítulos regionales están desarrollando "residencias" para construir hardware científico abierto, se organizan conferencias y algunos de los miembros fundadores están trabajando en recomendaciones de políticas que promuevan al sector. La interfaz institucional, previamente lejana, se está volviendo más nítida, a la vez que surgen nuevas tensiones y sinergias hacia adelante.
+
+## Objetivos y metodología
+Esta tesis intenta responder la pregunta de cómo el hardware científico abierto puede contribuir a transformar el sistema socio-técnico de producción de conocimiento en uno más democrático. Esta pregunta principal se desagrega en los siguientes interrogantes:
+
+- ¿Cómo GOSH se constituye como un nicho estratégico de innovación?
+- ¿Quién participa y quién no participa en los proyectos de GOSH?
+- ¿Cómo se apropian los participantes de la tecnología en los proyectos de GOSH?
+- ¿Cómo transforman las personas los aprendizajes en agencia en los proyectos GOSH?
+
+Se abordan estas preguntas a partir de un enfoque cualitativo siguiendo los principios de la teoría fundamentada, para analizar materiales provenientes de observación participante, notas de campo, resultados de una encuesta exploratoria y entrevistas semi-estructuradas con miembros de proyectos que pertenecen a GOSH. Con este material construiré dos estudios de caso orientados cada uno a un ámbito de aplicación específico: la academia y la ciencia comunitaria.

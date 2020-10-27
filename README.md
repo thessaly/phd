@@ -7,7 +7,7 @@
 Welcome! Here you'll find the latest updates on my phD work about the Open Science Hardware [GOSH](https://openhardware.science). 
 
 ```
-Updated: March 2020 
+Updated: October 2020 
 ```
 
 - [The project](project.md)

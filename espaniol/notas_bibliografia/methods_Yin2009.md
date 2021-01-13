@@ -341,3 +341,161 @@ Certain kinds of case studies already may represent a form of mixed-methods rese
 ![Mixed methods nested arrangements](yin5.png)
 
 Studies using mixed-methods research are more difficult to execute than studies limited to single methods. However, mixed-methods research can enable you to address broader or more complicated research questions than case studies alone. 
+
+# Chapter 3: prepare for data collection
+
+## Desired skills and values
+
+A well-trained and experienced researcher is needed to conduct a high-quality case study because of the continuous interaction between the issues being studied and the data being collected. 
+
+- Ask good questions—and interpret the answers fairly.
+
+Case study data collection does follow a formal protocol, but the specific information that may become relevant to a case study is not readily predictable. As you collect case study evidence, you must quickly review the evidence and continually ask yourself why events or perceptions appear as they do. Your judgments may lead to the immediate need to search for additional evidence.
+
+- Be a good “listener” not trapped by existing ideologies or preconceptions.
+
+Being a good listener means being able to assimilate large amounts of new information without bias. You want to follow not only what might have been said but also what was meant. In reviewing documents, listening takes the form of worrying whether the originator of the document intended any important messages between the lines.
+
+- Stay adaptive, so that newly encountered situations can be seen as opportunities, not threats.
+
+The skilled researcher must remember the original purpose of the case study but then must be willing to adapt procedures or plans if unanticipated events occur. Your need to balance adaptability with rigor—but not rigidity—cannot be overemphasized.
+
+- Have a firm grasp of the issues being studied, even when in an exploratory mode.
+
+Every case study researcher must understand the relevant theoretical or policy issues because analytic judgments have to be made throughout data collection. 
+
+- Conduct research ethically, from a professional standpoint but also by being sensitive to contrary evidence.
+
+All the preceding conditions will be negated if a researcher only seeks to use a case study to substantiate a preconceived position. One test of this potential bias is the degree to which you are open to contrary
+evidence. 
+
+## Protecting Human Subjects
+
+The study of “a contemporary phenomenon within its real-world context” obligates you to important ethical practices akin to those followed in medical research.
+
+The care usually involves the following (National Research Council, 2003, pp. 23–28):
+
+- Gaining informed consent from all persons who may be part of your case study, by alerting them to the nature of your case study and formally soliciting their volunteerism in participating in the study;
+- Protecting those who participate in your study from any harm, including avoiding the use of any deception in your study;
+- Protecting the privacy and confidentiality of those who participate so that, as a result of their participation, they will not be unwittingly put in any undesirable position, such as being placed on a list to receive requests to participate in some future study, whether conducted by you or anyone else;
+- Taking special precautions that might be needed to protect especially vulnerable groups (for instance, research involving children); and 
+- Selecting participants equitably, so that no groups of people are unfairly included or excluded from the research.
+
+## Training to Do the Case Study
+
+You must know: 
+
+- Why the case study is being done,
+- What evidence is being sought,
+- What procedural variations can be anticipated (and what should be done if such variations occur), and
+- What would constitute supportive or contrary evidence for any given proposition.
+
+## The Case Study Protocol
+
+![Outline of case study protocol example](yin6.png)
+
+A case study protocol should have four sections:
+
+### Section A: an overview of the case study 
+
+Section A of the protocol should cover the background information about the case study, its substantive issues, and the relevant readings about the issues.
+
+The background information can start by articulating the mission and goals of the case study’s sponsor (if any) and audience (e.g., a thesis committee). For instance, a sponsor or audience may desire the case study to show its relationship to certain other previous studies, use certain general formats for writing the case study report, or fit within a certain time schedule. Explicit recognition of these conditions belongs in the overview section.
+
+The bulk of the overview, however, should be devoted to the case study’s substantive issues. The material may include the rationale for selecting the case(s), the propositions or hypotheses being examined, and the broader
+theoretical or policy relevance of the inquiry. Include references. 
+
+### Section B: data collection procedures 
+
+Including: 
+- Gaining access to key organizations or interviewees;
+- Having sufficient resources while doing fieldwork—including a tablet or personal computer, writing instruments, paper, paper clips, and a preestablished, quiet place to render notes privately;
+- Developing a procedure for calling for assistance and guidance, if needed, from other team members or colleagues;
+- Making a clear schedule of the data collection activities that are expected to be completed within specified periods of time; and
+- Providing for unanticipated events, including changes in the availability of interviewees as well as changes in your own energy, mood, and motivation while doing fieldwork.
+
+A final part of Section B should carefully describe the procedures for protecting human subjects. This means DMP and instructions for obtaining informed consent.
+
+### Section C: protocol questions 
+
+The heart of the protocol is a set of substantive questions appearing in Section C. They reflect your actual line of inquiry. 
+
+**Section C’s questions are posed to you, the researcher, not to an interviewee, the main purpose of the protocol’s questions is to keep you on track as data collection proceeds, serving as your line of inquiry.**
+
+![example protocol questions](yin7.png)
+
+Each question in Section C should be accompanied by a list of likely sources of evidence. Such sources may include the names of individual interviewees, documents, or observations. This crosswalk between the questions of interest and the likely sources of evidence is extremely helpful in collecting case study data.
+
+There are five levels of questions:
+
+- Level 1: questions verbalized to specific interviewees;
+- Level 2: questions about each case, which represent your line of inquiry,
+- Level 3: questions asked of the pattern of findings across multiple cases;
+- Level 4: questions asked of an entire study—calling on information beyond the case study evidence and including other literature or published data that may have been reviewed; and
+- Level 5: normative questions about policy recommendations and conclusions, going beyond the narrow scope of the study.
+
+Of these five levels, Section C of the protocol should concentrate on Level 2. Level 1 is what you tell the interviewee, level 2 is what's going on in your mind. The Level 3 question can only be addressed after the
+data from all the single-case studies have been examined. Levels 4 and 5 go well beyond the empirical data from
+the full case study, and you should be aware of this limitation if you include such questions in the case study protocol (they will most likely fit somewhere in Section A of the protocol).
+
+#### Unit of analysis and unit of data collection
+
+![design versus data collection](yin8.png)
+
+I'd be in row 2
+
+#### Other data collection devices
+
+Empty table shells to complete, useful for multiple case study, can become basis for analysis.
+
+### Section D: a tentative outline for the case study report 
+
+Anticipating and identifying a possible journal or two would then be a useful step, because the case study report could emulate what is believed to be acceptable to the journals. 
+
+Another possibility is that a case study has been commissioned by some sponsor who already has a knowable reporting format and preference.
+
+The outline in Section D of the protocol can then point to the likely audience, topics, and length of the final case study report.
+
+How to deal with all the collected docs?  One possibility is to have the final case study report include an annotated bibliography itemizing each of the available documents. The annotations would help an inquisitive reader to identify the documents that might be relevant for further inspection.
+
+## Screening The Candidate Cases For Your Case Study
+
+The goal of the screening procedure is to be sure that you identify the final cases properly, prior to formal data collection.
+
+### A one-phased approach
+
+Screening may consist of querying people knowledgeable about each candidate. You even may collect limited
+documentation about each candidate. 
+
+Prior to collecting the screening data, you should have defined a set of operational criteria whereby candidates will be deemed qualified to serve as cases. If doing a multiple-case study, select cases that best fit your (literal or theoretical) replication design.
+
+### A two-phased approach
+
+A large number of eligible candidates (e.g., 12 or more) warrant a two-phased screening procedure. 
+
+The first phase should consist of collecting relevant quantitative data about the entire pool, from some archival source (e.g., statistical databases about individual schools or firms).
+
+Once obtained, you should define some relevant criteria for either stratifying or reducing the number of candidates. The goal is to reduce the number of candidates to 12 or fewer and then to conduct the one-
+phased procedure described in the previous paragraph. 
+
+### The Pilot Case Study
+
+A pilot case study will help you to refine your data collection plans with respect to both the content of the data and the procedures to be followed. 
+
+The pilot case is formative, assisting you to develop relevant lines of questions—possibly even providing some conceptual clarification for the research design as well.
+
+### Selection of Pilot Cases
+Convenience, access, and geographic proximity can be the main criteria for selecting a pilot case or cases.
+
+In return for serving as a pilot case, the main informants usually expect to receive some feedback from you about their case. Your value to them is as an external observer, and you should be prepared to provide such feedback. To do so, even though you should already have developed a draft protocol representing the topics of interest to your case study, you should adapt parts of the protocol to suit the pilot informants’ needs. You should then conduct the pilot case by following (and pilot-testing) your formal field procedures.
+
+### Scope of the Pilot Inquiry
+The scope of the inquiry for the pilot case can be much broader than the ultimate data collection plan. 
+
+Pilot data can provid considerable insight into the basic issues to be studied. This information can be used in parallel with an ongoing review of relevant literature, so that the final research design is informed both by prevailing theories and by a fresh set of empirical observations. 
+
+Methodologically, the work on the pilot cases can provide information about relevant field questions and about the logistics of the field inquiry.
+
+### Reports From the Pilot Cases
+One difference between the pilot reports and the actual case study reports is that the pilot reports should
+be explicit about the lessons learned from each pilot case about both the research design and the field procedures.

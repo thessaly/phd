@@ -1,8 +1,7 @@
 # Tesis doctoral
-## Julieta Arancio
+## Fabricaciones desde el diálogo: Hardware científico abierto y democratización de la producción de conocimiento en la 'periferia'
 
-<br>
-¡Hola! Mi nombre es [Julieta Arancio](https://julieta.aranc.io). Hice esta página web (inspirada en la web de la [tesis de Rayna Harris](https://www.raynamharris.com/Thesis/)) para dar a conocer mi trabajo doctoral de una forma más amable que leer un pdf de más de 300 páginas. 
+¡Hola! Mi nombre es [Julieta Arancio](https://julieta.aranc.io). Hice este repositorio y [página web](https://thessaly.github.io/phd) (inspirada en la web de la [tesis de Rayna Harris](https://www.raynamharris.com/Thesis/)) para dar a conocer mi trabajo doctoral de una forma más amable que leer un pdf de más de 300 páginas. 
 
 Actualmente me encuentro realizando un postdoctorado en la Universidad de Bath y la Universidad de Drexel, financiado por la [Fundación Alfred P. Sloan](https://sloan.org/). El [proyecto (en inglés)]() busca identificar las condiciones bajo las cuales el hardware científico abierto en la academia es transformador, a través de un estudio del microscopio [Open Flexure](https://openflexure.org), para elaborar recomendaciones de políticas que fomenten estas iniciativas. 
 
@@ -17,10 +16,7 @@ Mi lugar de trabajo es el [Centro de Investigaciones para la Transformación (CE
 
 La defensa de la tesis se llevó a cabo el día 8 de marzo de 2021. Dada la pandemia de COVID-19 la defensa fue totalmente online, se puede ver en YouTube: [Defensa de tesis Julieta Arancio](https://www.youtube.com/watch?v=MzOi0bgDObQ).
 
-<figure>
-  <a href="img/flyer.jpeg" target="_blank"><img src="img/flyer.jpeg" style="max-width: 100%;"></a>
-  <figcaption><i>Flyer anunciando la defensa</i></figcaption>
-</figure>
+![](docs/img/flyer.jpeg)
 
 ## Slides
 
